@@ -1,0 +1,277 @@
+[
+    {
+        "context": "With the Nyquist Series Gen-2 VoIP Wall Baffle Speaker, there is no need \nfor external amplifiers, traditional intercom wiring, or transformer taps to \nmanually set or adjust. Connect the speaker via Cat5 to a Power-Over-Ethernet (PoE) Switch or PoE Injector, and it is ready to use.\nThe speaker features an integrated 10 watt power amplifier, a CAN \nBus interface, a MEMS digital microphone for superior talkback audio,\nand a Form C SPDT type 2-amp dry contact relay for controlling/over-\nriding third-party devices like AV sources.\nThe speaker also allows DHCP deployment for easy installation. You can \nlet your Nyquist server automatically discover and configure your speaker,\nor you can manually configure it through the speaker\u2019s web-based\nuser interface (web UI). The web UI also allows easy updating of\nfirmware and setting of parameters for Digital Signal Processing (DSP). \nFor more information about the web UI, refer to the Nyquist Gen-2 VoIP \nSpeakers Configuration Manual.\nNQ-S1810WT-G2\nNyquist Gen-2 VoIP\n\nWall Baffle Speaker\nInstallation Manual",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What power source is required for the Nyquist Series Gen-2 VoIP Wall Baffle Speaker?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Series Gen-2 VoIP Wall Baffle Speaker requires a Power-Over-Ethernet (PoE) source, which can be provided by a PoE switch or a PoE injector. It does not need external amplifiers or traditional power sources."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Does the speaker require external amplifiers or traditional intercom wiring?",
+                "answers": [
+                    {
+                        "text": "No, the Nyquist Series Gen-2 VoIP Wall Baffle Speaker does not require external amplifiers or traditional intercom wiring. It connects via Cat5 to a Power-Over-Ethernet (PoE) Switch or PoE Injector, with an integrated 10 watt power amplifier."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What type of microphone is integrated into the speaker for talkback audio?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Wall Baffle Speaker features an integrated MEMS digital microphone for superior talkback audio. This type of microphone ensures high-quality sound capture for effective communication."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "How can the Nyquist speaker be connected to a network?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Wall Baffle Speaker can be connected to a network by using a Cat5 cable to connect it to a Power-Over-Ethernet (PoE) Switch or PoE Injector. This allows for easy installation without the need for external amplifiers or traditional wiring."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the maximum power output of the integrated amplifier in the speaker?",
+                "answers": [
+                    {
+                        "text": "The integrated power amplifier in the Nyquist Gen-2 VoIP Wall Baffle Speaker has a maximum output of 10 watts."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What function does the Form C SPDT type relay serve in the speaker?",
+                "answers": [
+                    {
+                        "text": "The Form C SPDT type relay in the Nyquist Gen-2 VoIP Wall Baffle Speaker serves to control or override third-party devices, such as AV sources. It allows for integration with external systems and enhances the speaker\u2019s functionality by enabling additional control options."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "Can the speaker be configured to automatically discover on a network?",
+                "answers": [
+                    {
+                        "text": "Yes, the Nyquist Series Gen-2 VoIP Wall Baffle Speaker can be configured to automatically discover on a network using DHCP deployment, allowing the Nyquist server to automatically discover and configure the speaker."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What user interface is provided for configuring the speaker settings?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Wall Baffle Speaker features a web-based user interface (web UI) for configuring speaker settings. This interface allows for easy firmware updates and adjustment of Digital Signal Processing (DSP) parameters."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "How can users update the firmware of the speaker?",
+                "answers": [
+                    {
+                        "text": "Users can update the firmware of the Nyquist Gen-2 VoIP Wall Baffle Speaker through its web-based user interface (web UI). This UI also allows for easy configuration of other parameters and digital signal processing settings. For detailed instructions, users should refer to the Nyquist Gen-2 VoIP Speakers Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "Where can one find additional information about the web UI for the Nyquist speaker?",
+                "answers": [
+                    {
+                        "text": "Additional information about the web UI for the Nyquist speaker can be found in the Nyquist Gen-2 VoIP Speakers Configuration Manual. This manual offers details on configuring the speaker's settings and updating firmware through the web interface."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-S1810WT-G2\nNyquist Gen-2 VoIP\nWall Baffle Speaker\nSpeaker Layout\nThe layout of the speakers should be planned prior to installation.\nBecause wall baffle speakers are designed to project forward, it is best to \naim them in the same direction as this provides for both greater coverage \nand clarity. You can use the building\u2019s roof pillars or other available supports for mounting the wall baffles.\nIn some cases, it may be necessary to mount the wall baffles on opposing walls. In these cases, the speakers will project sound in opposing\ndirections.\nFigure 1\nHALLWAY - Wall baffle speakers work well with rooms and hallways that \nare 20\u2019 to 60\u2019 wide. Layout starts at one end of the hallway or room. The \nfirst speaker should be installed 10\u2019 from the end of the hallway or room. \nThe next speaker on that wall should be installed 20\u2019 from the first speaker. Each additional speaker should be installed 20\u2019 apart from the previous one. The first speaker on the opposing wall should be installed 20\u2019 \nfrom the end of the hallway or room, thereby staggering the speakers. \nEach additional speaker should be installed 20\u2019 apart from the previous \none (see Figure 1).",
+        "qas": [
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the primary design feature of the NQ-S1810WT-G2 wall baffle speaker?",
+                "answers": [
+                    {
+                        "text": "The primary design feature of the NQ-S1810WT-G2 wall baffle speaker is its ability to project sound forward, which enhances coverage and clarity. This design is particularly effective for installation in hallways and rooms that are 20\u2019 to 60\u2019 wide, allowing for strategic placement to optimize sound distribution."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "Why is it recommended to aim wall baffle speakers in the same direction?",
+                "answers": [
+                    {
+                        "text": "Aiming wall baffle speakers in the same direction is recommended because it enhances sound coverage and clarity. This alignment allows the speakers to project sound more effectively, ensuring consistent audio quality throughout the intended space."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the suggested distance for the first speaker installation in a hallway or room?",
+                "answers": [
+                    {
+                        "text": "The suggested distance for the first speaker installation in a hallway or room is 10 feet from the end of the hallway or room. Subsequent speakers on the same wall should be installed 20 feet apart from the first speaker."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "How far apart should subsequent wall baffle speakers be installed after the first one?",
+                "answers": [
+                    {
+                        "text": "Subsequent wall baffle speakers should be installed 20 feet apart from the first one. For the first speaker on the opposing wall, it should also be installed 20 feet from the end of the hallway or room, staggering the placement."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "How should speakers be staggered when installed on opposing walls in a hallway?",
+                "answers": [
+                    {
+                        "text": "When installing speakers on opposing walls in a hallway, the first speaker should be placed 10 feet from one end of the hallway, and the first speaker on the opposite wall should be installed 20 feet from the other end. Subsequent speakers on each wall should be installed 20 feet apart from the previous speaker, creating a staggered layout."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What types of spaces are wall baffle speakers suited for according to the provided layout guidelines?",
+                "answers": [
+                    {
+                        "text": "Wall baffle speakers are suited for rooms and hallways that are 20\u2019 to 60\u2019 wide. The installation guidelines suggest placing speakers 10\u2019 from one end and then staggered 20\u2019 apart along opposing walls for optimal coverage and clarity."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "Which supports can be used for mounting wall baffle speakers during installation?",
+                "answers": [
+                    {
+                        "text": "Wall baffle speakers can be mounted using the building's roof pillars or other available supports. It's important to aim the speakers in the same direction for optimal coverage and clarity."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-S1810WT-G2\nNyquist Gen-2 VoIP\nWall Baffle Speaker\nSpeaker Layout (cont\u2019d)\nROOMS - In most cases, an environment, such as a classroom,\nrequires only a single wall baffle speaker to service the entire room. The \nfinal placement of the speaker within the  room can vary, but common \narea locations such as at the head of the room or near the room entrance \naretypically chosen (see Figure 2). Based on the speaker position that \nhas been selected, you can choose between several mounting options \n(see Figures 3-6).\nFigure 2\nStep 1\nSelect the mounting option from Figures 3\u20136 and use the appropriate \nhardware for gang box mount or wall mount. Bogen provides the screws \nand the washers for mounting on a standard electrical gang box, but \nwhen mounting directly to a wall or other surface, you must supply the \nappropriate hardware for the specific wall/surface construction type \n(for example, concrete cinder block, metal beams etc.). \nNOTE: Wall baffle speakers should be installed at a height of between 8 and \n16 feet from the floor depending upon need.\nSpeaker Installation\nFigure 3\n2X2 Wall Mount\nBox Mount\nSide \nView\n\nSpeaker Installation (cont\u2019d)\nFigure 5\nFigure 6\nCorner Mount\nTilt Mount\nSide \nView\nStep 2\nWhen applicable, use the pluggable CAN bus connector to attach one \nor more NQ-E7020 Digital Call Switch to the Nyquist VoIP Full Duplex \nModule 820-00071-00 as shown in Figure 7.\nNQ-E7020 Digital\nCall Switch\nFigure 7\nStep 3\nIf the CAN bus is to be used, ensure the CAN_H and CAN_L use (Cat 5 \n10/100) twisted pair cable.\nStep 4\nTo connect a third-party device to the dry contact relay output, do one \nof the following:\na. If the device is looking for a Normally Open contact, connect \n    the device using the NO and COM terminals.\nb. If the device is looking for a Normally Closed contact, connect \n    the device  using the NC and COM terminals\n\nSpeaker Installation (cont\u2019d)\nStep 5\nUse Category 5 or higher Ethernet\ncable to connect the speaker\n(Figure 8). The power is supplied \nby PoE using an 802.3af compliant \nnetwork switch or PoE injector.\nFigure 8\nFigure 9\nStep 6\nTo assemble the Wall Baffle Speaker (Figure 9), first align the two notches \n(A) located at the top of the speaker baffle with the notches (B) at the \ntop of the rear housing. Then, rotate the speaker baffle downward until \nthe two bottom sections (C & D) snap together.\nNOTE: Refer to the Nyquist Gen-\n2 VoIP Speakers Configuration \nManual or the Nyquist System \nAdministrator Manual for detailed instructions on how to\nconfigure these speakers.\nUsing the Reset Button\nThe Reset button (Figure 10) allows you to either reboot the VoIP speaker or to reset the appliance\u2019s configuration settings to the factory default \nsettings. For more information about resetting configuration settings,\nrefer to the Nyquist Gen-2 VoIP Speakers Configuration Manual.\nFigure 10",
+        "qas": [
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What is the recommended height for installing the wall baffle speaker?",
+                "answers": [
+                    {
+                        "text": "The recommended height for installing the wall baffle speaker is between 8 and 16 feet from the floor, depending on the specific needs of the environment."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What mounting options are available for the Nyquist Gen-2 VoIP Wall Baffle Speaker?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Wall Baffle Speaker offers several mounting options, which include a 2x2 wall mount, gang box mount, corner mount, and tilt mount. The choice among these options depends on the specific installation requirements and the location within the room."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "How should the CAN bus connector be attached to the Nyquist VoIP Full Duplex Module?",
+                "answers": [
+                    {
+                        "text": "The pluggable CAN bus connector should be used to attach one or more NQ-E7020 Digital Call Switches to the Nyquist VoIP Full Duplex Module 820-00071-00. Ensure that the connections are made correctly according to the module's specifications as shown in the installation figures."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What type of cable is required for the CAN bus connection?",
+                "answers": [
+                    {
+                        "text": "For the CAN bus connection, a Cat 5 twisted pair cable is required, utilizing the CAN_H and CAN_L lines. This cable should support 10/100 network speeds."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "How can a third-party device be connected to the dry contact relay output?",
+                "answers": [
+                    {
+                        "text": "To connect a third-party device to the dry contact relay output, use the NO and COM terminals for Normally Open contacts, or the NC and COM terminals for Normally Closed contacts. Ensure the appropriate connections are made based on the device's contact requirements."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What is the power supply requirement for the speaker using PoE?",
+                "answers": [
+                    {
+                        "text": "The speaker requires power over Ethernet (PoE) supplied by an 802.3af compliant network switch or PoE injector. Using Category 5 or higher Ethernet cable, the speaker connects to the network for power and data."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What is the first step in assembling the Wall Baffle Speaker?",
+                "answers": [
+                    {
+                        "text": "The first step in assembling the Wall Baffle Speaker is to align the two notches (A) located at the top of the speaker baffle with the notches (B) at the top of the rear housing. After aligning, rotate the speaker baffle downward until the two bottom sections (C & D) snap together."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What functionality does the Reset button provide on the speaker?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the Nyquist Gen-2 VoIP Wall Baffle Speaker allows the user to reboot the speaker or reset its configuration settings to the factory default. For more comprehensive procedures regarding configuration resets, refer to the Nyquist Gen-2 VoIP Speakers Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "Where can you find more information about configuring the Nyquist Gen-2 VoIP speakers?",
+                "answers": [
+                    {
+                        "text": "More information about configuring the Nyquist Gen-2 VoIP speakers can be found in the Nyquist Gen-2 VoIP Speakers Configuration Manual or the Nyquist System Administrator Manual. These manuals contain detailed instructions for setup and configuration."
+                    }
+                ]
+            }
+        ]
+    }
+]

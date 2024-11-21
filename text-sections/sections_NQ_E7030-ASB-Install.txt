@@ -1,0 +1,125 @@
+Publication Number 740-00016D
+1907
+NQ-E7030 
+Analog 
+Station 
+Bridge
+Installation and Use
+The Nyquist Analog Station Bridge (ASB) allows the 
+E7000 solution to use the existing call switch and 
+speaker infrastructure when upgrading from Multicom 2000, Quantum IP, and third-party intercom 
+systems. When used as a networked component 
+of the Nyquist E7000 series paging and intercom 
+solution, the NQ-E7030 permits a “hybrid” system 
+configuration through use of 25V/70V speakers and 
+associated call switches (for example, Bogen CA15C 
+type). The ASB has 24 station connections that attach to speakers and their associated call switches. 
+While each connection has its own Session Initiation 
+Protocol (SIP) addressable Station ID, the ASB itself 
+uses a single network IP address.
+WARNING: To reduce the risk of fire or electric shock, 
+do not expose this apparatus to rain or moisture.
+Avertissement: pour réduire le risque d’incendie ou de 
+choc électrique, ne pas exposer cet appareil sous la 
+pluie et l’humidité.
+
+=====
+
+NQ-E7030 
+Analog 
+Station 
+Bridge
+Field Wiring
+Use generally accepted engineering best practices 
+as established by the EIA and the NEC for system 
+wiring and equipment installation. Test all wiring 
+to ensure it is free from grounds and shorts. Label 
+system wiring at both ends using room numbers as 
+indicated in the architectural graphics package. For 
+system wiring, follow manufacturer’s recommendations for device type. All terminal connections must 
+be on barrier strips.
+While the system is entirely CAT5 or better cable 
+compatible, it is not advisable to use category wiring 
+for two-way intercom stations in installations where 
+Electromagnetic Field (EMF) interference is a possible concern. In such environments, it is recommended to use West Penn #357, Belden #8724, or equivalent cabling to protect against cross talk and noise 
+induced by EMF interference.
+Use CAT5 or better network cabling for all IP-based 
+system devices such as network equipment, system appliances, and VoIP phones. Cable lengths for 
+Ethernet connections should not exceed industry 
+guidelines based on the on the specific category 
+type.
+=====
+
+Installation
+To install the Nyquist ASB:
+1.	 Ensure the  POWER switch is in the off position.
+2.	 Connect the universal mains power line cord into 
+the ASB.
+3.	 Plug the power line cord into the power source.
+4.	 Connect a Cat5 type cable into the Analog Station Bridge’s Ethernet port and ensure the other 
+end of the  cable is 
+correctly connected 
+to your network.
+5.	 Attach the desired 
+speakers and their 
+associated call 
+switches to the ASB 
+using West Penn 
+357 cabling (or 
+equivalent) and the 
+pluggable connectors provided, where 
+S terminals connect 
+to the +/- speaker 
+wires and the “G” 
+and “A” terminals 
+connect to the associated wires from 
+the call switch.
+=====
+
+Notice
+The combined impedance of the ASB’s 24 ports 
+measured with an LCR bridge set to 500 Hz cannot 
+be less than 4Ω . 
+Zx represents the total number of speaker 
+transformers connected to a given ASB. Measure 
+the impedance of each transformer connected to 
+the S/S terminals and plug it into the formula 
+as 1/Z1, 1/Z2, etc. 
+The 1/x key on a scientific calculator can be used 
+to find the value of 1/Z Total.
+A single port cannot exceed 40W. If all 24 ports are 
+being used, each port cannot have more than 4W. 
+The total power of all taps on all ports should not 
+exceed 96W. 
+6. If the Nyquist Digital Call Switch is being installed 
+using the CAN Bus, refer to the Nyquist NQ-E7020 
+Digital Call Switch Application Manual.
+7. Press the POWER switch to power up the system.
+=====
+
+Viewing and 
+Understanding LEDs
+Two LEDs appear on the 
+front of the ASB. One 
+is labeled POWER and 
+appears as solid red during initial power up, flashes 
+green during a boot sequence, and appears solid 
+green when fully booted.
+The STATUS LED uses the following indicators to 
+provide information about the appliance:
+•	
+Flashing red – No network connection found.
+•	
+Solid blue – The ASB is in an uninitialized state 
+and is not associated to a server. (The server 
+may be in a discovery mode.)
+•	
+Solid green – The ASB is registered to a Nyquist 
+server and is in normal operation.
+•	
+Flashing green – The ASB has an IP address but 
+is not registered with the Nyquist server.
+•	
+Solid red – The ASB needs to be rebooted or reset so that the Nyquist application can resume.
+•	
+Flashing Blue – The ASB is updating.

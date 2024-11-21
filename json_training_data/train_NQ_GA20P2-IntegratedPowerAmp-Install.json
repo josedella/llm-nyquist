@@ -1,0 +1,702 @@
+[
+    {
+        "context": "The NQ-GA20P2 \nIntegrated \nPower \nAmplifier \nInstallation \nand Use\nThe NQ-GA20P2 is a 20W plenum rated Class \nD integrated power amplifier. Designed to \noperate over a 10/100 Ethernet network, the \nNQ-GA20P2 is IEEE 802.3at compliant and can \nbe powered using Power-Over-Ethernet Plus \n(PoE+) or the optional Bogen PS4830W 48VDC \npower adapter. The NQ-GA20P2 can direct drive \na single 8 ohm load and has a balanced line out \nto drive auxiliary power amplifiers.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the power output of the NQ-GA20P2 amplifier?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA20P2 amplifier has a power output of 20 watts and is designed to direct drive a single 8 ohm load. It is integrated with Power-Over-Ethernet Plus (PoE+) capabilities for powering."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What type of network does the NQ-GA20P2 operate on?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA20P2 operates over a 10/100 Ethernet network and is compliant with IEEE 802.3at standards. It supports Power-Over-Ethernet Plus (PoE+) for power delivery."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What IEEE standard does the NQ-GA20P2 comply with?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA20P2 complies with the IEEE 802.3at standard. This allows it to be powered using Power-Over-Ethernet Plus (PoE+)."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "How can the NQ-GA20P2 be powered?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA20P2 can be powered using Power-Over-Ethernet Plus (PoE+) or with the optional Bogen PS4830W 48VDC power adapter."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the load impedance that the NQ-GA20P2 can drive directly?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA20P2 can directly drive a single 8 ohm load."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "Does the NQ-GA20P2 have an option for auxiliary amplification?",
+                "answers": [
+                    {
+                        "text": "Yes, the NQ-GA20P2 features a balanced line out, allowing it to drive auxiliary power amplifiers. This capability facilitates additional amplification beyond its integrated 20W output."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What type of amplifier class is the NQ-GA20P2?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA20P2 is a Class D integrated power amplifier. It is designed to operate over Ethernet networks and can deliver 20W of power."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Is the NQ-GA20P2 suitable for plenum-rated installations?",
+                "answers": [
+                    {
+                        "text": "Yes, the NQ-GA20P2 is suitable for plenum-rated installations, as it is explicitly designed for such environments. Its design meets safety standards for use in air-handling spaces."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "The NQ-GA20P2 Servicing is required when \nthe apparatus has been damaged in any \nway, such as power-supply cord or plug is \ndamaged, liquid has been spilled or objects \nhave fallen into the apparatus, the apparatus \nhas been exposed to rain or moisture, does \nnot operate normally, or has been dropped.\nInstallation\nTo install the NQ-GA20P2 amplifier:\n1.\t Attach the desired analog speakers to the \nNQ-GA20P2 using the pluggable connectors \nprovided, where the 1 and 2 terminals \nconnect to the +/- speaker wires. (See Figure \n1.) The G (ground) shield terminal can be \nused if necessary.\n2.\t If desired, attach an auxiliary amplifier to \nthe NQ-GA20P2 using pins 1 and 2 of the \npluggable balanced LINE OUT connector, \ntaking note of the marked polarity (+/-). The \nG shield terminal can be used if necessary.\n3.\t Connect a Cat5 type cable into the module\u2019s \nEthernet port and ensure the other end of the \ncable is correctly connected to a PoE+ switch \nport on your network.\n\n4.\t If using a 48V power supply, connect the \nPS4830PV 48VDC power supply to the \n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n6\n\u00ae\nLINE\n1     2    G\nAMP\n1      2     G\nSpeaker 1\n+\n\u2013\n8\u03a9\n20W (PoE+)\n10W (PoE)\nAttach to Cable Shield\nif necessary.\nShield\nTo Balanced Input\nof Auxilary Amplifer.\nUse Shielded Cable.\n+\u2013\nFigure 1",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What servicing is required for the NQ-GA20P2 amplifier when it is damaged?",
+                "answers": [
+                    {
+                        "text": "Servicing for the NQ-GA20P2 amplifier is required if it has sustained damage such as a damaged power-supply cord or plug, exposure to liquid or moisture, or if it fails to operate normally. Additional signs necessitating servicing include objects falling into the apparatus or if it has been dropped."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "How should analog speakers be connected to the NQ-GA20P2 amplifier?",
+                "answers": [
+                    {
+                        "text": "To connect analog speakers to the NQ-GA20P2 amplifier, attach the speaker wires to the pluggable connectors at terminals 1 and 2, ensuring correct polarity with +/- connections. The G (ground) shield terminal can be used if necessary."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "Which terminals are used to connect an auxiliary amplifier to the NQ-GA20P2?",
+                "answers": [
+                    {
+                        "text": "To connect an auxiliary amplifier to the NQ-GA20P2, use pins 1 and 2 of the pluggable balanced LINE OUT connector, ensuring to observe the marked polarity (+/-). The G shield terminal can be utilized if necessary."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What type of cable is required for connecting the NQ-GA20P2 to a network?",
+                "answers": [
+                    {
+                        "text": "A Cat5 type cable is required for connecting the NQ-GA20P2 to a network. Ensure that the other end of the cable is correctly connected to a PoE+ switch port on your network."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What power supply is compatible with the NQ-GA20P2 amplifier if a 48V supply is used?",
+                "answers": [
+                    {
+                        "text": "The compatible power supply for the NQ-GA20P2 amplifier when using a 48V supply is the PS4830PV 48VDC power supply."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the address and contact number for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address for Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430. The contact number is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What should be done if liquid is spilled on the NQ-GA20P2 amplifier?",
+                "answers": [
+                    {
+                        "text": "If liquid is spilled on the NQ-GA20P2 amplifier, it should be immediately disconnected from power and assessed for damage. Servicing is required if the apparatus is affected, as it may not operate normally or could pose safety risks."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "How should the shield terminal be utilized in the installation process?",
+                "answers": [
+                    {
+                        "text": "The shield terminal (G) can be utilized in the installation process by connecting it to the cable shield if necessary. This is applicable when connecting both the speakers and the auxiliary amplifier to help reduce noise and improve signal integrity."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and \nUnderstanding \nLEDs of The NQ-GA20P2 \nTwo LEDs appear on the front of the amplifier \nchassis. One is labeled POWER and appears \nas solid red during initial power up, flashes green \nduring a boot sequence, and appears solid green \nwhen fully booted.\nThe STATUS LED uses the following indicators to \nprovide information about the module:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The amplifer is in an uninitialized \nstate and is not associated to a server. (The \nserver may be in a discovery mode.)\n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n7",
+        "qas": [
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What does the solid red POWER LED indicate during initial power up?",
+                "answers": [
+                    {
+                        "text": "The solid red POWER LED during initial power up indicates that the amplifier is in the process of starting up. It will change to a flashing green during the boot sequence and then to solid green when fully booted."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "How does the POWER LED behave during the boot sequence?",
+                "answers": [
+                    {
+                        "text": "During the boot sequence, the POWER LED flashes green. It appears solid red during initial power up and solid green when fully booted."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What does a solid green POWER LED signify?",
+                "answers": [
+                    {
+                        "text": "A solid green POWER LED signifies that the amplifier has completed its boot sequence and is fully operational."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What does a flashing red STATUS LED indicate?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that no network connection has been found. This suggests that the amplifier is unable to connect to any network resources."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What does a solid blue STATUS LED mean for the amplifier?",
+                "answers": [
+                    {
+                        "text": "A solid blue STATUS LED indicates that the amplifier is in an uninitialized state and is not associated with a server. This may occur when the server is in discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "In what state is the amplifier when it shows a solid blue STATUS LED?",
+                "answers": [
+                    {
+                        "text": "When the amplifier shows a solid blue STATUS LED, it is in an uninitialized state and is not associated with a server. This may indicate that the server is in discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What might be happening to the server when the STATUS LED is solid blue?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED is solid blue, it indicates that the amplifier is in an uninitialized state and is not associated with any server, suggesting that the server may be in discovery mode and has not yet connected to the amplifier."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "How many LEDs are visible on the front of the NQ-GA20P2 amplifier?",
+                "answers": [
+                    {
+                        "text": "There are two LEDs visible on the front of the NQ-GA20P2 amplifier: the POWER LED and the STATUS LED. The POWER LED indicates the power state, while the STATUS LED provides information about the network connection and the amplifier's operational status."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "\u2022\t\nSolid green \u2013 The amplifer is registered to a \nNyquist server and is in normal operation.\n\u2022\t\nFlashing green \u2013 The amplifer has an IP \naddress but is not registered with the Nyquist \nserver.\n\u2022\t\nSolid red \u2013 The amplifer needs to be reboot\u00ad\ned or reset so that the Nyquist application \ncan resume.\n\u2022\t\nFlashing Blue \u2013 The amplifer is updating.\nUsing the Reset Button\nThe Reset button allows you to \nrestart the amplifer or to reset the \namplifier\u2019s configuration settings \nto the factory default settings. \nFor more information about resetting \nconfiguration settings, refer to the Nyquist NQ-\nGA20P Configuration Manual.\nTemperature Indicator\n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n8",
+        "qas": [
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What does a solid green light indicate for the amplifier's status?",
+                "answers": [
+                    {
+                        "text": "A solid green light indicates that the amplifier is registered to a Nyquist server and is in normal operation. This signifies that the amplifier is functioning correctly and ready for use."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "What action should be taken if the amplifier's light is solid red?",
+                "answers": [
+                    {
+                        "text": "If the amplifier's light is solid red, it indicates that the amplifier needs to be rebooted or reset. To resolve this, press the Reset button to restart the amplifier and allow the Nyquist application to resume."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What does a flashing green light mean regarding the amplifier's registration?",
+                "answers": [
+                    {
+                        "text": "A flashing green light indicates that the amplifier has an IP address but is not registered with the Nyquist server. This means it is not currently set up for normal operation."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What does a flashing blue light signify about the amplifier?",
+                "answers": [
+                    {
+                        "text": "A flashing blue light on the amplifier indicates that it is currently updating. Most likely, this process is related to software or firmware updates being installed on the device."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "How can the Reset button be used on the amplifier?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the amplifier can be used to restart the amplifier or to reset its configuration settings to the factory defaults. For detailed instructions on resetting configuration settings, refer to the Nyquist NQ-GA20P Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "Where can additional information about resetting configuration settings be found?",
+                "answers": [
+                    {
+                        "text": "Additional information about resetting configuration settings can be found in the Nyquist NQ-GA20P Configuration Manual. For further assistance, you can also contact Bogen Communications at 1-800-999-2809."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "In addition to the LEDs that appear on the \nactual appliance, a separate temperature status \nindicator appears on the module\u2019s web-based \nuser interface. For more information, refer to \nthe Nyquist NQ-GA20P2 Configuration Manual.\n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n9\nCompliance\nNOTE: This equipment has been tested and \nfound to comply with the limits for a Class A dig\u00ad\nital device, pursuant to Part 15 of the FCC rules. \nThese limits are designed to provide reasonable \nprotection against harmful interference when \nthe equipment is operated in a commercial \nenvironment. This equipment generates, uses \nand can radiate radio frequency energy and, if \nnot installed and used in accordance with the \ninstruction manual, may cause harmful inter\u00ad\nference to radio communications.  Operation of \nthis equipment in a residential area is likely to \ncause harmful interference in which case the \nuser will be required to correct the interference \nat his own expense.",
+        "qas": [
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What type of device is indicated in the context?",
+                "answers": [
+                    {
+                        "text": "The device indicated in the context is a Class A digital device, specifically related to the Nyquist NQ-GA20P2 model by Bogen Communications. It is designed for commercial environments and includes a web-based user interface that displays temperature status along with physical LED indicators."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "Where can the user find more information regarding the module?",
+                "answers": [
+                    {
+                        "text": "The user can find more information regarding the module in the Nyquist NQ-GA20P2 Configuration Manual. For additional assistance, they can also contact Bogen Communications at 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "What compliance standard does the equipment meet according to the FCC?",
+                "answers": [
+                    {
+                        "text": "The equipment complies with the limits for a Class A digital device, as stipulated in Part 15 of the FCC rules. This standard is designed to provide reasonable protection against harmful interference when operated in a commercial environment."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "Under what conditions may the equipment cause harmful interference?",
+                "answers": [
+                    {
+                        "text": "The equipment may cause harmful interference if it is not installed and used in accordance with the instruction manual. Additionally, operation in a residential area is likely to result in harmful interference, for which the user would be responsible for correcting at their own expense."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What should a user do if the equipment causes interference in a residential area?",
+                "answers": [
+                    {
+                        "text": "If the equipment causes harmful interference in a residential area, the user is required to correct the interference at their own expense. This may involve adjusting the installation or the use of additional equipment to mitigate the issue."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What type of interface is mentioned for monitoring temperature status?",
+                "answers": [
+                    {
+                        "text": "The temperature status is monitored through a separate indicator that appears on the module's web-based user interface. For more detailed information, users should refer to the Nyquist NQ-GA20P2 Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What year is indicated for the copyright of the document?",
+                "answers": [
+                    {
+                        "text": "The copyright of the document is indicated for the year 2019."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Limited Warranty, \nExclusion of Certain Damages\nThe NQ-GA20P2 is warranted to be free from \ndefects in materials and workmanship for five \n(5) years from the date of sale to the original \npurchaser. Any part of the product covered by \nthis warranty that, with normal installation and \nuse, becomes defective (as confirmed by Bogen \nupon inspection) during the warranty period will \nbe repaired or replaced by Bogen, at Bogen\u2019s \noption, with new or refurbished product, provid\u00ad\ned the product is shipped insured and prepaid \nto: Bogen Factory Service Department: 4570 \nShelby Air Drive, Suite 11, Memphis, TN 38118, \nUSA. Repaired or replacement product(s) will be \nreturned to you freight prepaid. This warranty \ndoes not extend to any of our products that have \nbeen subjected to abuse, misuse, improper stor\u00ad\nage, neglect, accident, improper installation or \nhave been modified or repaired or altered in any \nmanner whatsoever, or where the serial number \nor date code has been removed or defaced.\nTHE FOREGOING LIMITED WARRANTY IS \nBOGEN\u2019S SOLE AND EXCLUSIVE WARRANTY \nAND THE PURCHASER\u2019S SOLE AND EXCLUSIVE \n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n10",
+        "qas": [
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "What is the duration of the warranty for the NQ-GA20P2?",
+                "answers": [
+                    {
+                        "text": "The warranty for the NQ-GA20P2 is five (5) years from the date of sale to the original purchaser. It covers defects in materials and workmanship, subject to certain conditions and exclusions."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "Under what conditions will Bogen repair or replace the product?",
+                "answers": [
+                    {
+                        "text": "Bogen will repair or replace the NQ-GA20P2 product if it becomes defective due to materials or workmanship within five years from the date of sale, provided it has been used and installed normally. The product must be shipped prepaid and insured to Bogen for inspection, and the warranty does not cover products subjected to abuse, misuse, or modifications."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "Where must defective products be sent for warranty service?",
+                "answers": [
+                    {
+                        "text": "Defective products must be sent to the Bogen Factory Service Department at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. The product should be shipped insured and prepaid."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "What type of products may be provided as replacements under the warranty?",
+                "answers": [
+                    {
+                        "text": "Under the warranty, Bogen may provide new or refurbished products as replacements for the NQ-GA20P2 if it is confirmed to be defective during the warranty period."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "What circumstances void the warranty for the NQ-GA20P2?",
+                "answers": [
+                    {
+                        "text": "The warranty for the NQ-GA20P2 is voided if the product has been subjected to abuse, misuse, improper storage, neglect, accident, improper installation, or if it has been modified, repaired, or altered in any manner. It is also void if the serial number or date code has been removed or defaced."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "Is the warranty transferable to a subsequent purchaser?",
+                "answers": [
+                    {
+                        "text": "The warranty is only valid for the original purchaser and does not extend to subsequent purchasers. It specifically states that the warranty applies to the original purchaser from the date of sale."
+                    }
+                ]
+            },
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "What must be included when shipping a product for warranty inspection?",
+                "answers": [
+                    {
+                        "text": "When shipping a product for warranty inspection, it must be sent insured and prepaid to the Bogen Factory Service Department. Additionally, the product should include any necessary information to confirm its defectiveness as per Bogen\u2019s warranty terms."
+                    }
+                ]
+            },
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "How does Bogen handle shipping costs for repaired or replaced products?",
+                "answers": [
+                    {
+                        "text": "Bogen covers the shipping costs for repaired or replaced products, returning them freight prepaid to the original purchaser. However, the purchaser is responsible for the shipping costs when sending the defective product to Bogen for inspection."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "Can the warranty cover products that have been modified or repaired by the purchaser?",
+                "answers": [
+                    {
+                        "text": "No, the warranty does not cover products that have been modified, repaired, or altered in any manner by the purchaser. It specifically states that the warranty is void if the product has been subjected to any such changes."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "What is the consequence of removing or defacing the serial number or date code?",
+                "answers": [
+                    {
+                        "text": "Removing or defacing the serial number or date code voids the warranty for the NQ-GA20P2 product. This means that the purchaser will not be eligible for repairs or replacements under the warranty terms."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n11\nREMEDY. BOGEN MAKES NO OTHER WAR\u00ad\nRANTIES OF ANY KIND, EITHER EXPRESS OR \nIMPLIED, AND ALL IMPLIED WARRANTIES OF \nMERCHANTABILITY OR FITNESS FOR A PAR\u00ad\nTICULAR PURPOSE ARE HEREBY DISCLAIMED \nAND EXCLUDED TO THE MAXIMUM EXTENT \nALLOWABLE BY LAW. Bogen\u2019s liability arising out \nof the manufacture, sale or supplying of prod\u00ad\nucts or their use or disposition, whether based \nupon warranty, contract, tort or otherwise, shall \nbe limited to the price of the product. IN NO \nEVENT SHALL BOGEN BE LIABLE FOR SPECIAL, \nINCIDENTAL OR CONSEQUENTIAL DAMAGES \n(INCLUDING, BUT NOT LIMITED TO, LOSS OF \nPROFITS, LOSS OF DATA OR LOSS OF USE DAM\u00ad\nAGES) ARISING OUT OF THE MANUFACTURE, \nSALE OR SUPPLYING OF PRODUCTS, EVEN IF \nBOGEN HAS BEEN ADVISED OF THE POSSI\u00ad\nBILITY OF SUCH DAMAGES OR LOSSES. Some \nStates do not allow the exclusion or limitation \nof incidental or consequential damages, so the \nabove limitation or exclusion may not apply to \nyou. This warranty gives you specific legal rights, \nand you may also have other rights which vary \nfrom State to State.\nProducts that are out of warranty will also be",
+        "qas": [
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "What is the contact number for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The contact number for Bogen Communications, Inc. is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "What year is the copyright for the provided document?",
+                "answers": [
+                    {
+                        "text": "The copyright for the provided document is from the year 2019."
+                    }
+                ]
+            },
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "What types of warranties does Bogen Communications, Inc. disclaim?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. disclaims all implied warranties of merchantability and fitness for a particular purpose. They also limit their liability to the price of the product and do not cover special, incidental, or consequential damages related to their products."
+                    }
+                ]
+            },
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "How does Bogen limit its liability regarding products?",
+                "answers": [
+                    {
+                        "text": "Bogen limits its liability by stating that its responsibility arising from the manufacture, sale, or use of products is restricted to the price of the product itself. The company disclaims all implied warranties and is not liable for special, incidental, or consequential damages, such as loss of profits or data, even if it has been advised of the possibility of such damages."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "Are there any circumstances under which Bogen could be liable for special, incidental, or consequential damages?",
+                "answers": [
+                    {
+                        "text": "Bogen disclaims liability for special, incidental, or consequential damages, except in cases where such exclusions are not permitted by law. In some states, the limitation or exclusion of these damages may not apply, potentially allowing for liability under specific state laws."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "Can the exclusion or limitation of incidental or consequential damages apply in all states?",
+                "answers": [
+                    {
+                        "text": "No, the exclusion or limitation of incidental or consequential damages may not apply in all states, as some states do not allow such exclusions. Therefore, the applicability of this limitation can vary depending on state laws."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "What rights does the warranty provide to consumers?",
+                "answers": [
+                    {
+                        "text": "The warranty provides consumers specific legal rights related to the products, including a limitation on Bogen\u2019s liability to the price of the product for issues arising from its manufacture, sale, or supply. Consumers may also have additional rights that vary from state to state, particularly regarding the exclusion of incidental or consequential damages."
+                    }
+                ]
+            },
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What happens to products that are out of warranty?",
+                "answers": [
+                    {
+                        "text": "Products that are out of warranty may not be eligible for repair or replacement under the warranty terms. Additional services or repairs for such products would likely incur costs not covered by Bogen's warranty policy."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n12\nrepaired by Bogen Factory Service Department \n-- same address as above or call 201-934-8500, \nat owner\u2019s expense.  Returned products which \ndo not qualify for warranty service, may be \nrepaired or replaced at Bogen\u2019s option with a \npreviously repaired or refurbished items.   The \nparts and labor involved in these repairs are \nwarranted for 90 days when repaired by the Bo\u00ad\ngen Factory Service Department.  All parts and \nlabor charges as well as shipping charges will \nbe at the owner\u2019s expense.\nAll returns require a Return Authorization num\u00ad\nber.  For most efficient warranty or repair ser\u00ad\nvice, please include a description of the failure.\n11/2019",
+        "qas": [
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "What is the address for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address for Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "What is the phone number for Bogen's customer service?",
+                "answers": [
+                    {
+                        "text": "The phone number for Bogen's customer service is 1-800-999-2809. For repairs, you can also call 201-934-8500."
+                    }
+                ]
+            },
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "What should a customer do if they need to return a product?",
+                "answers": [
+                    {
+                        "text": "A customer needing to return a product must first obtain a Return Authorization number. For efficient warranty or repair service, they should also include a description of the failure with the return."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "How long is the warranty on repairs made by the Bogen Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "The warranty on repairs made by the Bogen Factory Service Department is 90 days. This warranty applies to parts and labor involved in the repairs."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "What are the costs associated with repairs done on non-warranty products?",
+                "answers": [
+                    {
+                        "text": "For non-warranty repairs, all parts, labor, and shipping charges will be the owner's expense. Returned products may be repaired or replaced with previously repaired or refurbished items at Bogen's discretion, and repairs are warranted for 90 days if done by the Bogen Factory Service Department."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "What is required to receive warranty or repair service from Bogen?",
+                "answers": [
+                    {
+                        "text": "To receive warranty or repair service from Bogen, you must obtain a Return Authorization number and include a description of the failure. Repairs not covered by warranty will incur parts, labor, and shipping charges at the owner's expense."
+                    }
+                ]
+            },
+            {
+                "id": "00064",
+                "is_impossible": false,
+                "question": "What might happen to returned products that do not qualify for warranty service?",
+                "answers": [
+                    {
+                        "text": "Returned products that do not qualify for warranty service may be repaired or replaced at Bogen\u2019s option with previously repaired or refurbished items. All parts and labor charges, as well as shipping charges, will be at the owner's expense."
+                    }
+                ]
+            },
+            {
+                "id": "00065",
+                "is_impossible": false,
+                "question": "When were the warranty and repair policies last documented?",
+                "answers": [
+                    {
+                        "text": "The warranty and repair policies were last documented in November 2019. For warranty service, a Return Authorization number is required, and all associated charges will be at the owner's expense."
+                    }
+                ]
+            },
+            {
+                "id": "00066",
+                "is_impossible": false,
+                "question": "How long is the warranty for parts and labor after a product is repaired?",
+                "answers": [
+                    {
+                        "text": "The warranty for parts and labor after a product is repaired by the Bogen Factory Service Department is 90 days."
+                    }
+                ]
+            }
+        ]
+    }
+]

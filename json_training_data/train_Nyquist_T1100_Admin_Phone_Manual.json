@@ -1,0 +1,1972 @@
+[
+    {
+        "context": "Using the Admin Phone\n1\nUsing the Admin Phone\nThe Bogen Model NQ-T1100 by Yealink is designed to serve as the \nAdministrative Display Phone, or Admin Phone, for Nyquist E7000 \nSeries systems. This phone combines a traditional telephone keypad \nwith a color touch screen to provide rapid, efficient, and reliable con-\ntrol over many Nyquist E7000 features, such as launching Emergency-\nAll-Call pages and managing school bell schedules. \nThis manual guides you through the use of the Admin Phone with the \nNyquist system.\n1\nHardware Components and Features\nThe main components of the Admin Phone are the 7-inch 800 x 480 \npixel 24-bit color touch screen display and the keypad. In addition to \nthe traditional 12 push-button dial pad, the Admin Phone features 7 \nfeature keys, 6 navigational keys, and volume control keys.\n\nThe feature keys are described in the following table:\nFigure 1, Hardware Components\nTouch Screen\nFeature \nKeys\nNavigation Keys\nVolume Controls\nTraditional Push \nButton Dial Pad\nTable 1, Feature Keys\nToggles and indicates the headset mode.\nToggles and indicates the mute feature.\n\nThe touch screen displays information about calls, messages, and \nstatus and provides a graphical user interface (GUI) that allows you to \nquickly launch pages, access and change Schedules, and use other \nNyquist features. The touch screen makes switching between differ-\nent screens swift, easy, and convenient.\nAllows you to retrieve voice mail messages, provided your \nNyquist system has been set up to allow voice mail messages \nfor this phone.\nPlaces a call on hold or resumes a held call.\nRedials the last number called.\nAllows you to transfer a call to another extension.\nToggles the hands-free speaker phone mode.\nTable 1, Feature Keys (Continued)\n\nFigure 2, Display Window Features\nIf a bell schedule exists for your facility, the current schedule appears \nat the top of the idle screen. Any system messages, such as an incom-\ning Emergency Call, and any operational or error messages appear \nbeneath the bell schedule.\nStatus \nBar\nDate and \nTime\nExtension\nShortcuts\nLine Keys\n    Idle Screen With Schedule",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the primary function of the Bogen Model NQ-T1100 by Yealink?",
+                "answers": [
+                    {
+                        "text": "The primary function of the Bogen Model NQ-T1100 by Yealink is to serve as the Administrative Display Phone (Admin Phone) for Nyquist E7000 Series systems. It provides efficient control over features such as Emergency-All-Call pages and managing school bell schedules through its traditional keypad and color touch screen interface."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What are the key features of the Admin Phone's display?",
+                "answers": [
+                    {
+                        "text": "The Admin Phone features a 7-inch color touch screen that displays information about calls, messages, and status, along with the current bell schedule if one exists. The interface allows for quick access to launch pages, change schedules, and utilize other Nyquist system features, enhancing user efficiency and convenience."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "How does the touch screen enhance the user experience with the Nyquist E7000 system?",
+                "answers": [
+                    {
+                        "text": "The touch screen enhances the user experience with the Nyquist E7000 system by providing a graphical user interface (GUI) that allows for quick navigation between screens and easy access to features such as launching Emergency-All-Call pages and managing bell schedules. This intuitive interface improves efficiency and control, making it convenient for users to interact with various functions of the system."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What functions do the feature keys on the Admin Phone perform?",
+                "answers": [
+                    {
+                        "text": "The feature keys on the Admin Phone perform various functions: they toggle headset and mute modes, retrieve voicemail messages, place or resume held calls, redial the last number called, transfer calls to other extensions, and toggle hands-free speakerphone mode. These keys facilitate quick and efficient control over Nyquist E7000 system features."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "How can users retrieve voice mail messages using the Admin Phone?",
+                "answers": [
+                    {
+                        "text": "Users can retrieve voice mail messages on the Admin Phone by pressing the dedicated voice mail feature key, provided the Nyquist system is set up for this functionality. The touch screen interface will guide them through accessing their messages."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What does the current bell schedule display indicate on the idle screen?",
+                "answers": [
+                    {
+                        "text": "The current bell schedule display at the top of the idle screen indicates the operational timings for your facility, such as when bells will ring. It provides quick access to schedule information alongside any important system messages or alerts."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "Which functionalities do the navigation keys provide on the Admin Phone?",
+                "answers": [
+                    {
+                        "text": "The navigation keys on the Admin Phone allow users to scroll through menus and options on the touch screen display, facilitating swift access to various features and settings of the Nyquist E7000 system. They aid in navigating through call information, messages, and schedules efficiently."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "How does the Admin Phone facilitate call management, such as hold and transfer?",
+                "answers": [
+                    {
+                        "text": "The Admin Phone facilitates call management by allowing users to place calls on hold or resume held calls using a dedicated feature key. Additionally, it enables users to transfer calls to another extension easily, enhancing overall call handling efficiency within the Nyquist system."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What type of information appears beneath the bell schedule on the idle screen?",
+                "answers": [
+                    {
+                        "text": "Beneath the bell schedule on the idle screen, system messages such as incoming Emergency Calls, as well as any operational or error messages, are displayed. This area provides important notifications related to the phone's status and functionality."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What resolution does the Admin Phone's touch screen offer?",
+                "answers": [
+                    {
+                        "text": "The Admin Phone's touch screen offers a resolution of 800 x 480 pixels with 24-bit color. This allows for clear display of information and a user-friendly graphical interface."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Configuring the NQ-T1100 Admin Phone\nRefer to the Nyquist System Administrator Manual for instructions on \nadding the phone as a station. You will need the Extension Number, \nName, and MAC address for the phone.\nNext, configure the Admin Phone through the phone\u2019s web user \ninterface (UI).\nFigure 3, Auto Provision Options\nTo configure the Admin Phone:\nStep 1\nIdentify the Admin Phone\u2019s Internet Protocol (IP) \naddress by doing one of the following:\n\u2022\nLocate the IP address in your network\u2019s Dynamic \nHost Configuration Protocol (DHCP) client table.\n\nPress the Admin Phone\u2019s OK navigation key to dis-\nplay the IP address.\nStep 2\nOpen your computer\u2019s web browser, enter the Admin \nPhone\u2019s IP address (for example, http://192.168.0.10 or \n192.168.0.10) in the address bar, and then press Enter. \nThe computer will display the Admin Phone web UI. \nStep 3\nOn the logon page, enter the Username (default is \nadmin) and Password (default is bogen) and click \nConfirm.\nStep 4\nClick the Settings tab.\nStep 5\nClick Auto Provision.\nStep 6\nSelect Off for PNP Active.\nStep 7\nSelect Off for DHCP Active.\nStep 8\nClick Confirm.\nStep 9\nReboot the phone by unplugging the network connec-\ntion.\nThe phone will reboot, automatically download its configuration \ninformation from the server, and reboot a second time to come \nonline.\n3\nMaking Pages\nNyquist allows the following types of intercom pages:\n\u2022 Multi-Site All-Call\n\u2022 Multi-Site Emergency-All-Call\n\u2022 All-Call\n\u2022 Emergency All-Call\n\u2022 Station or Zone",
+        "qas": [
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What information is required to add the NQ-T1100 Admin Phone as a station?",
+                "answers": [
+                    {
+                        "text": "To add the NQ-T1100 Admin Phone as a station, you need the Extension Number, Name, and MAC address of the phone. Refer to the Nyquist System Administrator Manual for specific instructions on the process."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "How can you identify the Admin Phone's IP address?",
+                "answers": [
+                    {
+                        "text": "You can identify the Admin Phone's IP address by either locating it in your network's Dynamic Host Configuration Protocol (DHCP) client table or by pressing the Admin Phone's OK navigation key to display the IP address directly on the phone screen."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the default Username and Password for accessing the Admin Phone's web UI?",
+                "answers": [
+                    {
+                        "text": "The default Username for accessing the Admin Phone's web UI is \"admin,\" and the default Password is \"bogen.\""
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "Which settings need to be turned Off during the Auto Provision configuration for the Admin Phone?",
+                "answers": [
+                    {
+                        "text": "During the Auto Provision configuration for the Admin Phone, both PNP Active and DHCP Active settings need to be turned Off."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What action must be taken to reboot the Admin Phone after configuration changes?",
+                "answers": [
+                    {
+                        "text": "To reboot the Admin Phone after configuration changes, unplug the network connection. The phone will then reboot, automatically download its configuration from the server, and reboot a second time to come online."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What types of intercom pages does Nyquist support?",
+                "answers": [
+                    {
+                        "text": "Nyquist supports the following types of intercom pages: Multi-Site All-Call, Multi-Site Emergency-All-Call, All-Call, Emergency All-Call, and Station or Zone."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "Where do you navigate to configure the Auto Provision settings on the Admin Phone?",
+                "answers": [
+                    {
+                        "text": "To configure the Auto Provision settings on the Admin Phone, navigate to the Settings tab in the web user interface (UI) after logging in. Then, click on Auto Provision to access and modify the necessary settings."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "How does the Admin Phone determine its configuration information after rebooting?",
+                "answers": [
+                    {
+                        "text": "After rebooting, the Admin Phone automatically downloads its configuration information from the server using the settings previously configured in the web UI. This process is initiated due to the specific configurations that were set to disable PNP and DHCP, allowing the phone to rely on a static configuration setup."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "7\nEven if your Nyquist phone is not set up to make multiple site pages, \nMulti-Site All-Call and Multi-Site Emergency-All-Call buttons \nappear on the phone\u2019s display.\n3.1\nMulti-Site Emergency-All-Call Paging\nA Multi-Site Emergency-All-Call page is an emergency page that \nplays simultaneously throughout multiple sites that are configued in \nthe facilities list. It has the highest priority of all pages.\nTo make a hands-free Multi-Site Emergency-All-Call page using the \ntouch display:\nStep 1\nTouch the Multi-Site Emergency-All-Call button.\nStep 2\nTalk into the phone\u2019s microphone.\nStep 3\nTouch End Call when finished.\nTo make a Multi-Site Emergency-All-Call page using the handset:\nStep 1\nPick up the handset.\nStep 2\nWhen the dial screen appears, touch the +More but-\nton.\nStep 3\nTouch the Multi-Site Emergency-All-Call button.\nStep 4\nTalk into the handset.\nStep 5\nHang up the handset when finished.\nNote: The ability to make Multi-Site All-Call and Multi-Site Emer-\ngency-All-Call pages is determined by the Class of Service (CoS) \nconfiguration assigned by your system administrator for your \nAdmin Phone.",
+        "qas": [
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What types of pages can be initiated using the Nyquist phone's display?",
+                "answers": [
+                    {
+                        "text": "The Nyquist phone's display allows users to initiate Multi-Site All-Call and Multi-Site Emergency-All-Call pages. The Multi-Site Emergency-All-Call page has the highest priority and is used for emergencies, playing simultaneously across multiple configured sites."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What is the highest priority page type mentioned in the context?",
+                "answers": [
+                    {
+                        "text": "The highest priority page type mentioned is the Multi-Site Emergency-All-Call page. It is designed to play simultaneously throughout multiple configured sites and takes precedence over all other page types."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "How do you make a Multi-Site Emergency-All-Call page using the phone\u2019s touchscreen?",
+                "answers": [
+                    {
+                        "text": "To make a Multi-Site Emergency-All-Call page using the phone's touchscreen, touch the Multi-Site Emergency-All-Call button, then talk into the phone's microphone. Finally, touch End Call when you're finished."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What is the first step when making a Multi-Site Emergency-All-Call page using the handset?",
+                "answers": [
+                    {
+                        "text": "The first step when making a Multi-Site Emergency-All-Call page using the handset is to pick up the handset. This action will bring up the dial screen."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What should you do after finishing a Multi-Site Emergency-All-Call page when using the handset?",
+                "answers": [
+                    {
+                        "text": "After finishing a Multi-Site Emergency-All-Call page using the handset, you should hang up the handset. This concludes the call."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "How is the ability to make Multi-Site pages determined for an Admin Phone?",
+                "answers": [
+                    {
+                        "text": "The ability to make Multi-Site All-Call and Multi-Site Emergency-All-Call pages for an Admin Phone is determined by the Class of Service (CoS) configuration assigned by the system administrator. This configuration dictates the features and permissions available for the phone."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What is required before you can start talking during a Multi-Site Emergency-All-Call page on the phone's display?",
+                "answers": [
+                    {
+                        "text": "Before you can start talking during a Multi-Site Emergency-All-Call page on the phone's display, you need to touch the Multi-Site Emergency-All-Call button. Once pressed, you can then talk into the phone's microphone."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Multi-Site All-Call Paging\nA Multi-Site All-Call Page is a non-emergency page that plays simul-\ntaneously throughout multiple sites.\nTo make a hands-free Multi-Site All-Call page using the touch display:\nStep 1\nTouch the Multi-Site All-Call button.\nStep 2\nTalk into the phone\u2019s microphone.\nStep 3\nTouch End Call when finished.\nTo make a Multi-Site All-Call page using the handset:\nStep 1\nPick up the handset.\nStep 2\nWhen the dial screen appears, touch the +More but-\nton.\nStep 3\nTouch the Multi-Site All-Call button.\nStep 4\nTalk into the handset.\nStep 5\nHang up the handset when finished.\n3.3\nEmergency-All-Call Paging\nAn Emergency-All-Call page is a high priority page that simultane-\nously plays throughout the facility. An Emergency-All-Call page has a \nhigher priority than an All-Call or Normal page.\nTo make a hands-free Emergency-All-Call page using the touch dis-\nplay:\nStep 1\nTouch the Emergency-All-Call button.\nStep 2\nTalk into the phone\u2019s microphone.\nStep 3\nTouch End Call when finished.\nTo make an Emergency-All-Call page using the handset:\nStep 1\nPick up the handset.\nStep 2\nWhen the dial screen appears, touch the +More but-\nton.\nStep 3\nTouch the Emergency-All-Call button.\nStep 4\nTalk into the handset.\nStep 5\nHang up the handset when finished.\n3.4\nAll-Call Paging\nAn All-Call page is a non-emergency page that simultaneously plays \nthroughout the facility.\nTo make a hands-free All-Call page using the touch display:\nStep 1\nTouch the All-Call button.\nStep 2\nTalk into the phone\u2019s microphone.\nStep 3\nTouch End Call when finished.\nTo make an Emergency-All-Call page using the handset:\nStep 1\nPick up the handset.\nStep 2\nWhen the dial screen appears, touch the +More but-\nton.\nStep 3\nTouch the All-Call button.\nStep 4\nTalk into the handset.\nStep 5\nHang up the handset when finished.\n3.5",
+        "qas": [
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "What is a Multi-Site All-Call page, and how does it function across multiple sites?",
+                "answers": [
+                    {
+                        "text": "A Multi-Site All-Call page is a non-emergency announcement that plays simultaneously across multiple locations. It functions by allowing users to initiate the page using a touch display or handset, enabling communication throughout all intended sites seamlessly."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "How do you initiate a hands-free Multi-Site All-Call page using the touch display?",
+                "answers": [
+                    {
+                        "text": "To initiate a hands-free Multi-Site All-Call page using the touch display, touch the Multi-Site All-Call button, then talk into the phone\u2019s microphone. Finally, touch End Call when you are finished."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What steps are involved in making a Multi-Site All-Call page using the handset?",
+                "answers": [
+                    {
+                        "text": "To make a Multi-Site All-Call page using the handset, pick up the handset, touch the +More button on the dial screen, then select the Multi-Site All-Call button, and talk into the handset. Finally, hang up the handset when finished."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "How does an Emergency-All-Call page differ from a Multi-Site All-Call page?",
+                "answers": [
+                    {
+                        "text": "An Emergency-All-Call page is a high-priority page that simultaneously plays throughout the facility, indicating an urgent situation. In contrast, a Multi-Site All-Call page is a non-emergency page that plays simultaneously across multiple sites but does not convey the same level of urgency."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What steps must be followed to execute a hands-free Emergency-All-Call page on the touch display?",
+                "answers": [
+                    {
+                        "text": "To execute a hands-free Emergency-All-Call page on the touch display, touch the Emergency-All-Call button, talk into the phone\u2019s microphone, and then touch End Call when finished."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "How do you make an Emergency-All-Call page using the handset?",
+                "answers": [
+                    {
+                        "text": "To make an Emergency-All-Call page using the handset, pick up the handset and touch the +More button when the dial screen appears. Then, select the Emergency-All-Call button, talk into the handset, and hang up when finished."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What is the main purpose of an All-Call page in comparison to Emergency-All-Call paging?",
+                "answers": [
+                    {
+                        "text": "The main purpose of an All-Call page is to communicate non-emergency information that simultaneously plays throughout the facility, while an Emergency-All-Call page is a high priority alert meant for urgent situations, also playing simultaneously but with greater urgency and importance."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "How do you initiate a hands-free All-Call page using the touch display?",
+                "answers": [
+                    {
+                        "text": "To initiate a hands-free All-Call page using the touch display, touch the All-Call button, then talk into the phone\u2019s microphone. After you are finished speaking, touch End Call."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "What are the steps to make an All-Call page using the handset?",
+                "answers": [
+                    {
+                        "text": "To make an All-Call page using the handset, first pick up the handset and touch the +More button when the dial screen appears. Then, touch the All-Call button, talk into the handset, and hang up when finished."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What should you do after finishing a hands-free or handset call to end the paging?",
+                "answers": [
+                    {
+                        "text": "After finishing a hands-free call, touch the \"End Call\" button to end the paging. If using the handset, simply hang up the handset to complete the call."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Zone Paging\nYou can choose to page only certain areas of the facility, called zones. \nThe zones, which are collections of stations, must be created through \nthe Web-based System Admin User Interface (UI) before zone paging \nfrom the Admin Phone can occur. Zones appear in the phone\u2019s Direc-\ntory under the Paging menu. The Paging menu also includes entries \nfor Facility paging.\nTo make a zone page using the display:\nStep 1\nTouch the +More button.\nStep 1\nSelect the zone that you want to page.\nStep 2\nTalk into the phone\u2019s microphone.\n\nStep 3\nTouch End Call when finished.\nTo make a zone page using the handset:\nStep 1\nPick up the handset.\nStep 2\nWhen the dial screen appears, touch the +More but-\nton.\nStep 1\nSelect the zone that you want to page.\nStep 2\nTalk into the phone\u2019s microphone.\nStep 3\nHang up the handset when finished.\n3.6\nRecord Page\nYou can record a page to be added to a zone queue. The maximum \nlength time for a recorded page is 60 minutes; if the recording \nexceeds 60 minutes, it will time out and not be saved. If the recording \nis silent for 60 seconds, it will time out and not be saved.\nPages in a zone\u2019s queue are played in the order that they are placed \nin the queue. A live page started on a zone that is playing a recorded \npage will cause the recorded page to be terminated and sent back to \nthe queue. The interrupted message will play again from the begin-\nning of the message when the zone becomes idle. Multi-Site Emer-\ngency-All-Call, Multi-Site All-Call, Emergency All-Call, All-Call, Alarm, \nTone, and Emergency Announcement will also interrupt any queued \nmessages playing in any zones. All re-queued messages will play \nagain from the beginning of the message when the applicable zones \nbecome idle.\nSelecting Disable Audio will cause playback paging of all recorded \nmessages to stop. The messages will resume play from the beginning \nwhen audio is re-enabled.\nNote: When the DTMF Code #{Zone Number} is used to initiate a \nzone page, Nyquist will start recording a queued page if the zone \nbelongs to a queue. If you want to start a real-time page to the \nzone instead, dial #{Zone Number}*.",
+        "qas": [
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "How are zones created for zone paging in the facility?",
+                "answers": [
+                    {
+                        "text": "Zones for zone paging in the facility must be created through the Web-based System Admin User Interface (UI) before they can be accessed for paging. Once created, zones will appear in the phone's Directory under the Paging menu."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What are the steps to make a zone page using the display?",
+                "answers": [
+                    {
+                        "text": "To make a zone page using the display, touch the +More button, select the desired zone, speak into the phone\u2019s microphone, and then touch End Call when finished."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What maximum length is allowed for a recorded page in the zone queue?",
+                "answers": [
+                    {
+                        "text": "The maximum length allowed for a recorded page in the zone queue is 60 minutes. If the recording exceeds this length or is silent for 60 seconds, it will time out and not be saved."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "What happens if a recording exceeds 60 minutes or is silent for 60 seconds?",
+                "answers": [
+                    {
+                        "text": "If a recording exceeds 60 minutes or is silent for 60 seconds, it will time out and not be saved. This means that any interrupted or incomplete recordings will be discarded and will not be added to the zone queue."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "How does a live page interact with a recorded page in a zone?",
+                "answers": [
+                    {
+                        "text": "A live page started in a zone that is currently playing a recorded page will terminate the recorded page and send it back to the queue. The interrupted recorded message will play again from the beginning once the zone becomes idle."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "What types of calls can interrupt queued messages in zones?",
+                "answers": [
+                    {
+                        "text": "Queued messages in zones can be interrupted by a live page initiated on that zone, as well as by Multi-Site Emergency-All-Call, Multi-Site All-Call, Emergency All-Call, All-Call, Alarm, Tone, and Emergency Announcement. When interrupted, the queued message will replay from the beginning once the zone becomes idle."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "What is the result of selecting Disable Audio during message playback?",
+                "answers": [
+                    {
+                        "text": "Selecting Disable Audio during message playback will stop the playback of all recorded messages. The messages will resume from the beginning when audio is re-enabled."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "How can one initiate a real-time page to a zone instead of starting a queued recording?",
+                "answers": [
+                    {
+                        "text": "To initiate a real-time page to a zone instead of starting a queued recording, dial the DTMF Code #{Zone Number}* on the phone. This will bypass the queue and start a live page directly to the selected zone."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "11\nTo record a page for page queuing:\nStep 1\nDo one of the following:\na\nTouch the Record Page button.\nb\nSelect the soft key labeled Directory, use the navi-\ngation keys to select Paging, use the navigation \nkeys to select Record Page, and then press OK.\nStep 2\nWhen prompted, enter the queue number for the \nqueue that you want to page and press #.\nStep 3\nWait for the tone and then record your message.\nStep 4\nHang up when finished.\n4\nMaking Calls\nThe steps for making calls depend on whether you are making the \ncall from the display and speaker or from the handset and whether \nyou know the extension that you want to call.\nTo make a call by dialing the extension number:\nStep 1\nDo one of the following:\n\u2022\nOn the phone\u2019s touch display, select Directory and \nthen select Keypad.\n\u2022\nDial the extension number. When you start to dial, \nthe keypad automatically appears.\n\u2022\nPick up the handset.\nStep 2\nDial the extension. \nIf using the handset, you can dial from either the touch \ndisplay or dial pad.\nStep 3\nSelect Send.\nStep 4\nWhen the call is completed, either hand up the handset \nor select End Call.\nTo make a call using the Remote Phone Book:\nStep 1\nDo one of the following:\n\u2022\nOn the phone\u2019s display, select Directory.\n\u2022\nPick up the handset, and then select Directory.\n\nStep 2\nEnsure Remote Phone Book is selected, and then \nselect Stations.\nStep 3\nUse the scroll bar to navigate to the station that you \nwant to call, and then select that station.\nStep 4\nSelect Send.\nStep 5\nWhen finished with the call, either select End Call or \nhang up the handset.\n5\nChanging the Event Schedule\nNyquist allows the setting of bells and announcements to be played \nat specific times and in specific zones. More than one schedule can \nbe created for a school. For example, a school may have an early \nrelease day on Wednesday and have classes begin and end at differ-\nent times on that day than on the other days of the week. Based on \nthis example, a Regular Schedule or an Early Release Schedule can be \nselected for the current day. \nThe Schedules feature available via the Admin Phone provides a \nquick way to change the bell schedule for the day. For example, if you \nnormally use an Early Release Schedule for Wednesdays but want to \nuse this schedule for today (which is slated to use the Regular Sched-\nule), you can select the Early Release Schedule through the Admin \nPhone. \nTo change today\u2019s schedule:\nStep 1\nTouch Schedules.\nStep 2\nSelect the schedule that you want for the day. If you \nhave more than one school appearing in the Schedules \nNote: If you want to use the handset, pick up the handset and then \nselect the \n button before following the steps.\n\nview, ensure you have selected the correct schedule for \nthe correct school.\nStep 3\nTouch Change Schedule.",
+        "qas": [
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "What are the initial steps to record a page for page queuing?",
+                "answers": [
+                    {
+                        "text": "To record a page for page queuing, either touch the Record Page button or select Directory, navigate to Paging, choose Record Page, and press OK. Then, enter the desired queue number and press # to proceed."
+                    }
+                ]
+            },
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "How do you make a call by dialing the extension number?",
+                "answers": [
+                    {
+                        "text": "To make a call by dialing the extension number, either select Directory and then Keypad on the phone\u2019s touch display or directly dial the extension number. If using the handset, pick it up and dial the extension, then select Send to initiate the call."
+                    }
+                ]
+            },
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "What should you do to make a call using the Remote Phone Book?",
+                "answers": [
+                    {
+                        "text": "To make a call using the Remote Phone Book, select \"Directory\" on the phone\u2019s display or pick up the handset and then select \"Directory.\" Ensure \"Remote Phone Book\" is selected, navigate to the desired station using the scroll bar, and then select \"Send\" to initiate the call."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "How can you change the event schedule using the Admin Phone?",
+                "answers": [
+                    {
+                        "text": "To change the event schedule using the Admin Phone, touch \"Schedules,\" select the desired schedule for the day, and then touch \"Change Schedule.\" Ensure that the correct school is selected if multiple schools are displayed."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "What is the purpose of the Schedules feature in the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "The Schedules feature in the Nyquist system allows users to set bell schedules and announcements for specific times and zones within a school. This enables flexibility in adapting schedules, such as switching between regular and early release days, ensuring timely announcements and adjustments as needed."
+                    }
+                ]
+            },
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "How do you select the correct schedule for a specific school?",
+                "answers": [
+                    {
+                        "text": "To select the correct schedule for a specific school, touch Schedules and ensure you have selected the appropriate schedule for the correct school, especially if multiple schools are appearing in the view. After confirming the correct school, touch Change Schedule to apply your selection."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "What action is required after dialing an extension number using the handset?",
+                "answers": [
+                    {
+                        "text": "After dialing an extension number using the handset, you need to select \"Send\" to initiate the call. Once the call is completed, either hang up the handset or select \"End Call.\""
+                    }
+                ]
+            },
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "What happens when you select the Record Page function?",
+                "answers": [
+                    {
+                        "text": "Selecting the Record Page function allows you to enter a queue number to page, after which you wait for a tone to record your message. Once finished, you simply hang up to complete the process."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Playing Alarms\nYou can play a facility alarm from a list of default alarms and those \ncreated through the Admin Web UI.\nTo play an alarm:\nStep 1\nDo one of the following:\n\u2022\nOn the phone\u2019s touch display, select Directory.\n\u2022\nPick up the handset, and then select Directory.\nStep 2\nEnsure Remote Phone Book is selected, and then \nselect Alarms.\nStep 3\nUse the scroll bar to navigate to the alarm that you \nwant, and then select that alarm. \nThe alarm plays continuously until you manually stop it.\nStep 4\nTo end the alarm, touch End Call or hang up the hand-\nset.\nNote that if you want to end an alarm that another \nAdmin Phone started, select Stop Alarm.\nNote: An * appears before the current schedule. \nSelecting None disables the schedule, which also disables sched-\nuled tones, audio, and routines included in the schedule.",
+        "qas": [
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "How can you access the alarm directory on the phone?",
+                "answers": [
+                    {
+                        "text": "To access the alarm directory on the phone, either select \"Directory\" from the touch display or pick up the handset and then select \"Directory.\" Ensure that \"Remote Phone Book\" is selected, and then choose \"Alarms\" to view the available alarms."
+                    }
+                ]
+            },
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "What should you ensure is selected before choosing an alarm?",
+                "answers": [
+                    {
+                        "text": "Before choosing an alarm, ensure that \"Remote Phone Book\" is selected in the directory. Then, proceed to select \"Alarms\" to access the list of available alarms."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "How do you navigate to the desired alarm in the list?",
+                "answers": [
+                    {
+                        "text": "To navigate to the desired alarm in the list, select \"Remote Phone Book\" and then choose \"Alarms.\" Use the scroll bar to scroll through the alarms until you find the one you want to play."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "What happens when you select an alarm to play?",
+                "answers": [
+                    {
+                        "text": "When you select an alarm to play, it begins to sound continuously until you manually stop it. To end the alarm, you can either touch End Call or hang up the handset. If the alarm was started by another Admin Phone, you should select Stop Alarm to end it."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "How can you manually stop an alarm once it is playing?",
+                "answers": [
+                    {
+                        "text": "To manually stop an alarm that is playing, touch \"End Call\" on the phone's display or hang up the handset. If the alarm was started by another Admin Phone, select \"Stop Alarm.\""
+                    }
+                ]
+            },
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What should you do if you want to stop an alarm initiated by another Admin Phone?",
+                "answers": [
+                    {
+                        "text": "To stop an alarm initiated by another Admin Phone, you should select the \"Stop Alarm\" option instead of ending the call or hanging up the handset. This allows you to specifically terminate the alarm without affecting other functions."
+                    }
+                ]
+            },
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "What does an asterisk (*) signify before the current schedule?",
+                "answers": [
+                    {
+                        "text": "An asterisk (*) before the current schedule signifies the active schedule. Selecting \"None\" will disable the schedule, along with any scheduled tones, audio, and routines associated with it."
+                    }
+                ]
+            },
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "What happens if you select \"None\" in the schedule options?",
+                "answers": [
+                    {
+                        "text": "Selecting \"None\" in the schedule options disables the schedule, which also turns off any scheduled tones, audio, and routines included in that schedule. This means that no alarms or scheduled actions will activate."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "7\nPlaying Tones\nNyquist provides tones that can be used with events, such as bell \nschedules or announcements. In addition to the default tones, tones \ncan also be created or downloaded through the Admin Web UI.\nTo play a tone:\nStep 1\nDo one of the following:\n\u2022\nOn the phone\u2019s touch display, select Directory.\n\u2022\nPick up the handset, and then select Directory.\nStep 2\nEnsure Remote Phone Book is selected, and then \nselect Tones.\nStep 3\nUse the scroll bar to navigate to the tone that you want, \nand then select that tone. \nStep 4\nTo end the tone, touch End Call or hang up the hand-\nset.\nNote that if you want to end a tone that another Admin \nPhone started, select Stop Tone.\n8\nForwarding Calls\nIf your Admin Phone has the appropriate CoS parameter set, you can \nforward your calls to another Nyquist extension, whether it\u2019s a physi-\ncal station or a Web UI station. You can select to always forward calls, \nforward calls if you are on another call, or forward calls if they are not \nanswered within a specified number of seconds.\nThe DAHDI FXS based Admin Station (also known as Analog Phone \nstation Type) does not display an incoming call queue, and there is \nno incoming call queue prioritization. If the DAHDI FXS based Admin \nStation is already on a call, subsequent VoIP call-switch callers will \ncontinue to ring as expected. However, there is no visibility that an \nincoming call is happening, and there is no FIFO queue to handle \nmultiple incoming calls.\nIf a VoIP phone directly calls a DAHDI FXS Admin Station that is  busy, \nthe call will go to voicemail.\nFor incoming emergency calls from an Analog Call Switch and \nSpeaker or Digital Call Switch and Speaker station types, if the DAHDI",
+        "qas": [
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "How can tones be played on the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "To play a tone on the Nyquist system, access the Directory from the phone's touch display or by picking up the handset, then select Remote Phone Book followed by Tones. Navigate to the desired tone and select it, and to end the tone, either touch End Call or hang up the handset."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "What steps do you take to select a tone on the phone's touch display?",
+                "answers": [
+                    {
+                        "text": "To select a tone on the phone's touch display, first select \"Directory.\" Then ensure \"Remote Phone Book\" is selected, followed by selecting \"Tones,\" and finally navigate using the scroll bar to choose the desired tone."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "How can you end a tone that is currently playing?",
+                "answers": [
+                    {
+                        "text": "To end a tone that is currently playing, you can either touch \"End Call\" or hang up the handset. If the tone was started by another Admin Phone, select \"Stop Tone\" instead."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "What options are available for forwarding calls on an Admin Phone?",
+                "answers": [
+                    {
+                        "text": "An Admin Phone can forward calls to another Nyquist extension with options to always forward calls, forward calls when on another call, or forward calls if they are not answered within a specified time. The DAHDI FXS based Admin Station does not have an incoming call queue or prioritization for incoming calls."
+                    }
+                ]
+            },
+            {
+                "id": "00064",
+                "is_impossible": false,
+                "question": "What limitations does the DAHDI FXS based Admin Station have regarding incoming call handling?",
+                "answers": [
+                    {
+                        "text": "The DAHDI FXS based Admin Station does not display an incoming call queue and lacks prioritization for incoming calls. When already on a call, it provides no visibility of subsequent incoming calls, which will continue to ring without a FIFO queue; if a VoIP phone calls a busy DAHDI FXS Admin Station, the call will go directly to voicemail."
+                    }
+                ]
+            },
+            {
+                "id": "00065",
+                "is_impossible": false,
+                "question": "How does the DAHDI FXS Admin Station respond to calls when it is already busy?",
+                "answers": [
+                    {
+                        "text": "When the DAHDI FXS Admin Station is busy on a call, subsequent VoIP calls will continue to ring, but there is no visibility of the incoming calls, and no FIFO queue to handle them. If a VoIP phone directly calls a busy DAHDI FXS Admin Station, the call will go to voicemail."
+                    }
+                ]
+            },
+            {
+                "id": "00066",
+                "is_impossible": false,
+                "question": "What happens to incoming emergency calls when directed to a busy DAHDI FXS Admin Station?",
+                "answers": [
+                    {
+                        "text": "When incoming emergency calls are directed to a busy DAHDI FXS Admin Station, the call will go to voicemail. There is no incoming call queue or visibility for these calls if the station is already engaged."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "15\nFXS based Admin Station is on a call, the current call will automati-\ncally be dropped and the Admin Station will hear a busy signal. When \nthe Admin Station hangs up the call, the emergency call will ring the \nAdmin Phone.\nIf both a normal and emergency call are placed to a DAHDI FXS \nbased Admin Station at the same time, the calls are not received in \nany specific order. The normal call could be answered before the \nemergency call. In this case, when the Admin Station hangs up the \nnormal call, the emergency call will ring the Admin Station.\nIf the Admin Station remains busy for more than two minutes, an \nAnalog Call Switch and Speaker or Digital Call Switch and Speaker \ncaller will be told that the call cannot be completed and to please try \nagain. The call switch will return to the idle state.\nYou can forward calls using either the Menu or Directory options.\nTo forward calls from the Menu:\nStep 1\nTouch Menu.\nStep 2\nTouch Features.\nStep 3\nTouch Call Forward.\nStep 4\nSelect from one of the following options:\n1. Always Forward\n2. Busy Forward\n3. No Answer Forward\nStep 5\nSelect On, and then enter the extension or phone num-\nber that the call is to be forwarded to.\nStep 6\nTouch Save.\nNote that if you use the Menu option and attempt to forward to an \nextension that is already forwarding to your extension, you will not \nreceive an error, even though the call forwarding will not be acti-\nvated. \nTo ensure that the desired call forwarding is activated and to receive \naudio feedback on setting up call forward, use the following steps.\nNote: If you want to use the handset, pick up the handset and then \nselect the \n button before following the steps.",
+        "qas": [
+            {
+                "id": "00067",
+                "is_impossible": false,
+                "question": "What happens to the current call when an FXS based Admin Station receives an emergency call?",
+                "answers": [
+                    {
+                        "text": "When an FXS based Admin Station receives an emergency call while already on a current call, the existing call will automatically be dropped, and the Admin Station will hear a busy signal. Upon hanging up, the emergency call will ring the Admin Phone."
+                    }
+                ]
+            },
+            {
+                "id": "00068",
+                "is_impossible": false,
+                "question": "How are simultaneous normal and emergency calls handled by the Admin Station?",
+                "answers": [
+                    {
+                        "text": "When both a normal and an emergency call are placed to the Admin Station simultaneously, there is no specific order in which they are received; the normal call may be answered first. If the Admin Station hangs up the normal call, the emergency call will subsequently ring the Admin Station."
+                    }
+                ]
+            },
+            {
+                "id": "00069",
+                "is_impossible": false,
+                "question": "What message do callers receive if the Admin Station is busy for more than two minutes?",
+                "answers": [
+                    {
+                        "text": "If the Admin Station is busy for more than two minutes, callers using an Analog or Digital Call Switch will be informed that the call cannot be completed and are prompted to try again. The call switch will then return to the idle state."
+                    }
+                ]
+            },
+            {
+                "id": "00070",
+                "is_impossible": false,
+                "question": "What are the steps to forward calls using the Menu?",
+                "answers": [
+                    {
+                        "text": "To forward calls using the Menu, touch Menu, then Features, and select Call Forward. Choose from Always Forward, Busy Forward, or No Answer Forward, set it to On, enter the desired extension or phone number, and then touch Save."
+                    }
+                ]
+            },
+            {
+                "id": "00071",
+                "is_impossible": false,
+                "question": "What happens if you try to forward calls to an extension that is already forwarding to your extension?",
+                "answers": [
+                    {
+                        "text": "If you try to forward calls to an extension that is already forwarding to your extension, no error will be received, and the call forwarding will not be activated. This means the call forwarding setup will effectively be ineffective in this scenario."
+                    }
+                ]
+            },
+            {
+                "id": "00072",
+                "is_impossible": false,
+                "question": "What must you do to use the handset before setting up call forwarding?",
+                "answers": [
+                    {
+                        "text": "To use the handset before setting up call forwarding, you must pick up the handset and then select the appropriate button before following the steps for call forwarding. This ensures audio feedback on the setup process."
+                    }
+                ]
+            },
+            {
+                "id": "00073",
+                "is_impossible": false,
+                "question": "How long can the Admin Station remain busy before the call switch informs the caller to try again?",
+                "answers": [
+                    {
+                        "text": "The Admin Station can remain busy for more than two minutes before the call switch informs the caller that the call cannot be completed and to please try again. After this, the call switch will return to the idle state."
+                    }
+                ]
+            },
+            {
+                "id": "00074",
+                "is_impossible": false,
+                "question": "What options are available when selecting call forwarding types?",
+                "answers": [
+                    {
+                        "text": "The available call forwarding options are: 1) Always Forward, 2) Busy Forward, and 3) No Answer Forward. Users can select one of these options when configuring call forwarding through the Menu."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "To call forward from the Directory:\nStep 1\nTouch Directory.\nStep 2\nTouch Features.\nStep 3\nTouch Call Forwarding.\nStep 4\nSelect one of the following from the interactive audio \nmenu:\n1 \u2013 Call Forward for Unconditional\n2 \u2013 Call Forward on Busy\n3 \u2013 Call Forward on No Answer\n4 \u2013 Call Forward on Busy and Call Forward on No \nAnswer\n5 \u2013 No Call Forwarding\nStep 5\nWhen prompted, enter the extension or phone number \nthat the call is to be forwarded to.\nThe system will provide error messages if it is unable to perform the \ndesired call forwarding.\nTo turn Call Forwarding off from the Menu:\nStep 1\nTouch Menu.\nStep 2\nTouch Features.\nStep 3\nTouch Call Forward.\nStep 4\nSelect Off.\nStep 5\nTouch Save.\nTo turn Call Forwarding off from the Directory:\nStep 1\nTouch Directory.\nStep 2\nTouch Features.\nStep 3\nTouch Call Forwarding.\nStep 4\nFrom the interactive audio menu, select 5 \u2013 No Call \nForwarding.",
+        "qas": [
+            {
+                "id": "00075",
+                "is_impossible": false,
+                "question": "What is the first step to access Call Forwarding via the Directory?",
+                "answers": [
+                    {
+                        "text": "The first step to access Call Forwarding via the Directory is to touch \"Directory.\" Then, proceed by touching \"Features\" to continue to the Call Forwarding options."
+                    }
+                ]
+            },
+            {
+                "id": "00076",
+                "is_impossible": false,
+                "question": "How many types of call forwarding options can you select from the interactive audio menu?",
+                "answers": [
+                    {
+                        "text": "There are five types of call forwarding options you can select from the interactive audio menu: Unconditional, On Busy, On No Answer, On Busy and On No Answer, and No Call Forwarding."
+                    }
+                ]
+            },
+            {
+                "id": "00077",
+                "is_impossible": false,
+                "question": "What do you need to enter when prompted after selecting a call forwarding option?",
+                "answers": [
+                    {
+                        "text": "When prompted after selecting a call forwarding option, you need to enter the extension or phone number that the call is to be forwarded to."
+                    }
+                ]
+            },
+            {
+                "id": "00078",
+                "is_impossible": false,
+                "question": "How do you turn off Call Forwarding from the Menu?",
+                "answers": [
+                    {
+                        "text": "To turn off Call Forwarding from the Menu, touch Menu, then Features, and select Call Forward. Finally, choose Off and touch Save to complete the process."
+                    }
+                ]
+            },
+            {
+                "id": "00079",
+                "is_impossible": false,
+                "question": "Which option do you select to disable Call Forwarding from the interactive audio menu?",
+                "answers": [
+                    {
+                        "text": "To disable Call Forwarding from the interactive audio menu, you select option 5 \u2013 No Call Forwarding. This option will turn off all forms of call forwarding."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "17\n9\nUsing the Voice Mail Feature \nIf your phone has the appropriate CoS parameter set, you can view \ndetails about and listen to voice mail messages and set the code that \ncan be used to retrieve your voice mail messages.\nThe Power indicator flashes red if you have a new voice mail mes-\nsage.\nTo listen to voice mail messages:\nStep 1\nPress the Message key.\nStep 2\nFollow prompts to retrieve messages.\n10\nRecording Announcements\nYou can record announcements to be played immediately after they \nare recorded or to play at a later date and time. \nTo record an announcement:\nStep 1\nDo one of the following:\n\u2022\nOn the phone\u2019s touch display, select Directory.\n\u2022\nPick up the handset, and then select Directory.\nStep 2\nSelect Features, and then select Record Announce-\nment.\nStep 3\nAfter the tone, record your announcement, pressing # \nwhen finished.\nStep 4\nSelect from the following options:\n\u2022\nSelect 1 to save.\n\u2022\nSelect 2 to listen to the announcement.\n\u2022\nSelect 3 to re-record the announcement.\n\u2022\nSelect 4 to play the announcement now.\n\u2022\nSelect 7 to schedule the announcement to play at a \ndifferent time.\nIf you select 7, enter the 2-digit month, 2-digit \ndate, 4-digit year, and then enter the hour and\nminutes in HH:MM format for the date and time \nthe announcement will play.\n11",
+        "qas": [
+            {
+                "id": "00080",
+                "is_impossible": false,
+                "question": "How can you listen to your voice mail messages?",
+                "answers": [
+                    {
+                        "text": "To listen to your voice mail messages, press the Message key on your phone and follow the prompts to retrieve your messages. Additionally, ensure that your phone has the appropriate CoS parameter set to access the voice mail feature."
+                    }
+                ]
+            },
+            {
+                "id": "00081",
+                "is_impossible": false,
+                "question": "What does a flashing red power indicator signify?",
+                "answers": [
+                    {
+                        "text": "A flashing red power indicator signifies that there is a new voice mail message waiting to be listened to."
+                    }
+                ]
+            },
+            {
+                "id": "00082",
+                "is_impossible": false,
+                "question": "What options do you have after recording an announcement?",
+                "answers": [
+                    {
+                        "text": "After recording an announcement, you have the following options: select 1 to save it, 2 to listen to it, 3 to re-record, 4 to play it immediately, or 7 to schedule it for a later time."
+                    }
+                ]
+            },
+            {
+                "id": "00083",
+                "is_impossible": false,
+                "question": "How do you access the option to record an announcement?",
+                "answers": [
+                    {
+                        "text": "To access the option to record an announcement, either select \"Directory\" on the phone's touch display or pick up the handset and select \"Directory.\" Then, select \"Features\" and choose \"Record Announcement.\""
+                    }
+                ]
+            },
+            {
+                "id": "00084",
+                "is_impossible": false,
+                "question": "What format should you use to enter the time when scheduling an announcement?",
+                "answers": [
+                    {
+                        "text": "You should enter the time in HH:MM format when scheduling an announcement. This means using a two-digit hour followed by a two-digit minute."
+                    }
+                ]
+            },
+            {
+                "id": "00085",
+                "is_impossible": false,
+                "question": "What steps must be followed to save a recorded announcement?",
+                "answers": [
+                    {
+                        "text": "To save a recorded announcement, press the Message key, record your announcement after the tone, and then select option 1 to save the recording. You can also listen to, re-record, or schedule it for later using the other options provided."
+                    }
+                ]
+            },
+            {
+                "id": "00086",
+                "is_impossible": false,
+                "question": "How can you schedule an announcement to play at a later time?",
+                "answers": [
+                    {
+                        "text": "To schedule an announcement to play at a later time, select the option 7 after recording your announcement. Then, enter the 2-digit month, 2-digit date, 4-digit year, followed by the hour and minutes in HH:MM format for when you want the announcement to play."
+                    }
+                ]
+            },
+            {
+                "id": "00087",
+                "is_impossible": false,
+                "question": "What action should you take to retrieve your voice mail messages after pressing the Message key?",
+                "answers": [
+                    {
+                        "text": "After pressing the Message key, follow the prompts provided by the system to retrieve your voice mail messages. The prompts will guide you through the process of listening to your available messages."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Playing Recorded Calls\nIf your phone has the appropriate CoS parameter set, you can play-\nback recorded calls.\nTo play a tone:\nStep 1\nDo one of the following:\n\u2022\nOn the phone\u2019s touch display, select Directory.\n\u2022\nPick up the handset, and then select Directory.\nStep 2\nEnsure Remote Phone Book is selected, and then \nselect Features.\nStep 3\nSelect Playback Recorded Calls.\nStep 4\nSelect the type of recorded call that you want to play-\nback. Options are:\n1 - Emergency\n2 - Monitoring Call\n3 - Urgent\n4 - Normal\n12\nRestart Nyquist Server\nTo restart the Nyquist Server:\nStep 1\nUse the soft key labeled Directory.\nStep 2\nUse the navigation keys to select Features and then \npress OK.\nStep 3\nUse the navigation keys to select Restart Nyquist \nServer and select OK.\nStep 4\nEnter your system password and select OK.\nNote: Restart Nyquist Server only restarts the Nyquist applica-\ntion; it does not reboot the server or restart the OS.",
+        "qas": [
+            {
+                "id": "00088",
+                "is_impossible": false,
+                "question": "What must be set on the phone to enable playback of recorded calls?",
+                "answers": [
+                    {
+                        "text": "The appropriate CoS (Class of Service) parameter must be set on the phone to enable playback of recorded calls. This allows the user to access the feature through the phone's interface."
+                    }
+                ]
+            },
+            {
+                "id": "00089",
+                "is_impossible": false,
+                "question": "How do you access the Directory on the phone?",
+                "answers": [
+                    {
+                        "text": "To access the Directory on the phone, you can either select \"Directory\" on the phone\u2019s touch display or pick up the handset and then select \"Directory.\""
+                    }
+                ]
+            },
+            {
+                "id": "00090",
+                "is_impossible": false,
+                "question": "What are the steps to select Playback Recorded Calls?",
+                "answers": [
+                    {
+                        "text": "To select Playback Recorded Calls, first access the Directory on your phone's touch display or by picking up the handset. Then, ensure Remote Phone Book is selected, navigate to Features, and choose Playback Recorded Calls. Finally, select the type of recorded call you want to play back from the given options."
+                    }
+                ]
+            },
+            {
+                "id": "00091",
+                "is_impossible": false,
+                "question": "What types of recorded calls can be played back?",
+                "answers": [
+                    {
+                        "text": "The types of recorded calls that can be played back are Emergency, Monitoring Call, Urgent, and Normal."
+                    }
+                ]
+            },
+            {
+                "id": "00092",
+                "is_impossible": false,
+                "question": "How do you initiate a restart of the Nyquist Server?",
+                "answers": [
+                    {
+                        "text": "To initiate a restart of the Nyquist Server, press the soft key labeled Directory, select Features using the navigation keys, then choose Restart Nyquist Server and confirm with OK. Enter your system password when prompted to complete the process."
+                    }
+                ]
+            },
+            {
+                "id": "00093",
+                "is_impossible": false,
+                "question": "What menu must be navigated to restart the Nyquist Server?",
+                "answers": [
+                    {
+                        "text": "To restart the Nyquist Server, navigate to the Directory, select Features, then choose Restart Nyquist Server. After that, enter your system password to proceed with the restart."
+                    }
+                ]
+            },
+            {
+                "id": "00094",
+                "is_impossible": false,
+                "question": "What information is required to complete the Nyquist Server restart?",
+                "answers": [
+                    {
+                        "text": "To complete the Nyquist Server restart, you need to enter your system password after selecting the Restart Nyquist Server option. This step is essential for authentication before the restart process can proceed."
+                    }
+                ]
+            },
+            {
+                "id": "00095",
+                "is_impossible": false,
+                "question": "Does restarting the Nyquist Server reboot the entire server?",
+                "answers": [
+                    {
+                        "text": "No, restarting the Nyquist Server only restarts the Nyquist application and does not reboot the entire server or the operating system."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Stop Announcement\nTo stop an announcement:\nStep 1\nUse the soft key labeled Directory.\nStep 2\nUse the navigation keys to select Features and then \npress OK.\nStep 3\nUse the navigation keys to select Stop Announement \nand select OK.\nStep 4\nFollow audio prompt.\n14\nStop Scheduled Audio\nTo stop scheduled audio:\nStep 1\nUse the soft key labeled Directory.\nStep 2\nUse the navigation keys to select Features and then \npress OK.\nStep 3\nUse the navigation keys to select Stop Scheduled \nAudio and select OK.\n15\nUsing Audio Distribution\nAudio Distribution can be started and stopped using the Audio Dis-\ntribution menu.\nTo start audio distribution:\nStep 1\nSelect the Audio Distribution menu.\nStep 2\nSelect the audio distribution that you want to start.\nAfter an audio distribution is started, the entry displayed in the menu \nwill be prefixed with (P) to indicate that it\u2019s playing.\nNote: The Admin Station must have Audio Distribution CoS \nenabled in order for the Audio Distribution menu to display on \nthe Admin Phone.",
+        "qas": [
+            {
+                "id": "00096",
+                "is_impossible": false,
+                "question": "How do you stop an announcement using the directory?",
+                "answers": [
+                    {
+                        "text": "To stop an announcement, use the soft key labeled Directory, navigate to Features, and press OK. Then, select Stop Announcement and follow the audio prompt."
+                    }
+                ]
+            },
+            {
+                "id": "00097",
+                "is_impossible": false,
+                "question": "What steps are needed to stop scheduled audio?",
+                "answers": [
+                    {
+                        "text": "To stop scheduled audio, press the soft key labeled Directory, use the navigation keys to select Features and press OK. Then, select Stop Scheduled Audio and press OK."
+                    }
+                ]
+            },
+            {
+                "id": "00098",
+                "is_impossible": false,
+                "question": "Where is the option to start audio distribution found?",
+                "answers": [
+                    {
+                        "text": "The option to start audio distribution is found in the Audio Distribution menu. You can select the specific audio distribution you want to start from this menu, indicated by the (P) prefix when it begins to play."
+                    }
+                ]
+            },
+            {
+                "id": "00099",
+                "is_impossible": false,
+                "question": "What indication is given when an audio distribution is playing?",
+                "answers": [
+                    {
+                        "text": "When an audio distribution is playing, the entry displayed in the Audio Distribution menu will be prefixed with (P) to indicate that it\u2019s currently playing."
+                    }
+                ]
+            },
+            {
+                "id": "00100",
+                "is_impossible": false,
+                "question": "What is required for the Audio Distribution menu to be visible on the Admin Phone?",
+                "answers": [
+                    {
+                        "text": "The Audio Distribution menu will be visible on the Admin Phone only if the Admin Station has Audio Distribution Class of Service (CoS) enabled."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "20\nTo stop audio distribution:\nStep 1\nSelect the Audio Distribution menu.\nStep 2\nSelect the audio distribution that you want to stop; it \nmust be prefixed with (P).\nTo stop ALL audio distribution:\nStep 1\nSelect the Audio Distribution menu.\nStep 2\nSelect Stop ALL Audio Distribution.\nThe audio distribution entries listed in the Audio Distribution menu \nuse the following suffixes depending on the zones/stations that are \ndefined as targets for playing the audio:\n\u2022 [All Speakers] - Indicates play to all speakers.\n\u2022 [Zone] - Indicates play to a single zone where Zone is replaced \nwith zone number.\n\u2022 [Zone, Zone\u2026] - Indicates play to two or more zones where Zone \nis replaced with zone number.\n\u2022 [Zone+] - Indicates play to a single zone plus one or more specific \nstations. (Stations are not listed.)\n\u2022 [Zone, Zone\u2026+] - Indicates play to two or more zones where Zone \nis replaced with zone number, plus one or more specific stations. \n(Stations are not listed.)\n16\nLaunching Routines\nYou can manually launch a routine that has Allow DTMF enabled \nfrom an Admin Phone by doing one of the following:\n\u2022 Dial *94<Routine-DTMF-Code>.\nNote: The ability to manually launch routines is determined by the \nCoS configuration assigned by your system administrator for your \nAdmin Phone.\n\n\u2022 Select the Routines menu from the Admin Phone and then select \nthe routine that you want to launch. \nIf you disconnect the call during a routine, the routine continues until \nfinished. If the routine includes Pause actions, the call will not discon-\nnect until all Pause actions have been executed. \nA routine launched from the Admin Phone can end with any of the \nfollowing page commands, provided the Admin Phone has the \nappropriate CoS enabled:\n\u2022 All-Call\n\u2022 Emergency-All-Call\n\u2022 Facility-Page\n\u2022 Mutli-Site-All-Call\n\u2022 Multi-Site-Emergency-All-Call\n\u2022 Zone-Page\n17\nCustomizing Line Keys\nLine keys are the soft keys that appear on the display window (see \n\"Display Window Features\u201d on page 4). Nyquist provides one key \n(located on the upper left) for user customizing, providing a \u201cspeed \ndialing\u201d option for a feature. For example, you can customize the \navailable line key to start a specific alarm. You can then select the line \nkey to start the alarm rather than using the steps described in \"Play-\ning Alarms\u201d on page 13.\nIf you do not want to use the Nyquist defaults for line keys, you can \nreserve line keys by creating and editing a reserve line key file \n(.rlkeys), provided you are not using the Nyquist System Controller. \nNote: Only routines with Allow DTMF enabled appear in the \nmenu.\nNote: Depending on the CoS settings for your Admin Phone, some \nof the line keys may appear blank. For example, if your Admin \nPhone does not have Execute Routines enabled through the CoS, \nthen the fourth key on the left, which by default is reserved by \nNyquist for Routines, has a blank label.",
+        "qas": [
+            {
+                "id": "00101",
+                "is_impossible": false,
+                "question": "How do you stop a specific audio distribution in the Audio Distribution menu?",
+                "answers": [
+                    {
+                        "text": "To stop a specific audio distribution in the Audio Distribution menu, select the Audio Distribution menu and then choose the desired audio distribution entry prefixed with (P)."
+                    }
+                ]
+            },
+            {
+                "id": "00102",
+                "is_impossible": false,
+                "question": "What does the suffix [All Speakers] indicate in the Audio Distribution menu?",
+                "answers": [
+                    {
+                        "text": "The suffix [All Speakers] in the Audio Distribution menu indicates that the audio will be played to all speakers simultaneously. This means that any audio distribution entry prefixed with this suffix targets every speaker within the defined system."
+                    }
+                ]
+            },
+            {
+                "id": "00103",
+                "is_impossible": false,
+                "question": "What is the procedure to stop all audio distribution?",
+                "answers": [
+                    {
+                        "text": "To stop all audio distribution, select the Audio Distribution menu and then choose \"Stop ALL Audio Distribution.\" This action will halt all ongoing audio distribution activities."
+                    }
+                ]
+            },
+            {
+                "id": "00104",
+                "is_impossible": false,
+                "question": "What action can you take from an Admin Phone to manually launch a routine?",
+                "answers": [
+                    {
+                        "text": "From an Admin Phone, you can manually launch a routine by dialing *94 followed by the Routine-DTMF-Code or by selecting the Routines menu and then choosing the routine you wish to launch. The ability to launch routines depends on the CoS configuration assigned to your Admin Phone."
+                    }
+                ]
+            },
+            {
+                "id": "00105",
+                "is_impossible": false,
+                "question": "What happens if you disconnect the call during a routine with Pause actions?",
+                "answers": [
+                    {
+                        "text": "If you disconnect the call during a routine that includes Pause actions, the routine will continue to execute until it is finished. The call will not disconnect until all Pause actions have been completed."
+                    }
+                ]
+            },
+            {
+                "id": "00106",
+                "is_impossible": false,
+                "question": "Which page commands can an Admin Phone use to end a launched routine?",
+                "answers": [
+                    {
+                        "text": "An Admin Phone can end a launched routine with the following page commands: All-Call, Emergency-All-Call, Facility-Page, Multi-Site-All-Call, and Multi-Site-Emergency-All-Call, provided the Admin Phone has the appropriate Class of Service (CoS) enabled."
+                    }
+                ]
+            },
+            {
+                "id": "00107",
+                "is_impossible": false,
+                "question": "How can you customize a line key on the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "You can customize a line key on the Nyquist system by using the designated user-customizable key for speed dialing a feature, such as starting a specific alarm. Additionally, you can create and edit a reserve line key file (.rlkeys) if you are not using the Nyquist System Controller. Note that some line keys may appear blank based on your Admin Phone's Class of Service (CoS) settings."
+                    }
+                ]
+            },
+            {
+                "id": "00108",
+                "is_impossible": false,
+                "question": "What file type is used to reserve line keys if not using the Nyquist System Controller?",
+                "answers": [
+                    {
+                        "text": "The file type used to reserve line keys if not using the Nyquist System Controller is a reserve line key file, denoted as (.rlkeys)."
+                    }
+                ]
+            },
+            {
+                "id": "00109",
+                "is_impossible": false,
+                "question": "What limitation might occur regarding line keys based on CoS settings for an Admin Phone?",
+                "answers": [
+                    {
+                        "text": "The limitation regarding line keys based on CoS settings for an Admin Phone is that some line keys may appear blank if the corresponding features are not enabled. For instance, if the Admin Phone does not have Execute Routines enabled through the CoS, the key reserved for Routines will not display any label."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "22\nFor information about this procedure, see \"Reserving Line Keys by \n.rlkeys File Creation\u201d on page 22.\nTo customize the line key:\nStep 1\nOn the phone\u2019s display window, long press the key that \nyou want to customize.\nStep 2\nFor the Type, select SpeedDial.\nStep 3\nFor Account ID, select the line that you are customiz-\ning.\nBy default, Line 1 is associated with the Nyquist system \nand would be the appropriate choice.\nStep 4\nFor Label, type a label that will appear on the display \nwindow for this key. The label should describe what \noccurs when you select the line key (for example, Fire \nAlarm).\nStep 5\nFor Value, enter the DMTF code sequence that is to be \ndialed on the Nyquist system when the soft key is \npressed. For example, to play a fire alarm, you would \nenter *91 and the number of the alarm that you want to \nplay. For a list of DMTF codes, see \"Nyquist DTMF Fea-\nture Dialing Codes\u201d on page 25.\nStep 6\nPress Save.\nTo remove programming from the line key:\nStep 1\nOn the phone\u2019s display window, long press the key.\nStep 2\nFor the Type, select N/A.\nStep 3\nPress Save.\n17.1\nReserving Line Keys by .rlkeys File Creation\nIf you want to customize a line key reserved by Nyquist, you must \ncreate and configure a .rlkeys file.\nNote: You cannot perform this process if you are using the Nyquist \nSystem Controller.",
+        "qas": [
+            {
+                "id": "00110",
+                "is_impossible": false,
+                "question": "What is the first step to customize a line key on the phone's display?",
+                "answers": [
+                    {
+                        "text": "The first step to customize a line key on the phone's display is to long press the key that you want to customize. After that, you can proceed to select the desired Type for the key."
+                    }
+                ]
+            },
+            {
+                "id": "00111",
+                "is_impossible": false,
+                "question": "What type should be selected when customizing a line key?",
+                "answers": [
+                    {
+                        "text": "When customizing a line key, you should select \"SpeedDial\" for the Type. This allows you to assign a specific function or DMTF code sequence to the key for easy access."
+                    }
+                ]
+            },
+            {
+                "id": "00112",
+                "is_impossible": false,
+                "question": "How is the Account ID associated when customizing a line key?",
+                "answers": [
+                    {
+                        "text": "When customizing a line key, the Account ID is selected to specify which line is being customized. By default, Line 1 is associated with the Nyquist system, making it the appropriate choice unless another line is required."
+                    }
+                ]
+            },
+            {
+                "id": "00113",
+                "is_impossible": false,
+                "question": "What kind of label should be entered for the line key?",
+                "answers": [
+                    {
+                        "text": "The label entered for the line key should describe the action that occurs when the key is selected. For example, an appropriate label might be \"Fire Alarm,\" indicating the purpose of the key."
+                    }
+                ]
+            },
+            {
+                "id": "00114",
+                "is_impossible": false,
+                "question": "What does the Value field represent when setting up a line key?",
+                "answers": [
+                    {
+                        "text": "The Value field represents the DTMF code sequence that will be dialed on the Nyquist system when the soft key is pressed. For example, entering *91 followed by the alarm number will trigger the corresponding fire alarm."
+                    }
+                ]
+            },
+            {
+                "id": "00115",
+                "is_impossible": false,
+                "question": "How do you save the changes made to the line key?",
+                "answers": [
+                    {
+                        "text": "To save the changes made to the line key, after customizing it, press the \"Save\" option on the phone\u2019s display window. This confirms the settings for the Type, Account ID, Label, and Value that you have entered."
+                    }
+                ]
+            },
+            {
+                "id": "00116",
+                "is_impossible": false,
+                "question": "What is the process to remove programming from a line key?",
+                "answers": [
+                    {
+                        "text": "To remove programming from a line key, long press the key on the phone's display window, select \"N/A\" for the Type, and then press Save. This action will clear any existing custom programming for that key."
+                    }
+                ]
+            },
+            {
+                "id": "00117",
+                "is_impossible": false,
+                "question": "What format must be used to create a file for reserving line keys in Nyquist?",
+                "answers": [
+                    {
+                        "text": "To reserve line keys in Nyquist, you must create and configure a file in the .rlkeys format. This process cannot be performed while using the Nyquist System Controller."
+                    }
+                ]
+            },
+            {
+                "id": "00118",
+                "is_impossible": false,
+                "question": "Can programming changes be made while using the Nyquist System Controller?",
+                "answers": [
+                    {
+                        "text": "No, programming changes cannot be made while using the Nyquist System Controller. Users must create and configure a .rlkeys file to customize line keys reserved by Nyquist."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "23\nTo create and configure a .rlkeys file:\nStep 1\nIdentify the MAC address of your Admin Phone.\nStep 2\nOn the Nyquist server, use the Linux command line to \ncreate a file in /srv/tftp called <mac-address>.rlkeys \nwhere <mac-address> is replaced by the Admin \nPhone\u2019s MAC address.\nStep 3\nIn the file created, add comma separated entries for \neach line key using the format l<line-key-number>.\nFor example, to reserve line keys 3, 5, and 6, you would \ntype l3,l5,l6.\nStep 4\nSave the file.\nStep 5\nAt the Linux command prompt, type:\nchgrp www-data /srv/tftp/<mac-address>.rlkeys\nchmod 664 /srv/tftp/<mac-address>.rlkeys\nStep 6\nAt the Admin Web UI, select Stations.\nStep 7\nSelect the Edit icon next to the station listing for your \nAdmin Phone.\nStep 8\nSelect Save.\nNote: The <mac-address>.rlkeys configuration files will be saved \nin system backups. You may want to perform a system backup after \nmaking changes to these files, so that your changes are preserved \nwhenever you perform a system restore.",
+        "qas": [
+            {
+                "id": "00119",
+                "is_impossible": false,
+                "question": "What is the first step to create a .rlkeys file for an Admin Phone?",
+                "answers": [
+                    {
+                        "text": "The first step to create a .rlkeys file for an Admin Phone is to identify the MAC address of the Admin Phone. This MAC address will be used to name the configuration file created on the Nyquist server."
+                    }
+                ]
+            },
+            {
+                "id": "00120",
+                "is_impossible": false,
+                "question": "Where should the .rlkeys file be created on the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "The .rlkeys file should be created in the /srv/tftp directory on the Nyquist server, with the filename corresponding to the MAC address of the Admin Phone (e.g., <mac-address>.rlkeys)."
+                    }
+                ]
+            },
+            {
+                "id": "00121",
+                "is_impossible": false,
+                "question": "In what format should the line keys be entered in the .rlkeys file?",
+                "answers": [
+                    {
+                        "text": "Line keys should be entered in the .rlkeys file as comma-separated entries using the format l<line-key-number>. For example, to reserve line keys 3, 5, and 6, you would type l3,l5,l6."
+                    }
+                ]
+            },
+            {
+                "id": "00122",
+                "is_impossible": false,
+                "question": "What command is used to change the group ownership of the .rlkeys file?",
+                "answers": [
+                    {
+                        "text": "The command used to change the group ownership of the .rlkeys file is `chgrp www-data /srv/tftp/<mac-address>.rlkeys`. This command sets the group of the specified file to `www-data`."
+                    }
+                ]
+            },
+            {
+                "id": "00123",
+                "is_impossible": false,
+                "question": "What file permissions are set for the .rlkeys file in the instructions?",
+                "answers": [
+                    {
+                        "text": "The permissions set for the .rlkeys file are 664, which allows the owner to read and write the file, the group to read and write the file, and others to read the file. This is accomplished using the `chmod 664` command in Step 5 of the instructions."
+                    }
+                ]
+            },
+            {
+                "id": "00124",
+                "is_impossible": false,
+                "question": "Where do you find the option to edit the station listing for your Admin Phone?",
+                "answers": [
+                    {
+                        "text": "You can find the option to edit the station listing for your Admin Phone in the Admin Web UI under the \"Stations\" section. Select the Edit icon next to the listing for your specific Admin Phone to make changes."
+                    }
+                ]
+            },
+            {
+                "id": "00125",
+                "is_impossible": false,
+                "question": "What should be done after editing the station listing in the Admin Web UI?",
+                "answers": [
+                    {
+                        "text": "After editing the station listing in the Admin Web UI, you should select the \"Save\" option to apply the changes. It's also recommended to perform a system backup to preserve the modifications made to the <mac-address>.rlkeys configuration files."
+                    }
+                ]
+            },
+            {
+                "id": "00126",
+                "is_impossible": false,
+                "question": "Why is it suggested to perform a system backup after changes to .rlkeys files?",
+                "answers": [
+                    {
+                        "text": "It is suggested to perform a system backup after changes to .rlkeys files to ensure that these configurations are preserved. If a system restore is needed later, the changes made to the .rlkeys files will be retained, preventing any loss of custom settings for the Admin Phone."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "24\nYou can now follow the steps in \"Customizing Line Keys\u201d on page 21, \nand the Nyquist server will not overwrite your changes.\nThe following line-keys can be reserved for your own custom use:\nThe l9 key also supports Record Announcement with DTMF Code \n*990 and Stop Announcement with DTMF Code *93.\nKey\nNormally Used For\nDTMF Code\nl3\nRecord Page\n*991\nl4\nRoutines\n*94<Routine-DTMF-\nCode>\nl5\nMulti-Site All-Call\n##0\nl6\nMulti-Site Emergency-All-Call\n##0911\nl7\nAll-Call\n#0\nl8\nEmergency All-Call\n#0911\nl9\nAnnouncements\n92<Announcement-\nDTMF-Code>\nl10\nAudio Distribution\n987<prog-dist-id>\nl11\nSchedules\nNo user friendly DTMF \navailabl\nNote: If you reserve a line-key for your own use, you will need to \nuse DTMF codes to perform any functions that will no longer be \navailable via the line keys or line key based menus. Some functions \nare not easily replaced by DTMF keys, such as line keys l10 and l11.",
+        "qas": [
+            {
+                "id": "00127",
+                "is_impossible": false,
+                "question": "What is the purpose of the l9 key in the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "The l9 key on the Nyquist server is used for Announcements and supports DTMF Code for recording announcements (*990) and stopping announcements (*93). Users can reserve this key for custom use, but will need to rely on DTMF codes for functions that are no longer accessible via the line key."
+                    }
+                ]
+            },
+            {
+                "id": "00128",
+                "is_impossible": false,
+                "question": "Which DTMF code is used to record an announcement?",
+                "answers": [
+                    {
+                        "text": "The DTMF code used to record an announcement is *990. To stop the announcement, the DTMF code is *93."
+                    }
+                ]
+            },
+            {
+                "id": "00129",
+                "is_impossible": false,
+                "question": "What function does the l4 key serve on the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "The l4 key on the Nyquist server is normally used for Routines, and it is associated with the DTMF Code *94 followed by the specific Routine-DTMF Code. If reserved for custom use, users will need to utilize DTMF codes for accessing routines."
+                    }
+                ]
+            },
+            {
+                "id": "00130",
+                "is_impossible": false,
+                "question": "How does one initiate a Multi-Site All-Call using DTMF codes?",
+                "answers": [
+                    {
+                        "text": "To initiate a Multi-Site All-Call, use the DTMF code ##0. This code is designated for the l5 key, which is reserved for Multi-Site All-Call functionality."
+                    }
+                ]
+            },
+            {
+                "id": "00131",
+                "is_impossible": false,
+                "question": "What function is associated with the l10 line key?",
+                "answers": [
+                    {
+                        "text": "The l10 line key is associated with Audio Distribution, which requires using the DTMF code 987 followed by the program distribution ID. Additionally, the note mentions that some functions, including those associated with line keys like l10, do not have user-friendly DTMF alternatives."
+                    }
+                ]
+            },
+            {
+                "id": "00132",
+                "is_impossible": false,
+                "question": "Is there a user-friendly DTMF code available for schedules (l11)?",
+                "answers": [
+                    {
+                        "text": "No, there is no user-friendly DTMF code available for schedules (l11). The note indicates that some functions, like those associated with line keys l10 and l11, do not have easily replaceable DTMF codes."
+                    }
+                ]
+            },
+            {
+                "id": "00133",
+                "is_impossible": false,
+                "question": "What happens if you reserve a line key for personal use?",
+                "answers": [
+                    {
+                        "text": "If you reserve a line key for personal use, you will lose access to the original functions associated with that key, and you'll need to use DTMF codes to perform those functions instead. Some functions, especially those tied to line keys l10 and l11, may not have easily replaceable DTMF codes."
+                    }
+                ]
+            },
+            {
+                "id": "00134",
+                "is_impossible": false,
+                "question": "What DTMF code is used to stop an announcement on the l9 key?",
+                "answers": [
+                    {
+                        "text": "The DTMF code used to stop an announcement on the l9 key is *93."
+                    }
+                ]
+            },
+            {
+                "id": "00135",
+                "is_impossible": false,
+                "question": "Can you provide the DTMF code for making an Emergency All-Call with the l8 key?",
+                "answers": [
+                    {
+                        "text": "The DTMF code for making an Emergency All-Call with the l8 key is #0911."
+                    }
+                ]
+            },
+            {
+                "id": "00136",
+                "is_impossible": false,
+                "question": "How can routine functions be accessed after reserving the l4 key?",
+                "answers": [
+                    {
+                        "text": "After reserving the l4 key for custom use, routine functions can still be accessed using their respective DTMF codes, which follow the format *94<Routine-DTMF-Code>. Since the l4 key will no longer be available for routines, users will need to use these DTMF codes for routine access."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "A Nyquist DTMF Feature \nDialing Codes\n25\nNyquist DTMF Feature Dialing \nCodes\nA.1\nAlarm/Tone Activation (CoS: Activate Alarm \nSignals | Manually Activate Tone Signals)\n*91{DTMF-Code} \u2013 Start Alarm specified by {number}\n*96{DTMF-Code} \u2013 Start Tone specified by {number}\nA.2\nCalling\n<extension> \u2013 Call <extension> speaker (intercom, auto-answer)\n(CoS: Call Any Station)\n*<extension> \u2013 Call <extension> ringer (telephonic, ringing)   (CoS:\nCall Any Station)\n*#<extension> \u2013 Join conversation at <extension> (CoS: Join Conver-\nsation)\n##*<Facility-Number>*<extension> \u2013 Call <extension> at <Facility-\nNumber>\n981AAANNNNNNN \u2013 Place long distance call with area code (AAA =\nArea code, NNNNNNN = number)\nNote: The use of feature dial codes is restricted by a station\u2019s CoS \nassignments.\n98AAANNNNNNN \u2013 Place local ten-digit call with area code\n98NNNNNNN \u2013 Place local seven-digit call\n98911 \u2013 Place 911 emergency call\n911 \u2013 Place 911 emergency call\n**** \u2013 Place Emergency call to designated Admin station\nA.3\nCall Forwarding (CoS: Call Forwarding)\n970 \u2013 Call Forwarding Menu\n971{extension} \u2013 All-Calls (CFALL)\n972{extension} \u2013 When Busy (CFBS)\n973{extension} \u2013 When No Answer (CFNA)\n974{extension} \u2013 When Busy or No Answer (CNBN)\n975 \u2013 Cancel Call Forwarding\n976 \u2013 Call Forwarding Status (Caller only)\n977 \u2013 Call Forwarding Status (All users)\nA.4\nCall Parking/Call Pickup\nDTMF: #72 - Park call (during call)\nTo pick up a parked call, dial the parked call\u2019s extension (by default,\nextensions 21-29) that was provided when the call was parked using\n#72. The parking lot extensions can be changed at the Admin Web UI\nthrough System Parameters.\n7*{extension} - Call pickup {extension} when ringing (CoS: Remote\nPickup)\nA.5\nCall Transfer (CoS: Call Transfer)\nDTMF: #1<extension number> - Blind transfer (during call)",
+        "qas": [
+            {
+                "id": "00137",
+                "is_impossible": false,
+                "question": "What is the DTMF code to start an alarm signal?",
+                "answers": [
+                    {
+                        "text": "The DTMF code to start an alarm signal is *91{DTMF-Code}, where {DTMF-Code} specifies the particular alarm to be activated."
+                    }
+                ]
+            },
+            {
+                "id": "00138",
+                "is_impossible": false,
+                "question": "How can you call an extension using the intercom feature?",
+                "answers": [
+                    {
+                        "text": "To call an extension using the intercom feature, dial <extension> to initiate a speaker call (intercom with auto-answer). For ringing the extension instead, use *<extension>."
+                    }
+                ]
+            },
+            {
+                "id": "00139",
+                "is_impossible": false,
+                "question": "What code is used to activate all-calls call forwarding?",
+                "answers": [
+                    {
+                        "text": "To activate all-calls call forwarding, the code used is **971{extension}**, where {extension} is the target extension to which calls will be forwarded."
+                    }
+                ]
+            },
+            {
+                "id": "00140",
+                "is_impossible": false,
+                "question": "How do you cancel call forwarding?",
+                "answers": [
+                    {
+                        "text": "To cancel call forwarding, dial **975**. This action will disable all call forwarding settings previously configured."
+                    }
+                ]
+            },
+            {
+                "id": "00141",
+                "is_impossible": false,
+                "question": "What is the DTMF code for placing a local seven-digit call?",
+                "answers": [
+                    {
+                        "text": "The DTMF code for placing a local seven-digit call is 98NNNNNNN, where NNNNNNN represents the seven-digit phone number."
+                    }
+                ]
+            },
+            {
+                "id": "00142",
+                "is_impossible": false,
+                "question": "What action is performed with the DTMF code #72?",
+                "answers": [
+                    {
+                        "text": "The DTMF code #72 is used to park a call during an ongoing conversation. To retrieve a parked call, you need to dial the specific parked call\u2019s extension number that was provided at the time of parking."
+                    }
+                ]
+            },
+            {
+                "id": "00143",
+                "is_impossible": false,
+                "question": "What is the procedure for joining a conversation at an extension?",
+                "answers": [
+                    {
+                        "text": "To join a conversation at an extension, dial *#<extension>, where <extension> is the number of the station you wish to join. This procedure is authorized under the Call Any Station (CoS) rules."
+                    }
+                ]
+            },
+            {
+                "id": "00144",
+                "is_impossible": false,
+                "question": "Which DTMF code is used for a blind transfer during a call?",
+                "answers": [
+                    {
+                        "text": "The DTMF code used for a blind transfer during a call is `#1<extension number>`. This code initiates the transfer to the specified extension without further interaction."
+                    }
+                ]
+            },
+            {
+                "id": "00145",
+                "is_impossible": false,
+                "question": "How can you check the status of call forwarding for all users?",
+                "answers": [
+                    {
+                        "text": "To check the status of call forwarding for all users, dial **977**. This code provides the call forwarding status applicable to all users in the system."
+                    }
+                ]
+            },
+            {
+                "id": "00146",
+                "is_impossible": false,
+                "question": "What emergency DTMF code can be used to call 911?",
+                "answers": [
+                    {
+                        "text": "The emergency DTMF codes to call 911 are \"98911\" and \"911.\" Both codes can be used to place a 911 emergency call."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "27\nDTMF: *1<extension number> - Attended transfer (during call)\nDTMF: *2 - Complete attended transfer, dropping out of call\nDTMF: *3 - Complete attended transfer, but stay in the call\nDTMF: *4 - Swap to the other party (during attended transfer)\n*3   \u2013 Transfer (drop) call from Speaker to associated Phone\n#### \u2013 Transfer (drop) call from Speaker to associated Phone\nDTMF: #1<speaker-extension> \u2013 Transfer call from Phone to associ-\nated Speaker\nA.6\nConferencing\n**{number} \u2013 Create/Enter Dynamic Conference {number} (CoS: Con-\nference Admin/Conference User) \n**0 \u2013 Launch system playback of list of created conferences that\nincludes the conference number and the extension that created the\nconference\nA.7\nMonitoring/Recording\n978{extension} \u2013 Monitor call or location at {extension} (CoS: Monitor\nCalls/Locations)\nDTMF: 4 \u2013 Enable \"spy mode\" (MUTE) during call monitoring\nDTMF: 5 \u2013 Enable \"whisper mode\" during call monitoring\nDTMF: 6 \u2013 Enable \"barge mode\" during call monitoring\nNote: If the conference owner enters 0000 as the password, the conference will \nbe deleted. If an Admin station user type enters 0000 as the password but is not \nthe conference owner, the user will be prompted for the system password. If the \ncorrect system password is entered, the conference will be deleted.\nNote: Spy Mode monitoring cannot be used on a station that has been set to \nPrivacy Mode.",
+        "qas": [
+            {
+                "id": "00147",
+                "is_impossible": false,
+                "question": "What DTMF signal is used to initiate an attended transfer during a call?",
+                "answers": [
+                    {
+                        "text": "The DTMF signal used to initiate an attended transfer during a call is *1 followed by the extension number. This allows the caller to connect to the specified extension while still active on the initial call."
+                    }
+                ]
+            },
+            {
+                "id": "00148",
+                "is_impossible": false,
+                "question": "Which DTMF command completes an attended transfer and drops out of the call?",
+                "answers": [
+                    {
+                        "text": "The DTMF command that completes an attended transfer and drops out of the call is *2."
+                    }
+                ]
+            },
+            {
+                "id": "00149",
+                "is_impossible": false,
+                "question": "How can a user enable \"spy mode\" during call monitoring?",
+                "answers": [
+                    {
+                        "text": "A user can enable \"spy mode\" during call monitoring by pressing DTMF key 4. This feature allows the user to listen in on the call without being heard by the parties on the call."
+                    }
+                ]
+            },
+            {
+                "id": "00150",
+                "is_impossible": false,
+                "question": "What happens if the conference owner enters 0000 as the password?",
+                "answers": [
+                    {
+                        "text": "If the conference owner enters 0000 as the password, the conference will be deleted. If an Admin station user enters 0000 but is not the conference owner, they will be prompted for the system password and the correct entry will also result in the conference's deletion."
+                    }
+                ]
+            },
+            {
+                "id": "00151",
+                "is_impossible": false,
+                "question": "Which DTMF command allows a user to create or enter a dynamic conference?",
+                "answers": [
+                    {
+                        "text": "The DTMF command to create or enter a dynamic conference is **{number}**, where {number} represents the conference number. This command is accessible to users with Conference Admin or Conference User permissions."
+                    }
+                ]
+            },
+            {
+                "id": "00152",
+                "is_impossible": false,
+                "question": "What is the DTMF signal for enabling \"whisper mode\" during call monitoring?",
+                "answers": [
+                    {
+                        "text": "The DTMF signal for enabling \"whisper mode\" during call monitoring is DTMF: 5. This mode allows the user to speak to the monitored party without them hearing the monitoring agent's conversation."
+                    }
+                ]
+            },
+            {
+                "id": "00153",
+                "is_impossible": false,
+                "question": "How can a conference be deleted by a non-owner admin station user?",
+                "answers": [
+                    {
+                        "text": "A non-owner admin station user can delete a conference by entering the conference password \"0000.\" If prompted, the user must then enter the correct system password to delete the conference."
+                    }
+                ]
+            },
+            {
+                "id": "00154",
+                "is_impossible": false,
+                "question": "What is the purpose of the DTMF signal *4 during an attended transfer?",
+                "answers": [
+                    {
+                        "text": "The DTMF signal *4 is used to swap to the other party during an attended transfer, allowing the user to switch between the original caller and the party being transferred. This functionality helps in managing the communication flow during the transfer process."
+                    }
+                ]
+            },
+            {
+                "id": "00155",
+                "is_impossible": false,
+                "question": "What is required to monitor a call or location at a specific extension?",
+                "answers": [
+                    {
+                        "text": "To monitor a call or location at a specific extension, the user must enter the command \"978{extension}\" while having the necessary Class of Service (CoS) for Monitoring Calls/Locations. Additionally, features like spy mode, whisper mode, or barge mode can be enabled during the monitoring session."
+                    }
+                ]
+            },
+            {
+                "id": "00156",
+                "is_impossible": false,
+                "question": "Which DTMF command is used to transfer a call from a Speaker to an associated Phone?",
+                "answers": [
+                    {
+                        "text": "The DTMF command used to transfer a call from a Speaker to an associated Phone is *3. This command allows the transfer to occur while dropping the call from the Speaker."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "28\n*990 \u2013 Record Message (Announcement) (CoS: All-Call Paging)\n999 \u2013 Playback recorded calls (CoS: Manage Recordings)\n(MENU: 1\u2013Emergency, 2\u2013Monitored, 3\u2013Urgent, 4\u2013Standard)\nDTMF: *3 \u2013 Start/Stop recording (DTMF used during a call.) (CoS:\nRecord Calls)\nA.8\nPaging\n##0911 \u2013 Multi-Site Emergency All-Call Page (CoS: Emergency All-\nCall Multi-Site Paging)\n##0 \u2013 Multi-Site All Call Page (CoS: All-Call Multi-Site Paging)\n#0911 \u2013 Emergency All-Call Page (CoS: Emergency All-Call)\n951 \u2013 Emergency All-Call Page (CoS: Emergency All-Call)\n#0 \u2013 All-Call Page (CoS: All-Call Paging)\n#00 \u2013 All-Call Page (CoS: All-Call Paging)\n0000000 \u2013 All-Call Page (CoS: All-Call Paging)\n#{Zone} - Page to {Zone Number} (CoS: Zone Paging)\n#{Zone}* \u2013 Real-time Page to {Zone} that belongs to a queue (CoS:\nZone Paging)\nNote: When you record an announcement by dialing *990 or by \nselecting Record Announcement on the Admin phone\u2019s \nAnnounce menu, the initial DTMF Code for the recorded and \nsaved announcement will be set to the announcement\u2019s row ID. \nYou can change the DTMF Code after the announcement is saved \nby editing the announcement in the web interface Announce-\nments view. \nThe saved announcement has Play to Zone set to blank (no zone \nselected). This means that when you play an announcement via an \nIP phone Announcement menu selection, you will be asked to \nenter a zone number (where 0 = All Speakers). You can define a \npermanent zone number for the saved announcement by updating \nPlay to Zone after the recorded announcement has been saved.",
+        "qas": [
+            {
+                "id": "00157",
+                "is_impossible": false,
+                "question": "What is the DTMF code to start or stop recording during a call?",
+                "answers": [
+                    {
+                        "text": "The DTMF code to start or stop recording during a call is *3."
+                    }
+                ]
+            },
+            {
+                "id": "00158",
+                "is_impossible": false,
+                "question": "How can users playback recorded calls?",
+                "answers": [
+                    {
+                        "text": "Users can playback recorded calls by dialing 999, which is designated for managing recordings. This allows them to access and listen to previously recorded calls."
+                    }
+                ]
+            },
+            {
+                "id": "00159",
+                "is_impossible": false,
+                "question": "What DTMF code is used for an emergency all-call page?",
+                "answers": [
+                    {
+                        "text": "The DTMF code for an emergency all-call page is 951. Additionally, #0911 can also be used for an emergency all-call page."
+                    }
+                ]
+            },
+            {
+                "id": "00160",
+                "is_impossible": false,
+                "question": "How can announcements be recorded using the admin phone?",
+                "answers": [
+                    {
+                        "text": "Announcements can be recorded using the admin phone by dialing *990 or by selecting \"Record Announcement\" from the Announce menu. After recording, the announcement will be assigned a DTMF code corresponding to its row ID, which can be changed later via the web interface."
+                    }
+                ]
+            },
+            {
+                "id": "00161",
+                "is_impossible": false,
+                "question": "What does the saved announcement's default \"Play to Zone\" setting indicate?",
+                "answers": [
+                    {
+                        "text": "The saved announcement's default \"Play to Zone\" setting is set to blank, indicating that no specific zone is selected for playback. This means that when the announcement is played via an IP phone, the user must enter a zone number, where 0 signifies playing to all speakers."
+                    }
+                ]
+            },
+            {
+                "id": "00162",
+                "is_impossible": false,
+                "question": "How can the DTMF code for a recorded announcement be changed after saving?",
+                "answers": [
+                    {
+                        "text": "The DTMF code for a recorded announcement can be changed after saving by editing the announcement in the web interface Announcements view. After recording the announcement using *990 or through the Admin phone's Announce menu, you can update the DTMF code associated with the saved announcement's row ID."
+                    }
+                ]
+            },
+            {
+                "id": "00163",
+                "is_impossible": false,
+                "question": "What is the function of the #0 code in the paging system?",
+                "answers": [
+                    {
+                        "text": "The #0 code in the paging system is used for All-Call Paging, allowing messages to be broadcasted to all speakers simultaneously. It falls under the Class of Service (CoS) for All-Call Paging."
+                    }
+                ]
+            },
+            {
+                "id": "00164",
+                "is_impossible": false,
+                "question": "What does \"CoS\" stand for in the context of paging and announcements?",
+                "answers": [
+                    {
+                        "text": "\"CoS\" stands for \"Class of Service\" in the context of paging and announcements. It refers to the different categories that determine the access and functionalities available for various features such as emergency calls, all-call paging, and recording announcements. Each CoS is associated with specific permissions and capabilities within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00165",
+                "is_impossible": false,
+                "question": "How can users define a permanent zone number for a saved announcement?",
+                "answers": [
+                    {
+                        "text": "Users can define a permanent zone number for a saved announcement by updating the \"Play to Zone\" setting after the recorded announcement has been saved in the web interface Announcements view. By specifying a zone number, they can designate where the announcement will be played, with 0 indicating all speakers."
+                    }
+                ]
+            },
+            {
+                "id": "00166",
+                "is_impossible": false,
+                "question": "What is the distinction between multi-site and standard all-call paging?",
+                "answers": [
+                    {
+                        "text": "Multi-site all-call paging allows for announcements to be broadcast simultaneously across multiple sites or locations, facilitating communication over a broader geographic area. In contrast, standard all-call paging is limited to a single site or location, targeting only the speakers within that specific area."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "29\n##{Facility Number} \u2013 All-Call Page to {Facility Number} (CoS: Inter-\nFacility Call/Page)\n##{Facility Number}#{Zone Number} \u2013 Zone Page to {Zone Number}\nat (Facility Number)(CoS: Inter-Facility Call/Page)\n##{Facility Number}#{Zone Number}* \u2013 Real-time page to {Zone} that\nbelongs to a queue at (Facility Number) (CoS: Inter-Facility Call/Page)\n*92{DTMF-Code} \u2013 Start Announcement specified by {number} (CoS: \nAll-Call Page)\n*991 \u2013 Record page; system will prompt for Zone Number (CoS: Zone \nPaging)\n*991*{Zone Number} \u2013 Record page for {Zone Number} (CoS: Zone \nPaging)\n*992 \u2013 Cancel Recorded Page (CoS: Zone Paging)\n*992*{Zone Number} \u2013 Cancel Recorded Page for {Zone Number}\nA.9\nVoicemail (CoS: Voicemail)\n900 \u2013 Voicemail for current caller\n904{extension} \u2013 Voicemail for specified {extension}\n904{extension}* \u2013 Leave voicemail for specified {extension}\nA.10\nWalking CoS (CoS: Walking Class of Service)\n3*{authCode}*{extension} \u2013 Current IP phone's extension becomes\n{extension}\nIf Auth Code is set to 0000 in the Admin Web UI\u2019s System Parame-\nters, this feature is disabled.\nNote: The next two DTMF codes only work if made from the same \nextension that created the recorded page.",
+        "qas": [
+            {
+                "id": "00167",
+                "is_impossible": false,
+                "question": "What is the purpose of the code ##{Facility Number}?",
+                "answers": [
+                    {
+                        "text": "The code ##{Facility Number} is used to initiate an all-call page to a specified facility number. It falls under the Class of Service (CoS) category of Inter-Facility Call/Page, allowing for broadcast communication within the facility."
+                    }
+                ]
+            },
+            {
+                "id": "00168",
+                "is_impossible": false,
+                "question": "How can a user page a specific zone at a facility?",
+                "answers": [
+                    {
+                        "text": "A user can page a specific zone at a facility by dialing ##{Facility Number}#{Zone Number} to send a zone page or by dialing ##{Facility Number}#{Zone Number}* for a real-time page to that zone."
+                    }
+                ]
+            },
+            {
+                "id": "00169",
+                "is_impossible": false,
+                "question": "What does the DTMF code *92{DTMF-Code} do?",
+                "answers": [
+                    {
+                        "text": "The DTMF code *92{DTMF-Code} initiates a specific announcement as specified by the {number} provided in place of {DTMF-Code}. This function is categorized under the Class of Service (CoS): All-Call Page."
+                    }
+                ]
+            },
+            {
+                "id": "00170",
+                "is_impossible": false,
+                "question": "How is a recorded page initiated and what is the prompt provided by the system?",
+                "answers": [
+                    {
+                        "text": "A recorded page is initiated by dialing *991, after which the system will prompt for the Zone Number. For a specific zone, the code *991*{Zone Number} can be used to directly record a page for that zone."
+                    }
+                ]
+            },
+            {
+                "id": "00171",
+                "is_impossible": false,
+                "question": "What does the code *992 do in the context of Zone Paging?",
+                "answers": [
+                    {
+                        "text": "In the context of Zone Paging, the code *992 cancels a recorded page for the specified zone. This functionality allows users to stop the announcement that was previously recorded in that particular zone."
+                    }
+                ]
+            },
+            {
+                "id": "00172",
+                "is_impossible": false,
+                "question": "How can someone access their own voicemail using a DTMF code?",
+                "answers": [
+                    {
+                        "text": "To access their own voicemail, a person can dial the DTMF code 900. This code directly connects them to their voicemail for the current caller."
+                    }
+                ]
+            },
+            {
+                "id": "00173",
+                "is_impossible": false,
+                "question": "What is the format for leaving a voicemail for a specified extension?",
+                "answers": [
+                    {
+                        "text": "To leave a voicemail for a specified extension, use the format **904{extension}***, where {extension} is the number of the intended recipient's extension."
+                    }
+                ]
+            },
+            {
+                "id": "00174",
+                "is_impossible": false,
+                "question": "How does the Walking Class of Service feature work with an authorization code?",
+                "answers": [
+                    {
+                        "text": "The Walking Class of Service feature allows a user to change the current IP phone's extension to a specified {extension} by entering the authorization code followed by the desired extension. This action is initiated using the DTMF code sequence 3*{authCode}*{extension}. However, if the authorization code is set to 0000 in the Admin Web UI, this feature is disabled."
+                    }
+                ]
+            },
+            {
+                "id": "00175",
+                "is_impossible": false,
+                "question": "What happens if the authorization code is set to 0000 in the Admin Web UI?",
+                "answers": [
+                    {
+                        "text": "If the authorization code is set to 0000 in the Admin Web UI's System Parameters, the Walking Class of Service feature is disabled, meaning that users cannot change their current IP phone's extension using this code."
+                    }
+                ]
+            },
+            {
+                "id": "00176",
+                "is_impossible": false,
+                "question": "Which DTMF codes require the user to be at the same extension that created the recorded page?",
+                "answers": [
+                    {
+                        "text": "The DTMF codes that require the user to be at the same extension that created the recorded page are *991*{Zone Number} for recording the page and *992*{Zone Number} for canceling the recorded page. These codes only function if used from the same extension as the one that initiated the recorded page."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "30\nA.11\nDial Codes Used for Simulating Calls to Admin \nStation from Station Call Switches\n0  - Normal call to admin\n*0  - Emergency call to admin\n*00 - Urgent call to admin\n*000 - Outside line calling in (uses night-ring logic)\nA.12\nRoutines (CoS: Execute Routines)\n*94<Routine-DTMF-Code> \u2013 Execute Routine with <Routine-DTMF-\nCode>\n0000094<Routine-DTMF-Code> \u2013 Execute Routine with <Routine-\nDTMF-Code> \nA.13\nAudio Distribution (CoS: Audio Distribution)\n987*{DTMF-Code} \u2013 Start Audio Distribution for {DTMF-Code}\n980*{DTMF-Code} \u2013 Stop Audio Distribution for {DTMF-Code}\n920 \u2013 Stop ALL Scheduled Audio\nA.14\nMiscellaneous Dial Codes\n#*349 \u2013 Restart Nyquist system server\n*9 \u2013 Toggle Audio Distribution to associated speaker\n0000097 \u2013 Disable Audio (CoS: Disable Audio)\nNote: During the Check-In process, a Normal call starts the check-\nin process for a station. \nNote: Only routines with Allow DTMF can be executed from the \nAdmin Phone.\n\n0000098 \u2013 Enable Audio (CoS: Enable Audio)\n920 \u2013 Stop Scheduled Audio\n942#{extension}#{contact-number} \u2013 Close {contact-number} on I/O\nController {extension} (For example, dialing 942#120#1 closes con-\ntact number 1 on I/O Controller 120; dialing 943#120#1 opens con-\ntact number 1 on I/O Controller 120.)\n943#{extension}#{contact-number} \u2013 Open {contact-number} on I/O\nController {extension}",
+        "qas": [
+            {
+                "id": "00177",
+                "is_impossible": false,
+                "question": "What is the dial code for a normal call to the admin station?",
+                "answers": [
+                    {
+                        "text": "The dial code for a normal call to the admin station is **0**. This code initiates the check-in process for a station when dialed."
+                    }
+                ]
+            },
+            {
+                "id": "00178",
+                "is_impossible": false,
+                "question": "How do you initiate an emergency call to the admin?",
+                "answers": [
+                    {
+                        "text": "To initiate an emergency call to the admin, dial *0 from your station. This will establish an emergency connection to the admin station."
+                    }
+                ]
+            },
+            {
+                "id": "00179",
+                "is_impossible": false,
+                "question": "Which dial code is used to start audio distribution for a specific DTMF code?",
+                "answers": [
+                    {
+                        "text": "The dial code used to start audio distribution for a specific DTMF code is 987*{DTMF-Code}. This allows the initiation of audio distribution associated with the specified DTMF code."
+                    }
+                ]
+            },
+            {
+                "id": "00180",
+                "is_impossible": false,
+                "question": "What command stops all scheduled audio?",
+                "answers": [
+                    {
+                        "text": "The command to stop all scheduled audio is 920. This code can be used to halt any audio that has been scheduled for playback."
+                    }
+                ]
+            },
+            {
+                "id": "00181",
+                "is_impossible": false,
+                "question": "How can a routine be executed using a DTMF code?",
+                "answers": [
+                    {
+                        "text": "A routine can be executed using a DTMF code by dialing *94 followed by the specific <Routine-DTMF-Code>. Alternatively, you can also use 0000094 followed by the <Routine-DTMF-Code> to execute the routine."
+                    }
+                ]
+            },
+            {
+                "id": "00182",
+                "is_impossible": false,
+                "question": "What is the function of the toggle audio distribution command?",
+                "answers": [
+                    {
+                        "text": "The toggle audio distribution command (*9) is used to switch the audio distribution on or off for the associated speaker. This allows real-time control over audio output to the designated speaker within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00183",
+                "is_impossible": false,
+                "question": "Which dial code disables audio in the system?",
+                "answers": [
+                    {
+                        "text": "The dial code to disable audio in the system is 0000097. This code is part of the Control of Services (CoS) for disabling audio."
+                    }
+                ]
+            },
+            {
+                "id": "00184",
+                "is_impossible": false,
+                "question": "What do you dial to open a contact number on an I/O Controller?",
+                "answers": [
+                    {
+                        "text": "To open a contact number on an I/O Controller, you dial 943#{extension}#{contact-number}. For example, dialing 943#120#1 opens contact number 1 on I/O Controller 120."
+                    }
+                ]
+            },
+            {
+                "id": "00185",
+                "is_impossible": false,
+                "question": "How do you restart the Nyquist system server?",
+                "answers": [
+                    {
+                        "text": "To restart the Nyquist system server, dial the code #*349. This code is designated specifically for that purpose."
+                    }
+                ]
+            },
+            {
+                "id": "00186",
+                "is_impossible": false,
+                "question": "What sequence is used to enable audio in the system?",
+                "answers": [
+                    {
+                        "text": "To enable audio in the system, use the dial code `0000098`. This command falls under the category of \"CoS: Enable Audio.\""
+                    }
+                ]
+            }
+        ]
+    }
+]

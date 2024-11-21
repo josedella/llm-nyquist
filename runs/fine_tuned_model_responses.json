@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "query": "The emergency buttons turn red and stop functioning once a month, this condition is only able to be corrected by power cycling the network switch.",
+        "response": "The emergency buttons not functioning after a month is likely due to the system's auto-reboot feature. This feature is designed to restart the system every 30 days to ensure the hardware remains operational. However, it may cause the emergency buttons to malfunction temporarily. To resolve this issue, you can disable the auto-reboot feature. You can do this by accessing the system's settings and looking for the auto-reboot option. Once disabled, the emergency buttons should function as expected.\n\nAdditional Information:\nThe Bogen E7000 system has an auto-reboot feature that is enabled by default. This feature is designed to automatically restart the"
+    },
+    {
+        "id": 2,
+        "query": "We are moving to ring central for our phone system as part of our move from analog to voip. We have their ALGO device which is supposed to allow for zone paging with the BogenPCM2000. Currently the zone paging is not working with the device but it does see the PCM2000 zones. We want to see if we can get assistance in verifying we are configuring the PCM2000 dip switches correctly as well as the general connection for the devices.",
+        "response": "The issue is likely due to the incorrect configuration of the PCM2000's dip switches. The ALGO device requires specific settings to communicate effectively with the Bogen PCM2000 for zone paging. It's essential to verify that the dip switches are correctly set for the zone paging configuration.\n\nTo resolve the issue, I recommend checking the following:\n\n1. Ensure the PCM2000 is configured for zone paging mode. The correct dip switch settings for this mode are:\n\t* Zone Paging (ZP) \u2013 Set to ON\n\t* Multicast (MC) \u2013 Set to OFF\n\t* Audio Distribution (AD)"
+    },
+    {
+        "id": 3,
+        "query": "Intercom calls from the Admin Phone to certain ASB stations end before SIP 200 OK w/ SIP CANCEL message.",
+        "response": "This issue is likely due to the SIP CANCEL message being sent by the ASB station before the SIP 200 OK is received. This could be caused by the ASB station's SIP implementation not properly handling the call setup process.\n\nTo resolve this issue, try the following:\n\n1. Check the SIP implementation of the ASB station to ensure it is properly handling the call setup process.\n2. Verify that the ASB station's SIP endpoint is configured correctly and that the SIP trunk is functioning properly.\n3. Check for any firewall restrictions or network issues that could be preventing the SIP 200 OK from being received.\n4"
+    }
+]

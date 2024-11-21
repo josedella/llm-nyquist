@@ -1,0 +1,68 @@
+Publication Number 740-00067B
+1900402
+NQ-SYSCTRL 
+System Controller 
+Installation and Use
+The System Controller provides a cost-effective way 
+to deploy Nyquist based solutions using a state-of-
+the-art processing platform pre-installed with the 
+Nyquist application server software. The System 
+Controller offers high-performance operation for 
+even the largest Nyquist system configurations and 
+can simultaneously distribute an unlimited number 
+of audio streams anywhere across the network, 
+making it perfect for background music applications.
+The System Controller can manage applications 
+that require any mix of multi-zone paging, intercom
+calling, or background music distribution at 
+businesses, restaurants, retail stores, industrial 
+facilities, and many other venues.  It has a web-
+based graphical user interface (GUI) that is 
+accessible from almost any personal computer (PC), 
+tablet, or mobile device. 
+
+The System Controller is designed to run on a 
+10/100 Ethernet network.
+
+=====
+
+NQ-SYSCTRL System Controller Installation 
+The System Controller can be shelf, wall, or rack 
+mounted.
+1.	 Either place the System Controller appliance on 
+a shelf, or use the supplied mounting ears to 
+mount it on a wall. For rack mounting, use one 
+of the available optional rack mount kits (NQ-
+RMK02, NQ-RMK03 or NQ-RMK04) as applicable.
+2.	 Connect the device to the 10/100 network using 
+a CAT5 type cable. 
+
+3.	 Connect the power cord to the back of the unit. 
+
+4.	 If connecting auxiliary devices, such as a keyboard, mouse, or video monitor, connect the 
+devices’ cables to the appropriate connectors on 
+the back of the device.
+
+If connecting a video monitor, make sure to use 
+the HDMI video output as the Digital Video Interface (DVI) output is not supported.  Use of the 
+RS232 ports is  also not supported.
+5.	 Toggle the Power switch to the On position.
+Once the System Controller is powered on and connected to the network, it can be accessed and 
+configured via the device’s web-based GUI.  There 
+are two IP addresses available to access the web-
+based GUI: 1) a default static IP (192.168.1.10) on 
+Ethernet Port A and 2) Dynamic Host Configuration 
+Protocol (DHCP) on Ethernet Port B. 
+
+NOTE:  You must have a valid software 
+license activation key to set up and configure 
+
+Viewing and 
+Understanding the POWER LED of the NQ-SYSCTRL System Controller
+An LED labeled POWER appears on the front of the 
+System Controller. This LED appears solid green 
+when the device is powered on.
+Using the Reset Button
+The Reset button reboots the System 
+Controller and launches the logon 
+screen.

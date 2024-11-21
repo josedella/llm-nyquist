@@ -1,0 +1,437 @@
+[
+    {
+        "context": "NQ-GA10P, NQ-GA10PV VoIP \nIntercom Module Installation \nand Use\nThe NQ-GA10P \nis a plenum rated \nVoice over Internet \nProtocol (VoIP) \nintercom module \nthat is designed \nfor flexible installation and mounting options. \nThe module features an integrated 10 watt power \namplifier, an 8-ohm analog speaker connection, a \ndry-contact analog call switch input, a CAN Bus \ninterface, and a Form C SPDT type 2-amp dry \ncontact relay. \nThe NQ-GA10PV \nmodel also features \nan HDMI video \noutput. Designed \nto run on a 10/100 \nEthernet network, \nthe NQ-GA10P and \nthe NQ-GA10PV are IEEE 802.3af compliant and \ncan be powered using Power-Over-Ethernet (PoE), \nor if that is not available, it can be powered via an \noptional 48VDC 15W power adapter. \nPublication Number 740-00053B  \n1908",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What type of communication protocol does the NQ-GA10P intercom module utilize?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA10P intercom module utilizes Voice over Internet Protocol (VoIP) for communication. It connects through a 10/100 Ethernet network and is compliant with the IEEE 802.3af standard."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What is the power rating of the integrated amplifier in the NQ-GA10P?",
+                "answers": [
+                    {
+                        "text": "The integrated amplifier in the NQ-GA10P has a power rating of 10 watts. It is designed for use with an 8-ohm analog speaker connection."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Does the NQ-GA10PV model include a video output feature?",
+                "answers": [
+                    {
+                        "text": "Yes, the NQ-GA10PV model includes an HDMI video output feature, which distinguishes it from the NQ-GA10P model. Both models are designed for VoIP intercom applications and are compliant with IEEE 802.3af for Power-Over-Ethernet."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What are the mounting options available for the NQ-GA10P intercom module?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA10P intercom module is designed for flexible installation and mounting options, allowing it to be installed in various configurations. Specific mounting options are not detailed in the provided context."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What type of relay is included in the NQ-GA10P specifications?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA10P includes a Form C SPDT type 2-amp dry contact relay. This allows for versatile control and integration with other systems."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "How is the NQ-GA10P powered if Power-Over-Ethernet (PoE) is not available?",
+                "answers": [
+                    {
+                        "text": "If Power-Over-Ethernet (PoE) is not available, the NQ-GA10P can be powered using an optional 48VDC 15W power adapter."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the impedance of the analog speaker connection in the NQ-GA10P?",
+                "answers": [
+                    {
+                        "text": "The impedance of the analog speaker connection in the NQ-GA10P is 8 ohms."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Is the NQ-GA10P compliant with IEEE standards?",
+                "answers": [
+                    {
+                        "text": "Yes, the NQ-GA10P is compliant with IEEE 802.3af standards, allowing it to be powered using Power-Over-Ethernet (PoE)."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What is the dry-contact analog call switch input used for in the NQ-GA10P?",
+                "answers": [
+                    {
+                        "text": "The dry-contact analog call switch input in the NQ-GA10P is used to initiate a call or signal to the intercom system. It allows for external triggering of the intercom module, enabling flexible integration with other systems or devices."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the significance of the CAN Bus interface in the NQ-GA10P module?",
+                "answers": [
+                    {
+                        "text": "The CAN Bus interface in the NQ-GA10P module allows for seamless communication and integration with other networked devices and systems, facilitating robust intercom functionalities and control. This enables extended capabilities in complex installations, enhancing the module's versatility and flexibility in various applications."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "The NQ-GA10P \n\ncord or plug is damaged, liquid has been spilled \nor objects have fallen into the apparatus, the \napparatus has been exposed to rain or moisture, \ndoes not operate normally, or has been dropped.\nInstallation\nTo install the VoIP Intercom Module:\n1.\t Attach the desired speakers and their associated \ncall switches to the module using the pluggable \nconnectors provided, where the 1 and 2 terminals \nconnect to the +/- speaker wires and the \u201cG\u201d and \n\u201cA\u201d terminals connect to the asociated wires from \nthe analog call switch. (See Fig. 1.)",
+        "qas": [
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What should be checked for damage before installation of the VoIP Intercom Module?",
+                "answers": [
+                    {
+                        "text": "Before installing the VoIP Intercom Module, check the cord or plug for damage, ensure no liquid has been spilled on the device, verify that no objects have fallen into it, and confirm it has not been exposed to rain or moisture. Additionally, ensure the module operates normally and has not been dropped."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "Which terminals connect to the speaker wires in the VoIP Intercom Module?",
+                "answers": [
+                    {
+                        "text": "The 1 and 2 terminals connect to the +/- speaker wires in the VoIP Intercom Module."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "How are the call switches attached to the VoIP Intercom Module?",
+                "answers": [
+                    {
+                        "text": "The call switches are attached to the VoIP Intercom Module using the pluggable connectors provided, where the \u201cG\u201d and \u201cA\u201d terminals connect to the associated wires from the analog call switch."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What does a liquid spill on the NQ-GA10P indicate regarding its safety?",
+                "answers": [
+                    {
+                        "text": "A liquid spill on the NQ-GA10P indicates that the apparatus may be compromised and poses a safety risk. It may lead to malfunction, electrical hazards, or short circuits, and should be inspected or serviced before further use."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What precautions should be taken if the NQ-GA10P shows abnormal operation?",
+                "answers": [
+                    {
+                        "text": "If the NQ-GA10P shows abnormal operation, immediately disconnect the power supply to prevent further damage or hazards. Check for visible damage, liquid spills, or moisture exposure before attempting any repairs or inspections."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What components are required for the installation of the VoIP Intercom Module?",
+                "answers": [
+                    {
+                        "text": "To install the VoIP Intercom Module, you will need the desired speakers, associated call switches, and the pluggable connectors for connecting the speaker wires and call switch wires to the module."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What could happen if the NQ-GA10P is exposed to moisture?",
+                "answers": [
+                    {
+                        "text": "If the NQ-GA10P is exposed to moisture, it may become damaged, potentially leading to malfunction or failure of the apparatus. Additionally, there is an increased risk of electrical hazards such as short circuits or shock."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "Is there a specific order to follow when connecting the speakers and call switches?",
+                "answers": [
+                    {
+                        "text": "There is no specific order required when connecting the speakers and call switches; just ensure that the 1 and 2 terminals are connected to the +/- speaker wires, and the \"G\" and \"A\" terminals are connected to the associated wires from the analog call switch."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What condition of the NQ-GA10P necessitates inspection and potential corrective action?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA10P requires inspection and potential corrective action if the cord or plug is damaged, liquid has been spilled on it, objects have fallen into the apparatus, it has been exposed to rain or moisture, it does not operate normally, or it has been dropped."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What are the terminal identifiers on the VoIP Intercom Module for connecting the call switches?",
+                "answers": [
+                    {
+                        "text": "The terminal identifiers on the VoIP Intercom Module for connecting the call switches are \u201cG\u201d and \u201cA,\u201d which connect to the associated wires from the analog call switch."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2.\t If using the NQ-GA10P/PV in an intercom \ntalkback application, connect the speaker to the \npower amplifier\u2019s 1 and 2 output and use either \nthe NQ-E7020 or the CA-15C. (See Fig. 1.)\n3.\t If the CAN Bus is to be used, ensure CAN_H and \nCAN_L use (Cat5 10/100) twisted pair cable.\n4.\t Connect a Cat5 type cable into the module\u2019s \nEthernet port and ensure the other end of the \ncable is correctly connected to your network.\n5.\t To connect a device to the Form C dry contact \n2A relay, do one of the following:\na. If the device is configured as normally open,\n    connect to the device using the NO and \n    COM terminals. \nb. If the device is configured as normally\n    closed, connect to the device using the NC\n    and COM terminals.\n\n6.\t If PoE is not available and your are using a 48V \npower supply, connect the Bogen PS48 15W \npower supply to the module.\n7.\t If using the Bogen ANS500M ambient sound \nmicrophone, connect (-) on the ANS500M to Pin \n1 and (+) on the ANS500M to Pin 2. (See Fig. 2.)\n\nFurther configuration is done through the Nyquist  \nAdmin web-based user interface (UI). See the \nNyquist System Administrator Manual.\n8.\t If using the Bogen DDRU250 desktop microphone \nas a Push-to-Talk device, connect the microphone \nas shown in Fig. 3.",
+        "qas": [
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "How should the speaker be connected if using the NQ-GA10P/PV in an intercom talkback application?",
+                "answers": [
+                    {
+                        "text": "In an intercom talkback application using the NQ-GA10P/PV, connect the speaker to the power amplifier\u2019s 1 and 2 output and use either the NQ-E7020 or the CA-15C."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What type of cable is required for the CAN Bus connection?",
+                "answers": [
+                    {
+                        "text": "A Cat5 10/100 twisted pair cable is required for the CAN Bus connection, with specific use of the CAN_H and CAN_L wires for communication."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "How should a Cat5 cable be connected to the module's Ethernet port?",
+                "answers": [
+                    {
+                        "text": "To connect a Cat5 cable to the module's Ethernet port, insert one end of the cable into the module's Ethernet port and ensure the other end is correctly connected to your network. Use Cat5 10/100 twisted pair cable for optimal performance."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What are the connection options for a device configured as normally open or normally closed to the Form C dry contact relay?",
+                "answers": [
+                    {
+                        "text": "To connect a device to the Form C dry contact relay, use the NO (normally open) and COM terminals for a normally open configuration, or the NC (normally closed) and COM terminals for a normally closed configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What should be done if PoE is not available and a 48V power supply is being used?",
+                "answers": [
+                    {
+                        "text": "If PoE is not available and a 48V power supply is being used, connect the Bogen PS48 15W power supply to the module. This will ensure the system is adequately powered."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "How should the Bogen ANS500M ambient sound microphone be connected to the module?",
+                "answers": [
+                    {
+                        "text": "Connect the Bogen ANS500M ambient sound microphone by attaching the (-) terminal on the ANS500M to Pin 1 and the (+) terminal to Pin 2 on the module."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "Where can further configuration of the system be performed?",
+                "answers": [
+                    {
+                        "text": "Further configuration of the system can be performed through the Nyquist Admin web-based user interface (UI). For detailed instructions, refer to the Nyquist System Administrator Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "How should the Bogen DDRU250 desktop microphone be connected for Push-to-Talk functionality?",
+                "answers": [
+                    {
+                        "text": "To connect the Bogen DDRU250 desktop microphone for Push-to-Talk functionality, follow the connection diagram provided in Fig. 3 of the manual. Ensure the microphone is properly wired to the designated terminals for effective operation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and Understanding LEDs of the The NQ-GA10P \n\nTwo LEDs appear on the \nfront of the module. One \nis labeled POWER and \nappears as solid red during \ninitial power up, flashes \ngreen during a boot sequence, and appears solid \ngreen when fully booted.\nThe STATUS LED uses the following indicators to \nprovide information about the module:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The module is in an uninitialized \nstate and is not associated to a Nyquist server. \n(The server may be in a discovery mode.)\n\u2022\t\nSolid red \u2013 The module needs to be rebooted or \nreset so that the Nyquist application can resume.\n\u2022\t\nFlashing blue \u2013 The module is updating.\n\u2022\t\nSolid green \u2013 The module is registered to a Nyquist server and is in normal operation.\n\u2022\t\nFlashing green \u2013 The module has an IP address \nbut is not registered with the Nyquist server.\n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n7",
+        "qas": [
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What color does the POWER LED display during initial power up?",
+                "answers": [
+                    {
+                        "text": "During initial power up, the POWER LED displays a solid red color. It then flashes green during the boot sequence and turns solid green when fully booted."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What does a flashing red STATUS LED indicate?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that no network connection has been found. This suggests that the module is unable to connect to the network."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "When does the STATUS LED appear solid green?",
+                "answers": [
+                    {
+                        "text": "The STATUS LED appears solid green when the module is registered to a Nyquist server and is in normal operation. This indicates that the module is fully functional and connected to the network."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What does a solid blue STATUS LED signify?",
+                "answers": [
+                    {
+                        "text": "A solid blue STATUS LED signifies that the module is in an uninitialized state and is not associated with a Nyquist server. This condition may occur when the server is in discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What action is required when the STATUS LED is solid red?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED is solid red, the module requires a reboot or reset to allow the Nyquist application to resume operation."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "What does a flashing blue STATUS LED indicate about the module's status?",
+                "answers": [
+                    {
+                        "text": "A flashing blue STATUS LED indicates that the module is updating. This signifies that a firmware or software update is currently in progress."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What does it mean when the STATUS LED is flashing green?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED is flashing green, it indicates that the module has an IP address but is not registered with the Nyquist server. This means that while the module is connected to a network, it has yet to complete the registration process with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What state is the module in when the STATUS LED shows solid blue?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED shows solid blue, the module is in an uninitialized state and is not associated with a Nyquist server. This may indicate that the server is in discovery mode."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Using the Reset Button of the The NQ-GA10P \n\nThe Reset button allows \nyou to restart the module \nor to reset the module\u2019s \nconfiguration settings \nto the factory default \nsettings. \nFor more information \nabout resetting \nconfiguration settings, \nrefer to the Nyquist NQ-GA10P, NQ-GA10PV \nConfiguration Manual.\nTemperature Indicator\nIn addition to the LEDs that appear on the actual \nappliance, a separate temperature status indicator \nappears on the module\u2019s web-based user interface. \nFor more information, refer to the Nyquist NQ-GA10P, \nNQ-GA10PV Configuration Manual.",
+        "qas": [
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What is the purpose of the Reset button on the NQ-GA10P module?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the NQ-GA10P module is used to restart the module or reset its configuration settings to the factory default settings. For detailed instructions on resetting configuration settings, consult the Nyquist NQ-GA10P, NQ-GA10PV Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "How can you return the NQ-GA10P module to factory default settings?",
+                "answers": [
+                    {
+                        "text": "To return the NQ-GA10P module to factory default settings, press the Reset button on the module. For detailed instructions on the reset process, refer to the Nyquist NQ-GA10P, NQ-GA10PV Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "Where can you find more information about resetting configuration settings for the NQ-GA10P?",
+                "answers": [
+                    {
+                        "text": "More information about resetting configuration settings for the NQ-GA10P can be found in the Nyquist NQ-GA10P, NQ-GA10PV Configuration Manual. This manual contains detailed instructions on how to reset the module to factory default settings."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "What additional feature does the NQ-GA10P module include for monitoring temperature?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA10P module includes a separate temperature status indicator that is accessible via its web-based user interface. This feature allows users to monitor the temperature status alongside the appliance's LEDs."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "In which manual can you find details about the temperature status indicator?",
+                "answers": [
+                    {
+                        "text": "Details about the temperature status indicator can be found in the Nyquist NQ-GA10P, NQ-GA10PV Configuration Manual. This manual provides information specific to the module\u2019s web-based user interface and the associated temperature indicator."
+                    }
+                ]
+            }
+        ]
+    }
+]

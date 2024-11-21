@@ -1,0 +1,977 @@
+[
+    {
+        "context": "1 Nyquist Server \nInstallation \n1\nNyquist Server Installation Options\nTwo options are available for installing and deploying Nyquist E7000:\n1 Using a Nyquist System Controller (NQ-SYSCTRL), which already \nhas the operating system and E7000 application software installed \non it.\n2 Using your own server platform and installing the Debian OS and \nE7000 application software. While Option 1 is the quickest and \neasiest approach, Option 2 may be better suited for situations \nwhere high-availability server features like Redundant Array of \nIndependent Disks (RAID) or hot-swappable power supplies are \ndesired.\nThis manual describes the installation steps for Option 1.\nBefore installing Nyquist, ensure that:\n\u2022 Required services are enabled on your network. An example of a \nrequired service includes TFTP.\n\u2022 Required multicast IP addresses and ports are known and avail-\nable.\n\u2022 Required IP addresses are known and available.\n\u2022 Required port numbers are open.\nBoth the Debian software and the Nyquist software are already \ninstalled on the System Controller. You only need to supply a product \nlicense, which will then activate the product and guide you through \nNote: This manual provides the Nyquist E7000 installation process \nwhen using the Nyquist System Controller (NQ-SYSCTRL). If you are \nusing your own server, refer to the Nyquist E7000 Server Installation \nand Setup Guide.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What are the two options available for installing Nyquist E7000?",
+                "answers": [
+                    {
+                        "text": "The two options available for installing Nyquist E7000 are: 1) Using a Nyquist System Controller (NQ-SYSCTRL) with the operating system and E7000 application already installed, and 2) Using your own server platform by installing Debian OS and the E7000 application software yourself. Option 1 is simpler, while Option 2 allows for high-availability features."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What does the Nyquist System Controller (NQ-SYSCTRL) come with pre-installed?",
+                "answers": [
+                    {
+                        "text": "The Nyquist System Controller (NQ-SYSCTRL) comes with the Debian operating system and the E7000 application software pre-installed. This allows for a quicker and easier installation process."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What might make Option 2 for installation more suitable for certain situations?",
+                "answers": [
+                    {
+                        "text": "Option 2 for installation may be more suitable in situations where high-availability server features are required, such as Redundant Array of Independent Disks (RAID) or hot-swappable power supplies. This option allows for greater flexibility and customization of the server platform to meet specific operational needs."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is required to be known and available before installing Nyquist?",
+                "answers": [
+                    {
+                        "text": "Before installing Nyquist, it is required to know and have available the necessary multicast IP addresses and ports, as well as the required IP addresses and open port numbers on your network. Additionally, ensure that required services, such as TFTP, are enabled."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What step is necessary after supplying a product license during the installation process?",
+                "answers": [
+                    {
+                        "text": "After supplying a product license during the installation process, you will need to activate the product, which will guide you through the remaining configuration steps."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "Which installation option is described in the manual?",
+                "answers": [
+                    {
+                        "text": "The manual describes the installation process for Option 1, which involves using a Nyquist System Controller (NQ-SYSCTRL) that comes with the operating system and E7000 application software pre-installed. This option is highlighted as the quickest and easiest approach for setting up Nyquist E7000."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What type of services must be enabled on the network for Nyquist installation?",
+                "answers": [
+                    {
+                        "text": "Required services that must be enabled on the network for Nyquist installation include TFTP and any other necessary services relevant to network operations. Additionally, ensure that multicast IP addresses and ports, as well as specific IP addresses and port numbers, are known and available."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Which specific features might be preferable when using your own server platform?",
+                "answers": [
+                    {
+                        "text": "Using your own server platform may be preferable for high-availability features such as Redundant Array of Independent Disks (RAID) and hot-swappable power supplies. These features enhance system reliability and uptime, making them suitable for critical applications."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "Where can you find the installation steps for using your own server with Nyquist?",
+                "answers": [
+                    {
+                        "text": "You can find the installation steps for using your own server with Nyquist in the \"Nyquist E7000 Server Installation and Setup Guide.\" This guide is specifically for situations where you are installing the software on your own server platform."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2\nseveral setup wizards. (See \"System Controller Setup Assistant\u201d on \npage 7.)\nIf you are updating an existing Nyquist system, read \"Best Practices\u201d \non page 49 and then refer to the update procedure in the System \nAdministrator Manual.\n1.1\nUnderstanding System Requirements\nThe E7000 web-based UI requires a secure Hypertext Transfer Proto-\ncol Secure (https) type network connection to the E7000 system \nserver. Users can log in to the E7000 system using the Google \nChrome web browser from a computer or tablet running either a \nWindows 8.1 (or later) or a Mac OS X 10.12.x (or later) operating \nsystem (OS). The UI can also be accessed via a Chrome browser \nenabled Android-based tablet or mobile device. To access the server, \ntype your server\u2019s IP address (for example, 10.10.20.12).\n1.1.1\nWhitelisted Web Addresses\nE7000 requires access to specific Uniform Resource Locators (URLs), \ncommonly referred to as web addresses. Access to many of these \nweb addresses is required during installation; access to other web \naddresses, such as the address for the Network Time Server (NTS) are \nrequired during runtime. The Information Technology (IT) depart-\nment for the site must whitelist the web addresses so that they can \nbe easily accessed as needed.\nThe following table lists the URLs that must be whitelisted.\nTable 1-1, Whitelisted Web Sites\nURL\nDescription\nhttp://hostedactivation.com (specifically, \nhttp://hostedactivation.com/bogen)\nRequired for E7000 License support\nhttp://downloads.digium.com\nRequired for downloads from Digium \nPhone Module for Asterisk (DPMA)\nhttp://downloads.asterisk.org/ (specifically, \nhttp://downloads.asterisk.org/pub/\ntelephony/sounds/releases)\nRequired for sounds download\nhttp://www.pjsip.org/\nRequired for PJSIP download\nhttp://ftp.us.debian.org (specifically: http://\nftp.us.debian.org/debian/)\nRequired during Linux package installation",
+        "qas": [
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What type of network connection is required to access the E7000 web-based UI?",
+                "answers": [
+                    {
+                        "text": "To access the E7000 web-based UI, a secure Hypertext Transfer Protocol Secure (https) network connection is required. Users can log in using the Google Chrome web browser on devices running Windows 8.1 (or later) or Mac OS X 10.12.x (or later), as well as Android-based tablets or mobile devices."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "Which web browsers can be used to log in to the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Users can log in to the E7000 system using the Google Chrome web browser on a computer or tablet running Windows 8.1 (or later) or Mac OS X 10.12.x (or later). The UI can also be accessed via a Chrome browser on Android-based tablets or mobile devices."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What operating systems are compatible with the E7000 system UI?",
+                "answers": [
+                    {
+                        "text": "The E7000 system UI is compatible with Windows 8.1 (or later) and Mac OS X 10.12.x (or later). It can also be accessed using a Chrome browser on Android-based tablets or mobile devices."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "Which type of devices can access the E7000 system via the Chrome browser?",
+                "answers": [
+                    {
+                        "text": "The E7000 system can be accessed via the Chrome browser on computers or tablets running Windows 8.1 (or later) or Mac OS X 10.12.x (or later), as well as Android-based tablets or mobile devices. Users must connect through a secure HTTPS network."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "Why must specific URLs be whitelisted by the IT department for the E7000?",
+                "answers": [
+                    {
+                        "text": "Specific URLs must be whitelisted by the IT department for the E7000 to ensure access to essential resources required during installation and runtime, such as license support, downloads for the Digium Phone Module, sound files, PJSIP downloads, and Linux package installations. This access is critical for the proper functioning of the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the purpose of the URL http://hostedactivation.com?",
+                "answers": [
+                    {
+                        "text": "The URL http://hostedactivation.com is required for E7000 License support. Specifically, users need access to the sub-page http://hostedactivation.com/bogen for activation-related purposes."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What resources can be downloaded from http://downloads.digium.com?",
+                "answers": [
+                    {
+                        "text": "The resource that can be downloaded from http://downloads.digium.com is the Digium Phone Module for Asterisk (DPMA). This module is essential for integrating Digium phones with the Asterisk platform."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What kind of content can be accessed at http://downloads.asterisk.org/?",
+                "answers": [
+                    {
+                        "text": "The content at http://downloads.asterisk.org/ primarily includes software downloads and resources related to the Asterisk open-source communication framework. Specifically, it hosts sound files and releases essential for the Asterisk platform."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What is the significance of the URL http://www.pjsip.org/ in relation to the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URL http://www.pjsip.org/ is significant for the E7000 system as it is required for downloading the PJSIP library, which is essential for facilitating SIP (Session Initiation Protocol) communications within the system. Access to this URL must be whitelisted for proper functionality."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "Why is access to http://ftp.us.debian.org important during Linux package installation?",
+                "answers": [
+                    {
+                        "text": "Access to http://ftp.us.debian.org is important during Linux package installation because it serves as a repository for downloading necessary Debian packages. These packages are essential for the proper setup and operation of the E7000 system on a Linux platform."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3\nURLs that are entered on the E7000 System Parameters page are \nused during runtime and include the URLs for the NTS, the Session \nTraversal Utilities for (Network Address Translation (NAT) (STUN) \nserver, and the Traversal Using Relays around NAT (TURN) server.\nThe default URLs for the STUN and TURN servers are not set. The \ndefault URL for NTS is pool.ntp.org.\n1.1.2\nNetwork Application Services\nRequired  application services will be installed automatically on the \nE7000 system server as part of the E7000 installation. All other net-\nwork services must be already present or installed manually on the \nassociated network. The following table lists the services and their \nlocations:\nhttp://security.debian.org (specifically: \nhttp://security.debian.org/)\nRequired during Linux package installation\nstun01.sipphone.com\nRequired for STUN based IP address \nresolution (This is used by the E7000 Web \nUI and should be enabled on the computer \nthat runs the web UI.)\nhttps://raw.githubusercontent.com/\nServes unprocessed versions of files stored \nin the GitHub repositories.\nhttp://2431612419.airable.io\nhttps://2431612419.airable.io\nairable URL\nhttp://api.sound-machine.com\nhttps://api.sound-machine.com\nSoundMachine URL\nhttp://api.bogenedu.com/api/customers\nRequired for E7000 Warranty Support\nTable 1-1, Whitelisted Web Sites (Continued)\nURL\nDescription",
+        "qas": [
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What are the default URLs for the NTS, STUN, and TURN servers on the E7000 System?",
+                "answers": [
+                    {
+                        "text": "The default URL for the NTS (Network Time Server) on the E7000 System is pool.ntp.org. The default URLs for the STUN (Session Traversal Utilities for NAT) and TURN (Traversal Using Relays around NAT) servers are not set."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "Which application services are automatically installed during the E7000 installation?",
+                "answers": [
+                    {
+                        "text": "During the E7000 installation, required application services are automatically installed on the E7000 system server. All other network services must either be present beforehand or installed manually on the associated network."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What URL is required for STUN based IP address resolution in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URL required for STUN-based IP address resolution in the E7000 system is stun01.sipphone.com. This service is used by the E7000 Web UI and should be enabled on the computer running the web UI."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "How can unprocessed versions of files from GitHub be accessed according to the context?",
+                "answers": [
+                    {
+                        "text": "Unprocessed versions of files stored in GitHub can be accessed through the URL: https://raw.githubusercontent.com/. This URL serves as a direct link to the raw content of files in GitHub repositories."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What is the significance of the URL http://api.sound-machine.com in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URL http://api.sound-machine.com is significant in the E7000 system as it is utilized for SoundMachine services, which may be integral for audio-related functionalities within the system. It is essential for ensuring proper interaction with the SoundMachine API."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "Which URL is necessary for E7000 Warranty Support?",
+                "answers": [
+                    {
+                        "text": "The URL necessary for E7000 Warranty Support is http://api.bogenedu.com/api/customers. This URL is specified as required in the provided context."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "4\nTable 1-2,  Network Application Services\nService\nDescription\nRequired\nLocation\nApache\nUsed as the web server to drive the \nE7000 web interface.\nMandatory\nE7000\nDHCP\nSupplies dynamic IP addresses to the \nE7000 system server and associated \ndevices. (DHCP is the acronym for \nDynamic Host Configuration \nProtocol.) It also supplies the Trivial \nFile Transfer Protocol (TFTP) server IP \naddress or host name to devices on \nthe network via option_66.\nOptional\nNetwork\nDNS\nResolves host names to IP addresses. \nDNS is an acronym for Domain \nName System, a hierarchical naming \nsystem for computers, servers, or \nother resources connected to either \nthe Internet or to a private network. \nOptional\nNetwork\nICE\nSTUN\nTURN\nResolves IP addresses behind \nNetwork Address Translation (NAT)/\nfirewall.\n- Interactive Connectivity \nEstablishment\n- Session Traversal Utilities for NAT\n- Traversal Using Relays around NAT\nOptional\nE7000\nNetwork\nNTP\nProvides date/time synchronization \nfor the E7000 system server and the \nassociated devices (IP Phones, \nappliances). (NTP is an acronym for \nNetwork Time Protocol.)\nMandatory\nNetwork",
+        "qas": [
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "What role does Apache play in the network application services?",
+                "answers": [
+                    {
+                        "text": "Apache serves as the web server that drives the E7000 web interface, making it a mandatory component for the system's operation. This ensures that users can access and interact with the web-based features of the E7000."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "Is DHCP mandatory or optional for the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "DHCP is optional for the E7000 system server. It supplies dynamic IP addresses and TFTP server information, but it is not required for the operation of the E7000."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What does DNS stand for and what is its function?",
+                "answers": [
+                    {
+                        "text": "DNS stands for Domain Name System. Its function is to resolve host names to IP addresses, allowing computers, servers, and other resources to be identified and accessed over the Internet or a private network."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "How do ICE, STUN, and TURN relate to Network Address Translation?",
+                "answers": [
+                    {
+                        "text": "ICE (Interactive Connectivity Establishment), STUN (Session Traversal Utilities for NAT), and TURN (Traversal Using Relays around NAT) are protocols used to facilitate communication between devices behind Network Address Translation (NAT) and firewalls. STUN allows devices to discover their public IP addresses and the type of NAT they are behind, while TURN provides a relay service to send and receive data when direct communication is not possible due to NAT restrictions. Together, they enable successful peer-to-peer connectivity in scenarios where NAT may otherwise hinder communication."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What is the primary function of NTP in the network services?",
+                "answers": [
+                    {
+                        "text": "The primary function of NTP (Network Time Protocol) in the network services is to provide date and time synchronization for the E7000 system server and associated devices, such as IP phones and appliances. This ensures that all devices operate with a consistent and accurate time reference, which is essential for various time-sensitive operations and logging."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "5\nSNMP\nProvides the E7000 Linux server \nstatistics via Simple Network \nManagement Protocol (SNMP) v1 \nthrough Port 161.\nOptional\nE7000\nTFTP\nTFTP is used by IP phone and E7000 \ndevice provisioning. A TFTP server \nruns on the E7000 system server on \nport 69 (the standard TFTP port #).\nDevice provisioning files are stored \non the E7000 system server in \ndirectory: /srv/tftp.\nThis is the only directory exposed by \nthe TFTP server.\nMandatory\nE7000\nTable 1-2,  Network Application Services (Continued)\nService\nDescription\nRequired\nLocation",
+        "qas": [
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What protocol does the E7000 Linux server use to provide statistics?",
+                "answers": [
+                    {
+                        "text": "The E7000 Linux server provides statistics via Simple Network Management Protocol (SNMP) version 1 through Port 161. This service is optional."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "Through which port does the E7000 server provide SNMP statistics?",
+                "answers": [
+                    {
+                        "text": "The E7000 server provides SNMP statistics through Port 161 using Simple Network Management Protocol (SNMP) v1."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What is the primary use of TFTP in relation to the E7000 device?",
+                "answers": [
+                    {
+                        "text": "The primary use of TFTP in relation to the E7000 device is for IP phone and E7000 device provisioning. It enables the transfer of configuration files stored in the /srv/tftp directory on the E7000 system server, which operates on the standard TFTP port 69."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "On which port does the TFTP server run on the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The TFTP server on the E7000 system server runs on port 69, which is the standard TFTP port. Device provisioning files are stored in the directory /srv/tftp on the E7000 server."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "Where are the device provisioning files stored on the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The device provisioning files are stored in the directory /srv/tftp on the E7000 system server. This directory is the only one exposed by the TFTP server, which operates on port 69."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "Is the TFTP directory the only one exposed by the TFTP server?",
+                "answers": [
+                    {
+                        "text": "Yes, the TFTP server on the E7000 system server exposes only the directory /srv/tftp for device provisioning files. No other directories are accessible through the TFTP server."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "Is the SNMP service optional or mandatory for the E7000?",
+                "answers": [
+                    {
+                        "text": "The SNMP service for the E7000 is optional, as indicated in the context provided. It operates via SNMP v1 through Port 161."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "Is the TFTP service optional or mandatory for the E7000?",
+                "answers": [
+                    {
+                        "text": "The TFTP service is mandatory for the E7000, as it is used for IP phone and device provisioning. The TFTP server operates on port 69, and the device provisioning files are stored in the directory /srv/tftp on the E7000 system server."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2 System Controller \nSetup Assistant\n7\nSystem Controller Setup Assistant\nAfter you have attached network cables to the System Controller, you \ncan launch the Setup Assistant, a series of wizards that takes you step \nby step through the configuration of the most important Nyquist set-\ntings, via a web browser. If you are using Port A to access the System \nController, type http://192.168.1.10/setup/welcome in the web \nbrowser. If you are using a Dynamic Host Configuration Protocol \n(DHCP) address via Port B, type http://<ip-address)/setup/wel-\ncome where <ip-addresss> is replaced by the DHCP server provided \nInternet Protocol (IP) address.  \nWhen you select the Continue button on the initial Welcome screen, \nthe Network Wizard launches. The Network Wizard allows you to \nconfigure the IP address setting on Ethernet ports A and B.\nThe System Controller has two network ports. Port A is always used \nby the Nyquist server to communicate with Nyquist devices and can \nbe used to communicate with Internet based services. You can use \nPort A or Port B to access the System Controller via the Web UI. Port \nFigure 2-1, Setup Assistant Welcome Screen",
+        "qas": [
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "[What is the purpose of the Setup Assistant for the System Controller?]",
+                "answers": [
+                    {
+                        "text": "The Setup Assistant for the System Controller guides users through the configuration of essential Nyquist settings via a web browser. It includes wizards for setting up network configurations for the controller's Ethernet ports, ensuring proper communication with Nyquist devices and internet services."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "[How do you access the Setup Assistant using Port A?]",
+                "answers": [
+                    {
+                        "text": "To access the Setup Assistant using Port A, type http://192.168.1.10/setup/welcome in your web browser. This URL allows you to connect to the System Controller's initial Welcome screen."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "[What IP address format is used when accessing the Setup Assistant with a DHCP address?]",
+                "answers": [
+                    {
+                        "text": "When accessing the Setup Assistant with a DHCP address, the IP address format is http://<ip-address>/setup/welcome, where <ip-address> represents the DHCP server-provided Internet Protocol (IP) address."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "[What happens when you select the Continue button on the Welcome screen?]",
+                "answers": [
+                    {
+                        "text": "When you select the Continue button on the Welcome screen, the Network Wizard launches, allowing you to configure the IP address settings for Ethernet ports A and B on the System Controller. Port A is used for communication with Nyquist devices and Internet-based services."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "[Which network port is always used by the Nyquist server for communication?]",
+                "answers": [
+                    {
+                        "text": "Port A is always used by the Nyquist server to communicate with Nyquist devices and can also be utilized for communication with Internet-based services."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "[Can both Port A and Port B be used to access the System Controller via the Web UI?]",
+                "answers": [
+                    {
+                        "text": "Yes, both Port A and Port B can be used to access the System Controller via the Web UI. Port A is primarily used for communication with Nyquist devices and internet services, while Port B can be utilized for access through a DHCP address."
+                    }
+                ]
+            },
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "[What does the Network Wizard allow you to configure?]",
+                "answers": [
+                    {
+                        "text": "The Network Wizard allows you to configure the IP address settings on Ethernet ports A and B of the System Controller. It initiates after selecting the Continue button on the initial Welcome screen."
+                    }
+                ]
+            },
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "[What type of cables need to be attached before launching the Setup Assistant?]",
+                "answers": [
+                    {
+                        "text": "Before launching the Setup Assistant, network cables need to be attached to the System Controller. These cables connect to the Ethernet ports A and B for communication with Nyquist devices or Internet-based services."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "[Is Port A used for communication with internet-based services?]",
+                "answers": [
+                    {
+                        "text": "Yes, Port A is used by the Nyquist server to communicate with Nyquist devices and can also be used to communicate with Internet-based services."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "[What settings does the Setup Assistant primarily focus on?]",
+                "answers": [
+                    {
+                        "text": "The Setup Assistant primarily focuses on configuring the most important Nyquist settings, specifically the IP address settings for the Ethernet ports A and B. It guides users through a series of wizards for this configuration via a web browser."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "8\nB is an optional port that, when configured, is always used by the \nNyquist server to communicate with Internet based services. \nWhen setting up the network ports, you must indicate if the IP \naddress will be provided by a DHCP Server or if a static IP address will \nbe used. If you are using a static IP address, you must provide the IP \nAddress, Subnet Mask, and Gateway for the port or ports. Through \nthe Network Wizard, you also indicate if Port B will be used and \noptionally provide the name of the Domain Name System (DNS), \nwhich is used to resolve host names to IP addresses.\nAfter completing the information for the Network Wizard, select Save \nand Reset Network Interfaces. Resetting the Network Interfaces will \ntake several minutes. A progress bar will appear on the screen.\nAfter the Network Wizard completes, type the IP address of the \nserver in the address bar. The next wizard that launches is the License \nActivation Key wizard. This wizard displays the configuration for Port \nA and (if used) Port B. \nEnter your License Activation Key and select Continue. \nThe Product Activation screen that appears provides the following \ninformation about your Nyquist license:\n\u2022 Version number\n\u2022 Maximum concurrent call limit\n\u2022 Maximum number of stations\n\u2022 Maximum number of zones\n\u2022 Maximum number of paging queues\n\u2022 Whether Text-To-Speech or Maps features are enabed\n\u2022 Expiration dates for software maintenance and for this software \nlicense\nWhen product activation completes, a customer information form \nappears; fill in the form. After the form is completed, the Dialing \nLength Wizard appears. If you already know how to configure a \nNote: Verify the network setup is correct before continuing. If the \ndisplayed IP addresses are not correct, go back to the Network \nWizard and make any required changes before proceeding with \nthe License Activation Wizard.\nNote: Do not close the browser or the License Activation Key page.",
+        "qas": [
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "What is the purpose of Port B in the Nyquist server setup?",
+                "answers": [
+                    {
+                        "text": "Port B in the Nyquist server setup is an optional port used for communication with Internet-based services. It requires configuration and can utilize either a DHCP server for IP address assignment or a static IP address setup."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "How do you indicate whether to use a DHCP server or a static IP address in the Network Wizard?",
+                "answers": [
+                    {
+                        "text": "In the Network Wizard, you indicate whether to use a DHCP server or a static IP address by selecting the appropriate option provided in the setup. If choosing a static IP address, you must then enter the IP Address, Subnet Mask, and Gateway for the port or ports."
+                    }
+                ]
+            },
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "What information must be provided when using a static IP address?",
+                "answers": [
+                    {
+                        "text": "When using a static IP address, you must provide the IP Address, Subnet Mask, and Gateway for the port or ports. Additionally, you may also indicate the Domain Name System (DNS) for resolving host names to IP addresses."
+                    }
+                ]
+            },
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "What happens after you complete the Network Wizard and select Save and Reset Network Interfaces?",
+                "answers": [
+                    {
+                        "text": "After completing the Network Wizard and selecting Save and Reset Network Interfaces, the system will take several minutes to reset the network interfaces, and a progress bar will appear on the screen. Once the process is complete, you can enter the server's IP address in the browser to launch the License Activation Key wizard."
+                    }
+                ]
+            },
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "What does the License Activation Key wizard display after entering the server's IP address?",
+                "answers": [
+                    {
+                        "text": "After entering the server's IP address, the License Activation Key wizard displays the configuration for Port A and, if used, Port B. It also prompts the user to enter their License Activation Key and provides information about the Nyquist license, including version number, maximum concurrent call limit, and other relevant features and expiration dates."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "Which details about the Nyquist license are provided during the Product Activation screen?",
+                "answers": [
+                    {
+                        "text": "The Product Activation screen provides details about the Nyquist license, including the version number, maximum concurrent call limit, maximum number of stations, maximum number of zones, maximum number of paging queues, whether Text-To-Speech or Maps features are enabled, and expiration dates for software maintenance and the software license."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "What form must be filled out after product activation is completed?",
+                "answers": [
+                    {
+                        "text": "After product activation is completed, a customer information form must be filled out. Once this form is completed, the Dialing Length Wizard will appear."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "What appears after the customer information form in the setup process?",
+                "answers": [
+                    {
+                        "text": "After the customer information form is completed, the Dialing Length Wizard appears in the setup process."
+                    }
+                ]
+            },
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What should be verified before proceeding with the License Activation Wizard?",
+                "answers": [
+                    {
+                        "text": "Before proceeding with the License Activation Wizard, verify that the network setup is correct, including the displayed IP addresses. If any addresses are incorrect, return to the Network Wizard to make the necessary changes."
+                    }
+                ]
+            },
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "What should not be closed during the License Activation process?",
+                "answers": [
+                    {
+                        "text": "The browser or the License Activation Key page should not be closed during the License Activation process. Closing it may disrupt the activation procedure."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "9\nSystem Controller, you can select Expert Setup, which takes you to \nthe Login page. The Dialing Length, Station, User, and Timezone \nWizard views also have an Expert Setup button. The Expert Setup \nbutton marks all the set up database entries visited so you are not \nredirected back to any of the wizards.\nWhen you login, you can view the product dashboard. You can then \nmanually complete system configuration using the Admin Web UI \n(see the Nyquist E7000 System Administrator Manual).\nOtherwise, you can continue using the setup wizards to do the fol-\nlowing:\n\u2022 Set the dialing length (number of digits) used by stations in your \nsystem.\n\u2022 Create the Admin Web UI station.\n\u2022 Update the password for the Admin user.\n\u2022 Set the time zone to be used by your system.\n\u2022 Specify the Network Time Server.\nOnce you complete all of the setup wizards, the logon screen \nappears.\nNote: If you have not set a new password, you will need to enter \nthe default username admin and the default password bogen to \nlog into the system. Login credentials are case sensitive.\nNote: When updating the password, ensure that you maintain a \nrecord of the new password in a secure place.",
+        "qas": [
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "What feature allows access to the Login page for advanced configuration?",
+                "answers": [
+                    {
+                        "text": "The Expert Setup feature allows access to the Login page for advanced configuration. It can be accessed from the System Controller and various setup wizard views, marking all visited setup database entries to prevent redirection to the wizards."
+                    }
+                ]
+            },
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "What happens when you click the Expert Setup button in the wizards?",
+                "answers": [
+                    {
+                        "text": "Clicking the Expert Setup button in the wizards marks all the setup database entries visited, preventing you from being redirected back to any of the wizards. It takes you to the Login page, allowing manual configuration through the Admin Web UI."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "What is the default username and password for logging into the system?",
+                "answers": [
+                    {
+                        "text": "The default username for logging into the system is \"admin\" and the default password is \"bogen.\" Please note that the login credentials are case sensitive."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "What can you manually configure after logging into the product dashboard?",
+                "answers": [
+                    {
+                        "text": "After logging into the product dashboard, you can manually complete system configuration using the Admin Web UI as detailed in the Nyquist E7000 System Administrator Manual. This includes configuring various system settings beyond the setup wizards."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "Which setup wizard allows you to specify the number of digits for station dialing?",
+                "answers": [
+                    {
+                        "text": "The setup wizard that allows you to specify the number of digits for station dialing is the Dialing Length Wizard. This wizard is part of the Expert Setup options available after logging in to the system."
+                    }
+                ]
+            },
+            {
+                "id": "00064",
+                "is_impossible": false,
+                "question": "How can you update the password for the Admin user?",
+                "answers": [
+                    {
+                        "text": "To update the password for the Admin user, access the setup wizard from the product dashboard after logging in. Navigate to the relevant section where you can modify the password and ensure to record the new password in a secure place."
+                    }
+                ]
+            },
+            {
+                "id": "00065",
+                "is_impossible": false,
+                "question": "What does the process of completing all setup wizards lead to?",
+                "answers": [
+                    {
+                        "text": "Completing all the setup wizards leads to the appearance of the logon screen. After this, you can log into the system using the appropriate credentials."
+                    }
+                ]
+            },
+            {
+                "id": "00066",
+                "is_impossible": false,
+                "question": "Why is it important to keep a record of the new password securely?",
+                "answers": [
+                    {
+                        "text": "It is important to keep a record of the new password securely to prevent unauthorized access to the system and ensure that you can access the Admin Web UI when needed. Losing the password may result in being locked out of critical system configuration and management functions."
+                    }
+                ]
+            },
+            {
+                "id": "00067",
+                "is_impossible": false,
+                "question": "What information is required to specify a time server during setup?",
+                "answers": [
+                    {
+                        "text": "To specify a Network Time Server during setup, you need to provide the server's address (such as an IP address or hostname). Ensure this information is correctly entered to maintain accurate system time."
+                    }
+                ]
+            },
+            {
+                "id": "00068",
+                "is_impossible": false,
+                "question": "Are the login credentials for the system case sensitive?",
+                "answers": [
+                    {
+                        "text": "Yes, the login credentials for the system are case sensitive. If you have not set a new password, the default username is \"admin\" and the default password is \"bogen\"."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3 Best Practices\n11\nBest Practices\nThis section details recommendations and best practices to use when:\n\u2022 Updating the Nyquist E7000 system server software to a new soft-\nware release\n\u2022 Updating Nyquist appliance firmware (computer software stored \non the appliance)\n\u2022 Using System Backups\n3.1\nUpdating Nyquist Software\nNew Nyquist server software may include patches to address known \nissues or new releases that provide additional features. The latest \nE7000 server software can be accessed from the secured ES Dealers \nwebsite: \nhttp://www.bogenedu.com/nyquist-secure-dealer-resources/\nNote: Before configuring or using any Nyquist appliances, you \nmust ensure that the appliance firmware is updated to the latest \nrelease. The latest firmware release can be obtained from the \nsecured ES Dealers website: http://www.bogenedu.com/nyquist-\nsecure-dealer-resources/\nNote: Before beginning the install process, make sure that your \nNyquist system server can access the required URLs or web sites \n(see \"Whitelisted Web Addresses\u201d on page 2 from a Chrome \nbrowser.",
+        "qas": [
+            {
+                "id": "00069",
+                "is_impossible": false,
+                "question": "What is the purpose of updating the Nyquist E7000 system server software?",
+                "answers": [
+                    {
+                        "text": "The purpose of updating the Nyquist E7000 system server software is to implement patches that address known issues and to introduce new features. Ensuring that the software is up-to-date enhances system performance and reliability."
+                    }
+                ]
+            },
+            {
+                "id": "00070",
+                "is_impossible": false,
+                "question": "Where can the latest Nyquist server software be accessed?",
+                "answers": [
+                    {
+                        "text": "The latest Nyquist server software can be accessed from the secured ES Dealers website at http://www.bogenedu.com/nyquist-secure-dealer-resources/. Ensure that your Nyquist system server is able to access this URL before proceeding with the installation."
+                    }
+                ]
+            },
+            {
+                "id": "00071",
+                "is_impossible": false,
+                "question": "Why is it important to update the appliance firmware before using Nyquist appliances?",
+                "answers": [
+                    {
+                        "text": "Updating the appliance firmware before using Nyquist appliances is crucial because it ensures the system operates with the latest features, security patches, and fixes for known issues. Running outdated firmware may lead to compatibility problems and hinder performance."
+                    }
+                ]
+            },
+            {
+                "id": "00072",
+                "is_impossible": false,
+                "question": "How can one obtain the latest firmware release for the Nyquist appliances?",
+                "answers": [
+                    {
+                        "text": "The latest firmware release for Nyquist appliances can be obtained from the secured ES Dealers website at http://www.bogenedu.com/nyquist-secure-dealer-resources/. It is essential to ensure that the appliance firmware is updated to the latest release before configuring or using any Nyquist appliances."
+                    }
+                ]
+            },
+            {
+                "id": "00073",
+                "is_impossible": false,
+                "question": "What should be verified regarding web access before starting the installation process?",
+                "answers": [
+                    {
+                        "text": "Before starting the installation process, verify that your Nyquist system server can access the required URLs or websites listed in the documentation. This should be done using a Chrome browser, as indicated in the \"Whitelisted Web Addresses\" section."
+                    }
+                ]
+            },
+            {
+                "id": "00074",
+                "is_impossible": false,
+                "question": "What resource provides information on whitelisted web addresses for the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "Information on whitelisted web addresses for the Nyquist system can be found on page 2 of the best practices document. Users should refer to this section prior to beginning the installation process to ensure the Nyquist system server can access the required URLs."
+                    }
+                ]
+            },
+            {
+                "id": "00075",
+                "is_impossible": false,
+                "question": "What are the two types of updates mentioned for the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "The two types of updates mentioned for the Nyquist system are server software updates and appliance firmware updates. Server software updates may include patches for known issues or new features, while firmware updates involve the computer software stored on the appliance itself."
+                    }
+                ]
+            },
+            {
+                "id": "00076",
+                "is_impossible": false,
+                "question": "What website is designated for secured ES Dealers resources related to Nyquist?",
+                "answers": [
+                    {
+                        "text": "The designated website for secured ES Dealers resources related to Nyquist is http://www.bogenedu.com/nyquist-secure-dealer-resources/. This site provides access to the latest E7000 server software and firmware updates."
+                    }
+                ]
+            },
+            {
+                "id": "00077",
+                "is_impossible": false,
+                "question": "What types of enhancements might new Nyquist server software include?",
+                "answers": [
+                    {
+                        "text": "New Nyquist server software may include patches to address known issues and additional features that enhance system functionality. These updates ensure improved performance, security, and overall user experience."
+                    }
+                ]
+            },
+            {
+                "id": "00078",
+                "is_impossible": false,
+                "question": "Why is it necessary to address known issues through system software updates?",
+                "answers": [
+                    {
+                        "text": "It is necessary to address known issues through system software updates to ensure the optimal performance, stability, and security of the Nyquist E7000 system. Updates may include patches that mitigate vulnerabilities and resolve existing bugs, which can enhance the overall user experience and prevent potential system failures or breaches."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "12\nWhen updating to a new Nyquist server software release, use the \nAdmin Web UI to perform a system update unless directed by techni-\ncal support. Performing a system update ensures that all configura-\ntion data, call detail records, recordings, voice mail, and all upload \nannouncements, alarms, tones, and songs are retained and are avail-\nable after the system software update.\nTo perform a system update:\nStep 1\nFrom the navigation bar, select System Parameters.\nStep 2\nFrom the System Parameters page, select System \nUpdate, locate the System Update file, and then select \nImport.\nPerform the server system update process before updating Nyquist \nappliance software.\n3.1.1\nAssigning Permissions for New Features\nAfter a new software release is installed, permissions for features \nintroduced by this new release must be set for the roles that will use \nthese features. \nTo assign permissions for these new features:\nStep 1\nOn the navigation bar, select Roles.\nStep 2\nOn the Roles page, select the Permissions icon next to \nthe role that you want to edit permissions for.\nStep 3\nOn the Edit Permissions page, make desired changes.\nStep 4\nSelect Save.\nFor more information, refer to the Nyquist E7000 System Administra-\ntor Manual.\nNote: System backups created by older versions of the server soft-\nware are not compatible with the newer releases and should not be \nused to restore configuration data.",
+        "qas": [
+            {
+                "id": "00079",
+                "is_impossible": false,
+                "question": "What is the preferred method for performing a system update on the Nyquist server software?",
+                "answers": [
+                    {
+                        "text": "The preferred method for performing a system update on the Nyquist server software is to use the Admin Web UI. This ensures that all configuration data, call detail records, recordings, and other important elements are retained after the update, unless otherwise directed by technical support."
+                    }
+                ]
+            },
+            {
+                "id": "00080",
+                "is_impossible": false,
+                "question": "What types of data are retained after performing a system update?",
+                "answers": [
+                    {
+                        "text": "After performing a system update, all configuration data, call detail records, recordings, voice mail, and uploaded announcements, alarms, tones, and songs are retained and available."
+                    }
+                ]
+            },
+            {
+                "id": "00081",
+                "is_impossible": false,
+                "question": "What is the first step in performing a system update on the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "The first step in performing a system update on the Nyquist server is to select \"System Parameters\" from the navigation bar. Then, on the System Parameters page, you select \"System Update,\" locate the System Update file, and select \"Import.\""
+                    }
+                ]
+            },
+            {
+                "id": "00082",
+                "is_impossible": false,
+                "question": "What must be done after installing a new software release concerning permissions?",
+                "answers": [
+                    {
+                        "text": "After installing a new software release, permissions for features introduced in that release must be set for the relevant roles. This involves selecting the role to edit, adjusting the permissions on the Edit Permissions page, and then saving the changes."
+                    }
+                ]
+            },
+            {
+                "id": "00083",
+                "is_impossible": false,
+                "question": "How do you access the permissions settings for a specific role?",
+                "answers": [
+                    {
+                        "text": "To access the permissions settings for a specific role, select \"Roles\" from the navigation bar, then click the Permissions icon next to the desired role on the Roles page. From there, you can make changes on the Edit Permissions page and save them."
+                    }
+                ]
+            },
+            {
+                "id": "00084",
+                "is_impossible": false,
+                "question": "What is the consequence of using system backups from older versions of the server software with newer releases?",
+                "answers": [
+                    {
+                        "text": "Using system backups created by older versions of the server software with newer releases is not compatible and should not be used to restore configuration data. This could lead to data loss or corruption, as the newer software may not recognize or correctly handle the older backup format."
+                    }
+                ]
+            },
+            {
+                "id": "00085",
+                "is_impossible": false,
+                "question": "Where can you find more information regarding Nyquist system administration?",
+                "answers": [
+                    {
+                        "text": "More information regarding Nyquist system administration can be found in the Nyquist E7000 System Administrator Manual. This manual provides detailed guidance on system updates, permissions, and other administrative tasks."
+                    }
+                ]
+            },
+            {
+                "id": "00086",
+                "is_impossible": false,
+                "question": "Why is it important to perform the server system update process before updating Nyquist appliance software?",
+                "answers": [
+                    {
+                        "text": "It is important to perform the server system update process before updating Nyquist appliance software to ensure that all configuration data, call detail records, recordings, and other essential elements are retained and available after the update. Additionally, performing the server update first helps maintain compatibility with new software features and permissions."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "13\n3.2\nUpdating Appliance Firmware\nThe firmware for all devices used with the E7000 system must be \ncompatible with the software installed on the E7000 server, and all \nNyquist appliances in a given installation should be configured to run \nthe same version firmware.\nNyquist application firmware releases can be accessed from the \nsecured ES Dealers website: \nhttp://www.bogenedu.com/nyquist-secure-dealer-resources/\nFirmware can be updated for E7000 stations and Analog Station \nBridge (ASB) devices through the Admin Web UI or through the \nappliance\u2019s web UI. For information about the appliance\u2019s web UI, \nrefer to the device\u2019s configuration manual.\nThrough the E7000 Admin Web UI, you can upload a firmware file to \nthe E7000 system server, download firmware to a station or ASB, view \na list of stations and ASBs that are linked to a firmware name, set \ndefault firmware for any stations and bridge devices to be added, and \ndelete firmware entries. For information about using the Admin Web \nUI, refer to the Nyquist E7000 System Administrator Manual.\nNote: Before configuring or using any Nyquist appliances, you \nmust ensure that the appliance firmware is updated to the latest \nrelease. The latest firmware release can be obtained from the \nsecured ES Dealers website: http://www.bogenedu.com/nyquist-\nsecure-dealer-resources/",
+        "qas": [
+            {
+                "id": "00087",
+                "is_impossible": false,
+                "question": "What must the firmware for Nyquist appliances be compatible with?",
+                "answers": [
+                    {
+                        "text": "The firmware for Nyquist appliances must be compatible with the software installed on the E7000 server. Additionally, all Nyquist appliances in a given installation should run the same version of firmware."
+                    }
+                ]
+            },
+            {
+                "id": "00088",
+                "is_impossible": false,
+                "question": "Where can Nyquist application firmware releases be accessed?",
+                "answers": [
+                    {
+                        "text": "Nyquist application firmware releases can be accessed from the secured ES Dealers website at http://www.bogenedu.com/nyquist-secure-dealer-resources/. It is essential that the firmware for all devices is compatible with the E7000 server software."
+                    }
+                ]
+            },
+            {
+                "id": "00089",
+                "is_impossible": false,
+                "question": "How can firmware be updated for E7000 stations and ASB devices?",
+                "answers": [
+                    {
+                        "text": "Firmware for E7000 stations and Analog Station Bridge (ASB) devices can be updated through the Admin Web UI by uploading a firmware file to the E7000 system server and downloading it to the respective devices. Alternatively, updates can also be performed via the appliance\u2019s web UI, as detailed in the device's configuration manual."
+                    }
+                ]
+            },
+            {
+                "id": "00090",
+                "is_impossible": false,
+                "question": "What functionalities are available through the E7000 Admin Web UI for firmware management?",
+                "answers": [
+                    {
+                        "text": "The E7000 Admin Web UI allows users to upload firmware files, download firmware to stations or ASB devices, view linked firmware for stations and ASBs, set default firmware for new devices, and delete firmware entries. It is essential to ensure that appliance firmware is updated to the latest release before configuration or use."
+                    }
+                ]
+            },
+            {
+                "id": "00091",
+                "is_impossible": false,
+                "question": "Why is it important to ensure that appliance firmware is updated before configuration or use?",
+                "answers": [
+                    {
+                        "text": "It is important to ensure that appliance firmware is updated before configuration or use to guarantee compatibility with the E7000 server software and to ensure all Nyquist appliances in an installation are running the same version. This helps prevent potential operational issues and ensures optimal performance of the system."
+                    }
+                ]
+            },
+            {
+                "id": "00092",
+                "is_impossible": false,
+                "question": "What manual should be referred to for information about the Admin Web UI?",
+                "answers": [
+                    {
+                        "text": "For information about using the Admin Web UI, refer to the Nyquist E7000 System Administrator Manual. This manual will provide guidance on uploading firmware, managing firmware entries, and other related tasks."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "context": "NYQUIST Input/Output Controller\nNQ-E7010 Installation and Use\nThe NQ-E7010 Input/Output (I/O) Controller allows \nNyquist to recognize third-party switch contact \nclosures and to provide external circuits. Designed \nto run on a 10/100 Ethernet network, the NQ-E7010 \nis IEEE 802.3af compliant and can be powered using \nPower-Over-Ethernet (PoE), or if that is not available, \nit can be powered via an optional\n48VDC 15W power adapter. The NQ-E7010 also \nhas a USB 2.0 host port, which is reserved for \nfuture use.\nInstallation\nThe NQ-E7010 can either be shelf or wall mounted.\n1.\t  Either place the I/O Controller appliance on a \nshelf, or use the supplied brackets to mount it \non a wall. \n2.\t  Wire the input terminal(s) to the dry contact connection(s) of the system/device(s) that you want \nto monitor with Nyquist. \n3.\t  Wire the open-collector output terminal(s) to the relay driver(s) of the system/device(s) that you \nwant to control via Nyquist.\n4.\t  Connect the device to the \n10/100 network using a \nCAT5 type cable. \nYou can now configure this device using the Nyquist web user \ninterface (UI) or the Nyquist I/O \nController web UI. Refer to the \nNyquist System Administrator \nManual or to the NQ-E7010 Input/Output Configuration Manual \nfor more information.\nPublication Number 740-00018C  1811",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What functionality does the NQ-E7010 Input/Output Controller provide?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7010 Input/Output Controller enables Nyquist to recognize third-party switch contact closures and control external circuits. It can be powered via Power-Over-Ethernet (PoE) or a 48VDC power adapter and requires connection to a 10/100 Ethernet network for configuration through the Nyquist web interface."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What network standard does the NQ-E7010 comply with for power?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7010 complies with the IEEE 802.3af standard for Power-Over-Ethernet (PoE), allowing it to be powered over a 10/100 Ethernet network. If PoE is not available, it can also be powered using an optional 48VDC 15W power adapter."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "How can the NQ-E7010 be powered if Power-Over-Ethernet is not available?",
+                "answers": [
+                    {
+                        "text": "If Power-Over-Ethernet (PoE) is not available, the NQ-E7010 can be powered using an optional 48VDC 15W power adapter."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What types of mounting options are available for the NQ-E7010?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7010 can be either shelf or wall mounted, allowing for versatile installation options. Users can place the device on a shelf or utilize the supplied brackets for wall mounting."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What type of cable is required to connect the NQ-E7010 to a network?",
+                "answers": [
+                    {
+                        "text": "To connect the NQ-E7010 to a network, a CAT5 type cable is required. It supports a 10/100 Ethernet network connection."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "Where can configuration information for the NQ-E7010 be found?",
+                "answers": [
+                    {
+                        "text": "Configuration information for the NQ-E7010 can be found in the Nyquist System Administrator Manual and the NQ-E7010 Input/Output Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What type of port does the NQ-E7010 have that is reserved for future use?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7010 has a USB 2.0 host port that is reserved for future use."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the role of the input terminals on the NQ-E7010?",
+                "answers": [
+                    {
+                        "text": "The input terminals on the NQ-E7010 allow the device to recognize third-party switch contact closures. They serve to monitor the status of external systems or devices that send signals to the Nyquist controller."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "How should open-collector output terminals be connected?",
+                "answers": [
+                    {
+                        "text": "Open-collector output terminals should be wired to the relay driver(s) of the system/device(s) that you want to control via the Nyquist NQ-E7010 I/O Controller. Make sure to follow the appropriate wiring guidelines provided in the installation instructions."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the significance of the dry contact connections in the NQ-E7010 setup?",
+                "answers": [
+                    {
+                        "text": "Dry contact connections in the NQ-E7010 setup allow the controller to monitor the status of external devices by recognizing third-party switch closures. This enables integration with various systems for monitoring purposes, enhancing the functionality of the Nyquist system."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and Understanding LEDs\nTwo light emitting diodes (LEDs) appear on the \nfront of the I/O Controller. One is labeled POWER \nand appears as solid red during initial power up, \nflashes green during a boot sequence, and appears solid green when fully booted.\nThe STATUS LED uses the following indicators to \nprovide information about the I/O Controller:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The I/O Controller is in an uninitialized state and is not associated to a server. \n(The server may be in a discovery mode.)\n\u2022\t\nSolid green \u2013 The I/O Controller is registered to a Nyquist server and is in normal operation.\n\u2022\t\nFlashing green \u2013 The I/O Controller has an IP address but is not registered with the Nyquist \nserver.\n\u2022\t\nSolid red \u2013 The I/O Controller needs to be rebooted or reset so that the Nyquist application \ncan resume.\n\u2022\t\nFlashing Blue \u2013 The I/O Controller is updating.\n\nUsing the Reset Button\nThe Reset button allows you to restart the I/O Controller or to reset the appliance\u2019s configuration settings to the factory default settings. For more information about resetting configuration settings, refer to the NQ-E7010 Input/\nOutput Controller Configuration Manual.",
+        "qas": [
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What does the solid red LED on the I/O Controller indicate during initial power up?",
+                "answers": [
+                    {
+                        "text": "During initial power up, the solid red LED on the I/O Controller indicates that the device is powered on and starting its initialization process. It signifies that the system is preparing to boot up."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What does the flashing green LED signify during the boot sequence?",
+                "answers": [
+                    {
+                        "text": "The flashing green LED during the boot sequence indicates that the I/O Controller has an IP address but is not registered with the Nyquist server. This status signifies that while the device is connected to a network, it has not completed the registration process with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What state is the I/O Controller in when the STATUS LED is solid blue?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED is solid blue, the I/O Controller is in an uninitialized state and is not associated with a server, indicating that the server may be in discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What condition does a flashing red STATUS LED indicate about network connectivity?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that no network connection is found on the I/O Controller. This means the device is unable to connect to the network, which may prevent it from functioning correctly."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What does the solid green STATUS LED mean regarding the I/O Controller's registration status?",
+                "answers": [
+                    {
+                        "text": "A solid green STATUS LED indicates that the I/O Controller is registered to a Nyquist server and is functioning in normal operation. This means the device is properly connected and communicating with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What does a flashing green STATUS LED imply about the I/O Controller's IP address?",
+                "answers": [
+                    {
+                        "text": "A flashing green STATUS LED indicates that the I/O Controller has an IP address but is not registered with the Nyquist server. This means it is connected to a network but has not yet established a connection with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What action should be taken if the STATUS LED turns solid red?",
+                "answers": [
+                    {
+                        "text": "If the STATUS LED turns solid red, the I/O Controller needs to be rebooted or reset to allow the Nyquist application to resume. To perform this action, use the Reset button on the device."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What does a flashing blue STATUS LED indicate about the I/O Controller\u2019s current operation?",
+                "answers": [
+                    {
+                        "text": "A flashing blue STATUS LED indicates that the I/O Controller is currently updating. This means the device is in the process of applying new software or configuration changes."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "How can the Reset button affect the I/O Controller\u2019s configuration?",
+                "answers": [
+                    {
+                        "text": "The Reset button can be used to restart the I/O Controller, which may resolve temporary issues. Additionally, it can reset the appliance's configuration settings to factory defaults, potentially erasing custom configurations and requiring re-setup."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,982 @@
+[
+    {
+        "context": "Publication Number 740-00067B\n1900402\nNQ-SYSCTRL \nSystem Controller \nInstallation and Use\nThe System Controller provides a cost-effective way \nto deploy Nyquist based solutions using a state-of-\nthe-art processing platform pre-installed with the \nNyquist application server software. The System \nController offers high-performance operation for \neven the largest Nyquist system configurations and \ncan simultaneously distribute an unlimited number \nof audio streams anywhere across the network, \nmaking it perfect for background music applications.\nThe System Controller can manage applications \nthat require any mix of multi-zone paging, intercom",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What type of processing platform does the System Controller utilize?",
+                "answers": [
+                    {
+                        "text": "The System Controller utilizes a state-of-the-art processing platform that is pre-installed with the Nyquist application server software. This high-performance platform is designed to handle even the largest Nyquist system configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What software is pre-installed on the System Controller?",
+                "answers": [
+                    {
+                        "text": "The System Controller comes pre-installed with the Nyquist application server software. This software enables high-performance operation for various Nyquist system configurations, allowing simultaneous distribution of audio streams across the network."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What is the primary advantage of using the System Controller for Nyquist solutions?",
+                "answers": [
+                    {
+                        "text": "The primary advantage of using the System Controller for Nyquist solutions is its ability to efficiently manage and distribute an unlimited number of audio streams across a network, making it ideal for large-scale deployments and background music applications. Additionally, it supports multi-zone paging and intercom functionalities, all while operating on a high-performance processing platform pre-installed with Nyquist application server software."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "How many audio streams can the System Controller distribute simultaneously?",
+                "answers": [
+                    {
+                        "text": "The System Controller can simultaneously distribute an unlimited number of audio streams across the network. This capability makes it particularly well-suited for background music applications."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What applications is the System Controller ideal for?",
+                "answers": [
+                    {
+                        "text": "The System Controller is ideal for background music applications and can manage multi-zone paging and intercom systems. It efficiently distributes an unlimited number of audio streams across the network, supporting large Nyquist system configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "Can the System Controller handle multi-zone paging?",
+                "answers": [
+                    {
+                        "text": "Yes, the System Controller can handle multi-zone paging applications, allowing for effective management of various audio streams across different zones within a network. It supports a mix of features, including paging and intercom functionality."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "Is the System Controller designed for small or large Nyquist system configurations?",
+                "answers": [
+                    {
+                        "text": "The System Controller is designed for large Nyquist system configurations. It offers high-performance operation and can simultaneously distribute an unlimited number of audio streams across the network, making it suitable for extensive background music applications."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What type of network functionality does the System Controller offer?",
+                "answers": [
+                    {
+                        "text": "The System Controller offers high-performance network functionality by simultaneously distributing an unlimited number of audio streams across the network. It supports applications requiring multi-zone paging and intercom capabilities, making it ideal for background music and communication needs."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "In what context is the System Controller particularly useful?",
+                "answers": [
+                    {
+                        "text": "The System Controller is particularly useful for deploying Nyquist based solutions in applications requiring high-performance audio distribution, such as background music, multi-zone paging, and intercom systems. Its capability to simultaneously distribute an unlimited number of audio streams across the network makes it ideal for large system configurations."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n2\ncalling, or background music distribution at \nbusinesses, restaurants, retail stores, industrial \nfacilities, and many other venues.  It has a web-\nbased graphical user interface (GUI) that is \naccessible from almost any personal computer (PC), \ntablet, or mobile device. \n\nThe System Controller is designed to run on a \n10/100 Ethernet network.\nWARNING: To reduce the risk of fire or electric \nshock, do not expose this apparatus to rain or \nmoisture.\nAvertissement: pour r\u00e9duire le risque d\u2019incendie \nou de choc \u00e9lectrique, ne pas exposer cet appareil \nsous la pluie et l\u2019humidit\u00e9.\nThe apparatus shall not be exposed to dripping or \nsplashing and that no objects filled with liquids, \nsuch as vases, shall be placed on apparatus.\nThis equipment is not suitable for use in \nlocations where children are likely to be present. \nEquipment is intended for use only in \na restricted access area.",
+        "qas": [
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What type of venues is the hardware designed to serve?",
+                "answers": [
+                    {
+                        "text": "The hardware is designed to serve various venues, including businesses, restaurants, retail stores, and industrial facilities. It is suitable for applications such as background music distribution and calling systems."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What network type does the System Controller operate on?",
+                "answers": [
+                    {
+                        "text": "The System Controller operates on a 10/100 Ethernet network. It is designed for use in businesses, restaurants, retail stores, and other venues."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What kind of user interface does the System Controller feature?",
+                "answers": [
+                    {
+                        "text": "The System Controller features a web-based graphical user interface (GUI) that is accessible from almost any personal computer (PC), tablet, or mobile device. This allows users to manage calling and background music distribution easily across various venues."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What should be avoided to prevent fire or electric shock according to the warnings?",
+                "answers": [
+                    {
+                        "text": "To prevent fire or electric shock, avoid exposing the apparatus to rain or moisture and ensure it is not placed in locations where children are likely to be present. Additionally, do not allow any objects filled with liquids, such as vases, to be placed on the apparatus."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "In what type of area is the equipment intended for use?",
+                "answers": [
+                    {
+                        "text": "The equipment is intended for use only in restricted access areas, not in locations where children are likely to be present. It is designed for environments such as businesses, restaurants, retail stores, and industrial facilities."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "Which types of devices can access the web-based GUI?",
+                "answers": [
+                    {
+                        "text": "The web-based graphical user interface (GUI) can be accessed from almost any personal computer (PC), tablet, or mobile device."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What caution is given regarding the placement of liquids near the apparatus?",
+                "answers": [
+                    {
+                        "text": "The caution advises that the apparatus should not be exposed to dripping or splashing, and no objects filled with liquids, such as vases, should be placed on it. This is to prevent potential fire or electric shock hazards."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "L\u2019appareil ne doit pas \u00eatre expos\u00e9 aux \u00e9coulements \nou aux \u00e9claboussures et aucun objet ne contenant \nde liquide, tel qu\u2019un vase, ne doit \u00eatre plac\u00e9 sur \nl\u2019objet.\nThe mains plug is used as disconnect device. The \nmains plug of apparatus should not be obstructed \nOR should be easily accessed during intended use. \nTo be completely disconnect the power input, the \nmains plug of apparatus shall be disconnected \nfrom the mains.\nLa prise du secteur est utilis\u00e9 pour d\u00e9connecter \nle syst\u00e8me. La prise du secteur ne doit pas \u00eatre \nobstru\u00e9e ou doit \u00eatre facilement accessible \npendant son utilisation. Pour \u00eatre compl\u00e8tement \nd\u00e9connect\u00e9 de l\u2019alimentation d\u2019entr\u00e9e, la prise doit \n\u00eatre d\u00e9branch\u00e9e du secteur.\nWhen rack-mounted, allow 1RU spacing (1.75 \ninches) between units for proper ventilation.\n- Lorsqu\u2019il est mont\u00e9 en rack, permettez l\u2019espace \nde 1RU (1.75 pouces) entre les unit\u00e9s pour une \nventilation ad\u00e9quate.\nThe ventilation should not be impeded by covering \nthe ventilation openings with items, such as \nnewspapers, tablecloths, curtains, etc.\n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n3",
+        "qas": [
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What precautions should be taken regarding liquids near the device?",
+                "answers": [
+                    {
+                        "text": "The device should not be exposed to any liquid, including spills or splashes, and no objects containing liquids, such as vases, should be placed on or near it. This precaution is essential to prevent damage and ensure safety."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "How should the mains plug be positioned during use?",
+                "answers": [
+                    {
+                        "text": "The mains plug should not be obstructed and must be easily accessible during use to allow for quick disconnection. This ensures that the apparatus can be completely disconnected from the power input when necessary."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What is the requirement for spacing between units when mounted on a rack?",
+                "answers": [
+                    {
+                        "text": "When rack-mounted, there should be a spacing of 1RU (1.75 inches) between units to ensure proper ventilation. This spacing helps prevent overheating and allows for adequate airflow around the devices."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "Why is proper ventilation important for the device?",
+                "answers": [
+                    {
+                        "text": "Proper ventilation is important for the device to prevent overheating, which can lead to performance issues or damage. Adequate spacing between units allows for airflow, ensuring that the device operates efficiently and safely."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What should not be placed over the ventilation openings?",
+                "answers": [
+                    {
+                        "text": "Items such as newspapers, tablecloths, curtains, and other objects should not be placed over the ventilation openings, as this impedes proper ventilation."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What is the address provided in the context?",
+                "answers": [
+                    {
+                        "text": "The address provided in the context is 1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What is the contact number for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The contact number for Bogen Communications, Inc. is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What year is indicated in the copyright notice?",
+                "answers": [
+                    {
+                        "text": "The year indicated in the copyright notice is 2019."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n4\n- il convient que l\u2019a\u00e9ration ne soit pas g\u00ean\u00e9e par l\u2019ob\u00ad\nstruction des ouvertures d\u2019a\u00e9ra\nNo naked flame sources, such as lighted candles, \nshould be placed on the apparatus.\n- il convient de ne pas placer sur l\u2019appareil de \nsources de flammes nues, telles que des bougies \nallum\u00e9es\nThe use of apparatus in moderate climates.\n- si l\u2019appareil est destin\u00e9 \u00e0 \u00eatre utilis\u00e9 sous un climat \ntemp\u00e9r\u00e9. \nImportant \nSafety \nInformation\nWARNING: \nTo reduce the \nrisk of fire or \nelectric shock, \ndo not expose this apparatus to rain or moisture.\nAlways comply with the following basic safety pre\u00ad\ncautions when installing and using the unit:",
+        "qas": [
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "What is the address provided for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address for Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What should be done to prevent obstruction of ventilation openings?",
+                "answers": [
+                    {
+                        "text": "To prevent obstruction of ventilation openings, ensure that the apparatus is positioned so that air can freely circulate and that no objects block the vents. Regularly check for any blockages and remove any items that could obstruct airflow."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What type of flame sources should be avoided on the apparatus?",
+                "answers": [
+                    {
+                        "text": "Naked flame sources, such as lighted candles, should be avoided on the apparatus to reduce the risk of fire or electric shock. Always ensure that the apparatus is kept away from rain or moisture as well."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "In what type of climate is the apparatus intended to be used?",
+                "answers": [
+                    {
+                        "text": "The apparatus is intended to be used in moderate climates. It is important to ensure proper air circulation and avoid exposure to rain or moisture."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What is the important safety warning regarding exposure to rain or moisture?",
+                "answers": [
+                    {
+                        "text": "WARNING: To reduce the risk of fire or electric shock, do not expose this apparatus to rain or moisture. Always comply with basic safety precautions when installing and using the unit."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What is the purpose of the basic safety precautions mentioned?",
+                "answers": [
+                    {
+                        "text": "The basic safety precautions are intended to reduce the risk of fire or electric shock when installing and using the apparatus. They emphasize avoiding exposure to rain or moisture and ensuring proper ventilation to prevent obstruction of air openings."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n5\n1.\t Read these instructions.\n2.\t Keep these instructions.\n3.\t Heed all warnings.\n4.\t Follow all instructions.\n5.\t Clean only with dry cloth.\n6.\t DO NOT install near any heat sources such as \nradiators, heat registers, stoves, or other \napparatus    (including amplifiers) that produce \nheat.\n7.\t DO NOT defeat the safety purpose of the \npolarized or grounding-type plug.  A polarized \nplug has two blades with one wider than the \nother.  A grounding-type plug has two blades \nand a third grounding prong. The wide blade, or \nthe third prong, are provided for your safety. If \nthe provided plug does not fit into your outlet, \nconsult an electrician for replacement of the \nobsolete outlet.\n8.\t Protect the power cord from being walked \non and/or pinched, particularly at plugs, \nconvenience receptacles, and the point where \nthey exit from the apparatus.",
+        "qas": [
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What is the contact number provided in the document?",
+                "answers": [
+                    {
+                        "text": "The contact number provided in the document is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "What should you do with the instructions after reading them?",
+                "answers": [
+                    {
+                        "text": "After reading the instructions, you should keep them for future reference. It's important to have them accessible in case you need to review the warnings and installation guidelines later."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What type of cloth should be used for cleaning?",
+                "answers": [
+                    {
+                        "text": "Only a dry cloth should be used for cleaning. Avoid using any wet or damp materials."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "Where should the apparatus not be installed?",
+                "answers": [
+                    {
+                        "text": "The apparatus should not be installed near any heat sources, such as radiators, heat registers, stoves, or other devices that produce heat, including amplifiers."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What does a polarized plug look like, and why is it important?",
+                "answers": [
+                    {
+                        "text": "A polarized plug has two blades, one of which is wider than the other. This design ensures that the plug can only be inserted into an outlet in one way, which enhances safety by reducing the risk of electric shock and ensuring proper grounding."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What should be done if the provided plug does not fit into the outlet?",
+                "answers": [
+                    {
+                        "text": "If the provided plug does not fit into the outlet, consult an electrician to replace the obsolete outlet. This ensures safe compatibility with the polarized or grounding-type plug."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "How should the power cord be protected?",
+                "answers": [
+                    {
+                        "text": "The power cord should be protected from being walked on and pinched, especially at plugs, convenience receptacles, and where it exits from the apparatus. Ensuring it is not subjected to pressure or tight bends will help maintain its integrity and safety."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "9.\t Only use attachments/accessories that are \nspecified by  the manufacturer.\n10. Unplug this apparatus during lightning storms \n       or when unused for long periods of time.\n11. Refer all servicing to qualified service \n       personnel. Servicing is required when the   \n       apparatus has been damaged in any way, such    \n       as power-supply cord or plug is damaged, liquid\n       has been spilled or objects have fallen into the \n       apparatus, the apparatus has been exposed to \n       rain or moisture, does not operate normally, or \n       has been dropped.\nInstallation\nThe System Controller can be shelf, wall, or rack \nmounted.\n1.\t Either place the System Controller appliance on \na shelf, or use the supplied mounting ears to \nmount it on a wall. For rack mounting, use one \nof the available optional rack mount kits (NQ-\nRMK02, NQ-RMK03 or NQ-RMK04) as applicable.\n2.\t Connect the device to the 10/100 network using \na CAT5 type cable. \n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n6",
+        "qas": [
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "What types of mounting options are available for the System Controller?",
+                "answers": [
+                    {
+                        "text": "The System Controller can be mounted in three ways: on a shelf, on a wall using supplied mounting ears, or in a rack using optional rack mount kits (NQ-RMK02, NQ-RMK03, or NQ-RMK04)."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "What kind of cable should be used to connect the device to the network?",
+                "answers": [
+                    {
+                        "text": "You should use a CAT5 type cable to connect the device to the network."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "Under what conditions should the apparatus be unplugged?",
+                "answers": [
+                    {
+                        "text": "The apparatus should be unplugged during lightning storms or when it will not be used for long periods of time."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "Who should be contacted for servicing the apparatus?",
+                "answers": [
+                    {
+                        "text": "All servicing should be referred to qualified service personnel. Servicing is required if the apparatus has been damaged, exposed to moisture, or is not operating normally."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "What are the signs indicating that the apparatus needs servicing?",
+                "answers": [
+                    {
+                        "text": "The apparatus requires servicing when it is damaged in any way, such as if the power-supply cord or plug is damaged, liquid has been spilled on it, objects have fallen into it, it has been exposed to rain or moisture, it does not operate normally, or it has been dropped."
+                    }
+                ]
+            },
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "What accessories are permissible to use with the apparatus?",
+                "answers": [
+                    {
+                        "text": "Only use attachments or accessories specified by the manufacturer. It's important to ensure that any additional components meet the manufacturer's guidelines for safe operation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3.\t Connect the power cord to the back of the unit. \n\n4.\t If connecting auxiliary devices, such as a key\u00ad\nboard, mouse, or video monitor, connect the \ndevices\u2019 cables to the appropriate connectors on \nthe back of the device.\n\nIf connecting a video monitor, make sure to use \nthe HDMI video output as the Digital Video Inter\u00ad\nface (DVI) output is not supported.  Use of the \nRS232 ports is  also not supported.\n5.\t Toggle the Power switch to the On position.\nOnce the System Controller is powered on and con\u00ad\nnected to the network, it can be accessed and \nconfigured via the device\u2019s web-based GUI.  There \nare two IP addresses available to access the web-\nbased GUI: 1) a default static IP (192.168.1.10) on \nEthernet Port A and 2) Dynamic Host Configuration \nProtocol (DHCP) on Ethernet Port B. \n\nNOTE:  You must have a valid software \nlicense activation key to set up and configure \nthe System Controller during its initial use.\n1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n7",
+        "qas": [
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "What should be connected to the back of the unit after the power cord?",
+                "answers": [
+                    {
+                        "text": "After connecting the power cord, auxiliary devices such as a keyboard, mouse, or video monitor should be connected to the appropriate connectors on the back of the unit. Ensure that the video monitor is connected via the HDMI video output, as the DVI output and RS232 ports are not supported."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "Which video output should be used when connecting a video monitor?",
+                "answers": [
+                    {
+                        "text": "The HDMI video output should be used when connecting a video monitor, as the Digital Video Interface (DVI) output is not supported. Additionally, the RS232 ports should not be used for this purpose."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "Are the RS232 ports supported for device connection?",
+                "answers": [
+                    {
+                        "text": "No, the RS232 ports are not supported for device connection. Only HDMI for video output and the specified Ethernet ports are usable."
+                    }
+                ]
+            },
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "How can the System Controller be accessed after powering it on?",
+                "answers": [
+                    {
+                        "text": "The System Controller can be accessed after powering it on and connecting it to the network via its web-based GUI using either the default static IP address (192.168.1.10) on Ethernet Port A or through Dynamic Host Configuration Protocol (DHCP) on Ethernet Port B. A valid software license activation key is required for setup and configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "What are the two IP addresses available for accessing the web-based GUI?",
+                "answers": [
+                    {
+                        "text": "The two IP addresses available for accessing the web-based GUI are a default static IP of 192.168.1.10 on Ethernet Port A and a Dynamic Host Configuration Protocol (DHCP) address on Ethernet Port B."
+                    }
+                ]
+            },
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "What is required to set up and configure the System Controller during its initial use?",
+                "answers": [
+                    {
+                        "text": "To set up and configure the System Controller during its initial use, you must have a valid software license activation key. Additionally, connect the power cord and any auxiliary devices, then access the web-based GUI via the device's IP addresses."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n8\nViewing and \nUnderstanding the POWER LED\nAn LED labeled POWER appears on the front of the \nSystem Controller. This LED appears solid green \nwhen the device is powered on.\nUsing the Reset Button\nThe Reset button reboots the System \nController and launches the logon \nscreen.",
+        "qas": [
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "What is the significance of the POWER LED on the System Controller?",
+                "answers": [
+                    {
+                        "text": "The POWER LED on the System Controller indicates the device's power status, appearing solid green when the device is powered on. This visual cue helps users confirm that the System Controller is operational."
+                    }
+                ]
+            },
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "What color does the POWER LED display when the device is powered on?",
+                "answers": [
+                    {
+                        "text": "The POWER LED displays a solid green color when the device is powered on."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "What function does the Reset button serve on the System Controller?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the System Controller reboots the device and launches the logon screen. This function allows users to restart the system as needed."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "What happens when the Reset button is pressed?",
+                "answers": [
+                    {
+                        "text": "When the Reset button is pressed, it reboots the System Controller and launches the logon screen. This action effectively resets the device without powering it off completely."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "Where is Bogen Communications, Inc. located?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. is located at 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What is the contact number for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The contact number for Bogen Communications, Inc. is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "Which year is indicated in the copyright notice?",
+                "answers": [
+                    {
+                        "text": "The year indicated in the copyright notice is 2019."
+                    }
+                ]
+            },
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "In which suite number is the System Controller located?",
+                "answers": [
+                    {
+                        "text": "The System Controller is located in Suite 304. The address is 1200 MacArthur Blvd., Mahwah, NJ 07430."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n9\nCompliance\nNOTE: This equipment has been tested and found \nto comply with the limits for a Class A digital de\u00ad\nvice, pursuant to Part 15 of the FCC rules. These \nlimits are designed to provide reasonable protec\u00ad\ntion against harmful interference when the equip\u00ad\nment is operated in a commercial environment. \nThis equipment generates, uses and can radiate \nradio frequency energy and, if not installed and \nused in accordance with the instruction manual, \nmay cause harmful interference to radio communi\u00ad\ncations.  Operation of this equipment in a residen\u00ad\ntial area is likely to cause harmful interference in \nwhich case the user will be required to correct the \ninterference at his own expense.",
+        "qas": [
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "What is the contact number for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The contact number for Bogen Communications, Inc. is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "Which part of the FCC rules does the equipment comply with?",
+                "answers": [
+                    {
+                        "text": "The equipment complies with the limits for a Class A digital device, pursuant to Part 15 of the FCC rules. These limits are specifically designed to provide reasonable protection against harmful interference in commercial environments."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "What type of environment are the equipment limits designed for?",
+                "answers": [
+                    {
+                        "text": "The equipment limits are designed for a commercial environment. They aim to provide reasonable protection against harmful interference when the equipment is operated in such settings."
+                    }
+                ]
+            },
+            {
+                "id": "00064",
+                "is_impossible": false,
+                "question": "What could happen if the equipment is not installed according to the instruction manual?",
+                "answers": [
+                    {
+                        "text": "If the equipment is not installed according to the instruction manual, it may cause harmful interference to radio communications. Additionally, operating the equipment in a residential area could lead to the user being required to correct the interference at their own expense."
+                    }
+                ]
+            },
+            {
+                "id": "00065",
+                "is_impossible": false,
+                "question": "What is the obligation of the user if the equipment causes harmful interference in a residential area?",
+                "answers": [
+                    {
+                        "text": "If the equipment causes harmful interference in a residential area, the user is obligated to correct the interference at their own expense."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n10\nLimited Warranty, \nExclusion of Certain Damages\nThe NQ-SYSCTRL is warranted to be free from \ndefects in materials and workmanship for two (2) \nyears from the date of sale to the original purchas\u00ad\ner. Any part of the product covered by this warranty \nthat, with normal installation and use, becomes \ndefective (as confirmed by Bogen upon inspection) \nduring the warranty period will be repaired or re\u00ad\nplaced by Bogen, at Bogen\u2019s option, with new or re\u00ad\nfurbished product, provided the product is shipped \ninsured and prepaid to: Bogen Factory Service \nDepartment: 4570 Shelby Air Drive, Suite 11, Mem\u00ad\nphis, TN 38118, USA. Repaired or replacement pro\u00ad\nduct(s) will be returned to you freight prepaid. This \nwarranty does not extend to any of our products \nthat have been subjected to abuse, misuse, improp\u00ad\ner storage, neglect, accident, improper installation \nor have been modified or repaired or altered in any \nmanner whatsoever, or where the serial number or \ndate code has been removed or defaced.\nTHE FOREGOING LIMITED WARRANTY IS BOGEN\u2019S \nSOLE AND EXCLUSIVE WARRANTY AND THE PUR\u00ad\nCHASER\u2019S SOLE AND EXCLUSIVE REMEDY. BOGEN \nMAKES NO OTHER WARRANTIES OF ANY KIND, \nEITHER EXPRESS OR IMPLIED, AND ALL IMPLIED",
+        "qas": [
+            {
+                "id": "00066",
+                "is_impossible": false,
+                "question": "What is the warranty period for the NQ-SYSCTRL?",
+                "answers": [
+                    {
+                        "text": "The warranty period for the NQ-SYSCTRL is two (2) years from the date of sale to the original purchaser. This warranty covers defects in materials and workmanship under normal installation and use."
+                    }
+                ]
+            },
+            {
+                "id": "00067",
+                "is_impossible": false,
+                "question": "Where should defective products be sent for warranty service?",
+                "answers": [
+                    {
+                        "text": "Defective products should be sent for warranty service to the Bogen Factory Service Department at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. The product must be shipped insured and prepaid."
+                    }
+                ]
+            },
+            {
+                "id": "00068",
+                "is_impossible": false,
+                "question": "Are modifications to the product covered under the warranty?",
+                "answers": [
+                    {
+                        "text": "No, modifications to the product are not covered under the warranty. The warranty specifically excludes products that have been altered, repaired, or modified in any manner."
+                    }
+                ]
+            },
+            {
+                "id": "00069",
+                "is_impossible": false,
+                "question": "What type of damages are excluded from the warranty?",
+                "answers": [
+                    {
+                        "text": "The warranty excludes coverage for any damages resulting from abuse, misuse, improper storage, neglect, accidents, improper installation, modifications, repairs, or alterations. It also does not apply if the serial number or date code has been removed or defaced."
+                    }
+                ]
+            },
+            {
+                "id": "00070",
+                "is_impossible": false,
+                "question": "Who bears the shipping cost for returning repaired or replacement products?",
+                "answers": [
+                    {
+                        "text": "The shipping cost for returning repaired or replacement products is borne by Bogen, as they will return the products freight prepaid to the customer. However, the customer must cover the shipping costs to send the defective product to Bogen for repair or replacement."
+                    }
+                ]
+            },
+            {
+                "id": "00071",
+                "is_impossible": false,
+                "question": "Under what conditions will Bogen inspect a product for warranty claims?",
+                "answers": [
+                    {
+                        "text": "Bogen will inspect a product for warranty claims if it is covered by the warranty, meaning it must be free from defects in materials and workmanship and has been used under normal installation and use conditions. The product must be shipped insured and prepaid to Bogen's Factory Service Department for inspection."
+                    }
+                ]
+            },
+            {
+                "id": "00072",
+                "is_impossible": false,
+                "question": "What happens if the serial number on the product is removed?",
+                "answers": [
+                    {
+                        "text": "If the serial number on the product is removed or defaced, the warranty is void. This may result in the denial of warranty service for any defects, as the warranty only applies to products with intact serial numbers."
+                    }
+                ]
+            },
+            {
+                "id": "00073",
+                "is_impossible": false,
+                "question": "What type of products may be replaced under the warranty?",
+                "answers": [
+                    {
+                        "text": "Products covered under the warranty that may be replaced are those free from defects in materials and workmanship, provided they have been subjected to normal installation and use. Products that have been abused, misused, improperly stored, neglected, modified, or where the serial number or date code has been removed or defaced are not eligible for replacement under the warranty."
+                    }
+                ]
+            },
+            {
+                "id": "00074",
+                "is_impossible": false,
+                "question": "How does Bogen define 'normal installation and use'?",
+                "answers": [
+                    {
+                        "text": "Bogen does not provide a specific definition of 'normal installation and use' in the warranty documentation. However, it implies that normal installation and use are conditions in which the product is used as intended and properly installed, without subjecting it to abuse, misuse, or other forms of neglect."
+                    }
+                ]
+            },
+            {
+                "id": "00075",
+                "is_impossible": false,
+                "question": "What is the address of Bogen's Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen's Factory Service Department is 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n11\nWARRANTIES OF MERCHANTABILITY OR FIT\u00ad\nNESS FOR A PARTICULAR PURPOSE ARE HEREBY \nDISCLAIMED AND EXCLUDED TO THE MAXIMUM \nEXTENT ALLOWABLE BY LAW. Bogen\u2019s liability \narising out of the manufacture, sale or supplying of \nproducts or their use or disposition, whether based \nupon warranty, contract, tort or otherwise, shall be \nlimited to the price of the product. IN NO EVENT \nSHALL BOGEN BE LIABLE FOR SPECIAL, INCIDEN\u00ad\nTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, \nBUT NOT LIMITED TO, LOSS OF PROFITS, LOSS OF \nDATA OR LOSS OF USE DAMAGES) ARISING OUT \nOF THE MANUFACTURE, SALE OR SUPPLYING OF \nPRODUCTS, EVEN IF BOGEN HAS BEEN ADVISED \nOF THE POSSIBILITY OF SUCH DAMAGES OR \nLOSSES. Some States do not allow the exclusion or \nlimitation of incidental or consequential damages, \nso the above limitation or exclusion may not apply \nto you. This warranty gives you specific legal rights, \nand you may also have other rights which vary from \nState to State.\nProducts that are out of warranty will also be \nrepaired by Bogen Factory Service Department \n-- same address as above or call 201-934-8500, at \nowner\u2019s expense.  Returned products which do not \nqualify for warranty service, may be repaired or re\u00ad\nplaced at Bogen\u2019s option with a previously repaired \nor refurbished items.   The parts and labor involved",
+        "qas": [
+            {
+                "id": "00076",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00077",
+                "is_impossible": false,
+                "question": "What is the phone number for customer inquiries?",
+                "answers": [
+                    {
+                        "text": "The phone number for customer inquiries is 1-800-999-2809. For warranty service, you can also contact the Bogen Factory Service Department at 201-934-8500."
+                    }
+                ]
+            },
+            {
+                "id": "00078",
+                "is_impossible": false,
+                "question": "What year is the copyright for Bogen Communications, Inc. noted in the document?",
+                "answers": [
+                    {
+                        "text": "The copyright for Bogen Communications, Inc. noted in the document is from the year 2019."
+                    }
+                ]
+            },
+            {
+                "id": "00079",
+                "is_impossible": false,
+                "question": "What warranties are expressly disclaimed by Bogen?",
+                "answers": [
+                    {
+                        "text": "Bogen expressly disclaims any warranties of merchantability or fitness for a particular purpose to the maximum extent allowable by law. Additionally, they limit their liability to the price of the product and exclude liability for special, incidental, or consequential damages."
+                    }
+                ]
+            },
+            {
+                "id": "00080",
+                "is_impossible": false,
+                "question": "What limitations are placed on Bogen's liability for product-related issues?",
+                "answers": [
+                    {
+                        "text": "Bogen's liability for product-related issues is limited to the price of the product, and they disclaim all warranties of merchantability or fitness for a particular purpose. Additionally, Bogen is not liable for special, incidental, or consequential damages, even if they were advised of the potential for such damages."
+                    }
+                ]
+            },
+            {
+                "id": "00081",
+                "is_impossible": false,
+                "question": "Are there circumstances under which Bogen could be liable for consequential damages?",
+                "answers": [
+                    {
+                        "text": "Bogen disclaims liability for consequential damages, except in states where such exclusions are not allowed. In those states, the limitations set forth may not apply, potentially allowing for Bogen to be liable for consequential damages depending on local laws."
+                    }
+                ]
+            },
+            {
+                "id": "00082",
+                "is_impossible": false,
+                "question": "How can out-of-warranty products be serviced by Bogen?",
+                "answers": [
+                    {
+                        "text": "Out-of-warranty products can be serviced by Bogen's Factory Service Department at the owner's expense. Products may be repaired or replaced at Bogen's option, potentially with previously repaired or refurbished items."
+                    }
+                ]
+            },
+            {
+                "id": "00083",
+                "is_impossible": false,
+                "question": "What options does Bogen have for returned products that do not qualify for warranty service?",
+                "answers": [
+                    {
+                        "text": "For returned products that do not qualify for warranty service, Bogen has the option to repair or replace them at their discretion with previously repaired or refurbished items. Any repairs will be conducted at the owner's expense."
+                    }
+                ]
+            },
+            {
+                "id": "00084",
+                "is_impossible": false,
+                "question": "What is the contact number for Bogen's Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "The contact number for Bogen's Factory Service Department is 201-934-8500. Products that are out of warranty can be repaired at the owner's expense."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, \nMahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2019, Bogen Communications, Inc.\n12\nin these repairs are warranted for 90 days when \nrepaired by the Bogen Factory Service Department.  \nAll parts and labor charges as well as shipping \ncharges will be at the owner\u2019s expense.\nAll returns require a Return Authorization number.  \nFor most efficient warranty or repair service, please \ninclude a description of the failure.\n4/2019",
+        "qas": [
+            {
+                "id": "00085",
+                "is_impossible": false,
+                "question": "What is the warranty duration for repairs made by the Bogen Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "Repairs made by the Bogen Factory Service Department are warranted for 90 days. All parts, labor, and shipping charges will be at the owner's expense."
+                    }
+                ]
+            },
+            {
+                "id": "00086",
+                "is_impossible": false,
+                "question": "Who bears the cost of parts, labor, and shipping charges during repairs?",
+                "answers": [
+                    {
+                        "text": "The owner bears the cost of all parts, labor charges, and shipping charges during repairs. This applies even though the repairs are warranted for 90 days when done by the Bogen Factory Service Department."
+                    }
+                ]
+            },
+            {
+                "id": "00087",
+                "is_impossible": false,
+                "question": "What must be included with a return to ensure efficient warranty or repair service?",
+                "answers": [
+                    {
+                        "text": "To ensure efficient warranty or repair service, a return must include a Return Authorization number and a description of the failure."
+                    }
+                ]
+            },
+            {
+                "id": "00088",
+                "is_impossible": false,
+                "question": "What is the contact number provided for inquiries related to Bogen Communications?",
+                "answers": [
+                    {
+                        "text": "The contact number provided for inquiries related to Bogen Communications is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00089",
+                "is_impossible": false,
+                "question": "Where is Bogen Communications located?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications is located at 1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00090",
+                "is_impossible": false,
+                "question": "As of what date is the copyright information relevant?",
+                "answers": [
+                    {
+                        "text": "The copyright information is relevant as of April 2019."
+                    }
+                ]
+            },
+            {
+                "id": "00091",
+                "is_impossible": false,
+                "question": "Is a Return Authorization number required for all returns?",
+                "answers": [
+                    {
+                        "text": "Yes, a Return Authorization number is required for all returns. To ensure efficient warranty or repair service, it's also suggested to include a description of the failure with the return."
+                    }
+                ]
+            },
+            {
+                "id": "00092",
+                "is_impossible": false,
+                "question": "What should be included when describing a failure for warranty service?",
+                "answers": [
+                    {
+                        "text": "When describing a failure for warranty service, include a detailed description of the issue encountered and any relevant symptoms. This information will help facilitate efficient warranty or repair service."
+                    }
+                ]
+            }
+        ]
+    }
+]

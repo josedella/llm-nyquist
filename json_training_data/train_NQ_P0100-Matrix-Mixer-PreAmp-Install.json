@@ -1,0 +1,352 @@
+[
+    {
+        "context": "NYQUIST Matrix Mixer Pre-Amp\nNQ-P0100 Installation\nThe NQ-P0100 is a mixer pre-amplifier that enables \nmicrophone, AES3 digital, and line-level source \ninputs to be integrated into a Nyquist system. These \ninput sources can then be routed to any endpoint \nor group of endpoints on the network for paging or \naudio distribution.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What types of inputs does the NQ-P0100 support?",
+                "answers": [
+                    {
+                        "text": "The NQ-P0100 supports microphone, AES3 digital, and line-level source inputs. These inputs can be integrated into a Nyquist system for paging or audio distribution."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "How does the NQ-P0100 integrate with a Nyquist system?",
+                "answers": [
+                    {
+                        "text": "The NQ-P0100 integrates with a Nyquist system by allowing microphone, AES3 digital, and line-level source inputs to be connected and routed to any network endpoint or group of endpoints for paging or audio distribution. It serves as a mixer pre-amplifier, facilitating seamless audio input and management within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What functionality does the NQ-P0100 provide for audio distribution?",
+                "answers": [
+                    {
+                        "text": "The NQ-P0100 functions as a mixer pre-amplifier that integrates microphone, AES3 digital, and line-level source inputs into a Nyquist system. It allows these audio sources to be routed to any endpoint or group of endpoints within the network for paging or audio distribution."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "Can the NQ-P0100 be used for paging purposes?",
+                "answers": [
+                    {
+                        "text": "Yes, the NQ-P0100 can be used for paging purposes as it integrates microphone, AES3 digital, and line-level source inputs into a Nyquist system, allowing routing to any endpoint or group of endpoints for audio distribution."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the model number of the NYQUIST Matrix Mixer Pre-Amp referenced in the context?",
+                "answers": [
+                    {
+                        "text": "The model number of the NYQUIST Matrix Mixer Pre-Amp referenced in the context is NQ-P0100. This device allows integration of various audio sources into a Nyquist system for routing to endpoints or groups for paging or audio distribution."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "Is the NQ-P0100 capable of processing digital audio sources?",
+                "answers": [
+                    {
+                        "text": "Yes, the NQ-P0100 is capable of processing digital audio sources, including AES3 digital inputs. It integrates these sources into a Nyquist system for routing to various endpoints or groups."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What type of device is the NQ-P0100 classified as?",
+                "answers": [
+                    {
+                        "text": "The NQ-P0100 is classified as a mixer pre-amplifier. It integrates microphone, AES3 digital, and line-level source inputs into a Nyquist system, allowing for routing to endpoints for paging or audio distribution."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Which network endpoints can be accessed by the audio routed through the NQ-P0100?",
+                "answers": [
+                    {
+                        "text": "The audio routed through the NQ-P0100 can be accessed by any endpoint or group of endpoints within the Nyquist system. This includes various configurations for paging or audio distribution throughout the network."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Installation of The NQ-P0100\nTo install the Nyquist Matrix Mixer Pre-Amp:\n1.\t Either place the Matrix Mixer Pre-Amp on a shelf, or use the adjustable brackets to mount it on a \nwall or in a rack.\n2.\t Ensure the POWER switch is in the OFF position.\n3.\t Attach and then plug in the AC line cord.\n4.\t Connect the 10/100 network cable.\n5.\t Toggle the POWER switch ON.\n6.\t Connect the input devices to the XLR,  screw-terminal connections, or both as needed.",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What are the options for placing the Nyquist Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Matrix Mixer Pre-Amp can be placed on a shelf or mounted on a wall or in a rack using adjustable brackets."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What should be done before attaching the AC line cord?",
+                "answers": [
+                    {
+                        "text": "Before attaching the AC line cord, ensure that the POWER switch is in the OFF position. This is important for safety to prevent any electrical hazards during installation."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "How do you connect the 10/100 network cable?",
+                "answers": [
+                    {
+                        "text": "To connect the 10/100 network cable, locate the appropriate network port on the Nyquist Matrix Mixer Pre-Amp and firmly plug one end of the cable into this port. Then, connect the other end of the cable to your network switch or router."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the first action to take after plugging in the AC line cord?",
+                "answers": [
+                    {
+                        "text": "The first action to take after plugging in the AC line cord is to ensure the POWER switch is in the OFF position. After that, you can toggle the POWER switch ON."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What types of connections can be used for input devices with the Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "Input devices can be connected to the Matrix Mixer Pre-Amp using XLR connections, screw-terminal connections, or both as needed."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "Is it necessary for the POWER switch to be in a specific position before installation?",
+                "answers": [
+                    {
+                        "text": "Yes, it is necessary for the POWER switch to be in the OFF position before installation to ensure safety while connecting the AC line cord and other components."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What components can be mounted alongside the Nyquist Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "The installation guide does not specify any components that can be mounted alongside the Nyquist Matrix Mixer Pre-Amp. It simply outlines options for mounting the mixer itself on a shelf, wall, or rack without mentioning any additional equipment."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and Understanding LEDs of The NQ-P0100\nTwo LEDs appear on the front of the Matrix Mixer \nPre-Amp. One is labeled POWER and appears \nas solid red during initial power up, flashes green \nduring a boot sequence, and appears solid green \nwhen fully booted.\nThe STATUS LED uses the following indicators to \nprovide information about the appliance:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The Matrix Mixer Pre-Amp is in \nan uninitialized state and is not associated to \na server. (The server may be in a discovery mode.)\n\u2022\t\nSolid green \u2013 The Matrix Mixer Pre-Amp is registered to a Nyquist server and is in normal operation.\n\u2022\t\nFlashing green \u2013 The Matrix Mixer Pre-Amp has an IP address but is not registered with the Nyquist \nserver.\n\u2022\t\nSolid red \u2013 The Matrix Mixer Pre-Amp needs to be rebooted or reset so that the Nyquist application can \nresume.\n\u2022\t\nFlashing Blue \u2013 The Matrix Mixer Pre-Amp is updating.\nUsing the Reset Button\nThe Reset button allows you to restart the Matrix Mixer Pre-Amp or to reset \nthe appliance\u2019s configuration settings to the factory default settings. For\nmore information about resetting configuration settings, refer to the \nNyquist Matrix Mixer Pre-Amp Configuration Manual.",
+        "qas": [
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What color does the POWER LED display during the boot sequence of the Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "During the boot sequence of the Matrix Mixer Pre-Amp, the POWER LED flashes green. When fully booted, it displays a solid green light."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What does a flashing red STATUS LED indicate?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that no network connection is found. This suggests that the Matrix Mixer Pre-Amp is unable to connect to a network."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What does a solid blue STATUS LED signify about the Matrix Mixer Pre-Amp's connection status?",
+                "answers": [
+                    {
+                        "text": "A solid blue STATUS LED indicates that the Matrix Mixer Pre-Amp is in an uninitialized state and is not associated with a server, which may be in a discovery mode. This means that the device is powered on but has not yet established a connection to a Nyquist server."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "When does the STATUS LED show a solid green light?",
+                "answers": [
+                    {
+                        "text": "The STATUS LED shows a solid green light when the Matrix Mixer Pre-Amp is registered to a Nyquist server and is in normal operation."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "If the STATUS LED is flashing green, what does that mean regarding the appliance's registration with the server?",
+                "answers": [
+                    {
+                        "text": "If the STATUS LED is flashing green, it means the Matrix Mixer Pre-Amp has an IP address but is not registered with the Nyquist server. This indicates that the appliance is connected to a network but has not completed the registration process."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What does a solid red STATUS LED indicate about the Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "A solid red STATUS LED indicates that the Matrix Mixer Pre-Amp needs to be rebooted or reset so that the Nyquist application can resume."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What action is indicated by a flashing blue STATUS LED?",
+                "answers": [
+                    {
+                        "text": "A flashing blue STATUS LED indicates that the Matrix Mixer Pre-Amp is currently updating. This means the appliance is in the process of installing or applying updates."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What is the purpose of the Reset button on the Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the Matrix Mixer Pre-Amp allows users to restart the device or reset its configuration settings to the factory defaults. This can be useful for troubleshooting or resolving issues with the appliance's operation."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "Where can you find more information about resetting configuration settings for the Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "More information about resetting configuration settings for the Matrix Mixer Pre-Amp can be found in the Nyquist Matrix Mixer Pre-Amp Configuration Manual. This manual provides detailed instructions on how to reset the appliance\u2019s configuration settings to factory defaults."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\nCompliance\nNOTE: This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to Part 15 of the FCC \nrules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in a com\u00ad\nmercial environment. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance \nwith the instruction manual, may cause harmful interference to radio communications.  Operation of this equipment in a residential area is \nlikely to cause harmful interference in which case the user will be required to correct the interference at his own expense.\nLimited Warranty, Exlusion of Certain Damages\nThe NQ-P0100  is warranted to be free from defects in materials and workmanship for five (5) years from the date of sale to the original \npurchaser. Any part of the product covered by this warranty that, with normal installation and use, becomes defective (as confirmed by \nBogen upon inspection) during the warranty period will be repaired or replaced by Bogen, at Bogen\u2019s option, with new or refurbished \nproduct, provided the product is shipped insured and prepaid to: Bogen Factory Service Department: 4570 Shelby Air Drive, Suite 11, \nMemphis, TN 38118, USA. Repaired or replacement product(s) will be returned to you freight prepaid. This warranty does not extend \nto any of our products that have been subjected to abuse, misuse, improper storage, neglect, accident, improper installation or have been \nmodified or repaired or altered in any manner whatsoever, or where the serial number or date code has been removed or defaced.\nTHE FOREGOING LIMITED WARRANTY IS BOGEN\u2019S SOLE AND EXCLUSIVE WARRANTY AND THE PURCHASER\u2019S SOLE AND \nEXCLUSIVE REMEDY. BOGEN MAKES NO OTHER WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND ALL \nIMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ARE HEREBY DISCLAIMED AND \nEXCLUDED TO THE MAXIMUM EXTENT ALLOWABLE BY LAW. Bogen\u2019s liability arising out of the manufacture, sale or supplying of \nproducts or their use or disposition, whether based upon warranty, contract, tort or otherwise, shall be limited to the price of the product. \nIN NO EVENT SHALL BOGEN BE LIABLE FOR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT \nNOT LIMITED TO, LOSS OF PROFITS, LOSS OF DATA OR LOSS OF USE DAMAGES) ARISING OUT OF THE MANUFACTURE, \nSALE OR SUPPLYING OF PRODUCTS, EVEN IF BOGEN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR \nLOSSES. Some States do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion \nmay not apply to you. This warranty gives you specific legal rights, and you may also have other rights which vary from State to State.\nProducts that are out of warranty will also be repaired by Bogen Factory Service Department -- same address as above or call 201-934-\n8500, at owner\u2019s expense.  Returned products which do not qualify for warranty service, may be repaired or replaced at Bogen\u2019s option with \na previously repaired or refurbished items.   The parts and labor involved in these repairs are warranted for 90 days when repaired by the \nBogen Factory Service Department.  All parts and labor charges as well as shipping charges will be at the owner\u2019s expense.\nAll returns require a Return Authorization number.  For most efficient warranty or repair service, please include a description of the failure.\n11/2018",
+        "qas": [
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What is the warranty period for the NQ-P0100?",
+                "answers": [
+                    {
+                        "text": "The warranty period for the NQ-P0100 is five (5) years from the date of sale to the original purchaser. This warranty covers defects in materials and workmanship under normal installation and use."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "Where should defective products be sent for warranty repair?",
+                "answers": [
+                    {
+                        "text": "Defective products should be sent to Bogen Factory Service Department at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. Ensure the product is shipped insured and prepaid, and includes a description of the failure along with a Return Authorization number."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What limitations apply to the Bogen warranty regarding modifications or repairs?",
+                "answers": [
+                    {
+                        "text": "The Bogen warranty does not cover products that have been subjected to modifications, repairs, or alterations in any manner. Additionally, the warranty is void if the serial number or date code has been removed or defaced."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "How does Bogen handle products that are out of warranty?",
+                "answers": [
+                    {
+                        "text": "Products that are out of warranty can still be repaired by the Bogen Factory Service Department at the owner's expense. Returned items that do not qualify for warranty service may be repaired or replaced with previously repaired or refurbished items at Bogen's discretion, with parts and labor warranted for 90 days. All repair costs, including parts, labor, and shipping, will be the owner's responsibility."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What types of damages are expressly excluded from Bogen's liability?",
+                "answers": [
+                    {
+                        "text": "Bogen expressly excludes liability for special, incidental, or consequential damages, which include loss of profits, loss of data, or loss of use damages. This limitation applies even if Bogen has been advised of the possibility of such damages or losses."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What must be included with a return for warranty or repair service?",
+                "answers": [
+                    {
+                        "text": "All returns require a Return Authorization number. For efficient warranty or repair service, it is also important to include a description of the failure."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "Is there a contact number for Bogen's Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "Yes, the contact number for Bogen's Factory Service Department is 201-934-8500."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What information is suggested to be provided for efficient warranty service?",
+                "answers": [
+                    {
+                        "text": "For efficient warranty service, it is suggested to provide a description of the failure along with the Return Authorization number. This will help facilitate the processing of your warranty claim."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "How long is the warranty for parts and labor after a repair in the Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "The warranty for parts and labor after a repair in the Bogen Factory Service Department is 90 days. This warranty applies to repairs made on products that do not qualify for the original warranty."
+                    }
+                ]
+            }
+        ]
+    }
+]

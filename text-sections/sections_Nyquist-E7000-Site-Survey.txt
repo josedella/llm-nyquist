@@ -1,0 +1,1366 @@
+﻿E7000 Series
+Site Survey Guide
+     
+2019 Bogen Communications, Inc.
+All rights reserved
+Specifications subject to change
+740-00025 Rev G
+190829
+=====
+Site Survey Guide
+1
+Site Survey Guide
+This document provides prerequisites and initial setup instructions
+for the E7000 system, an Internet Protocol (IP) network based inter-
+com and paging solution that allows school personnel to:
+• Control facility bell schedules, announcements, and tones.
+• Create and manage paging, time, and audio zones. 
+• Manage station types, configuration, and Class of Service (CoS). 
+• Manage users, roles, and permissions.
+E7000 can be implemented as a new system installation or as an 
+upgrade to an existing Multicom 2000, Quantum, or third-party inter-
+com and paging system.
+E7000 application software can be installed on a customer-provided 
+server that meets the minimum server requirements (see "E7000 
+System Server Requirements” on page 3). If using a NQ-SYSCTRL 
+System Controller, both the operating system and the E7000 applica-
+tion software is already installed and only needs to be activated.
+Before installing or activating E7000, ensure that:
+• System server requirements are met (user-provided server only).
+• Required services are installed and enabled on the E7000 system 
+server. Examples of required services include Simple Network 
+Management Protocol (SNMP) or Trivial File Transfer Protocol 
+(TFTP). 
+• Required services are enabled on your network. Examples of 
+required services include multicast and Session Initiation Protocol 
+(SIP).
+• Required multicast IP addresses and ports are known and avail-
+able.
+• Required IP addresses are known and available.
+• Required port numbers are open.
+=====
+2
+1.1
+Understanding System Requirements
+The E7000 web-based UI requires a secure Hypertext Transfer Proto-
+col Secure (https) type network connection to the E7000 system
+server. Users can log in to the E7000 system using the Google
+Chrome web browser from a computer or tablet running either a
+Windows 8.1 (or later) or a Mac OS X 10.12.x (or later) operating
+system (OS). The UI can also be accessed via a Chrome browser
+enabled Android-based tablet or mobile device. To access the server,
+type your server’s IP address (for example, 10.10.20.12).
+1.1.1
+Whitelisted Web Addresses
+E7000 requires access to specific Uniform Resource Locators (URLs),
+commonly referred to as web addresses. Access to many of these
+web addresses is required during installation; access to other web
+addresses, such as the address for the Network Time Server (NTS) are
+required during runtime. The Information Technology (IT) depart-
+ment for the site must whitelist the web addresses so that they can
+be easily accessed as needed.
+The following table lists the URLs that must be whitelisted.
+Table 1, Whitelisted Web Sites
+URL
+Description
+http://hostedactivation.com (specifically, 
+http://hostedactivation.com/bogen)
+Required for E7000 License support
+http://downloads.digium.com
+Required for downloads from Digium 
+Phone Module for Asterisk (DPMA)
+http://downloads.asterisk.org/ (specifically, 
+http://downloads.asterisk.org/pub/
+telephony/sounds/releases)
+Required for sounds download
+http://www.pjsip.org/
+Required for PJSIP download
+http://ftp.us.debian.org (specifically: http://
+ftp.us.debian.org/debian/)
+Required during Linux package installation
+http://security.debian.org (specifically: 
+http://security.debian.org/)
+Required during Linux package installation
+stun01.sipphone.com
+Required for STUN based IP address 
+resolution (This is used by the E7000 Web 
+UI and should be enabled on the computer 
+that runs the web UI.)
+=====
+3
+URLs that are entered on the E7000 System Parameters page are
+used during runtime and include the URLs for the NTS, the Session
+Traversal Utilities for (Network Address Translation (NAT) (STUN)
+server, and the Traversal Using Relays around NAT (TURN) server.
+The default URLs for the STUN and TURN servers are not set. The
+default URL for NTS is pool.ntp.org.
+1.1.2
+E7000 System Server Requirements
+The following are the minimum requirements for the E7000 system
+server if you elect to not use the Nyquist System Controller (NQ-
+SYSCTRL):
+https://raw.githubusercontent.com/
+Serves unprocessed versions of files stored 
+in the GitHub repositories.
+http://2431612419.airable.io
+https://2431612419.airable.io
+airable URL
+http://api.sound-machine.com
+https://api.sound-machine.com
+SoundMachine URL
+http://api.bogenedu.com/api/customers
+Required for E7000 Warranty Support
+http://bogen-ssu.bogen.com/
+Bogen System Software Update server – 
+Required for automatic Nyquist server 
+software and Nyquist firmware software 
+update notifications and downloads.
+https://www.weather.gov/alerts
+Required for displaying weather alerts.
+https://ipapi.co
+Required for automatically finding county 
+code for alerts.
+https://api.weather.gov
+Required for obtaining alerts from the 
+National Weather Service.
+ns1.google.com
+resolver1.opendns.com
+Required for obtaining the Nyquist 
+server’s public IP address for Audio Distri-
+bution streams and for automatically find-
+ing the county code for alerts.
+Table 1, Whitelisted Web Sites (Continued)
+URL
+Description
+=====
+4
+Table 2,  E7000 System Server Minimum Requirements
+OS
+Debian Linux OS (AMD 64-bit version) release 8.9.0
+Note: Refer to the most up to date Release Notes on the 
+www.bogenedu.com web site for details about which Linux 
+OS versions have been tested for use with the E7000 sys-
+tem. 
+CPU
+Quad-core Intel-based processor running at 3.0 GHz or 
+higher
+Hardware
+Sound card with microphone port
+Memory
+8 GB RAM (Error Correcting Code (ECC)) RAM is recom-
+mended for increase performance and reliability.)
+Disk Storage
+One 250 GB disk drive
+Some form of hardware-based Redundant Array of Inde-
+pendent Disks (RAID) is recommended for redundancy and 
+high availability.
+Consider using a larger drive if large amounts of audio (for 
+example, voice mail, announcements, recordings, and 
+music) are being stored on the system. Note that music, 
+tones, and announcements created or stored as .wav files 
+will be larger than if created or stored as MP3 files. Other 
+factors that should be considered are:
+• How often will backups be performed?
+• Will the system be backed up locally or remotely on a 
+detachable drive, Storage Area Network (SAN)/Network 
+Attached Storage (NAS), or Network File System (NFS)?
+• How many users will have voicemail ability?
+• How long will voicemail messages be stored?
+• Will voicemail messages be part of the local system 
+backups?
+NIC
+10/100/1000 MB Ethernet port (NIC is an acronym for 
+Network Interface Card)
+=====
+5
+1.1.3
+Network Application Services
+Required  application services will be installed automatically on the
+E7000 system server as part of the E7000 installation. All other net-
+work services must be already present or installed manually on the
+associated network. The following table lists the services and their
+locations:
+PCI Expansion Slots
+One or more Peripheral Component Interconnect (PCI)/PCI 
+Express (PCIe) slot if telephony network connectivity other 
+than, or in addition to, SIP trunking is required; contact 
+your Bogen Dealer for assistance in determining these tele-
+phony hardware needs.
+Telephony Interfaces
+One or more PCI/PCIe type third-party telephony interface 
+cards (for example, Foreign Exchange Office (FXO), Foreigh 
+Exchange Subscriber (FXS), etc.) if telephony network con-
+nectivity other than, or in addition to, SIP trunking is 
+required; contact your Bogen Dealer for assistance in deter-
+mining these telephony hardware needs.
+Table 2,  E7000 System Server Minimum Requirements (Continued)
+Table 3,  Network Application Services
+Service
+Description
+Required
+Location
+Apache
+Used as the web server to drive the 
+E7000 web interface.
+Mandatory
+E7000
+DHCP
+Supplies dynamic IP addresses to the 
+E7000 system server and associated 
+devices. (DHCP is the acronym for 
+Dynamic Host Configuration 
+Protocol.) It also supplies the Trivial 
+File Transfer Protocol (TFTP) server IP 
+address or host name to devices on 
+the network via option_66.
+Optional
+Network
+DNS
+Resolves host names to IP addresses. 
+DNS is an acronym for Domain 
+Name System, a hierarchical naming 
+system for computers, servers, or 
+other resources connected to either 
+the Internet or to a private network. 
+Optional
+Network
+=====
+6
+ICE
+STUN
+TURN
+Resolves IP addresses behind 
+Network Address Translation (NAT)/
+firewall.
+- Interactive Connectivity 
+Establishment
+- Session Traversal Utilities for NAT
+- Traversal Using Relays around NAT
+Optional
+E7000
+Network
+NTP
+Provides date/time synchronization 
+for the E7000 system server and the 
+associated devices (IP Phones, 
+appliances). (NTP is an acronym for 
+Network Time Protocol.)
+Mandatory
+Network
+SNMP
+Provides the E7000 Linux server 
+statistics via Simple Network 
+Management Protocol (SNMP) v1 
+through Port 161.
+Optional
+E7000
+TFTP
+TFTP is used by IP phone and E7000 
+device provisioning. A TFTP server 
+runs on the E7000 system server on 
+port 69 (the standard TFTP port #).
+Device provisioning files are stored 
+on the E7000 system server in 
+directory: /srv/tftp.
+This is the only directory exposed by 
+the TFTP server.
+Mandatory
+E7000
+Table 3,  Network Application Services (Continued)
+Service
+Description
+Required
+Location
+=====
+7
+1.1.4
+Network Ports
+The following table lists the network ports required by the Nyquist
+system controller and the associated devices.
+Table 4,  Network Ports Used by Nyquist
+Service
+Description
+Port
+DHCP 
+Dynamic Host Configuration Protocol (Optional)  67, 68
+DNS 
+Domain Name System (Optional) 
+53
+DUNDI 
+Distributed Universal Number Discovery 
+4520
+HTTP 
+Phone provisioning (HTTP is an acronym for 
+Hypertext Transfer Protocol)
+8088
+HTTPS 
+Secure HTTP 
+8089
+HTTPS 
+Secure HTTP (HTTP over TLS/SSL); used during 
+DPMA license registration. 
+443
+IAX 
+Inter-Facility Communications 
+4569
+MGCP 
+Media Gateway Control Protocol (Optional) 
+2727
+NTP 
+Network Time Protocol 
+123
+ODBC 
+Database connection (ODBC is an acronym for 
+Open Database Connectivity.)
+3306
+RTP 
+Audio Streams (RTP is an acronym for Real-Time 
+Transport Protocol.)
+10000-20000
+Server 
+Management
+Local port used for server management
+DO NOT allow outside access to this port. During 
+system controller installation, an IP filter rule is 
+installed to block outside access to this port.
+5038
+SIP
+Session Initiation Protocol (SIP) Transfer Control 
+Protocol (TCP)/User Datagram Protocol (UDP) 
+connections
+5060
+SIP over Web 
+Services
+SIP WS/WSS connections
+8088
+SNMP
+Simple Network Management Protocol (Optional) 161
+TFTP
+TFTP connections
+69
+=====
+8
+1.1.5
+Multicast IP Addresses
+A minimum of three multicast IP Addresses are required for an E7000
+system:
+• Emergency-All-Call Multicast RTP IP Address
+• All-Call Multicast RTP IP Address
+• Audio Distribution Multicast IP Address
+These multicast RTP IP Addresses are entered when setting System
+Parameters. 
+If you want to use multicasting for zones, a multicast IP Address is
+needed for each multicast zone. 
+A zone is a collection of stations. E7000 stations consist of any SIP-
+enabled device (personal computer (PC), tablet, smart phone), VoIP
+speaker or VoIP phone connected to the system and assigned an
+extension. No limit exists for the number of zones or for the number
+of stations that can be in a multicast zone. 
+Multicast IP Addresses for zones are set through the Zones menu and
+are added when creating a zone or when editing a zone.
+1.1.6
+Multicast Ports
+Multicast ports must be set for each multicast IP address. When set-
+ting Multicast ports for zones, the port number must start with an
+even number and a range of four is needed between port numbers.
+For example, if Zone 1 uses Multicast Port Number 6010, then Zone 2
+cannot use port 6011, 6012, or 6013.
+1.1.7
+IP Addresses
+IP addresses (static or dynamic) are needed for each of the following
+items:
+• E7000 System Controller or server
+• Each E7000 VoIP phone
+• Each E7000 appliance
+• Each device used to access the Web UI (PC, Mac, tablet, or mobile)
+=====
+9
+For information about the E7000 appliances, visit the following web-
+site:
+http://www.bogen-es.com/ 
+1.1.8
+Bandwidth Requirements
+Bandwidth requirements are as follows:
+• Background Traffic: 
+• SIP registration (unicast every 60 seconds between each SIP 
+endpoint and the Server): 0.001 Mbps
+• Inter-facility connection (unicast every 60 seconds between 
+local and remote nodes): 0.141 Mbps 
+• Ambient Noise Sensor (multicast every 500 msec): 480 bps
+• Feature Specific Traffic:
+• Audio distribution (multicast) local media (MP3 file): 0.070 
+Mbps
+• Audio distribution (multicast) Internet media (SOUNDMA-
+CHINE/airable): 0.071 Mbps
+• Announcement (multicast): 0.087 Mbps
+• Intercom call (unicast between two SIP endpoints): 0.171 Mbps
+• Zone page (multicast): 0.086 Mbps
+• All Call page (multicast): 0.086 Mbps
+• Emergency All Call page (multicast): 0.086 Mbps
+• Facility page (unicast between local and remote nodes): 0.147 
+Mbps
+• District All Call page (unicast between local and remote nodes): 
+0.143 Mbps
+• District Emergency All Call page (unicast between local and 
+remote nodes): 0.141 Mbps
+• District intercom call (unicast between local and remote nodes): 
+0.151 Mbps
+=====
+10
+1.1.9
+E7000 Cabling and Wiring Requirements
+The following table describes E7000 cabling and wiring requirements:
+Table 5, Cabling and Wiring Requirements
+Server and E7000 
+Devices
+Cat5 or better cabling
+ASB Speaker and 
+Call Switch Con-
+nections
+West Penn 357 cable or equivalent
+Note: While the system is entirely CAT5 or 
+better cable compatible, it is not advisable to 
+use category wiring for two-way intercom 
+stations in installations where Electromag-
+netic Field (EMF) interference is a possible 
+concern. In such environments, it is recom-
+mended to use West Penn #357, Belden 
+#8724, or equivalent cabling to protect 
+against cross talk and noise induced by EMF 
+interference.
+Digital Call 
+Switches
+Cat5 or equivalent cabling (The CAN 2.0 BUS 
+connection on these devices allows them to 
+be daisy-chained.)
+I/O Controller
+Cat5 or any other 2-wirer (or denser) cable 
+with a 500mA or better current rating.
+Matrix Mixer Pre 
+Amp
+Audio connections by input type (for exam-
+ple, XLR, pluggable screw terminal connec-
+tors); use 2-conductor or 3-conductor 
+shielded cable (as needed for balanced or 
+unbalanced) to reduce electromagnetic inter-
+ference (EMI) or radio frequency (RF) interfer-
+ence to the Line or MIC inputs.
+=====
+11
+VoIP Intercom 
+Module
+Cat5 or equivalent cabling for the CAN Bus 
+Port
+2-conductor or 3-conductor shielded cable 
+(as needed for balanced or unbalanced) to 
+reduce electromagnetic interference (EMI) or 
+radio frequency (RF) interference on the Line 
+Level outputs for Ambient Mic Input, Push-
+to-Talk Mic Connection, and Relay Contact
+HDMI 1.3 cable or better for HDMI output
+West Penn 357 cable or equivalent for call 
+switch input and analog speaker connection
+Note: While the system is entirely CAT5 or 
+better cable compatible, it is not advisable to 
+use category wiring for two-way intercom 
+stations in installations where Electromag-
+netic Field (EMF) interference is a possible 
+concern. In such environments, it is recom-
+mended to use West Penn #357, Belden 
+#8724, or equivalent cabling to protect 
+against cross talk and noise induced by EMF 
+interference.
+Table 5, Cabling and Wiring Requirements (Continued)
+=====
+12
+1.1.10
+Telephony Environment
+The Nyquist E7000 can interface with a customer’s telephony system
+in the following ways:
+• Network-based SIP trunks to PSTN or Cloud-based VoIP provider
+• Network-based SIP Tie-Lines to the premises-based IP-PBX
+• FXS ATA to the premises-based PBX or IP-PBX
+Use of FXS ATA requires purchase/use of a third-party FXS VoIP Gate-
+way device (for example, Cisco SPA112 Two Port Phone Adapter)
+Using SIP trunks allows full bi-directional calling between any E7000
+station and the IP-PBX/PBX/PSTN and supports features such as E-
+911 calling, remote call transfer, and off-premise calling. The FXS ATA
+option only allows a station on the PBX to dial through” to the
+Nyquist system where it will receives a second dial tone to initiate
+DTMF controlled paging, intercom calls, etc.
+Set up an appointment with both Bogen Technical Support (800-995-
+2809) and the PBX vendor or customer (if the customer maintains the
+telephony system) to assist during integration of the E7000 and tele-
+phony systems.
+1.2
+Additional Information
+Additional information about Nyquist appliances’ specifications and
+installation instructions can be obtained via the Bogen E7000 web
+site (http://www.bogenedu.com/). 
+1.3
+Installation Checklist
+The following checklist is provided to aid in obtaining information
+needed for E7000 system installation and initial configuration. You
+can print the checklist and use the Notes column to write required
+information, such as multicast IP addresses. In some cases, such as
+recording IP addresses for stations or VoIP phones, additional pages
+may need to be copied to accommodate the total number of devices
+being installed.
+=====
+13
+Installation Checklist
+The following checklist is provided to aid in obtaining information
+needed for E7000 system installation and initial configuration
+Done 
+Item
+Information
+E7000 System Controller/
+Server 
+Permanently allocated IP 
+Address
+Will the server be a Nyquist 
+System Controller
+(NQ-SYSCTRL)?
+___________________________________________
+              
+         
+                  Yes               No
+Network Time Server
+IP Address
+___________________________________________
+TFTP Server (Optional)
+IP Address
+___________________________________________
+Emergency-All-Call 
+Multicast RTP IP Address 
+RTP Port Number
+__________________________________________
+__________________________________________
+All-Call 
+Multicast RTP IP Address 
+RTP Port Number
+__________________________________________
+__________________________________________
+Audio Distribution 
+Multicast IP Address 
+RTP Port Number
+__________________________________________
+__________________________________________
+14
+Facility
+Name
+Page Number
+Host/IP Address
+Password
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Facility
+Name
+Page Number
+Host/IP Address
+Password
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Facility
+Name
+Page Number
+Host/IP Address
+Password
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Facility
+Name
+Page Number
+Host/IP Address
+Password
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+15
+Multicast Zone
+Zone (Name or Number)
+Zone Type (Paging, Time, and 
+so on)
+Multicast IP Address
+Port Number
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Multicast Zone
+Zone (Name or Number)
+Zone Type (Paging, Time, and 
+so on)
+Multicast IP Address
+Port Number
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Multicast Zone
+Zone (Name or Number)
+Zone Type (Paging, Time, and 
+so on)
+Multicast IP Address
+Port Number
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+16
+NQ-P0100 Matrix Mixer 
+Pre-Amp
+IP Address (if static)
+MAC Address 
+__________________________________________
+__________________________________________
+NQ-P0100 Matrix Mixer 
+Pre-Amp
+IP Address (if static)
+MAC Address 
+__________________________________________
+__________________________________________
+NQ-P0100 Matrix Mixer 
+Pre-Amp
+IP Address (if static)
+MAC Address 
+__________________________________________
+__________________________________________
+NQ-P0100 Matrix Mixer 
+Pre-Amp
+IP Address (if static)
+MAC Address 
+__________________________________________
+__________________________________________
+NQ-P0100 Matrix Mixer 
+Pre-Amp
+IP Address (if static)
+MAC Address 
+__________________________________________
+__________________________________________
+NQ-P0100 Matrix Mixer 
+Pre-Amp
+IP Address (if static)
+MAC Address 
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+17
+NQ-E7010 I/O Controller
+IP Address (if static)
+MAC Address
+Input Contact 1
+Input Contact 2
+Input Contact 3
+Input Contact 4
+Input Contact 5
+Input Contact 6
+Input Contact 7
+Input Contact 8
+Output Contact 1
+Output Contact 2
+Output Contact 3
+Output Contact 4
+Output Contact 5
+Output Contact 6
+Output Contact 7
+Output Contact 8
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+18
+NQ-S1810CT, NQ-S1810WT, 
+NQ-S1810CT-G2, or NQ-
+S1810WT-G2 VoIP Speaker
+Model and Name
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-S1810CT, NQ-S1810WT, 
+NQ-S1810CT-G2, or NQ-
+S1810WT-G2 VoIP Speaker
+Model and Name
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-S1810CT, NQ-S1810WT, 
+NQ-S1810CT-G2, or NQ-
+S1810WT-G2 VoIP Speaker
+Model and Name
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+Done 
+Item
+Information
+
+
+19
+NQ-S1810CT, NQ-S1810WT, 
+NQ-S1810CT-G2, or NQ-
+S1810WT-G2 VoIP Speaker
+Model and Name
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-S1810CT, NQ-S1810WT, 
+NQ-S1810CT-G2, or NQ-
+S1810WT-G2 VoIP Speaker
+Model and Name
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-S1810CT, NQ-S1810WT, 
+NQ-S1810CT-G2, or NQ-
+S1810WT-G2 VoIP Speaker
+Model and Name
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+Done 
+Item
+Information
+
+
+20
+NQ-T1100 Admin Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-T1100 Admin Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-T1100 Admin Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-T1100 Admin Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+Done 
+Item
+Information
+
+
+21
+NQ-T1000 VoIP Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-T1000 VoIP Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-T1000 VoIP Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+NQ-T1000 VoIP Phone
+IP Address (if static)
+Station/Architectural Number
+Physical Location
+MAC Address
+____________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
+Done 
+Item
+Information
+
+
+22
+NQ-E7030 ASB
+Name/Number
+IP Address (if static)
+MAC Address 
+Port Number 1
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Port Number 2
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 3
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 4
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 5
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 6
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+23
+Port Number 7
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 8
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 9
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 10
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 11
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 12
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 13
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+24
+Port Number 14
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 15
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 16
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 17
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 18
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 19
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 20
+Station/Architectural Number
+Digital Call Switch ID
+_________________________________________
+__________________________________________
+Port Number 21
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+25
+Port Number 22
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 23
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Port Number 24
+Station/Architectural Number
+Digital Call Switch ID
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+26
+NQ-GA10P/NQ-GA10PV 
+VoIP Intercom Module
+Model and Name
+Device Type
+IP Address (if static)
+MAC Address 
+Station/Architectural Number
+Location of Ambient Noise 
+Sensor(s) Attached (if applica-
+ble)
+Location of Push-to-Talk 
+Microphone Attached (if 
+applicable)
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+NQ-GA10P/NQ-GA10PV 
+VoIP Intercom Module
+Model and Name
+Device Type
+IP Address (if static)
+MAC Address 
+Station/Architectural Number
+Location of Ambient Noise 
+Sensor(s) Attached (if applica-
+ble)
+Location of Push-to-Talk 
+Microphone Attached (if 
+applicable)
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Done 
+Item
+Information
+
+
+27
+NQ-A4060/NQ-A4120/
+NQ-A4300 Networked 
+Audio Power Amplifier
+Model and Name
+Device Type
+IP Address (if static)
+MAC Address 
+Line Input-1 Source (if used)
+Line Input-2 Source (if used)
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Amplifier Output - A
+Station/Architectural Number
+__________________________________________
+Amplifier Output -B
+Station/Architectural Number
+__________________________________________
+Amplifier Output - C
+Station/Architectural Number
+__________________________________________
+Amplifier Output - D
+Station/Architectural Number
+__________________________________________
+Done 
+Item
+Information
+
+
+28
+NQ-A2060/NQ-A2120/
+NQ-A2300 Networked 
+Audio Power Amplifier
+Model and Name
+Device Type
+IP Address (if static)
+MAC Address 
+Line Input Source (if used)
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Amplifier Output - A
+Station/Architectural Number
+__________________________________________
+Amplifier Output - B
+Station/Architectural Number
+__________________________________________
+Done 
+Item
+Information
+
+
+29
+NQ-PA120/NQ-PA240/
+NQ-PA600 Public Address 
+Amplifier
+Model and Name
+Device Type
+IP Address (if needed)
+MAC Address 
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+Amplifier Output
+Station/Architectural Number
+__________________________________________
+Line/Mic Channel 1 source:
+__________________________________________
+Line/Mic Channel 2 source:
+__________________________________________
+Line/Mic Channel 3 source:
+__________________________________________
+Line/Mic Channel 4 source:
+__________________________________________
+Done 
+Item
+Information
+=====
+
+
+Glossary
+27
+Glossary
+The following terms are used by the E7000 system and the E7000 UI.
+All-Call
+A simultaneous page to all facility stations, unless the 
+station has been excluded from pages, which has a 
+higher priority than normal paging
+Analog Station Bridge 
+(ASB) 
+An E7000 appliance with 24 analog station 4-wire con-
+nections that allows E7000 to use existing analog call 
+switch and speaker infrastructure when upgrading or 
+permits a Hybrid IP/analog system configuration 
+through the use of analog 25V speakers and associated 
+call switches
+Appliance
+A purpose-built E7000 device that contains configurable 
+and upgradeable firmware.
+Central Processing 
+Unit (CPU)
+The electronic circuitry within a computer that performs 
+the basic arithmetic, logical, control, and input/output (I/
+O) operations specified by computer program instruc-
+tions
+Class of Service (CoS) 
+A term used to define the permissions, such as zone 
+paging, that a station or extension has
+Coder-decoder (Codec)
+A device or computer program for encoding or decoding 
+a digital data stream or signal
+Controller Area Net-
+work (CAN) Bus
+A specialized serial communications network standard 
+designed to allow microcontrollers and devices to com-
+municate with each other in applications without a host 
+computer; a message-based protocol, it was designed 
+originally for multiplex electrical wiring within automo-
+biles.
+Domain Name System 
+(DNS)
+One of the protocols that comprise the TCP/IP suite, it 
+converts Internet domain and host names, like those in 
+URLs from a web browser, into IP addresses.
+=====
+28
+Dynamic Host Config-
+uration Protocol 
+(DHCP)
+A standardized network protocol that is used on Internet 
+Protocol (IP) networks and is controlled by a DHCP 
+server that dynamically distributes network configura-
+tion parameters, such as IP addresses, for interfaces and 
+services
+Emergency-All-Call
+A top priority all-call page to all stations, even those that 
+have been set up for page exclusion
+Hypertext Transfer 
+Protocol (HTTP)
+An application protocol that runs on top of the TCP/IP 
+suite of protocols, HTTP is the set of rules for transferring 
+files on the World Wide Web.
+Hypertext Transfer 
+Protocol Secure 
+(HTTPS)
+A secure HTTP connection that is used frequently when 
+sensitive information is being passed to a server
+Input/Output (I/O)
+Any operation, program, or device that transfers data to 
+or from a computer
+Interactive Connectiv-
+ity Establishment (ICE)
+A technique used to allow two computers to communi-
+cate with each other as directly as possible. It is used for 
+interactive media such as Voice over Internet Protocol 
+(VoIP), peer-to-peer communications, video, and instant 
+messaging to avoid communicating through a central 
+server.
+Internet Protocol (IP)
+The method, or protocol, by which data is sent from one 
+computer to another on the Internet
+Media Gateway Con-
+trol Protocol (MGCP) 
+A signaling and call control communications protocol 
+used in VoIP telecommunication systems that uses 
+decomposed multimedia gateways for transmitting tele-
+phone calls between an IP network and traditional ana-
+log facilities of the public switched telephone network 
+(PSTN)
+Multicast
+Communication between a single sender and multiple 
+receivers
+Network Address 
+Translator (NAT)
+A method of remapping one IP address space into 
+another by modifying network address information in IP 
+datagram packet headers while they are in transit across 
+a traffic routing device
+Network Interface 
+Controller (NIC)
+A computer circuit board or card that is installed in a 
+computer so that it can be connected to a network
+=====
+29
+Network Time Proto-
+col (NTP)
+A protocol that is used to synchronize the time of a com-
+puter client or server to another serve or reference time 
+source
+Operating System (OS)
+The system software that manages computer hardware 
+and software resources and provides common services 
+for computer programs
+Peripheral Component 
+Interconnect (PCI)
+An interconnection system between a microprocessor 
+and attached devices in which expansion slots are 
+spaced closely for high speed operation
+Peripheral Component 
+Interconnect Express 
+(PCIe)
+A serial expansion bus standard for connecting a com-
+puter to one or more peripheral devices
+Protocol
+The special set of rules that end points in a telecommu-
+nication connection use when they communicate
+Redundant Array of 
+Independent Disks 
+(RAID)
+A data storage virtualization technology that combines 
+multiple physical disk drive components into a single 
+logical unit to provide data redundancy, performance 
+improvement, or both
+Real-time Transport 
+Protocol (RTP)
+An Internet Protocol (IP) standard that specifies a way for 
+programs to manage the real-time transmission of multi-
+media data over either unicast or multicast network ser-
+vices
+Session Initiation Pro-
+tocol (SIP)
+A standard protocol for initiating an interactive user ses-
+sion that involves multimedia elements such as video, 
+voice, chat, gaming, and virtual reality
+Session Initiation Pro-
+tocol (SIP) Trunk
+A direct connection to an ITSP that allows you to use 
+VoIP telephony beyond the facility’s firewall without a 
+PSTN
+Simple Network Man-
+agement Protocol 
+(SNMP)
+A protocol for network management that is used for col-
+lecting information from and configuring network 
+devices, such as servers, printers, hubs, switches, and 
+routers, on an IP network
+Session Traversal Utili-
+ties for Network 
+Address Translation 
+(NAT) (STUN)
+A protocol for assisting devices behind a NAT firewall or 
+router with their packet routing
+=====
+30
+Station
+A speaker, phone, device used to access the E7000 web 
+interface, or an E7000 appliance, such as an I/O Control-
+ler
+Transport Control Pro-
+tocol (TCP)
+A protocol developed for the Internet to get data from 
+one network device to another
+Trivial File Transfer 
+Protocol (TFTP) 
+A simple version of FTP that allows a client to get a file 
+from or put a file onto a remote host
+Traversal Using Relays 
+around Network 
+Address Translation 
+(NAT) (TURN)
+A protocol that assists in traversal of NATs or firewalls for 
+multimedia applications
+User Data Protocol 
+(UDP) 
+An alternative to TCP that sends datagrams over an IP
+User
+Personnel who are authorized to use E7000; also, one of 
+the default roles provided by E7000
+Voice over IP (VoIP) 
+Phone
+Also known as an IP phone, a VoIP phone uses VoIP 
+technologies to transmit calls over an IP network, such as 
+the Internet, rather than over a traditional public 
+switched telephone network (PSTN).
+Zone
+A collection of stations that is used to control paging 
+and audio activities or features

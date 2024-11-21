@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "query": "The emergency buttons turn red and stop functioning once a month, this condition is only able to be corrected by power cycling the network switch."
+    },
+    {
+        "id": 2,
+        "query": "We are moving to ring central for our phone system as part of our move from analog to voip. We have their ALGO device which is supposed to allow for zone paging with the BogenPCM2000. Currently the zone paging is not working with the device but it does see the PCM2000 zones. We want to see if we can get assistance in verifying we are configuring the PCM2000 dip switches correctly as well as the general connection for the devices."
+    },
+    {
+        "id": 3,
+        "query": "Intercom calls from the Admin Phone to certain ASB stations end before SIP 200 OK w/ SIP CANCEL message."
+    }
+]

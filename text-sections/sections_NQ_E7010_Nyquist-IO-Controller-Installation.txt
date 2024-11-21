@@ -1,0 +1,60 @@
+NYQUIST Input/Output Controller
+NQ-E7010 Installation and Use
+The NQ-E7010 Input/Output (I/O) Controller allows 
+Nyquist to recognize third-party switch contact 
+closures and to provide external circuits. Designed 
+to run on a 10/100 Ethernet network, the NQ-E7010 
+is IEEE 802.3af compliant and can be powered using 
+Power-Over-Ethernet (PoE), or if that is not available, 
+it can be powered via an optional
+48VDC 15W power adapter. The NQ-E7010 also 
+has a USB 2.0 host port, which is reserved for 
+future use.
+Installation
+The NQ-E7010 can either be shelf or wall mounted.
+1.	  Either place the I/O Controller appliance on a 
+shelf, or use the supplied brackets to mount it 
+on a wall. 
+2.	  Wire the input terminal(s) to the dry contact connection(s) of the system/device(s) that you want 
+to monitor with Nyquist. 
+3.	  Wire the open-collector output terminal(s) to the relay driver(s) of the system/device(s) that you 
+want to control via Nyquist.
+4.	  Connect the device to the 
+10/100 network using a 
+CAT5 type cable. 
+You can now configure this device using the Nyquist web user 
+interface (UI) or the Nyquist I/O 
+Controller web UI. Refer to the 
+Nyquist System Administrator 
+Manual or to the NQ-E7010 Input/Output Configuration Manual 
+for more information.
+Publication Number 740-00018C  1811
+=====
+
+Viewing and Understanding LEDs
+Two light emitting diodes (LEDs) appear on the 
+front of the I/O Controller. One is labeled POWER 
+and appears as solid red during initial power up, 
+flashes green during a boot sequence, and appears solid green when fully booted.
+The STATUS LED uses the following indicators to 
+provide information about the I/O Controller:
+•	
+Flashing red – No network connection found.
+•	
+Solid blue – The I/O Controller is in an uninitialized state and is not associated to a server. 
+(The server may be in a discovery mode.)
+•	
+Solid green – The I/O Controller is registered to a Nyquist server and is in normal operation.
+•	
+Flashing green – The I/O Controller has an IP address but is not registered with the Nyquist 
+server.
+•	
+Solid red – The I/O Controller needs to be rebooted or reset so that the Nyquist application 
+can resume.
+•	
+Flashing Blue – The I/O Controller is updating.
+
+Using the Reset Button
+The Reset button allows you to restart the I/O Controller or to reset the appliance’s configuration settings to the factory default settings. For more information about resetting configuration settings, refer to the NQ-E7010 Input/
+Output Controller Configuration Manual.
+=====

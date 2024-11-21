@@ -1,0 +1,51 @@
+NYQUIST Matrix Mixer Pre-Amp
+NQ-P0100 Installation
+The NQ-P0100 is a mixer pre-amplifier that enables 
+microphone, AES3 digital, and line-level source 
+inputs to be integrated into a Nyquist system. These 
+input sources can then be routed to any endpoint 
+or group of endpoints on the network for paging or 
+audio distribution. 
+
+=====
+
+Installation of The NQ-P0100
+To install the Nyquist Matrix Mixer Pre-Amp:
+1.	 Either place the Matrix Mixer Pre-Amp on a shelf, or use the adjustable brackets to mount it on a 
+wall or in a rack.
+2.	 Ensure the POWER switch is in the OFF position.
+3.	 Attach and then plug in the AC line cord.
+4.	 Connect the 10/100 network cable.
+5.	 Toggle the POWER switch ON.
+6.	 Connect the input devices to the XLR,  screw-terminal connections, or both as needed.
+=====
+
+Viewing and Understanding LEDs of The NQ-P0100
+Two LEDs appear on the front of the Matrix Mixer 
+Pre-Amp. One is labeled POWER and appears 
+as solid red during initial power up, flashes green 
+during a boot sequence, and appears solid green 
+when fully booted.
+The STATUS LED uses the following indicators to 
+provide information about the appliance:
+•	
+Flashing red – No network connection found.
+•	
+Solid blue – The Matrix Mixer Pre-Amp is in 
+an uninitialized state and is not associated to 
+a server. (The server may be in a discovery mode.)
+•	
+Solid green – The Matrix Mixer Pre-Amp is registered to a Nyquist server and is in normal operation.
+•	
+Flashing green – The Matrix Mixer Pre-Amp has an IP address but is not registered with the Nyquist 
+server.
+•	
+Solid red – The Matrix Mixer Pre-Amp needs to be rebooted or reset so that the Nyquist application can 
+resume.
+•	
+Flashing Blue – The Matrix Mixer Pre-Amp is updating.
+Using the Reset Button
+The Reset button allows you to restart the Matrix Mixer Pre-Amp or to reset 
+the appliance’s configuration settings to the factory default settings. For
+more information about resetting configuration settings, refer to the 
+Nyquist Matrix Mixer Pre-Amp Configuration Manual.

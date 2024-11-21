@@ -1,0 +1,672 @@
+[
+    {
+        "context": "Publication Number 740-00054A  \n1807\nThis equipment is not suitable for use in locations \nwhere children are likely to be present.\nEquipment is intended for use only \nin a restricted access area.\nNQ-A2060, NQ-A2120 \nAudio Power Amplifiers\nInstallation and Use\nThese networked \nAudio Power Amplifiers \nsupport a full range \nof commercial paging \nand public address \napplications, regardless \nof the venue size.  Both \nthe NQ-A2060 and the \nNQ-A2120 can operate \nin 2-channel mono or single channel bridged mode, depending \non the application need.\nEach networked audio power amplifier is a half-rack 1RU \nhigh enclosure containing a Class D audio power amplifier, \na universal switched-mode power supply, an RJ45 network \njack, a USB port, and pluggable Phoenix style terminals for \nloudspeaker and Line-Out connections.  Optionally, Line-Out \ncan be connected using the available XLR connector.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What type of environments is the equipment unsuitable for?",
+                "answers": [
+                    {
+                        "text": "The equipment is unsuitable for use in locations where children are likely to be present. It is intended for installation only in restricted access areas."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What models are mentioned in the context for Audio Power Amplifiers?",
+                "answers": [
+                    {
+                        "text": "The models mentioned for Audio Power Amplifiers are the NQ-A2060 and NQ-A2120. These amplifiers support various commercial paging and public address applications and can operate in either 2-channel mono or single channel bridged mode."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What functionality do the NQ-A2060 and NQ-A2120 support regarding audio channels?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 and NQ-A2120 support operation in 2-channel mono mode or single channel bridged mode, allowing flexibility depending on the application's needs. These configurations enable them to effectively handle a range of paging and public address applications."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What type of enclosure do the networked audio power amplifiers have?",
+                "answers": [
+                    {
+                        "text": "The networked audio power amplifiers, NQ-A2060 and NQ-A2120, have a half-rack 1RU high enclosure. This enclosure contains a Class D audio power amplifier and various connection ports for network and audio output."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What type of audio amplifier is used in the amplifiers mentioned?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 and NQ-A2120 are Class D audio power amplifiers. They support various commercial paging and public address applications and can operate in 2-channel mono or single channel bridged mode."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What kind of power supply is utilized in these audio power amplifiers?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 and NQ-A2120 audio power amplifiers utilize a universal switched-mode power supply. This design enables efficient operation across various applications."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What connections are available for loudspeaker and Line-Out?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 and NQ-A2120 audio power amplifiers provide pluggable Phoenix style terminals for loudspeaker and Line-Out connections. Additionally, Line-Out can also be connected using an available XLR connector."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Can Line-Out be connected using different types of connectors? If so, which?",
+                "answers": [
+                    {
+                        "text": "Yes, Line-Out can be connected using different types of connectors. It can be connected using pluggable Phoenix style terminals or an XLR connector."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-A2060\nWARNING: To \nreduce the risk \nof fire or electric \nshock, do not \nexpose this \napparatus to rain \nor moisture.\nAlways comply \nwith the following \nbasic safety precautions when installing and using the unit:\n1.\t Read these instructions.\n2.\t Keep these instructions.\n3.\t Heed all warnings.\n4.\t Follow all instructions.\n5.\t Clean only with dry cloth.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n\n6.\t DO NOT install near any heat sources such as \nradiators, heat registers, stoves, or other apparatus    \n(including amplifiers) that produce heat.\n7.\t DO NOT defeat the safety purpose of the polarized or \ngrounding-type plug.  A polarized plug has two blades with \none wider than the other.  A grounding-type plug has two \nblades and a third grounding prong. The wide blade, or the \nthird prong, are provided for your safety. If the provided \nplug does not fit into your outlet, consult an electrician for \nreplacement of the obsolete outlet.\n8.\t Protect the power cord from being walked on and/or \npinched, particularly at plugs, convenience receptacles, \nand the point where they exit from the apparatus.\n 9.  Only use attachments/accessories that are specified by  \n       the manufacturer.\n10. Unplug this apparatus during lightning storms or when\n       unused for long periods of time.\n11. Refer all servicing to qualified service personnel. Servicing\n      is required when the apparatus has been damaged in any\n      way, such as power-supply cord or plug is damaged, liquid\n      has been spilled or objects have fallen into the apparatus, \n      the apparatus has been exposed to rain or moisture, does \n      not operate normally, or has been dropped.",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What precautions should be taken to avoid fire or electric shock?",
+                "answers": [
+                    {
+                        "text": "To avoid fire or electric shock, ensure the apparatus is not exposed to rain or moisture, maintain distance from heat sources, and use a properly fitting polarized or grounding-type plug. Additionally, protect the power cord from being pinched or walked on, and unplug the device during storms or when not in use for extended periods."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the importance of reading and keeping the safety instructions?",
+                "answers": [
+                    {
+                        "text": "Reading and keeping the safety instructions is crucial for ensuring proper installation and usage of the apparatus, which helps prevent risks such as fire or electric shock. These instructions provide essential information on safety precautions and maintenance that can protect both the user and the equipment."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "How should the apparatus be cleaned?",
+                "answers": [
+                    {
+                        "text": "The apparatus should be cleaned only with a dry cloth. Ensure that no moisture comes into contact with the unit during the cleaning process."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "Why is it important not to install the apparatus near heat sources?",
+                "answers": [
+                    {
+                        "text": "It is important not to install the apparatus near heat sources because excessive heat can pose a risk of fire and may damage the unit's internal components, leading to malfunction or safety hazards. Proper ventilation and temperature control are essential for the safe operation of electronic devices."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What should be done if the polarized or grounding-type plug does not fit the outlet?",
+                "answers": [
+                    {
+                        "text": "If the polarized or grounding-type plug does not fit the outlet, consult an electrician for the replacement of the obsolete outlet. Do not attempt to modify the plug to fit."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "How can the power cord be protected from damage?",
+                "answers": [
+                    {
+                        "text": "To protect the power cord from damage, avoid walking on it or pinching it, especially at plugs, convenience receptacles, and the point where it exits the apparatus. Ensure it is routed safely to prevent any physical stress or hazards."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What type of accessories should be used with this apparatus?",
+                "answers": [
+                    {
+                        "text": "Only use attachments or accessories that are specified by the manufacturer. This ensures safe and proper operation of the apparatus."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "When should the apparatus be unplugged?",
+                "answers": [
+                    {
+                        "text": "The apparatus should be unplugged during lightning storms or when it will not be used for long periods of time. This helps reduce the risk of fire or electric shock."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "Who should perform servicing on the apparatus?",
+                "answers": [
+                    {
+                        "text": "Servicing on the apparatus should be performed by qualified service personnel. This is necessary if the apparatus has been damaged, exposed to moisture, or does not operate normally."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What are the indicators that servicing is required?",
+                "answers": [
+                    {
+                        "text": "Servicing is required when the apparatus has been damaged (e.g., power-supply cord or plug is damaged), if liquid has been spilled or objects have fallen into it, if it has been exposed to rain or moisture, does not operate normally, or if it has been dropped."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Installation\nTo install the NQ-A2060 Audio Power Amplifier:\n1.\t Ensure the  POWER switch is in the off position.\n2.\t Connect the universal mains power line cord into the \namplifier.\n3.\t Connect a Cat5 type cable into the amplifier\u2019s Ethernet port \nand ensure the other end of the  cable is correctly connected \nto your network.\n4.\t Set the Amplifier Mode switch to the desired setting.\n\nThis amplifier can be configured for single-channel bridged \nmode (aka bridged-tied load) operation for 70V/25V/8\u03a9 \napplications, or 2-channel (mono) operation for 25V/8\u03a9/4\u03a9 \napplications.  The Amplifier Mode switch is used in \nconjunction with the Bridged Signal routing setting in the \nsystem console.\n\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n5\nWARNING:\nThe apparatus shall be connected to a mains socket \noutlet with\na protective earthing connection.\nTo reduce the risk of fire or electric shock, do not ex\u00ad\npose this apparatus to rain or moisture.\nThe apparatus shall not be exposed to dripping or \nsplashing and no objects filled with liquids, such as \nvases, shall be placed on the apparatus.\nWhere the mains plug or an appliance coupler is used \nas the disconnect device, the disconnect device shall \nremain readily operable.",
+        "qas": [
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What should be ensured about the POWER switch before installation?",
+                "answers": [
+                    {
+                        "text": "Before installation, ensure that the POWER switch is in the off position to avoid any risk of electric shock or damage to the amplifier."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "How is the NQ-A2060 Audio Power Amplifier connected to the power supply?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 Audio Power Amplifier is connected to the power supply by plugging the universal mains power line cord into the amplifier and ensuring the POWER switch is in the off position before making the connection."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What type of cable is required to connect the amplifier to the network?",
+                "answers": [
+                    {
+                        "text": "A Cat5 type cable is required to connect the NQ-A2060 Audio Power Amplifier to the network. Make sure one end is connected to the amplifier's Ethernet port and the other end is connected to your network."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What does the Amplifier Mode switch control?",
+                "answers": [
+                    {
+                        "text": "The Amplifier Mode switch controls the operational configuration of the NQ-A2060 Audio Power Amplifier, allowing it to be set for either single-channel bridged mode (for 70V/25V/8\u03a9 applications) or 2-channel (mono) operation (for 25V/8\u03a9/4\u03a9 applications). It is used in conjunction with the Bridged Signal routing setting in the system console."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "In what modes can the NQ-A2060 amplifier operate?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 amplifier can operate in single-channel bridged mode for 70V/25V/8\u03a9 applications, or in 2-channel (mono) mode for 25V/8\u03a9/4\u03a9 applications. The mode is set using the Amplifier Mode switch and is configured alongside the Bridged Signal routing setting in the system console."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What are the applications for single-channel bridged mode operation?",
+                "answers": [
+                    {
+                        "text": "Single-channel bridged mode operation of the NQ-A2060 Audio Power Amplifier is suitable for 70V, 25V, and 8\u03a9 applications. This mode allows for enhanced power output, making it ideal for distributed audio systems in commercial settings."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What safety warning is associated with the mains socket outlet?",
+                "answers": [
+                    {
+                        "text": "The safety warning associated with the mains socket outlet specifies that the apparatus must be connected to a socket outlet with a protective earthing connection. Additionally, to reduce the risk of fire or electric shock, it should not be exposed to rain or moisture, and it should not be subjected to dripping or splashing."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "Why should the amplifier not be exposed to rain or moisture?",
+                "answers": [
+                    {
+                        "text": "The amplifier should not be exposed to rain or moisture to reduce the risk of fire or electric shock. Moisture can cause electrical short circuits and damage internal components, posing safety hazards."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What should be done to maintain operability regarding the disconnect device?",
+                "answers": [
+                    {
+                        "text": "To maintain operability regarding the disconnect device, ensure that the mains plug or appliance coupler remains readily accessible for quick disconnection. This allows for immediate power cut-off in case of an emergency or maintenance needs."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Bridged mode is typically used when higher power,  \nsingle channel operation  with a high impedance \nloudspeaker load is desired. A typical use-case would \nbe for 70V or 25V loudspeaker runs, where the total \nload is no less than 8\u03a9.\n\n2 Channel mode is typically used for 8\u03a9 or 4\u03a9 \nloudspeakers runs. This mode allows the two amplifier \nchannels to operate independently.\n5.\t Connect the loudspeaker wires to the Amplifier \nOutput Terminals, which are labeled A +/- and B +/-, \nas appropriate for the desired mode of operation (see \nFigures 1 and 2). \nFigure 1. Bridged Wiring Diagram\nBridged mode operation requires the speaker wires to \nbe connected across a single, different terminal on each \nchannel (A+ and B-). (See Figure 1.) \n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n6",
+        "qas": [
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What is bridged mode typically used for in an amplifier setup?",
+                "answers": [
+                    {
+                        "text": "Bridged mode is typically used for higher power, single channel operation with a high impedance loudspeaker load, commonly applied in 70V or 25V loudspeaker runs. It requires a total load of no less than 8\u03a9."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What speaker load impedance is required for bridged mode operation?",
+                "answers": [
+                    {
+                        "text": "Bridged mode operation requires a loudspeaker load impedance of no less than 8\u03a9. This mode is typically used for higher power, single channel operation with 70V or 25V loudspeaker runs."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "How does 2 Channel mode differ from bridged mode in terms of loudspeaker impedance?",
+                "answers": [
+                    {
+                        "text": "2 Channel mode is used for 8\u03a9 or 4\u03a9 loudspeaker loads, allowing each amplifier channel to operate independently. In contrast, bridged mode is designed for higher impedance loads, typically requiring a minimum of 8\u03a9, and utilizes a single channel for operation across two terminals (A+ and B-)."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "How are loudspeaker wires connected in bridged mode according to the instructions?",
+                "answers": [
+                    {
+                        "text": "In bridged mode, loudspeaker wires are connected across a single terminal on each channel, specifically to A+ and B- terminals. This configuration allows for higher power output suitable for higher impedance loudspeaker loads."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What is the significance of connecting to A+ and B- terminals in bridged mode?",
+                "answers": [
+                    {
+                        "text": "In bridged mode, connecting the loudspeaker wires to A+ and B- terminals allows the amplifier to combine the power from both channels, resulting in higher output power suitable for high impedance loads, such as 70V or 25V loudspeaker systems. This configuration effectively doubles the voltage across the loudspeaker, enabling greater sound pressure levels while requiring a minimum total load of 8\u03a9."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What types of loudspeakers are compatible with 2 Channel mode?",
+                "answers": [
+                    {
+                        "text": "2 Channel mode is compatible with 8\u03a9 or 4\u03a9 loudspeakers. This mode allows for independent operation of the two amplifier channels."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "Why might someone choose bridged mode over 2 Channel mode?",
+                "answers": [
+                    {
+                        "text": "Bridged mode is chosen for higher power, single-channel operation, particularly in applications like 70V or 25V loudspeaker runs where a high impedance load of at least 8\u03a9 is required. This mode delivers increased power to a loudspeaker, making it suitable for situations where greater sound levels are needed."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What is the recommended minimum total load impedance for loudspeaker runs in bridged mode?",
+                "answers": [
+                    {
+                        "text": "The recommended minimum total load impedance for loudspeaker runs in bridged mode is no less than 8\u03a9. This configuration is typically used for higher power, single channel operation with high impedance loudspeakers."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "If two channel mode is used, then Channel A is connected to the \nA+ and A- terminals and B channel is connected to the B+ and \nB- terminals. (See Figure 2.)\nFigure 2. Two-Channel Wiring\nNotice\nThe minimum impedance of a Bridged 70V/25V/8\u2126 High \nImpedance system should not be less than 8\u2126. \nThe minimum impedance of a 2CH 25V/8/4\u2126 system \nshould not be less than 4\u03a9 per channel.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n7",
+        "qas": [
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What terminals does Channel A connect to in a two-channel mode?",
+                "answers": [
+                    {
+                        "text": "In a two-channel mode, Channel A connects to the A+ and A- terminals."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What is the minimum impedance for a Bridged 70V/25V/8\u2126 High Impedance system?",
+                "answers": [
+                    {
+                        "text": "The minimum impedance for a Bridged 70V/25V/8\u2126 High Impedance system should not be less than 8\u2126."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What terminals does Channel B connect to in a two-channel mode?",
+                "answers": [
+                    {
+                        "text": "In a two-channel mode, Channel B is connected to the B+ and B- terminals."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "What is the minimum impedance required per channel for a 2CH 25V/8/4\u2126 system?",
+                "answers": [
+                    {
+                        "text": "The minimum impedance required per channel for a 2CH 25V/8/4\u2126 system should not be less than 4\u03a9."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "Where is the location of Bogen Communications, Inc. based on the context?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. is located at 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "The combined total power of each speaker tap must not \nexceed 80% of the rated amplifier power in either Bridged \n70V/25V/8\u2126 mode or 2CH 25V/8/4\u2126 mode.\nFailure to observe minimum speaker impedance will cause \nthe amplifier to self protect until the speaker configuration \nis corrected.\n6.\t If using Line Input, route the input. \n\nThe amplifier uses a balanced line level (up to 2V RMS) ana\u00ad\nlog audio input. You can use either XLR or Phoenix (but not \nboth) as the input.\n\nThis input can be routed to either or both amplifier channels, \ndepending on the setting of the Amplifier Mode switch.\n7.\t Plug the power line cord into the power source. \n8.\t Toggle the Power switch to the On position.\n9.\t For information about configuring the amplifier for the \nNyquist system, refer to the Nyquist Audio Power Amplifiers \nConfiguration Manual.\n\nPower Ratings\nThe NQ-A2060  can provide 60 Watts into two separate chan\u00ad\nnels into 25V, 8\u03a9, or 4\u03a9, or 120 Watts Bridged (one channel) into \n70V, 25V, or 8\u03a9 load configurations.\nThe NQ-A2120 can provide 120 Watts into two separate chan\u00ad\nnels into 25V, 8\u03a9, or 4\u03a9, or 240 Watts Bridged (one channel) into \n70V, 25V, or 8\u03a9 load configurations.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n8",
+        "qas": [
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "What is the maximum power limit for each speaker tap in relation to the rated amplifier power?",
+                "answers": [
+                    {
+                        "text": "The maximum power limit for each speaker tap must not exceed 80% of the rated amplifier power, whether in Bridged 70V/25V/8\u03a9 mode or 2CH 25V/8/4\u03a9 mode. This rule is crucial to avoid amplifier protection activation due to minimum speaker impedance violations."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "What will happen if the minimum speaker impedance is not observed?",
+                "answers": [
+                    {
+                        "text": "If the minimum speaker impedance is not observed, the amplifier will enter a self-protect mode and cease operation until the speaker configuration is corrected. This is necessary to prevent damage to the amplifier."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "Which types of inputs can be used with the amplifier and how can they be configured?",
+                "answers": [
+                    {
+                        "text": "The amplifier accepts a balanced line level analog audio input via either XLR or Phoenix connectors (not both simultaneously). The input can be routed to either or both amplifier channels based on the setting of the Amplifier Mode switch."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "What is the purpose of the Amplifier Mode switch?",
+                "answers": [
+                    {
+                        "text": "The Amplifier Mode switch determines how the input signal is routed to the amplifier channels, allowing the user to configure the amplifier for either single-channel (bridged) or dual-channel operation. This ensures the proper distribution of audio signals based on the specific setup requirements."
+                    }
+                ]
+            },
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "What are the power ratings for the NQ-A2060 amplifier in different load configurations?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2060 amplifier delivers 60 Watts into two separate channels at 25V, 8\u03a9, or 4\u03a9 loads, and it can provide 120 Watts when bridged (one channel) into 70V, 25V, or 8\u03a9 load configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "What are the power ratings for the NQ-A2120 amplifier in different load configurations?",
+                "answers": [
+                    {
+                        "text": "The NQ-A2120 amplifier can deliver 120 Watts into two separate channels with 25V, 8\u03a9, or 4\u03a9 loads, and 240 Watts when bridged into 70V, 25V, or 8\u03a9 configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "How should the amplifier be powered on after connecting the power line cord?",
+                "answers": [
+                    {
+                        "text": "After connecting the power line cord to the power source, toggle the Power switch to the On position to power on the amplifier. Ensure that the speaker configuration meets the specified impedance requirements before turning it on."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "Where can additional configuration information for the Nyquist system be found?",
+                "answers": [
+                    {
+                        "text": "Additional configuration information for the Nyquist system can be found in the Nyquist Audio Power Amplifiers Configuration Manual."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and Understanding LEDs\nTwo LEDs appear on the front of the amplifier. One is labeled \nPOWER and appears as solid red during initial power up, \nflashes green during a boot sequence, and appears solid green \nwhen fully booted.\nThe STATUS LED uses the following indicators to provide \ninformation about the appliance:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The amplifier is in an uninitialized state and is \nnot associated to a server. (The server may be in a discovery \nmode.)\n\u2022\t\nSolid green \u2013 The \namplifier is registered to \na Nyquist server and is in \nnormal operation.\n\u2022\t\nFlashing green \u2013 The \namplifier has an IP \naddress but is not \nregistered with the \nNyquist server.\n\u2022\t\nSolid red \u2013 The amplifier needs to be rebooted or reset so \nthat the Nyquist application can resume.\n\u2022\t\nFlashing blue \u2013 The amplifier is updating.\nClipping, Protection, and Temperature Indicators\nIn addition to the LEDs that appear on the actual appliance, \nseparate amplifier module signal clipping, protection mode, \nand temperature status indicators appear in the Nyquist \n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n9",
+        "qas": [
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "What color does the POWER LED display during the initial power-up phase?",
+                "answers": [
+                    {
+                        "text": "During the initial power-up phase, the POWER LED displays a solid red. It changes to flashing green during the boot sequence and then to solid green when fully booted."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "What does a flashing red STATUS LED indicate?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that no network connection is found. This means the amplifier is unable to connect to the network."
+                    }
+                ]
+            },
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "What state is represented by a solid blue STATUS LED?",
+                "answers": [
+                    {
+                        "text": "A solid blue STATUS LED indicates that the amplifier is in an uninitialized state and is not associated with a server, which may be in discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "What does a solid green STATUS LED signify?",
+                "answers": [
+                    {
+                        "text": "A solid green STATUS LED signifies that the amplifier is registered to a Nyquist server and is in normal operation. This indicates that the device is functioning correctly and has established a successful connection to the server."
+                    }
+                ]
+            },
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "What does it mean when the STATUS LED is flashing green?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED is flashing green, it indicates that the amplifier has an IP address but is not registered with the Nyquist server. This suggests a communication issue or that the amplifier is not yet associated with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "When is the STATUS LED solid red, and what action is required?",
+                "answers": [
+                    {
+                        "text": "The STATUS LED appears solid red when the amplifier needs to be rebooted or reset so that the Nyquist application can resume. This indicates a critical issue that requires immediate action to restore normal operation."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "What does a flashing blue STATUS LED indicate about the amplifier's status?",
+                "answers": [
+                    {
+                        "text": "A flashing blue STATUS LED indicates that the amplifier is currently updating. This means that the device is in the process of receiving or installing new software or firmware."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "Where are the separate indicators for clipping, protection mode, and temperature displayed?",
+                "answers": [
+                    {
+                        "text": "The separate indicators for clipping, protection mode, and temperature status are displayed in the Nyquist application, not on the actual amplifier. These indicators provide additional operational information beyond the front-panel LEDs."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "amplifier\u2019s web-based user interface. For more information \nabout these status indicators, refer to the Nyquist NQ-A2060, \nNQ-A2120 Audio Power Amplifiers Configuration Manual.\nUsing the Reset Button\nThe Reset button allows you to restart the appliance or to reset \nthe appliance\u2019s configuration settings to the factory default \nsettings. For more information about resetting configuration \nsettings, refer to the Nyquist Audio Power Amplifiers \nConfiguration Manual.\nNotice\nEvery effort was made to ensure that the information in this \nmanual was complete and accurate at the time of printing; how\u00ad\never, all information is subject to change.\nCompliance\nNOTE: This equipment has been \ntested and found to comply with \nthe limits for a Class A digital \ndevice, pursuant to Part 15 of \nthe FCC rules. These limits are \ndesigned to provide reason\u00ad\nable protection against harmful \ninterference when the equipment \nis operated in a commercial \nenvironment. This equipment generates, uses and can radiate radio \nfrequency energy and, if not installed and used in accordance with \nthe instruction manual, may cause harmful interference to radio \ncommunications.  Operation of this equipment in a residential area \nis likely to cause harmful interference in which case the user will be \n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.",
+        "qas": [
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What is the purpose of the Reset button on the amplifier?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the amplifier allows users to restart the appliance or reset its configuration settings to the factory default. This can help resolve issues or restore the original settings as needed."
+                    }
+                ]
+            },
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "Where can users find more information about the amplifier's status indicators?",
+                "answers": [
+                    {
+                        "text": "Users can find more information about the amplifier's status indicators in the Nyquist NQ-A2060, NQ-A2120 Audio Power Amplifiers Configuration Manual. This manual contains detailed explanations and guidance related to the status indicators."
+                    }
+                ]
+            },
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "What does compliance with Part 15 of the FCC rules entail for this equipment?",
+                "answers": [
+                    {
+                        "text": "Compliance with Part 15 of the FCC rules ensures that this equipment meets the limits for a Class A digital device, providing reasonable protection against harmful interference when operated in a commercial environment. It also indicates that the equipment may generate and radiate radio frequency energy, which could cause interference if not installed and used according to the instruction manual."
+                    }
+                ]
+            },
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "In what type of environment is the equipment designed to operate according to the compliance statement?",
+                "answers": [
+                    {
+                        "text": "The equipment is designed to operate in a commercial environment, as it complies with the limits for a Class A digital device per FCC rules. It may cause harmful interference if used in a residential area."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "What may happen if the equipment is not installed and used according to the instruction manual?",
+                "answers": [
+                    {
+                        "text": "If the equipment is not installed and used according to the instruction manual, it may cause harmful interference to radio communications. This is particularly likely if the equipment is operated in a residential area."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "What should users do if they experience harmful interference when operating the equipment in a residential area?",
+                "answers": [
+                    {
+                        "text": "If users experience harmful interference while operating the equipment in a residential area, they should ensure proper installation and usage according to the instruction manual. If the problem persists, they may need to take corrective measures to eliminate the interference, as operation in a residential area is likely to cause such issues."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc. as mentioned in the document?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            }
+        ]
+    }
+]

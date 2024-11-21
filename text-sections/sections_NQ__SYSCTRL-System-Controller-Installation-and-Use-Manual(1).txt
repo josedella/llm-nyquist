@@ -1,0 +1,290 @@
+Publication Number 740-00067B
+1900402
+NQ-SYSCTRL 
+System Controller 
+Installation and Use
+The System Controller provides a cost-effective way 
+to deploy Nyquist based solutions using a state-of-
+the-art processing platform pre-installed with the 
+Nyquist application server software. The System 
+Controller offers high-performance operation for 
+even the largest Nyquist system configurations and 
+can simultaneously distribute an unlimited number 
+of audio streams anywhere across the network, 
+making it perfect for background music applications.
+The System Controller can manage applications 
+that require any mix of multi-zone paging, intercom
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+2
+calling, or background music distribution at 
+businesses, restaurants, retail stores, industrial 
+facilities, and many other venues.  It has a web-
+based graphical user interface (GUI) that is 
+accessible from almost any personal computer (PC), 
+tablet, or mobile device. 
+
+The System Controller is designed to run on a 
+10/100 Ethernet network.
+WARNING: To reduce the risk of fire or electric 
+shock, do not expose this apparatus to rain or 
+moisture.
+Avertissement: pour réduire le risque d’incendie 
+ou de choc électrique, ne pas exposer cet appareil 
+sous la pluie et l’humidité.
+The apparatus shall not be exposed to dripping or 
+splashing and that no objects filled with liquids, 
+such as vases, shall be placed on apparatus.
+This equipment is not suitable for use in 
+locations where children are likely to be present. 
+Equipment is intended for use only in 
+a restricted access area.
+=====
+L’appareil ne doit pas être exposé aux écoulements 
+ou aux éclaboussures et aucun objet ne contenant 
+de liquide, tel qu’un vase, ne doit être placé sur 
+l’objet.
+The mains plug is used as disconnect device. The 
+mains plug of apparatus should not be obstructed 
+OR should be easily accessed during intended use. 
+To be completely disconnect the power input, the 
+mains plug of apparatus shall be disconnected 
+from the mains.
+La prise du secteur est utilisé pour déconnecter 
+le système. La prise du secteur ne doit pas être 
+obstruée ou doit être facilement accessible 
+pendant son utilisation. Pour être complètement 
+déconnecté de l’alimentation d’entrée, la prise doit 
+être débranchée du secteur.
+When rack-mounted, allow 1RU spacing (1.75 
+inches) between units for proper ventilation.
+- Lorsqu’il est monté en rack, permettez l’espace 
+de 1RU (1.75 pouces) entre les unités pour une 
+ventilation adéquate.
+The ventilation should not be impeded by covering 
+the ventilation openings with items, such as 
+newspapers, tablecloths, curtains, etc.
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+3
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+4
+- il convient que l’aération ne soit pas gênée par l’ob­
+struction des ouvertures d’aéra
+No naked flame sources, such as lighted candles, 
+should be placed on the apparatus.
+- il convient de ne pas placer sur l’appareil de 
+sources de flammes nues, telles que des bougies 
+allumées
+The use of apparatus in moderate climates.
+- si l’appareil est destiné à être utilisé sous un climat 
+tempéré. 
+Important 
+Safety 
+Information
+WARNING: 
+To reduce the 
+risk of fire or 
+electric shock, 
+do not expose this apparatus to rain or moisture.
+Always comply with the following basic safety pre­
+cautions when installing and using the unit:
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+5
+1.	 Read these instructions.
+2.	 Keep these instructions.
+3.	 Heed all warnings.
+4.	 Follow all instructions.
+5.	 Clean only with dry cloth.
+6.	 DO NOT install near any heat sources such as 
+radiators, heat registers, stoves, or other 
+apparatus    (including amplifiers) that produce 
+heat.
+7.	 DO NOT defeat the safety purpose of the 
+polarized or grounding-type plug.  A polarized 
+plug has two blades with one wider than the 
+other.  A grounding-type plug has two blades 
+and a third grounding prong. The wide blade, or 
+the third prong, are provided for your safety. If 
+the provided plug does not fit into your outlet, 
+consult an electrician for replacement of the 
+obsolete outlet.
+8.	 Protect the power cord from being walked 
+on and/or pinched, particularly at plugs, 
+convenience receptacles, and the point where 
+they exit from the apparatus.
+=====
+9.	 Only use attachments/accessories that are 
+specified by  the manufacturer.
+10. Unplug this apparatus during lightning storms 
+       or when unused for long periods of time.
+11. Refer all servicing to qualified service 
+       personnel. Servicing is required when the   
+       apparatus has been damaged in any way, such    
+       as power-supply cord or plug is damaged, liquid
+       has been spilled or objects have fallen into the 
+       apparatus, the apparatus has been exposed to 
+       rain or moisture, does not operate normally, or 
+       has been dropped.
+Installation
+The System Controller can be shelf, wall, or rack 
+mounted.
+1.	 Either place the System Controller appliance on 
+a shelf, or use the supplied mounting ears to 
+mount it on a wall. For rack mounting, use one 
+of the available optional rack mount kits (NQ-
+RMK02, NQ-RMK03 or NQ-RMK04) as applicable.
+2.	 Connect the device to the 10/100 network using 
+a CAT5 type cable. 
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+6
+=====
+3.	 Connect the power cord to the back of the unit. 
+
+4.	 If connecting auxiliary devices, such as a key­
+board, mouse, or video monitor, connect the 
+devices’ cables to the appropriate connectors on 
+the back of the device.
+
+If connecting a video monitor, make sure to use 
+the HDMI video output as the Digital Video Inter­
+face (DVI) output is not supported.  Use of the 
+RS232 ports is  also not supported.
+5.	 Toggle the Power switch to the On position.
+Once the System Controller is powered on and con­
+nected to the network, it can be accessed and 
+configured via the device’s web-based GUI.  There 
+are two IP addresses available to access the web-
+based GUI: 1) a default static IP (192.168.1.10) on 
+Ethernet Port A and 2) Dynamic Host Configuration 
+Protocol (DHCP) on Ethernet Port B. 
+
+NOTE:  You must have a valid software 
+license activation key to set up and configure 
+the System Controller during its initial use.
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+7
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+8
+Viewing and 
+Understanding the POWER LED
+An LED labeled POWER appears on the front of the 
+System Controller. This LED appears solid green 
+when the device is powered on.
+Using the Reset Button
+The Reset button reboots the System 
+Controller and launches the logon 
+screen.
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+9
+Compliance
+NOTE: This equipment has been tested and found 
+to comply with the limits for a Class A digital de­
+vice, pursuant to Part 15 of the FCC rules. These 
+limits are designed to provide reasonable protec­
+tion against harmful interference when the equip­
+ment is operated in a commercial environment. 
+This equipment generates, uses and can radiate 
+radio frequency energy and, if not installed and 
+used in accordance with the instruction manual, 
+may cause harmful interference to radio communi­
+cations.  Operation of this equipment in a residen­
+tial area is likely to cause harmful interference in 
+which case the user will be required to correct the 
+interference at his own expense.
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+10
+Limited Warranty, 
+Exclusion of Certain Damages
+The NQ-SYSCTRL is warranted to be free from 
+defects in materials and workmanship for two (2) 
+years from the date of sale to the original purchas­
+er. Any part of the product covered by this warranty 
+that, with normal installation and use, becomes 
+defective (as confirmed by Bogen upon inspection) 
+during the warranty period will be repaired or re­
+placed by Bogen, at Bogen’s option, with new or re­
+furbished product, provided the product is shipped 
+insured and prepaid to: Bogen Factory Service 
+Department: 4570 Shelby Air Drive, Suite 11, Mem­
+phis, TN 38118, USA. Repaired or replacement pro­
+duct(s) will be returned to you freight prepaid. This 
+warranty does not extend to any of our products 
+that have been subjected to abuse, misuse, improp­
+er storage, neglect, accident, improper installation 
+or have been modified or repaired or altered in any 
+manner whatsoever, or where the serial number or 
+date code has been removed or defaced.
+THE FOREGOING LIMITED WARRANTY IS BOGEN’S 
+SOLE AND EXCLUSIVE WARRANTY AND THE PUR­
+CHASER’S SOLE AND EXCLUSIVE REMEDY. BOGEN 
+MAKES NO OTHER WARRANTIES OF ANY KIND, 
+EITHER EXPRESS OR IMPLIED, AND ALL IMPLIED
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+11
+WARRANTIES OF MERCHANTABILITY OR FIT­
+NESS FOR A PARTICULAR PURPOSE ARE HEREBY 
+DISCLAIMED AND EXCLUDED TO THE MAXIMUM 
+EXTENT ALLOWABLE BY LAW. Bogen’s liability 
+arising out of the manufacture, sale or supplying of 
+products or their use or disposition, whether based 
+upon warranty, contract, tort or otherwise, shall be 
+limited to the price of the product. IN NO EVENT 
+SHALL BOGEN BE LIABLE FOR SPECIAL, INCIDEN­
+TAL OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+BUT NOT LIMITED TO, LOSS OF PROFITS, LOSS OF 
+DATA OR LOSS OF USE DAMAGES) ARISING OUT 
+OF THE MANUFACTURE, SALE OR SUPPLYING OF 
+PRODUCTS, EVEN IF BOGEN HAS BEEN ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGES OR 
+LOSSES. Some States do not allow the exclusion or 
+limitation of incidental or consequential damages, 
+so the above limitation or exclusion may not apply 
+to you. This warranty gives you specific legal rights, 
+and you may also have other rights which vary from 
+State to State.
+Products that are out of warranty will also be 
+repaired by Bogen Factory Service Department 
+-- same address as above or call 201-934-8500, at 
+owner’s expense.  Returned products which do not 
+qualify for warranty service, may be repaired or re­
+placed at Bogen’s option with a previously repaired 
+or refurbished items.   The parts and labor involved
+=====
+1200 MacArthur Blvd. Suite 304, 
+Mahwah, NJ 07430 • 1-800-999-2809
+© Copyright 2019, Bogen Communications, Inc.
+12
+in these repairs are warranted for 90 days when 
+repaired by the Bogen Factory Service Department.  
+All parts and labor charges as well as shipping 
+charges will be at the owner’s expense.
+All returns require a Return Authorization number.  
+For most efficient warranty or repair service, please 
+include a description of the failure.
+4/2019

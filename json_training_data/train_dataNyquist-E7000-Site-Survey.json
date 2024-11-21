@@ -1,0 +1,1812 @@
+[
+    {
+        "context": "\ufeffE7000 Series\nSite Survey Guide\n     \n2019 Bogen Communications, Inc.\nAll rights reserved\nSpecifications subject to change\n740-00025 Rev G\n190829",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the series number mentioned in the document?",
+                "answers": [
+                    {
+                        "text": "The series number mentioned in the document is the E7000 Series."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Which company published the Site Survey Guide?",
+                "answers": [
+                    {
+                        "text": "The Site Survey Guide was published by Bogen Communications, Inc. in 2019. All rights are reserved, and specifications are subject to change."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "In what year was the E7000 Series Site Survey Guide released?",
+                "answers": [
+                    {
+                        "text": "The E7000 Series Site Survey Guide was released in 2019."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What rights does Bogen Communications, Inc. reserve as mentioned in the document?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. reserves all rights related to the content of the Site Survey Guide, including the right to make changes to the specifications. The phrase \"All rights reserved\" indicates that they retain ownership and control over the material and its reproduction."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the revision status indicated for the document?",
+                "answers": [
+                    {
+                        "text": "The revision status indicated for the document is Rev G. It was published in 2019 by Bogen Communications, Inc., and the document number is 740-00025."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "Does the document specify that the information is subject to change?",
+                "answers": [
+                    {
+                        "text": "Yes, the document specifies that the information is subject to change, as indicated by the statement \"Specifications subject to change.\" This disclaimer is included in the context provided."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the document number associated with the Site Survey Guide?",
+                "answers": [
+                    {
+                        "text": "The document number associated with the Site Survey Guide is 740-00025 Rev G."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Site Survey Guide\n1\nSite Survey Guide\nThis document provides prerequisites and initial setup instructions\nfor the E7000 system, an Internet Protocol (IP) network based inter-\ncom and paging solution that allows school personnel to:\n\u2022 Control facility bell schedules, announcements, and tones.\n\u2022 Create and manage paging, time, and audio zones. \n\u2022 Manage station types, configuration, and Class of Service (CoS). \n\u2022 Manage users, roles, and permissions.\nE7000 can be implemented as a new system installation or as an \nupgrade to an existing Multicom 2000, Quantum, or third-party inter-\ncom and paging system.\nE7000 application software can be installed on a customer-provided \nserver that meets the minimum server requirements (see \"E7000 \nSystem Server Requirements\u201d on page 3). If using a NQ-SYSCTRL \nSystem Controller, both the operating system and the E7000 applica-\ntion software is already installed and only needs to be activated.\nBefore installing or activating E7000, ensure that:\n\u2022 System server requirements are met (user-provided server only).\n\u2022 Required services are installed and enabled on the E7000 system \nserver. Examples of required services include Simple Network \nManagement Protocol (SNMP) or Trivial File Transfer Protocol \n(TFTP). \n\u2022 Required services are enabled on your network. Examples of \nrequired services include multicast and Session Initiation Protocol \n(SIP).\n\u2022 Required multicast IP addresses and ports are known and avail-\nable.\n\u2022 Required IP addresses are known and available.\n\u2022 Required port numbers are open.",
+        "qas": [
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What features does the E7000 system provide for school personnel?",
+                "answers": [
+                    {
+                        "text": "The E7000 system allows school personnel to control facility bell schedules, announcements, and tones, as well as create and manage paging, time, and audio zones. Additionally, it enables management of station types, configuration, Class of Service (CoS), and user roles and permissions."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "Can the E7000 system be installed as an upgrade to existing intercom systems?",
+                "answers": [
+                    {
+                        "text": "Yes, the E7000 system can be installed as an upgrade to existing intercom systems, including Multicom 2000, Quantum, or third-party systems. It can also be implemented as a new system installation."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "Where can the E7000 application software be installed?",
+                "answers": [
+                    {
+                        "text": "The E7000 application software can be installed on a customer-provided server that meets the minimum server requirements, or it can be activated on a NQ-SYSCTRL System Controller, which comes with the operating system and E7000 application software pre-installed."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What should be checked before installing or activating the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Before installing or activating the E7000 system, ensure that the system server requirements are met, required network services (like SNMP and TFTP) are enabled, and that the necessary multicast IP addresses, ports, and open port numbers are known and available."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What are some examples of required services that must be enabled on the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "Some examples of required services that must be enabled on the E7000 system server include Simple Network Management Protocol (SNMP) and Trivial File Transfer Protocol (TFTP). Additionally, required services on the network include multicast and Session Initiation Protocol (SIP)."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "Which network services are required to be enabled for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The required network services to be enabled for the E7000 system include multicast and Session Initiation Protocol (SIP). Additionally, ensure that the necessary multicast IP addresses and ports are known and available."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What information about multicast IP addresses and ports is needed prior to installation?",
+                "answers": [
+                    {
+                        "text": "Prior to installation, the required multicast IP addresses and ports must be known and available on the network to ensure proper functionality of the E7000 system. This includes confirming that the correct addresses are not in use by other devices and that the necessary ports are open for communication."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "Why is it important to know and have available required IP addresses before setting up the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Knowing and having the required IP addresses available before setting up the E7000 system is crucial to ensure proper device communication within the network. This preparation helps to avoid conflicts and ensures that all components can connect seamlessly, facilitating the system's functionality in managing intercom and paging operations effectively."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the significance of having required port numbers open for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Having the required port numbers open for the E7000 system is crucial for enabling communication between the system components and the network. Open ports ensure that data packets can be transmitted without obstruction, allowing for effective intercom, paging, and audio management functionalities to operate smoothly."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2\n1.1\nUnderstanding System Requirements\nThe E7000 web-based UI requires a secure Hypertext Transfer Proto-\ncol Secure (https) type network connection to the E7000 system\nserver. Users can log in to the E7000 system using the Google\nChrome web browser from a computer or tablet running either a\nWindows 8.1 (or later) or a Mac OS X 10.12.x (or later) operating\nsystem (OS). The UI can also be accessed via a Chrome browser\nenabled Android-based tablet or mobile device. To access the server,\ntype your server\u2019s IP address (for example, 10.10.20.12).\n1.1.1\nWhitelisted Web Addresses\nE7000 requires access to specific Uniform Resource Locators (URLs),\ncommonly referred to as web addresses. Access to many of these\nweb addresses is required during installation; access to other web\naddresses, such as the address for the Network Time Server (NTS) are\nrequired during runtime. The Information Technology (IT) depart-\nment for the site must whitelist the web addresses so that they can\nbe easily accessed as needed.\nThe following table lists the URLs that must be whitelisted.\nTable 1, Whitelisted Web Sites\nURL\nDescription\nhttp://hostedactivation.com (specifically, \nhttp://hostedactivation.com/bogen)\nRequired for E7000 License support\nhttp://downloads.digium.com\nRequired for downloads from Digium \nPhone Module for Asterisk (DPMA)\nhttp://downloads.asterisk.org/ (specifically, \nhttp://downloads.asterisk.org/pub/\ntelephony/sounds/releases)\nRequired for sounds download\nhttp://www.pjsip.org/\nRequired for PJSIP download\nhttp://ftp.us.debian.org (specifically: http://\nftp.us.debian.org/debian/)\nRequired during Linux package installation\nhttp://security.debian.org (specifically: \nhttp://security.debian.org/)\nRequired during Linux package installation\nstun01.sipphone.com\nRequired for STUN based IP address \nresolution (This is used by the E7000 Web \nUI and should be enabled on the computer \nthat runs the web UI.)",
+        "qas": [
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What type of network connection is required for the E7000 web-based UI?",
+                "answers": [
+                    {
+                        "text": "The E7000 web-based UI requires a secure Hypertext Transfer Protocol Secure (https) network connection to the E7000 system server. Users can access the UI using the Google Chrome browser on supported operating systems."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "Which web browser is recommended for accessing the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The recommended web browser for accessing the E7000 system is Google Chrome. It should be used on a computer or tablet running either Windows 8.1 (or later) or Mac OS X 10.12.x (or later), as well as on Android-based tablets or mobile devices with Chrome."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What operating systems are compatible with the E7000 web-based UI?",
+                "answers": [
+                    {
+                        "text": "The E7000 web-based UI is compatible with Windows 8.1 (or later) and Mac OS X 10.12.x (or later). It can also be accessed via a Chrome browser on Android-based tablets or mobile devices."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "Which devices can access the E7000 web-based UI?",
+                "answers": [
+                    {
+                        "text": "The E7000 web-based UI can be accessed using a computer or tablet running Windows 8.1 (or later) or Mac OS X 10.12.x (or later) with the Google Chrome web browser. It is also accessible via a Chrome browser-enabled Android-based tablet or mobile device."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What information must the IT department provide to access the necessary web addresses?",
+                "answers": [
+                    {
+                        "text": "The IT department must whitelist specific Uniform Resource Locators (URLs) that are required for the E7000 system, including addresses for E7000 license support, downloads from Digium, Asterisk sounds, PJSIP, and Debian packages, as well as the STUN server for IP resolution. Access must be ensured during both installation and runtime."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "Why is the URL http://hostedactivation.com needed for the E7000?",
+                "answers": [
+                    {
+                        "text": "The URL http://hostedactivation.com, specifically http://hostedactivation.com/bogen, is required for E7000 License support. This access is necessary during the installation process to ensure the proper licensing of the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What is the purpose of whitelisting URLs for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Whitelisting URLs for the E7000 system allows the site\u2019s IT department to enable access to essential web addresses required for installation and runtime operations, such as license support, software downloads, and necessary network services. This ensures that the E7000 can function properly without interruptions caused by blocked URLs."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "Which URL is required for downloading sounds for the E7000?",
+                "answers": [
+                    {
+                        "text": "The URL required for downloading sounds for the E7000 is http://downloads.asterisk.org/ specifically the path http://downloads.asterisk.org/pub/telephony/sounds/releases. This access is necessary during the installation process of the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What are the specific URLs required for Linux package installation?",
+                "answers": [
+                    {
+                        "text": "The specific URLs required for Linux package installation are http://ftp.us.debian.org/debian/ and http://security.debian.org/. Access to these addresses must be whitelisted by the IT department for the site."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "What is the function of stun01.sipphone.com in relation to the E7000 Web UI?",
+                "answers": [
+                    {
+                        "text": "The function of stun01.sipphone.com in relation to the E7000 Web UI is to facilitate STUN (Session Traversal Utilities for NAT) based IP address resolution. This enables the E7000 Web UI to correctly identify and manage the public IP address of the device running the UI, ensuring proper communication through Network Address Translation (NAT)."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3\nURLs that are entered on the E7000 System Parameters page are\nused during runtime and include the URLs for the NTS, the Session\nTraversal Utilities for (Network Address Translation (NAT) (STUN)\nserver, and the Traversal Using Relays around NAT (TURN) server.\nThe default URLs for the STUN and TURN servers are not set. The\ndefault URL for NTS is pool.ntp.org.\n1.1.2\nE7000 System Server Requirements\nThe following are the minimum requirements for the E7000 system\nserver if you elect to not use the Nyquist System Controller (NQ-\nSYSCTRL):\nhttps://raw.githubusercontent.com/\nServes unprocessed versions of files stored \nin the GitHub repositories.\nhttp://2431612419.airable.io\nhttps://2431612419.airable.io\nairable URL\nhttp://api.sound-machine.com\nhttps://api.sound-machine.com\nSoundMachine URL\nhttp://api.bogenedu.com/api/customers\nRequired for E7000 Warranty Support\nhttp://bogen-ssu.bogen.com/\nBogen System Software Update server \u2013 \nRequired for automatic Nyquist server \nsoftware and Nyquist firmware software \nupdate notifications and downloads.\nhttps://www.weather.gov/alerts\nRequired for displaying weather alerts.\nhttps://ipapi.co\nRequired for automatically finding county \ncode for alerts.\nhttps://api.weather.gov\nRequired for obtaining alerts from the \nNational Weather Service.\nns1.google.com\nresolver1.opendns.com\nRequired for obtaining the Nyquist \nserver\u2019s public IP address for Audio Distri-\nbution streams and for automatically find-\ning the county code for alerts.\nTable 1, Whitelisted Web Sites (Continued)\nURL\nDescription",
+        "qas": [
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What URLs are used during runtime on the E7000 System Parameters page?",
+                "answers": [
+                    {
+                        "text": "The URLs used during runtime on the E7000 System Parameters page include the NTS URL (default: pool.ntp.org), and the URLs for the STUN server and TURN server, which are not set by default. Additional required URLs include those for SoundMachine, Bogen warranty support, weather alerts, and obtaining the Nyquist server's public IP address."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What is the default URL for the NTS in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The default URL for the NTS in the E7000 system is pool.ntp.org. This URL is used for network time synchronization during runtime."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "Are the default URLs for STUN and TURN servers set in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "No, the default URLs for the STUN and TURN servers are not set in the E7000 system. The only default URL provided is for the NTS, which is pool.ntp.org."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What are the minimum server requirements for the E7000 system if not using the Nyquist System Controller?",
+                "answers": [
+                    {
+                        "text": "The minimum server requirements for the E7000 system, if not using the Nyquist System Controller, include URLs for various services such as the SoundMachine API, Bogen Warranty Support, Bogen System Software Update, weather alerts, and IP address resolution for alert notifications. Specific URLs include `http://api.sound-machine.com`, `http://bogen-ssu.bogen.com/`, and others as needed for functionality."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What is the purpose of the URL http://api.bogenedu.com/api/customers in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URL http://api.bogenedu.com/api/customers is required for E7000 Warranty Support. It facilitates access to customer support services related to the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "Which URL is required for automatic software update notifications for the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "The URL required for automatic Nyquist server software and firmware update notifications and downloads is http://bogen-ssu.bogen.com/. This server facilitates the update process for the Nyquist system."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What service does the URL https://www.weather.gov/alerts provide?",
+                "answers": [
+                    {
+                        "text": "The URL https://www.weather.gov/alerts provides access to weather alerts issued by the National Weather Service. It is required for displaying these alerts in the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "How does the URL https://ipapi.co function in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URL https://ipapi.co is used in the E7000 system to automatically find the county code for alerts. This functionality is essential for ensuring accurate local alert notifications within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What is the role of the URLs ns1.google.com and resolver1.opendns.com in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URLs ns1.google.com and resolver1.opendns.com are required for obtaining the Nyquist server\u2019s public IP address for Audio Distribution streams and for automatically finding the county code for alerts in the E7000 system. Their role is essential for ensuring proper functionality and alert accuracy."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "Which URL is needed to obtain alerts from the National Weather Service in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The URL needed to obtain alerts from the National Weather Service in the E7000 system is https://api.weather.gov. This endpoint provides the necessary data for alerts issued by the National Weather Service."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "4\nTable 2,  E7000 System Server Minimum Requirements\nOS\nDebian Linux OS (AMD 64-bit version) release 8.9.0\nNote: Refer to the most up to date Release Notes on the \nwww.bogenedu.com web site for details about which Linux \nOS versions have been tested for use with the E7000 sys-\ntem. \nCPU\nQuad-core Intel-based processor running at 3.0 GHz or \nhigher\nHardware\nSound card with microphone port\nMemory\n8 GB RAM (Error Correcting Code (ECC)) RAM is recom-\nmended for increase performance and reliability.)\nDisk Storage\nOne 250 GB disk drive\nSome form of hardware-based Redundant Array of Inde-\npendent Disks (RAID) is recommended for redundancy and \nhigh availability.\nConsider using a larger drive if large amounts of audio (for \nexample, voice mail, announcements, recordings, and \nmusic) are being stored on the system. Note that music, \ntones, and announcements created or stored as .wav files \nwill be larger than if created or stored as MP3 files. Other \nfactors that should be considered are:\n\u2022 How often will backups be performed?\n\u2022 Will the system be backed up locally or remotely on a \ndetachable drive, Storage Area Network (SAN)/Network \nAttached Storage (NAS), or Network File System (NFS)?\n\u2022 How many users will have voicemail ability?\n\u2022 How long will voicemail messages be stored?\n\u2022 Will voicemail messages be part of the local system \nbackups?\nNIC\n10/100/1000 MB Ethernet port (NIC is an acronym for \nNetwork Interface Card)",
+        "qas": [
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What is the minimum required operating system for the E7000 System Server?",
+                "answers": [
+                    {
+                        "text": "The minimum required operating system for the E7000 System Server is Debian Linux OS (AMD 64-bit version) release 8.9.0. It's recommended to check the latest Release Notes on the Bogen Education website for updated compatibility information."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What kind of processor is recommended for the E7000 System Server?",
+                "answers": [
+                    {
+                        "text": "A quad-core Intel-based processor running at 3.0 GHz or higher is recommended for the E7000 System Server. This specification ensures adequate performance for the system's operations."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "How much RAM is recommended for optimal performance of the system?",
+                "answers": [
+                    {
+                        "text": "For optimal performance of the E7000 System Server, 8 GB of Error Correcting Code (ECC) RAM is recommended. This type of RAM enhances both performance and reliability."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "What is the minimum disk storage requirement for the E7000 System Server?",
+                "answers": [
+                    {
+                        "text": "The minimum disk storage requirement for the E7000 System Server is one 250 GB disk drive. It is recommended to use a hardware-based Redundant Array of Independent Disks (RAID) for redundancy and high availability."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "Why is hardware-based RAID recommended for the E7000 System Server?",
+                "answers": [
+                    {
+                        "text": "Hardware-based RAID is recommended for the E7000 System Server to ensure redundancy and high availability. This setup helps protect against data loss in case of disk failures and enhances overall system reliability, which is crucial for storing large amounts of audio data."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "What factors should be considered for disk storage when using the E7000 system?",
+                "answers": [
+                    {
+                        "text": "For disk storage when using the E7000 system, consider the frequency of backups, whether backups will be local or remote, the number of users requiring voicemail, the duration of voicemail message storage, and whether voicemail messages will be included in local system backups. Additionally, factor in the storage size needed for audio content, as .wav files are larger than MP3 files."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "What type of sound card is necessary for the E7000 System Server?",
+                "answers": [
+                    {
+                        "text": "The E7000 System Server requires a sound card with a microphone port. This is necessary for audio input and functionality within the server system."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "What type of Ethernet port is required for network connectivity with the E7000 System Server?",
+                "answers": [
+                    {
+                        "text": "The E7000 System Server requires a 10/100/1000 MB Ethernet port for network connectivity. This means it should support speeds of 10 Mbps, 100 Mbps, and 1 Gbps."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "5\n1.1.3\nNetwork Application Services\nRequired  application services will be installed automatically on the\nE7000 system server as part of the E7000 installation. All other net-\nwork services must be already present or installed manually on the\nassociated network. The following table lists the services and their\nlocations:\nPCI Expansion Slots\nOne or more Peripheral Component Interconnect (PCI)/PCI \nExpress (PCIe) slot if telephony network connectivity other \nthan, or in addition to, SIP trunking is required; contact \nyour Bogen Dealer for assistance in determining these tele-\nphony hardware needs.\nTelephony Interfaces\nOne or more PCI/PCIe type third-party telephony interface \ncards (for example, Foreign Exchange Office (FXO), Foreigh \nExchange Subscriber (FXS), etc.) if telephony network con-\nnectivity other than, or in addition to, SIP trunking is \nrequired; contact your Bogen Dealer for assistance in deter-\nmining these telephony hardware needs.\nTable 2,  E7000 System Server Minimum Requirements (Continued)\nTable 3,  Network Application Services\nService\nDescription\nRequired\nLocation\nApache\nUsed as the web server to drive the \nE7000 web interface.\nMandatory\nE7000\nDHCP\nSupplies dynamic IP addresses to the \nE7000 system server and associated \ndevices. (DHCP is the acronym for \nDynamic Host Configuration \nProtocol.) It also supplies the Trivial \nFile Transfer Protocol (TFTP) server IP \naddress or host name to devices on \nthe network via option_66.\nOptional\nNetwork\nDNS\nResolves host names to IP addresses. \nDNS is an acronym for Domain \nName System, a hierarchical naming \nsystem for computers, servers, or \nother resources connected to either \nthe Internet or to a private network. \nOptional\nNetwork",
+        "qas": [
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "What application services are installed automatically on the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The required application services automatically installed on the E7000 system server include Apache, which serves as the web server for the E7000 web interface. Other network services, such as DHCP and DNS, must either be present already or installed manually on the associated network."
+                    }
+                ]
+            },
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "What must be present or installed manually for network services associated with the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "All network services other than the application services installed automatically during the E7000 installation must be present or installed manually on the associated network. This includes services such as DHCP and DNS, which are optional but necessary for full functionality."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "What type of expansion slots are required for telephony network connectivity on the E7000?",
+                "answers": [
+                    {
+                        "text": "The E7000 requires one or more PCI/PCIe slots for telephony network connectivity other than, or in addition to, SIP trunking. For specific telephony hardware needs, users should contact their Bogen Dealer for assistance."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "What is the purpose of the PCI/PCIe telephony interface cards mentioned in the context?",
+                "answers": [
+                    {
+                        "text": "The PCI/PCIe telephony interface cards are used to enable telephony network connectivity beyond or in addition to SIP trunking, allowing integration of different telephony types such as Foreign Exchange Office (FXO) and Foreign Exchange Subscriber (FXS). These cards are essential for organizations that require enhanced telephony functionality on their E7000 system server."
+                    }
+                ]
+            },
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "Which service is mandatory for driving the E7000 web interface?",
+                "answers": [
+                    {
+                        "text": "The mandatory service for driving the E7000 web interface is Apache, which functions as the web server for the system."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "What role does DHCP play in connection with the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "DHCP (Dynamic Host Configuration Protocol) supplies dynamic IP addresses to the E7000 system server and associated devices. It also provides the Trivial File Transfer Protocol (TFTP) server IP address or host name to network devices via option_66, facilitating seamless connectivity."
+                    }
+                ]
+            },
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "Is DNS a required service for the E7000 system server, and what does it do?",
+                "answers": [
+                    {
+                        "text": "DNS is an optional service for the E7000 system server. It resolves host names to IP addresses, allowing devices on the network to communicate effectively."
+                    }
+                ]
+            },
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "Where are the mandatory and optional services for the E7000 system server located?",
+                "answers": [
+                    {
+                        "text": "The mandatory service, Apache, is located on the E7000 system server itself. The optional services, DHCP and DNS, are located on the associated network."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "6\nICE\nSTUN\nTURN\nResolves IP addresses behind \nNetwork Address Translation (NAT)/\nfirewall.\n- Interactive Connectivity \nEstablishment\n- Session Traversal Utilities for NAT\n- Traversal Using Relays around NAT\nOptional\nE7000\nNetwork\nNTP\nProvides date/time synchronization \nfor the E7000 system server and the \nassociated devices (IP Phones, \nappliances). (NTP is an acronym for \nNetwork Time Protocol.)\nMandatory\nNetwork\nSNMP\nProvides the E7000 Linux server \nstatistics via Simple Network \nManagement Protocol (SNMP) v1 \nthrough Port 161.\nOptional\nE7000\nTFTP\nTFTP is used by IP phone and E7000 \ndevice provisioning. A TFTP server \nruns on the E7000 system server on \nport 69 (the standard TFTP port #).\nDevice provisioning files are stored \non the E7000 system server in \ndirectory: /srv/tftp.\nThis is the only directory exposed by \nthe TFTP server.\nMandatory\nE7000\nTable 3,  Network Application Services (Continued)\nService\nDescription\nRequired\nLocation",
+        "qas": [
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "What does ICE stand for in the context of NAT traversal?",
+                "answers": [
+                    {
+                        "text": "In the context of NAT traversal, ICE stands for Interactive Connectivity Establishment. It is a framework that facilitates the establishment of peer-to-peer UDP data streams between devices behind NAT or firewalls."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "Which protocol is used for date/time synchronization within the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The Network Time Protocol (NTP) is used for date/time synchronization within the E7000 system. It ensures that the E7000 system server and associated devices, such as IP phones, maintain accurate time. NTP is a mandatory service for the network."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "What is the mandatory service that supports device provisioning for IP phones on the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The mandatory service that supports device provisioning for IP phones on the E7000 system is TFTP (Trivial File Transfer Protocol). It runs on port 69 and stores device provisioning files in the directory /srv/tftp on the E7000 system server."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "On which port does the TFTP server run on the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The TFTP server on the E7000 system runs on port 69, which is the standard TFTP port. Device provisioning files are stored in the directory /srv/tftp on the server."
+                    }
+                ]
+            },
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What version of SNMP is used to provide server statistics for the E7000 Linux server?",
+                "answers": [
+                    {
+                        "text": "The version of SNMP used to provide server statistics for the E7000 Linux server is SNMP v1. It operates through Port 161."
+                    }
+                ]
+            },
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "In which directory are device provisioning files stored for the TFTP server on the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Device provisioning files for the TFTP server on the E7000 system are stored in the directory: /srv/tftp. This is the only directory that is exposed by the TFTP server."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "7\n1.1.4\nNetwork Ports\nThe following table lists the network ports required by the Nyquist\nsystem controller and the associated devices.\nTable 4,  Network Ports Used by Nyquist\nService\nDescription\nPort\nDHCP \nDynamic Host Configuration Protocol (Optional)  67, 68\nDNS \nDomain Name System (Optional) \n53\nDUNDI \nDistributed Universal Number Discovery \n4520\nHTTP \nPhone provisioning (HTTP is an acronym for \nHypertext Transfer Protocol)\n8088\nHTTPS \nSecure HTTP \n8089\nHTTPS \nSecure HTTP (HTTP over TLS/SSL); used during \nDPMA license registration. \n443\nIAX \nInter-Facility Communications \n4569\nMGCP \nMedia Gateway Control Protocol (Optional) \n2727\nNTP \nNetwork Time Protocol \n123\nODBC \nDatabase connection (ODBC is an acronym for \nOpen Database Connectivity.)\n3306\nRTP \nAudio Streams (RTP is an acronym for Real-Time \nTransport Protocol.)\n10000-20000\nServer \nManagement\nLocal port used for server management\nDO NOT allow outside access to this port. During \nsystem controller installation, an IP filter rule is \ninstalled to block outside access to this port.\n5038\nSIP\nSession Initiation Protocol (SIP) Transfer Control \nProtocol (TCP)/User Datagram Protocol (UDP) \nconnections\n5060\nSIP over Web \nServices\nSIP WS/WSS connections\n8088\nSNMP\nSimple Network Management Protocol (Optional) 161\nTFTP\nTFTP connections\n69",
+        "qas": [
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "What is the purpose of port 67 and 68 in the Nyquist system controller?",
+                "answers": [
+                    {
+                        "text": "Ports 67 and 68 are used for the Dynamic Host Configuration Protocol (DHCP) in the Nyquist system controller, which is optional. DHCP facilitates the automatic assignment of IP addresses and network configurations to devices on the network."
+                    }
+                ]
+            },
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "Which port is used for the Domain Name System (DNS)?",
+                "answers": [
+                    {
+                        "text": "The port used for the Domain Name System (DNS) is port 53. It is listed as optional in the context of the Nyquist system controller requirements."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "For what purpose is port 4520 utilized in the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "Port 4520 is utilized for DUNDI (Distributed Universal Number Discovery) in the Nyquist system. This service helps in the discovery of resources and devices within a distributed network environment."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "What is the function of port 8088?",
+                "answers": [
+                    {
+                        "text": "Port 8088 is used for phone provisioning via HTTP and for SIP over Web Services (SIP WS/WSS) connections. It facilitates the deployment and management of phone configurations within the Nyquist system."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "Which port is designated for secure HTTP (HTTPS) connections related to DPMA license registration?",
+                "answers": [
+                    {
+                        "text": "The port designated for secure HTTP (HTTPS) connections related to DPMA license registration is port 443. This port is used for HTTP over TLS/SSL."
+                    }
+                ]
+            },
+            {
+                "id": "00064",
+                "is_impossible": false,
+                "question": "What protocol does port 4569 support?",
+                "answers": [
+                    {
+                        "text": "Port 4569 supports the Inter-Area Communications (IAX) protocol. IAX is used for VoIP applications to facilitate communication between different systems in a telephony environment."
+                    }
+                ]
+            },
+            {
+                "id": "00065",
+                "is_impossible": false,
+                "question": "Which optional protocol uses port 2727?",
+                "answers": [
+                    {
+                        "text": "The optional protocol that uses port 2727 is the Media Gateway Control Protocol (MGCP). This protocol facilitates the control of media gateways in a VoIP system."
+                    }
+                ]
+            },
+            {
+                "id": "00066",
+                "is_impossible": false,
+                "question": "What is the function of port 123 in the context of the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "Port 123 is used for the Network Time Protocol (NTP) in the context of the Nyquist system. It facilitates the synchronization of time across networked devices, ensuring that they maintain accurate and consistent timestamps."
+                    }
+                ]
+            },
+            {
+                "id": "00067",
+                "is_impossible": false,
+                "question": "What type of connectivity is facilitated by port 3306?",
+                "answers": [
+                    {
+                        "text": "Port 3306 is used for ODBC (Open Database Connectivity), which facilitates database connections. It allows applications to communicate with database management systems, enabling data access and manipulation across different software programs."
+                    }
+                ]
+            },
+            {
+                "id": "00068",
+                "is_impossible": false,
+                "question": "What range of ports is used for Real-Time Transport Protocol (RTP) audio streams?",
+                "answers": [
+                    {
+                        "text": "The range of ports used for Real-Time Transport Protocol (RTP) audio streams is 10000-20000."
+                    }
+                ]
+            },
+            {
+                "id": "00069",
+                "is_impossible": false,
+                "question": "Which port is specifically designated for local server management, and what restriction is placed on it?",
+                "answers": [
+                    {
+                        "text": "The port specifically designated for local server management is 5038. The restriction placed on it is that outside access to this port is not allowed, and an IP filter rule is installed during system controller installation to enforce this restriction."
+                    }
+                ]
+            },
+            {
+                "id": "00070",
+                "is_impossible": false,
+                "question": "What is the designated port for Session Initiation Protocol (SIP)?",
+                "answers": [
+                    {
+                        "text": "The designated port for Session Initiation Protocol (SIP) is 5060. It is used for both Transfer Control Protocol (TCP) and User Datagram Protocol (UDP) connections."
+                    }
+                ]
+            },
+            {
+                "id": "00071",
+                "is_impossible": false,
+                "question": "What does port 8088 support in terms of SIP connections?",
+                "answers": [
+                    {
+                        "text": "Port 8088 supports SIP over Web Services (SIP WS/WSS) connections for the Nyquist system controller. It is designated for phone provisioning using the Hypertext Transfer Protocol (HTTP)."
+                    }
+                ]
+            },
+            {
+                "id": "00072",
+                "is_impossible": false,
+                "question": "For what purpose is port 161 used in the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "Port 161 is used for Simple Network Management Protocol (SNMP) in the Nyquist system. It is an optional service for network management, allowing for the monitoring and management of network devices."
+                    }
+                ]
+            },
+            {
+                "id": "00073",
+                "is_impossible": false,
+                "question": "What type of connections are facilitated by port 69?",
+                "answers": [
+                    {
+                        "text": "Port 69 is used for TFTP (Trivial File Transfer Protocol) connections. TFTP is a simple protocol used for transferring files between devices on a network."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "8\n1.1.5\nMulticast IP Addresses\nA minimum of three multicast IP Addresses are required for an E7000\nsystem:\n\u2022 Emergency-All-Call Multicast RTP IP Address\n\u2022 All-Call Multicast RTP IP Address\n\u2022 Audio Distribution Multicast IP Address\nThese multicast RTP IP Addresses are entered when setting System\nParameters. \nIf you want to use multicasting for zones, a multicast IP Address is\nneeded for each multicast zone. \nA zone is a collection of stations. E7000 stations consist of any SIP-\nenabled device (personal computer (PC), tablet, smart phone), VoIP\nspeaker or VoIP phone connected to the system and assigned an\nextension. No limit exists for the number of zones or for the number\nof stations that can be in a multicast zone. \nMulticast IP Addresses for zones are set through the Zones menu and\nare added when creating a zone or when editing a zone.\n1.1.6\nMulticast Ports\nMulticast ports must be set for each multicast IP address. When set-\nting Multicast ports for zones, the port number must start with an\neven number and a range of four is needed between port numbers.\nFor example, if Zone 1 uses Multicast Port Number 6010, then Zone 2\ncannot use port 6011, 6012, or 6013.\n1.1.7\nIP Addresses\nIP addresses (static or dynamic) are needed for each of the following\nitems:\n\u2022 E7000 System Controller or server\n\u2022 Each E7000 VoIP phone\n\u2022 Each E7000 appliance\n\u2022 Each device used to access the Web UI (PC, Mac, tablet, or mobile)",
+        "qas": [
+            {
+                "id": "00074",
+                "is_impossible": false,
+                "question": "What are the three required multicast IP addresses for an E7000 system?",
+                "answers": [
+                    {
+                        "text": "The three required multicast IP addresses for an E7000 system are the Emergency-All-Call Multicast RTP IP Address, the All-Call Multicast RTP IP Address, and the Audio Distribution Multicast IP Address. These IP addresses are entered during the System Parameters setup."
+                    }
+                ]
+            },
+            {
+                "id": "00075",
+                "is_impossible": false,
+                "question": "How are multicast IP addresses entered in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Multicast IP addresses for the E7000 system are entered when setting System Parameters for the Emergency-All-Call Multicast RTP, All-Call Multicast RTP, and Audio Distribution Multicast. For multicast zones, the IP addresses are configured through the Zones menu during zone creation or editing."
+                    }
+                ]
+            },
+            {
+                "id": "00076",
+                "is_impossible": false,
+                "question": "What constitutes a multicast zone in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "A multicast zone in the E7000 system is a collection of stations, which can include any SIP-enabled device, VoIP speaker, or VoIP phone connected to the system and assigned an extension. There is no limit to the number of zones or the number of stations that can be in a multicast zone. Each zone requires its own multicast IP address and ports."
+                    }
+                ]
+            },
+            {
+                "id": "00077",
+                "is_impossible": false,
+                "question": "Is there a limit to the number of zones or stations within a multicast zone in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "No, there is no limit to the number of zones or the number of stations that can be in a multicast zone in the E7000 system. Each zone can consist of any SIP-enabled device, VoIP speaker, or VoIP phone connected to the system and assigned an extension."
+                    }
+                ]
+            },
+            {
+                "id": "00078",
+                "is_impossible": false,
+                "question": "How are multicast IP addresses for zones set in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Multicast IP addresses for zones in the E7000 system are set through the Zones menu and can be added when creating a zone or editing an existing zone. Each multicast zone requires a unique multicast IP address, and there is no limit to the number of zones or stations that can be included in a multicast zone."
+                    }
+                ]
+            },
+            {
+                "id": "00079",
+                "is_impossible": false,
+                "question": "What is the requirement for multicast port numbers in relation to zoning?",
+                "answers": [
+                    {
+                        "text": "Multicast port numbers for each zone must start with an even number and require a range of four between port numbers. For example, if Zone 1 uses port 6010, then Zone 2 cannot use ports 6011, 6012, or 6013."
+                    }
+                ]
+            },
+            {
+                "id": "00080",
+                "is_impossible": false,
+                "question": "Can multicast port numbers be consecutive or must they follow a specific pattern?",
+                "answers": [
+                    {
+                        "text": "Multicast port numbers must not be consecutive and must follow a specific pattern, starting with an even number and requiring a range of four between port numbers. For example, if one zone uses port 6010, the next zone cannot use ports 6011, 6012, or 6013."
+                    }
+                ]
+            },
+            {
+                "id": "00081",
+                "is_impossible": false,
+                "question": "What types of devices require IP addresses in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "In the E7000 system, IP addresses are needed for the E7000 System Controller or server, all E7000 VoIP phones, each E7000 appliance, and any device used to access the Web UI, such as PCs, Macs, tablets, or mobile devices."
+                    }
+                ]
+            },
+            {
+                "id": "00082",
+                "is_impossible": false,
+                "question": "Are the IP addresses needed for the E7000 system static, dynamic, or both?",
+                "answers": [
+                    {
+                        "text": "Both static and dynamic IP addresses are needed for the E7000 system, including for the system controller, VoIP phones, appliances, and devices accessing the Web UI. Each item can use either type of IP address as required."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "9\nFor information about the E7000 appliances, visit the following web-\nsite:\nhttp://www.bogen-es.com/ \n1.1.8\nBandwidth Requirements\nBandwidth requirements are as follows:\n\u2022 Background Traffic: \n\u2022 SIP registration (unicast every 60 seconds between each SIP \nendpoint and the Server): 0.001 Mbps\n\u2022 Inter-facility connection (unicast every 60 seconds between \nlocal and remote nodes): 0.141 Mbps \n\u2022 Ambient Noise Sensor (multicast every 500 msec): 480 bps\n\u2022 Feature Specific Traffic:\n\u2022 Audio distribution (multicast) local media (MP3 file): 0.070 \nMbps\n\u2022 Audio distribution (multicast) Internet media (SOUNDMA-\nCHINE/airable): 0.071 Mbps\n\u2022 Announcement (multicast): 0.087 Mbps\n\u2022 Intercom call (unicast between two SIP endpoints): 0.171 Mbps\n\u2022 Zone page (multicast): 0.086 Mbps\n\u2022 All Call page (multicast): 0.086 Mbps\n\u2022 Emergency All Call page (multicast): 0.086 Mbps\n\u2022 Facility page (unicast between local and remote nodes): 0.147 \nMbps\n\u2022 District All Call page (unicast between local and remote nodes): \n0.143 Mbps\n\u2022 District Emergency All Call page (unicast between local and \nremote nodes): 0.141 Mbps\n\u2022 District intercom call (unicast between local and remote nodes): \n0.151 Mbps",
+        "qas": [
+            {
+                "id": "00083",
+                "is_impossible": false,
+                "question": "What is the website for information about the E7000 appliances?",
+                "answers": [
+                    {
+                        "text": "The website for information about the E7000 appliances is http://www.bogen-es.com/."
+                    }
+                ]
+            },
+            {
+                "id": "00084",
+                "is_impossible": false,
+                "question": "What is the bandwidth requirement for SIP registration?",
+                "answers": [
+                    {
+                        "text": "The bandwidth requirement for SIP registration is 0.001 Mbps, with unicast occurring every 60 seconds between each SIP endpoint and the server."
+                    }
+                ]
+            },
+            {
+                "id": "00085",
+                "is_impossible": false,
+                "question": "How often does the Ambient Noise Sensor multicast?",
+                "answers": [
+                    {
+                        "text": "The Ambient Noise Sensor multicasts every 500 milliseconds. This means it sends out data at a frequency of twice per second."
+                    }
+                ]
+            },
+            {
+                "id": "00086",
+                "is_impossible": false,
+                "question": "What is the bandwidth requirement for audio distribution of local media (MP3 file)?",
+                "answers": [
+                    {
+                        "text": "The bandwidth requirement for audio distribution of local media (MP3 file) is 0.070 Mbps."
+                    }
+                ]
+            },
+            {
+                "id": "00087",
+                "is_impossible": false,
+                "question": "What is the bandwidth requirement for an intercom call between two SIP endpoints?",
+                "answers": [
+                    {
+                        "text": "The bandwidth requirement for an intercom call between two SIP endpoints is 0.171 Mbps. This is for unicast communication."
+                    }
+                ]
+            },
+            {
+                "id": "00088",
+                "is_impossible": false,
+                "question": "How much bandwidth is needed for a District All Call page?",
+                "answers": [
+                    {
+                        "text": "The bandwidth required for a District All Call page is 0.143 Mbps. This is for unicast communication between local and remote nodes."
+                    }
+                ]
+            },
+            {
+                "id": "00089",
+                "is_impossible": false,
+                "question": "What type of traffic is classified as background traffic?",
+                "answers": [
+                    {
+                        "text": "Background traffic includes SIP registration (0.001 Mbps), inter-facility connection (0.141 Mbps), and ambient noise sensor (480 bps). This traffic is essential for maintaining connections and monitoring within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00090",
+                "is_impossible": false,
+                "question": "What is the multicast interval for the Ambient Noise Sensor?",
+                "answers": [
+                    {
+                        "text": "The multicast interval for the Ambient Noise Sensor is every 500 milliseconds. This means that data is sent out to multiple endpoints every half second."
+                    }
+                ]
+            },
+            {
+                "id": "00091",
+                "is_impossible": false,
+                "question": "What is the bandwidth requirement for the Emergency All Call page?",
+                "answers": [
+                    {
+                        "text": "The bandwidth requirement for the Emergency All Call page is 0.086 Mbps. This is a multicast transmission."
+                    }
+                ]
+            },
+            {
+                "id": "00092",
+                "is_impossible": false,
+                "question": "How does the bandwidth requirement for internet media (SOUNDMACHINE/airable) compare to local media audio distribution?",
+                "answers": [
+                    {
+                        "text": "The bandwidth requirement for Internet media (SOUNDMACHINE/airable) is 0.071 Mbps, which is slightly higher than the requirement for local media audio distribution, which is 0.070 Mbps. The difference is minimal, with Internet media requiring just 1 kbps more than local media."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "10\n1.1.9\nE7000 Cabling and Wiring Requirements\nThe following table describes E7000 cabling and wiring requirements:\nTable 5, Cabling and Wiring Requirements\nServer and E7000 \nDevices\nCat5 or better cabling\nASB Speaker and \nCall Switch Con-\nnections\nWest Penn 357 cable or equivalent\nNote: While the system is entirely CAT5 or \nbetter cable compatible, it is not advisable to \nuse category wiring for two-way intercom \nstations in installations where Electromag-\nnetic Field (EMF) interference is a possible \nconcern. In such environments, it is recom-\nmended to use West Penn #357, Belden \n#8724, or equivalent cabling to protect \nagainst cross talk and noise induced by EMF \ninterference.\nDigital Call \nSwitches\nCat5 or equivalent cabling (The CAN 2.0 BUS \nconnection on these devices allows them to \nbe daisy-chained.)\nI/O Controller\nCat5 or any other 2-wirer (or denser) cable \nwith a 500mA or better current rating.\nMatrix Mixer Pre \nAmp\nAudio connections by input type (for exam-\nple, XLR, pluggable screw terminal connec-\ntors); use 2-conductor or 3-conductor \nshielded cable (as needed for balanced or \nunbalanced) to reduce electromagnetic inter-\nference (EMI) or radio frequency (RF) interfer-\nence to the Line or MIC inputs.",
+        "qas": [
+            {
+                "id": "00093",
+                "is_impossible": false,
+                "question": "What type of cabling is recommended for server and E7000 devices?",
+                "answers": [
+                    {
+                        "text": "For server and E7000 devices, Cat5 or better cabling is recommended. However, for two-way intercom stations in areas with possible electromagnetic field (EMF) interference, West Penn #357, Belden #8724, or equivalent cabling should be used to minimize crosstalk and noise."
+                    }
+                ]
+            },
+            {
+                "id": "00094",
+                "is_impossible": false,
+                "question": "What specific cable is advised for ASB speaker and call switch connections?",
+                "answers": [
+                    {
+                        "text": "For ASB speaker and call switch connections, West Penn 357 cable or an equivalent is advised. This is recommended to protect against electromagnetic interference (EMI) concerns, especially in environments where such interference is possible."
+                    }
+                ]
+            },
+            {
+                "id": "00095",
+                "is_impossible": false,
+                "question": "Why is it not advisable to use category wiring for two-way intercom stations in certain environments?",
+                "answers": [
+                    {
+                        "text": "It is not advisable to use category wiring for two-way intercom stations in environments where electromagnetic field (EMF) interference is a possible concern, as it can lead to cross talk and noise. Instead, cabling such as West Penn #357 or Belden #8724 is recommended to protect against these interferences."
+                    }
+                ]
+            },
+            {
+                "id": "00096",
+                "is_impossible": false,
+                "question": "Which cables are recommended for environments with Electromagnetic Field (EMF) interference?",
+                "answers": [
+                    {
+                        "text": "For environments with Electromagnetic Field (EMF) interference, it is recommended to use West Penn #357, Belden #8724, or equivalent cabling for two-way intercom stations. These options help protect against cross talk and noise induced by EMF interference."
+                    }
+                ]
+            },
+            {
+                "id": "00097",
+                "is_impossible": false,
+                "question": "What cabling is required for digital call switches?",
+                "answers": [
+                    {
+                        "text": "Digital call switches require Cat5 or equivalent cabling. These devices feature a CAN 2.0 BUS connection, allowing them to be daisy-chained."
+                    }
+                ]
+            },
+            {
+                "id": "00098",
+                "is_impossible": false,
+                "question": "What type of cable can be used for connecting I/O controllers?",
+                "answers": [
+                    {
+                        "text": "I/O controllers can be connected using Cat5 or any other 2-wirer (or denser) cable with a current rating of 500mA or better."
+                    }
+                ]
+            },
+            {
+                "id": "00099",
+                "is_impossible": false,
+                "question": "What are the cable requirements for audio connections to a matrix mixer preamp?",
+                "answers": [
+                    {
+                        "text": "Audio connections to a matrix mixer preamp require input type-specific connections (e.g., XLR, pluggable screw terminals) using 2-conductor or 3-conductor shielded cable, depending on whether balanced or unbalanced connections are needed. This helps to reduce electromagnetic interference (EMI) or radio frequency (RF) interference."
+                    }
+                ]
+            },
+            {
+                "id": "00100",
+                "is_impossible": false,
+                "question": "What type of cable should be used to reduce electromagnetic interference for balanced or unbalanced inputs?",
+                "answers": [
+                    {
+                        "text": "To reduce electromagnetic interference for balanced or unbalanced inputs, use 2-conductor or 3-conductor shielded cable as needed. This helps mitigate EMI or RF interference in audio connections."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "11\nVoIP Intercom \nModule\nCat5 or equivalent cabling for the CAN Bus \nPort\n2-conductor or 3-conductor shielded cable \n(as needed for balanced or unbalanced) to \nreduce electromagnetic interference (EMI) or \nradio frequency (RF) interference on the Line \nLevel outputs for Ambient Mic Input, Push-\nto-Talk Mic Connection, and Relay Contact\nHDMI 1.3 cable or better for HDMI output\nWest Penn 357 cable or equivalent for call \nswitch input and analog speaker connection\nNote: While the system is entirely CAT5 or \nbetter cable compatible, it is not advisable to \nuse category wiring for two-way intercom \nstations in installations where Electromag-\nnetic Field (EMF) interference is a possible \nconcern. In such environments, it is recom-\nmended to use West Penn #357, Belden \n#8724, or equivalent cabling to protect \nagainst cross talk and noise induced by EMF \ninterference.\nTable 5, Cabling and Wiring Requirements (Continued)",
+        "qas": [
+            {
+                "id": "00101",
+                "is_impossible": false,
+                "question": "What type of cabling is recommended for the CAN Bus Port?",
+                "answers": [
+                    {
+                        "text": "For the CAN Bus Port, Cat5 or equivalent cabling is recommended. It ensures compatibility with the system's requirements while maintaining performance standards."
+                    }
+                ]
+            },
+            {
+                "id": "00102",
+                "is_impossible": false,
+                "question": "Which cable is suggested for reducing electromagnetic and radio frequency interference on audio inputs?",
+                "answers": [
+                    {
+                        "text": "A 2-conductor or 3-conductor shielded cable is suggested for reducing electromagnetic interference (EMI) and radio frequency (RF) interference on the audio inputs, such as the Ambient Mic Input and Push-to-Talk Mic Connection. This type of cable helps maintain signal integrity in environments with potential interference."
+                    }
+                ]
+            },
+            {
+                "id": "00103",
+                "is_impossible": false,
+                "question": "What version of HDMI cable is specified for HDMI output?",
+                "answers": [
+                    {
+                        "text": "The specified version of HDMI cable for HDMI output is HDMI 1.3 or better."
+                    }
+                ]
+            },
+            {
+                "id": "00104",
+                "is_impossible": false,
+                "question": "Which specific cable is mentioned for call switch input and analog speaker connection?",
+                "answers": [
+                    {
+                        "text": "The specific cable mentioned for call switch input and analog speaker connection is West Penn 357 cable or an equivalent. It is recommended due to its effectiveness in environments with potential electromagnetic interference."
+                    }
+                ]
+            },
+            {
+                "id": "00105",
+                "is_impossible": false,
+                "question": "Why is it not advisable to use category wiring for two-way intercom stations in environments with potential EMF interference?",
+                "answers": [
+                    {
+                        "text": "It is not advisable to use category wiring for two-way intercom stations in environments with potential EMF interference because such wiring may be susceptible to cross talk and noise induced by electromagnetic fields. Instead, using dedicated cabling like West Penn #357 or Belden #8724 provides better shielding against these interferences."
+                    }
+                ]
+            },
+            {
+                "id": "00106",
+                "is_impossible": false,
+                "question": "What alternatives are recommended for environments prone to EMF interference?",
+                "answers": [
+                    {
+                        "text": "In environments prone to EMF interference, it is recommended to use West Penn #357, Belden #8724, or equivalent cabling instead of CAT5 to protect against crosstalk and noise. These alternatives are suitable for two-way intercom stations to mitigate potential interference issues."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "12\n1.1.10\nTelephony Environment\nThe Nyquist E7000 can interface with a customer\u2019s telephony system\nin the following ways:\n\u2022 Network-based SIP trunks to PSTN or Cloud-based VoIP provider\n\u2022 Network-based SIP Tie-Lines to the premises-based IP-PBX\n\u2022 FXS ATA to the premises-based PBX or IP-PBX\nUse of FXS ATA requires purchase/use of a third-party FXS VoIP Gate-\nway device (for example, Cisco SPA112 Two Port Phone Adapter)\nUsing SIP trunks allows full bi-directional calling between any E7000\nstation and the IP-PBX/PBX/PSTN and supports features such as E-\n911 calling, remote call transfer, and off-premise calling. The FXS ATA\noption only allows a station on the PBX to dial through\u201d to the\nNyquist system where it will receives a second dial tone to initiate\nDTMF controlled paging, intercom calls, etc.\nSet up an appointment with both Bogen Technical Support (800-995-\n2809) and the PBX vendor or customer (if the customer maintains the\ntelephony system) to assist during integration of the E7000 and tele-\nphony systems.\n1.2\nAdditional Information\nAdditional information about Nyquist appliances\u2019 specifications and\ninstallation instructions can be obtained via the Bogen E7000 web\nsite (http://www.bogenedu.com/). \n1.3\nInstallation Checklist\nThe following checklist is provided to aid in obtaining information\nneeded for E7000 system installation and initial configuration. You\ncan print the checklist and use the Notes column to write required\ninformation, such as multicast IP addresses. In some cases, such as\nrecording IP addresses for stations or VoIP phones, additional pages\nmay need to be copied to accommodate the total number of devices\nbeing installed.",
+        "qas": [
+            {
+                "id": "00107",
+                "is_impossible": false,
+                "question": "What types of telephony systems can the Nyquist E7000 interface with?",
+                "answers": [
+                    {
+                        "text": "The Nyquist E7000 can interface with telephony systems using network-based SIP trunks to PSTN or cloud-based VoIP providers, SIP tie-lines to premises-based IP-PBX, and FXS ATA to premises-based PBXs or IP-PBXs. The FXS ATA option requires a third-party VoIP gateway device for integration."
+                    }
+                ]
+            },
+            {
+                "id": "00108",
+                "is_impossible": false,
+                "question": "What is required to use the FXS ATA option with the Nyquist E7000?",
+                "answers": [
+                    {
+                        "text": "To use the FXS ATA option with the Nyquist E7000, a third-party FXS VoIP Gateway device is required, such as the Cisco SPA112 Two Port Phone Adapter. This setup enables a station on the premises-based PBX to dial through to the Nyquist system for DTMF controlled functions."
+                    }
+                ]
+            },
+            {
+                "id": "00109",
+                "is_impossible": false,
+                "question": "What features does using SIP trunks with the E7000 support?",
+                "answers": [
+                    {
+                        "text": "Using SIP trunks with the E7000 supports full bi-directional calling between any E7000 station and the IP-PBX/PBX/PSTN, along with features such as E-911 calling, remote call transfer, and off-premise calling."
+                    }
+                ]
+            },
+            {
+                "id": "00110",
+                "is_impossible": false,
+                "question": "What limitations does the FXS ATA option have compared to using SIP trunks?",
+                "answers": [
+                    {
+                        "text": "The FXS ATA option only allows a station on the PBX to dial through to the Nyquist system, which results in receiving a second dial tone for DTMF controlled functions like paging and intercom calls. In contrast, using SIP trunks enables full bi-directional calling between any E7000 station and the IP-PBX/PBX/PSTN, supporting features such as E-911 calling, remote call transfer, and off-premise calling."
+                    }
+                ]
+            },
+            {
+                "id": "00111",
+                "is_impossible": false,
+                "question": "What should be done to ensure proper integration of the E7000 with telephony systems?",
+                "answers": [
+                    {
+                        "text": "To ensure proper integration of the E7000 with telephony systems, set up an appointment with both Bogen Technical Support (800-995-2809) and the PBX vendor or customer for assistance during the integration process. Additionally, utilize the installation checklist to gather necessary information, such as multicast IP addresses and device configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00112",
+                "is_impossible": false,
+                "question": "Where can additional information about the Nyquist appliances' specifications be found?",
+                "answers": [
+                    {
+                        "text": "Additional information about the Nyquist appliances' specifications and installation instructions can be found on the Bogen E7000 website at http://www.bogenedu.com/."
+                    }
+                ]
+            },
+            {
+                "id": "00113",
+                "is_impossible": false,
+                "question": "What purpose does the installation checklist serve in the context of the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The installation checklist for the E7000 system serves to guide users in gathering the necessary information for installation and initial configuration, such as multicast IP addresses and recording IP addresses for stations or VoIP phones. It allows users to organize their notes and ensures they have all required details for a successful setup."
+                    }
+                ]
+            },
+            {
+                "id": "00114",
+                "is_impossible": false,
+                "question": "Is it necessary to copy additional pages for recording IP addresses for devices during installation?",
+                "answers": [
+                    {
+                        "text": "Yes, it may be necessary to copy additional pages for recording IP addresses for devices during installation, especially when accommodating the total number of stations or VoIP phones being installed. The installation checklist allows for additional notes, which can help keep track of this information."
+                    }
+                ]
+            },
+            {
+                "id": "00115",
+                "is_impossible": false,
+                "question": "What types of calls can be initiated using DTMF controls in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "DTMF controls in the E7000 system can be used to initiate paging, intercom calls, and other controlled functions. This is applicable when utilizing the FXS ATA configuration, where a station on the PBX dials through to the Nyquist system to access these features."
+                    }
+                ]
+            },
+            {
+                "id": "00116",
+                "is_impossible": false,
+                "question": "Which third-party device is mentioned as an example for FXS ATA usage?",
+                "answers": [
+                    {
+                        "text": "The example of a third-party device mentioned for FXS ATA usage is the Cisco SPA112 Two Port Phone Adapter. This device is required to interface with the premises-based PBX or IP-PBX."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "13\nInstallation Checklist\nThe following checklist is provided to aid in obtaining information\nneeded for E7000 system installation and initial configuration\nDone \nItem\nInformation\nE7000 System Controller/\nServer \nPermanently allocated IP \nAddress\nWill the server be a Nyquist \nSystem Controller\n(NQ-SYSCTRL)?\n___________________________________________\n              \n         \n                  Yes               No\nNetwork Time Server\nIP Address\n___________________________________________\nTFTP Server (Optional)\nIP Address\n___________________________________________\nEmergency-All-Call \nMulticast RTP IP Address \nRTP Port Number\n__________________________________________\n__________________________________________\nAll-Call \nMulticast RTP IP Address \nRTP Port Number\n__________________________________________\n__________________________________________\nAudio Distribution \nMulticast IP Address \nRTP Port Number\n__________________________________________\n__________________________________________\n14\nFacility\nName\nPage Number\nHost/IP Address\nPassword\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nFacility\nName\nPage Number\nHost/IP Address\nPassword\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nFacility\nName\nPage Number\nHost/IP Address\nPassword\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nFacility\nName\nPage Number\nHost/IP Address\nPassword\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n15\nMulticast Zone\nZone (Name or Number)\nZone Type (Paging, Time, and \nso on)\nMulticast IP Address\nPort Number\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nMulticast Zone\nZone (Name or Number)\nZone Type (Paging, Time, and \nso on)\nMulticast IP Address\nPort Number\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nMulticast Zone\nZone (Name or Number)\nZone Type (Paging, Time, and \nso on)\nMulticast IP Address\nPort Number\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n16\nNQ-P0100 Matrix Mixer \nPre-Amp\nIP Address (if static)\nMAC Address \n__________________________________________\n__________________________________________\nNQ-P0100 Matrix Mixer \nPre-Amp\nIP Address (if static)\nMAC Address \n__________________________________________\n__________________________________________\nNQ-P0100 Matrix Mixer \nPre-Amp\nIP Address (if static)\nMAC Address \n__________________________________________\n__________________________________________\nNQ-P0100 Matrix Mixer \nPre-Amp\nIP Address (if static)\nMAC Address \n__________________________________________\n__________________________________________\nNQ-P0100 Matrix Mixer \nPre-Amp\nIP Address (if static)\nMAC Address \n__________________________________________\n__________________________________________\nNQ-P0100 Matrix Mixer \nPre-Amp\nIP Address (if static)\nMAC Address \n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n17\nNQ-E7010 I/O Controller\nIP Address (if static)\nMAC Address\nInput Contact 1\nInput Contact 2\nInput Contact 3\nInput Contact 4\nInput Contact 5\nInput Contact 6\nInput Contact 7\nInput Contact 8\nOutput Contact 1\nOutput Contact 2\nOutput Contact 3\nOutput Contact 4\nOutput Contact 5\nOutput Contact 6\nOutput Contact 7\nOutput Contact 8\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n18\nNQ-S1810CT, NQ-S1810WT, \nNQ-S1810CT-G2, or NQ-\nS1810WT-G2 VoIP Speaker\nModel and Name\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-S1810CT, NQ-S1810WT, \nNQ-S1810CT-G2, or NQ-\nS1810WT-G2 VoIP Speaker\nModel and Name\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-S1810CT, NQ-S1810WT, \nNQ-S1810CT-G2, or NQ-\nS1810WT-G2 VoIP Speaker\nModel and Name\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nDone \nItem\nInformation\n\n\n19\nNQ-S1810CT, NQ-S1810WT, \nNQ-S1810CT-G2, or NQ-\nS1810WT-G2 VoIP Speaker\nModel and Name\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-S1810CT, NQ-S1810WT, \nNQ-S1810CT-G2, or NQ-\nS1810WT-G2 VoIP Speaker\nModel and Name\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-S1810CT, NQ-S1810WT, \nNQ-S1810CT-G2, or NQ-\nS1810WT-G2 VoIP Speaker\nModel and Name\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nDone \nItem\nInformation\n\n\n20\nNQ-T1100 Admin Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-T1100 Admin Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-T1100 Admin Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-T1100 Admin Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nDone \nItem\nInformation\n\n\n21\nNQ-T1000 VoIP Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-T1000 VoIP Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-T1000 VoIP Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nNQ-T1000 VoIP Phone\nIP Address (if static)\nStation/Architectural Number\nPhysical Location\nMAC Address\n____________________________________________\n____________________________________________\n____________________________________________\n____________________________________________\nDone \nItem\nInformation\n\n\n22\nNQ-E7030 ASB\nName/Number\nIP Address (if static)\nMAC Address \nPort Number 1\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nPort Number 2\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 3\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 4\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 5\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 6\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n23\nPort Number 7\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 8\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 9\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 10\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 11\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 12\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 13\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n24\nPort Number 14\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 15\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 16\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 17\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 18\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 19\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 20\nStation/Architectural Number\nDigital Call Switch ID\n_________________________________________\n__________________________________________\nPort Number 21\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n25\nPort Number 22\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 23\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nPort Number 24\nStation/Architectural Number\nDigital Call Switch ID\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n26\nNQ-GA10P/NQ-GA10PV \nVoIP Intercom Module\nModel and Name\nDevice Type\nIP Address (if static)\nMAC Address \nStation/Architectural Number\nLocation of Ambient Noise \nSensor(s) Attached (if applica-\nble)\nLocation of Push-to-Talk \nMicrophone Attached (if \napplicable)\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nNQ-GA10P/NQ-GA10PV \nVoIP Intercom Module\nModel and Name\nDevice Type\nIP Address (if static)\nMAC Address \nStation/Architectural Number\nLocation of Ambient Noise \nSensor(s) Attached (if applica-\nble)\nLocation of Push-to-Talk \nMicrophone Attached (if \napplicable)\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nDone \nItem\nInformation\n\n\n27\nNQ-A4060/NQ-A4120/\nNQ-A4300 Networked \nAudio Power Amplifier\nModel and Name\nDevice Type\nIP Address (if static)\nMAC Address \nLine Input-1 Source (if used)\nLine Input-2 Source (if used)\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nAmplifier Output - A\nStation/Architectural Number\n__________________________________________\nAmplifier Output -B\nStation/Architectural Number\n__________________________________________\nAmplifier Output - C\nStation/Architectural Number\n__________________________________________\nAmplifier Output - D\nStation/Architectural Number\n__________________________________________\nDone \nItem\nInformation\n\n\n28\nNQ-A2060/NQ-A2120/\nNQ-A2300 Networked \nAudio Power Amplifier\nModel and Name\nDevice Type\nIP Address (if static)\nMAC Address \nLine Input Source (if used)\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nAmplifier Output - A\nStation/Architectural Number\n__________________________________________\nAmplifier Output - B\nStation/Architectural Number\n__________________________________________\nDone \nItem\nInformation\n\n\n29\nNQ-PA120/NQ-PA240/\nNQ-PA600 Public Address \nAmplifier\nModel and Name\nDevice Type\nIP Address (if needed)\nMAC Address \n__________________________________________\n__________________________________________\n__________________________________________\n__________________________________________\nAmplifier Output\nStation/Architectural Number\n__________________________________________\nLine/Mic Channel 1 source:\n__________________________________________\nLine/Mic Channel 2 source:\n__________________________________________\nLine/Mic Channel 3 source:\n__________________________________________\nLine/Mic Channel 4 source:\n__________________________________________\nDone \nItem\nInformation",
+        "qas": [
+            {
+                "id": "00117",
+                "is_impossible": false,
+                "question": "What is the permanently allocated IP address for the E7000 system controller/server?",
+                "answers": [
+                    {
+                        "text": "The permanently allocated IP address for the E7000 system controller/server is not specified in the provided checklist context. Users need to fill in this information in the designated area as part of the installation process."
+                    }
+                ]
+            },
+            {
+                "id": "00118",
+                "is_impossible": false,
+                "question": "Is the server designated as a Nyquist System Controller (NQ-SYSCTRL)?",
+                "answers": [
+                    {
+                        "text": "The designation of the server as a Nyquist System Controller (NQ-SYSCTRL) must be indicated with a \"Yes\" or \"No.\" This information is not provided in the checklist excerpt you shared."
+                    }
+                ]
+            },
+            {
+                "id": "00119",
+                "is_impossible": false,
+                "question": "What is the IP address for the Network Time Server?",
+                "answers": [
+                    {
+                        "text": "The IP address for the Network Time Server is not specified in the provided checklist. You will need to fill in this information in the designated section."
+                    }
+                ]
+            },
+            {
+                "id": "00120",
+                "is_impossible": false,
+                "question": "What is the IP address of the TFTP Server?",
+                "answers": [
+                    {
+                        "text": "The IP address of the TFTP Server is left blank in the provided checklist, indicating that it needs to be filled in during the installation process. It is marked as optional, suggesting that the server may not be required for all installations."
+                    }
+                ]
+            },
+            {
+                "id": "00121",
+                "is_impossible": false,
+                "question": "What is the RTP IP address and port number for Emergency-All-Call multicast?",
+                "answers": [
+                    {
+                        "text": "The RTP IP Address and port number for the Emergency-All-Call multicast are to be specified in the empty fields provided in the installation checklist. These values need to be filled in based on the specific network configuration for the E7000 system installation."
+                    }
+                ]
+            },
+            {
+                "id": "00122",
+                "is_impossible": false,
+                "question": "What is the RTP IP address and port number for All-Call multicast?",
+                "answers": [
+                    {
+                        "text": "The All-Call Multicast RTP IP Address and RTP Port Number need to be filled in during the installation process, as they are not provided in the checklist. Please refer to your network configuration for those specific values."
+                    }
+                ]
+            },
+            {
+                "id": "00123",
+                "is_impossible": false,
+                "question": "What are the multicast IP address and port number for audio distribution?",
+                "answers": [
+                    {
+                        "text": "The multicast IP address and port number for audio distribution are to be provided in the installation checklist under the relevant section. They are listed as follows: \n\n- Audio Distribution Multicast IP Address: __________________________________________\n- RTP Port Number: __________________________________________"
+                    }
+                ]
+            },
+            {
+                "id": "00124",
+                "is_impossible": false,
+                "question": "Can you list the facility names, page numbers, host/IP addresses, and passwords?",
+                "answers": [
+                    {
+                        "text": "The installation checklist includes multiple entries for facilities, but specific names, page numbers, host/IP addresses, and passwords are not provided in the context. To retrieve this information, you would need to fill in the blanks of the checklist with the relevant details."
+                    }
+                ]
+            },
+            {
+                "id": "00125",
+                "is_impossible": false,
+                "question": "What are the names or numbers of the multicast zones with their types, IP addresses, and port numbers?",
+                "answers": [
+                    {
+                        "text": "The checklist includes entries for multiple multicast zones, each requiring a name or number, zone type, multicast IP address, and port number. Specific details for the zones are not provided in the text, as they are left blank for user input."
+                    }
+                ]
+            },
+            {
+                "id": "00126",
+                "is_impossible": false,
+                "question": "What are the IP addresses and MAC addresses for each NQ-P0100 Matrix Mixer Pre-Amp?",
+                "answers": [
+                    {
+                        "text": "The IP addresses and MAC addresses for each NQ-P0100 Matrix Mixer Pre-Amp are to be filled in the designated spaces in the installation checklist, as this information is not provided in the context given. Each unit requires separate entries for its static IP address and MAC address."
+                    }
+                ]
+            },
+            {
+                "id": "00127",
+                "is_impossible": false,
+                "question": "What are the IP addresses, MAC addresses, and I/O contact details for the NQ-E7010 I/O Controller?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7010 I/O Controller requires an IP address (if static) and a MAC address, along with details for eight input contacts and eight output contacts, which need to be specified individually. The specific IP and MAC addresses as well as the configurations for the input and output contacts are not provided in the checklist."
+                    }
+                ]
+            },
+            {
+                "id": "00128",
+                "is_impossible": false,
+                "question": "What are the model and names, IP addresses, and MAC addresses for the NQ-S1810 VoIP Speakers?",
+                "answers": [
+                    {
+                        "text": "The NQ-S1810 VoIP Speakers listed in the installation checklist do not have specific model names or IP addresses provided, as the fields are left blank to be filled in during installation. Each speaker requires an IP address (if static) and MAC address, which also need to be recorded."
+                    }
+                ]
+            },
+            {
+                "id": "00129",
+                "is_impossible": false,
+                "question": "What details are required for each NQ-T1100 Admin Phone?",
+                "answers": [
+                    {
+                        "text": "For each NQ-T1100 Admin Phone, the required details are the IP Address (if static), Station/Architectural Number, Physical Location, and MAC Address."
+                    }
+                ]
+            },
+            {
+                "id": "00130",
+                "is_impossible": false,
+                "question": "What are the IP address and MAC address requirements for each NQ-T1000 VoIP Phone?",
+                "answers": [
+                    {
+                        "text": "Each NQ-T1000 VoIP Phone requires a static IP address and a MAC address for network identification. The specific IP address and MAC address must be recorded for each unit during the installation process."
+                    }
+                ]
+            },
+            {
+                "id": "00131",
+                "is_impossible": false,
+                "question": "Can you specify the details for the NQ-E7030 ASB, including port numbers and digital call switch IDs?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7030 ASB requires an IP address (if static), a MAC address, and details for each port including the station/architectural number and digital call switch ID. There are a total of 24 port entries, with each entry needing these specifications filled out for proper configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00132",
+                "is_impossible": false,
+                "question": "How many ports and associated parameters are provided for the NQ-GA10P/NQ-GA10PV VoIP Intercom Module?",
+                "answers": [
+                    {
+                        "text": "The NQ-GA10P/NQ-GA10PV VoIP Intercom Module does not specify the number of ports, but it includes space for essential parameters such as the model and name, device type, static IP address, MAC address, station/architectural number, and the locations of any ambient noise sensors and push-to-talk microphones attached."
+                    }
+                ]
+            },
+            {
+                "id": "00133",
+                "is_impossible": false,
+                "question": "What are the details for the NQ-A4060/NQ-A4120/NQ-A4300 Networked Audio Power Amplifiers?",
+                "answers": [
+                    {
+                        "text": "The NQ-A4060/NQ-A4120/NQ-A4300 Networked Audio Power Amplifiers require details such as the model and name, device type, static IP address, MAC address, and the sources for Line Input-1 and Line Input-2 if used. Additionally, each amplifier output (A, B, C, D) must be assigned a station/architectural number."
+                    }
+                ]
+            },
+            {
+                "id": "00134",
+                "is_impossible": false,
+                "question": "What specific details are needed for the NQ-A2060/NQ-A2120/NQ-A2300 Networked Audio Power Amplifiers?",
+                "answers": [
+                    {
+                        "text": "For the NQ-A2060/NQ-A2120/NQ-A2300 Networked Audio Power Amplifiers, the specific details needed include the model and name, device type, static IP address, MAC address, and the line input source if used. Additionally, the station/architectural number for the amplifier outputs (A and B) should also be provided."
+                    }
+                ]
+            },
+            {
+                "id": "00135",
+                "is_impossible": false,
+                "question": "What are the model, device type, and outputs for the NQ-PA120/NQ-PA240/NQ-PA600 Public Address Amplifier?",
+                "answers": [
+                    {
+                        "text": "The NQ-PA120/NQ-PA240/NQ-PA600 is a Public Address Amplifier. The output for this device is associated with a Station/Architectural Number, and it includes sources for Line/Mic Channel 1 through Channel 4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Glossary\n27\nGlossary\nThe following terms are used by the E7000 system and the E7000 UI.\nAll-Call\nA simultaneous page to all facility stations, unless the \nstation has been excluded from pages, which has a \nhigher priority than normal paging\nAnalog Station Bridge \n(ASB) \nAn E7000 appliance with 24 analog station 4-wire con-\nnections that allows E7000 to use existing analog call \nswitch and speaker infrastructure when upgrading or \npermits a Hybrid IP/analog system configuration \nthrough the use of analog 25V speakers and associated \ncall switches\nAppliance\nA purpose-built E7000 device that contains configurable \nand upgradeable firmware.\nCentral Processing \nUnit (CPU)\nThe electronic circuitry within a computer that performs \nthe basic arithmetic, logical, control, and input/output (I/\nO) operations specified by computer program instruc-\ntions\nClass of Service (CoS) \nA term used to define the permissions, such as zone \npaging, that a station or extension has\nCoder-decoder (Codec)\nA device or computer program for encoding or decoding \na digital data stream or signal\nController Area Net-\nwork (CAN) Bus\nA specialized serial communications network standard \ndesigned to allow microcontrollers and devices to com-\nmunicate with each other in applications without a host \ncomputer; a message-based protocol, it was designed \noriginally for multiplex electrical wiring within automo-\nbiles.\nDomain Name System \n(DNS)\nOne of the protocols that comprise the TCP/IP suite, it \nconverts Internet domain and host names, like those in \nURLs from a web browser, into IP addresses.",
+        "qas": [
+            {
+                "id": "00136",
+                "is_impossible": false,
+                "question": "What is an All-Call in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "An All-Call in the E7000 system refers to a simultaneous page sent to all facility stations, unless a station has been specifically excluded from receiving pages. This type of call is prioritized over normal paging."
+                    }
+                ]
+            },
+            {
+                "id": "00137",
+                "is_impossible": false,
+                "question": "What functionality does the Analog Station Bridge (ASB) provide?",
+                "answers": [
+                    {
+                        "text": "The Analog Station Bridge (ASB) is an E7000 appliance that allows integration of existing analog call switch and speaker infrastructure when upgrading systems. It facilitates a Hybrid IP/analog configuration by enabling the use of analog 25V speakers and associated call switches through its 24 analog station 4-wire connections."
+                    }
+                ]
+            },
+            {
+                "id": "00138",
+                "is_impossible": false,
+                "question": "How is an Appliance defined in the context of the E7000 system?",
+                "answers": [
+                    {
+                        "text": "In the context of the E7000 system, an Appliance is defined as a purpose-built device that contains configurable and upgradeable firmware. This allows it to perform specific functions within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00139",
+                "is_impossible": false,
+                "question": "What role does the Central Processing Unit (CPU) play in a computer?",
+                "answers": [
+                    {
+                        "text": "The Central Processing Unit (CPU) is the electronic circuitry within a computer that carries out basic arithmetic, logical, control, and input/output (I/O) operations as directed by program instructions. It serves as the primary component responsible for processing data and executing commands, effectively acting as the brain of the computer system."
+                    }
+                ]
+            },
+            {
+                "id": "00140",
+                "is_impossible": false,
+                "question": "What does Class of Service (CoS) refer to in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Class of Service (CoS) in the E7000 system refers to the permissions assigned to a station or extension, which determine its capabilities, such as the ability to participate in zone paging. It essentially defines the access level and functionalities available to different user stations within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00141",
+                "is_impossible": false,
+                "question": "What is the function of a coder-decoder (Codec)?",
+                "answers": [
+                    {
+                        "text": "A coder-decoder (Codec) is a device or software that encodes or decodes a digital data stream or signal. It is essential for compressing or decompressing audio and video data, facilitating efficient transmission and storage."
+                    }
+                ]
+            },
+            {
+                "id": "00142",
+                "is_impossible": false,
+                "question": "What is the purpose of the Controller Area Network (CAN) Bus?",
+                "answers": [
+                    {
+                        "text": "The Controller Area Network (CAN) Bus is a specialized serial communications network standard that enables microcontrollers and devices to communicate with each other without a host computer. It was originally designed for multiplex electrical wiring in automobiles and operates on a message-based protocol."
+                    }
+                ]
+            },
+            {
+                "id": "00143",
+                "is_impossible": false,
+                "question": "How does the Domain Name System (DNS) operate within the TCP/IP suite?",
+                "answers": [
+                    {
+                        "text": "The Domain Name System (DNS) operates within the TCP/IP suite by translating human-readable domain names (e.g., www.example.com) into corresponding IP addresses that computers use to identify each other on the network. This process allows users to access websites using easily memorable names instead of numerical IP addresses."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "28\nDynamic Host Config-\nuration Protocol \n(DHCP)\nA standardized network protocol that is used on Internet \nProtocol (IP) networks and is controlled by a DHCP \nserver that dynamically distributes network configura-\ntion parameters, such as IP addresses, for interfaces and \nservices\nEmergency-All-Call\nA top priority all-call page to all stations, even those that \nhave been set up for page exclusion\nHypertext Transfer \nProtocol (HTTP)\nAn application protocol that runs on top of the TCP/IP \nsuite of protocols, HTTP is the set of rules for transferring \nfiles on the World Wide Web.\nHypertext Transfer \nProtocol Secure \n(HTTPS)\nA secure HTTP connection that is used frequently when \nsensitive information is being passed to a server\nInput/Output (I/O)\nAny operation, program, or device that transfers data to \nor from a computer\nInteractive Connectiv-\nity Establishment (ICE)\nA technique used to allow two computers to communi-\ncate with each other as directly as possible. It is used for \ninteractive media such as Voice over Internet Protocol \n(VoIP), peer-to-peer communications, video, and instant \nmessaging to avoid communicating through a central \nserver.\nInternet Protocol (IP)\nThe method, or protocol, by which data is sent from one \ncomputer to another on the Internet\nMedia Gateway Con-\ntrol Protocol (MGCP) \nA signaling and call control communications protocol \nused in VoIP telecommunication systems that uses \ndecomposed multimedia gateways for transmitting tele-\nphone calls between an IP network and traditional ana-\nlog facilities of the public switched telephone network \n(PSTN)\nMulticast\nCommunication between a single sender and multiple \nreceivers\nNetwork Address \nTranslator (NAT)\nA method of remapping one IP address space into \nanother by modifying network address information in IP \ndatagram packet headers while they are in transit across \na traffic routing device\nNetwork Interface \nController (NIC)\nA computer circuit board or card that is installed in a \ncomputer so that it can be connected to a network",
+        "qas": [
+            {
+                "id": "00144",
+                "is_impossible": false,
+                "question": "What does DHCP stand for and what is its primary function?",
+                "answers": [
+                    {
+                        "text": "DHCP stands for Dynamic Host Configuration Protocol. Its primary function is to dynamically distribute network configuration parameters, such as IP addresses, to devices on an IP network through a DHCP server."
+                    }
+                ]
+            },
+            {
+                "id": "00145",
+                "is_impossible": false,
+                "question": "What is the purpose of an Emergency-All-Call in communication systems?",
+                "answers": [
+                    {
+                        "text": "The purpose of an Emergency-All-Call in communication systems is to deliver a top priority page to all stations simultaneously, including those typically excluded from paging. This ensures immediate dissemination of critical information during emergencies."
+                    }
+                ]
+            },
+            {
+                "id": "00146",
+                "is_impossible": false,
+                "question": "How does HTTP facilitate file transfer on the World Wide Web?",
+                "answers": [
+                    {
+                        "text": "HTTP facilitates file transfer on the World Wide Web by establishing a set of rules that govern how messages are formatted, transmitted, and processed between clients (typically web browsers) and servers. It allows clients to request resources, such as web pages and images, from servers, which then respond by sending the requested files back to the client for display."
+                    }
+                ]
+            },
+            {
+                "id": "00147",
+                "is_impossible": false,
+                "question": "What distinguishes HTTPS from HTTP?",
+                "answers": [
+                    {
+                        "text": "HTTPS (Hypertext Transfer Protocol Secure) distinguishes itself from HTTP by incorporating encryption through SSL/TLS protocols, ensuring secure data transfer between the client and server. This added layer of security is essential for protecting sensitive information during online transactions and communications."
+                    }
+                ]
+            },
+            {
+                "id": "00148",
+                "is_impossible": false,
+                "question": "What is meant by Input/Output (I/O) in computing?",
+                "answers": [
+                    {
+                        "text": "Input/Output (I/O) in computing refers to any operation, program, or device that transfers data to or from a computer. This includes hardware components like keyboards and printers (input), as well as displays and storage devices (output). I/O operations are essential for enabling communication between a computer and the outside world."
+                    }
+                ]
+            },
+            {
+                "id": "00149",
+                "is_impossible": false,
+                "question": "In what scenarios is Interactive Connectivity Establishment (ICE) particularly useful?",
+                "answers": [
+                    {
+                        "text": "Interactive Connectivity Establishment (ICE) is particularly useful in scenarios involving interactive media applications, such as Voice over Internet Protocol (VoIP), peer-to-peer communications, video conferencing, and instant messaging. It aims to establish direct communication between two computers, minimizing reliance on central servers and improving connection efficiency."
+                    }
+                ]
+            },
+            {
+                "id": "00150",
+                "is_impossible": false,
+                "question": "What role does the Internet Protocol (IP) play in data transmission?",
+                "answers": [
+                    {
+                        "text": "The Internet Protocol (IP) is the method by which data is sent from one computer to another on the Internet. It establishes the rules for addressing and routing data packets, ensuring they reach their intended destination across interconnected networks."
+                    }
+                ]
+            },
+            {
+                "id": "00151",
+                "is_impossible": false,
+                "question": "How does the Media Gateway Control Protocol (MGCP) function in VoIP systems?",
+                "answers": [
+                    {
+                        "text": "The Media Gateway Control Protocol (MGCP) functions in VoIP systems by providing signaling and call control communications between decomposed multimedia gateways, enabling the transmission of telephone calls between IP networks and traditional analog facilities of the public switched telephone network (PSTN). It manages the setup, control, and teardown of media streams during calls, facilitating interoperability between different network technologies."
+                    }
+                ]
+            },
+            {
+                "id": "00152",
+                "is_impossible": false,
+                "question": "What is multicast communication?",
+                "answers": [
+                    {
+                        "text": "Multicast communication is a method of transmitting data from a single sender to multiple receivers simultaneously. It optimizes bandwidth usage by allowing the sender to send a single copy of the data, which is then distributed to multiple recipients rather than sending individual copies to each one."
+                    }
+                ]
+            },
+            {
+                "id": "00153",
+                "is_impossible": false,
+                "question": "How does Network Address Translation (NAT) modify IP address data?",
+                "answers": [
+                    {
+                        "text": "Network Address Translation (NAT) modifies IP address data by remapping one IP address space into another through the alteration of the network address information in the headers of IP datagram packets. This process occurs as packets transit across a routing device, enabling multiple devices on a local network to share a single public IP address while maintaining unique private IP addresses."
+                    }
+                ]
+            },
+            {
+                "id": "00154",
+                "is_impossible": false,
+                "question": "What is the function of a Network Interface Controller (NIC) in a computer?",
+                "answers": [
+                    {
+                        "text": "A Network Interface Controller (NIC) is a hardware component that enables a computer to connect to a network. It facilitates communication between the computer and other devices on the network by converting data from the computer into a format suitable for transmission over the network."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "29\nNetwork Time Proto-\ncol (NTP)\nA protocol that is used to synchronize the time of a com-\nputer client or server to another serve or reference time \nsource\nOperating System (OS)\nThe system software that manages computer hardware \nand software resources and provides common services \nfor computer programs\nPeripheral Component \nInterconnect (PCI)\nAn interconnection system between a microprocessor \nand attached devices in which expansion slots are \nspaced closely for high speed operation\nPeripheral Component \nInterconnect Express \n(PCIe)\nA serial expansion bus standard for connecting a com-\nputer to one or more peripheral devices\nProtocol\nThe special set of rules that end points in a telecommu-\nnication connection use when they communicate\nRedundant Array of \nIndependent Disks \n(RAID)\nA data storage virtualization technology that combines \nmultiple physical disk drive components into a single \nlogical unit to provide data redundancy, performance \nimprovement, or both\nReal-time Transport \nProtocol (RTP)\nAn Internet Protocol (IP) standard that specifies a way for \nprograms to manage the real-time transmission of multi-\nmedia data over either unicast or multicast network ser-\nvices\nSession Initiation Pro-\ntocol (SIP)\nA standard protocol for initiating an interactive user ses-\nsion that involves multimedia elements such as video, \nvoice, chat, gaming, and virtual reality\nSession Initiation Pro-\ntocol (SIP) Trunk\nA direct connection to an ITSP that allows you to use \nVoIP telephony beyond the facility\u2019s firewall without a \nPSTN\nSimple Network Man-\nagement Protocol \n(SNMP)\nA protocol for network management that is used for col-\nlecting information from and configuring network \ndevices, such as servers, printers, hubs, switches, and \nrouters, on an IP network\nSession Traversal Utili-\nties for Network \nAddress Translation \n(NAT) (STUN)\nA protocol for assisting devices behind a NAT firewall or \nrouter with their packet routing",
+        "qas": [
+            {
+                "id": "00155",
+                "is_impossible": false,
+                "question": "What is the primary purpose of the Network Time Protocol (NTP)?",
+                "answers": [
+                    {
+                        "text": "The primary purpose of the Network Time Protocol (NTP) is to synchronize the time of a computer client or server to another server or reference time source. This ensures that all systems on a network maintain a consistent and accurate time, which is critical for various applications and security protocols."
+                    }
+                ]
+            },
+            {
+                "id": "00156",
+                "is_impossible": false,
+                "question": "How does an Operating System (OS) interact with hardware and software resources?",
+                "answers": [
+                    {
+                        "text": "An Operating System (OS) acts as an intermediary between hardware and software resources, managing the computer's hardware components like CPU, memory, and storage while providing essential services to software applications. It facilitates communication and resource allocation, ensuring efficient execution of programs and effectively handling input/output operations."
+                    }
+                ]
+            },
+            {
+                "id": "00157",
+                "is_impossible": false,
+                "question": "What distinguishes Peripheral Component Interconnect (PCI) from Peripheral Component Interconnect Express (PCIe)?",
+                "answers": [
+                    {
+                        "text": "Peripheral Component Interconnect (PCI) is a parallel interconnection system that uses closely spaced slots for high-speed operation, while Peripheral Component Interconnect Express (PCIe) is a serial expansion bus standard that offers faster data transfer rates and improved bandwidth by utilizing point-to-point connections. Additionally, PCIe supports multiple lanes for simultaneous data transmission, enhancing overall performance compared to traditional PCI."
+                    }
+                ]
+            },
+            {
+                "id": "00158",
+                "is_impossible": false,
+                "question": "Can you explain the concept of a protocol in telecommunications?",
+                "answers": [
+                    {
+                        "text": "A protocol in telecommunications is a set of rules that govern the communication between end points in a network. It defines the format, timing, sequencing, and error handling of messages exchanged, ensuring that devices can understand and interact with each other effectively."
+                    }
+                ]
+            },
+            {
+                "id": "00159",
+                "is_impossible": false,
+                "question": "What advantages does a Redundant Array of Independent Disks (RAID) provide for data storage?",
+                "answers": [
+                    {
+                        "text": "A Redundant Array of Independent Disks (RAID) provides advantages such as data redundancy, which protects against data loss in the event of a disk failure, and improved performance by allowing simultaneous data access from multiple drives. This technology enhances data reliability and can optimize read and write speeds depending on the RAID configuration used."
+                    }
+                ]
+            },
+            {
+                "id": "00160",
+                "is_impossible": false,
+                "question": "How does the Real-time Transport Protocol (RTP) facilitate multimedia data transmission?",
+                "answers": [
+                    {
+                        "text": "The Real-time Transport Protocol (RTP) facilitates multimedia data transmission by providing end-to-end delivery services for real-time data, such as audio and video, over IP networks. It enables programs to manage data packets, ensuring synchronized delivery, sequence ordering, and quality of service necessary for streaming applications."
+                    }
+                ]
+            },
+            {
+                "id": "00161",
+                "is_impossible": false,
+                "question": "What role does the Session Initiation Protocol (SIP) play in interactive user sessions?",
+                "answers": [
+                    {
+                        "text": "The Session Initiation Protocol (SIP) plays a crucial role in initiating, maintaining, and terminating interactive user sessions that involve multimedia elements such as video, voice, chat, gaming, and virtual reality. It establishes the setup and management of these sessions over IP networks, enabling seamless communication between users."
+                    }
+                ]
+            },
+            {
+                "id": "00162",
+                "is_impossible": false,
+                "question": "How does a Session Initiation Protocol (SIP) Trunk operate in VoIP telephony?",
+                "answers": [
+                    {
+                        "text": "A Session Initiation Protocol (SIP) Trunk operates in VoIP telephony by establishing a direct connection between a private branch exchange (PBX) and an Internet Telephony Service Provider (ITSP) over the internet, allowing voice calls to be made and received without relying on traditional public switched telephone networks (PSTN). This connection enables the transmission of multimedia communications, including voice, video, and other interactive services, efficiently and cost-effectively."
+                    }
+                ]
+            },
+            {
+                "id": "00163",
+                "is_impossible": false,
+                "question": "What is the function of the Simple Network Management Protocol (SNMP) in network management?",
+                "answers": [
+                    {
+                        "text": "The Simple Network Management Protocol (SNMP) is used for network management by collecting information from and configuring network devices, such as servers, printers, hubs, switches, and routers, on an IP network. It enables administrators to monitor network performance, troubleshoot issues, and manage configurations efficiently."
+                    }
+                ]
+            },
+            {
+                "id": "00164",
+                "is_impossible": false,
+                "question": "How does Session Traversal Utilities for Network Address Translation (STUN) assist devices behind a NAT firewall?",
+                "answers": [
+                    {
+                        "text": "Session Traversal Utilities for Network Address Translation (STUN) assists devices behind a NAT firewall by allowing them to discover their public IP address and the type of NAT they are behind. This enables them to communicate effectively with external networks by providing the necessary information for proper packet routing."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "30\nStation\nA speaker, phone, device used to access the E7000 web \ninterface, or an E7000 appliance, such as an I/O Control-\nler\nTransport Control Pro-\ntocol (TCP)\nA protocol developed for the Internet to get data from \none network device to another\nTrivial File Transfer \nProtocol (TFTP) \nA simple version of FTP that allows a client to get a file \nfrom or put a file onto a remote host\nTraversal Using Relays \naround Network \nAddress Translation \n(NAT) (TURN)\nA protocol that assists in traversal of NATs or firewalls for \nmultimedia applications\nUser Data Protocol \n(UDP) \nAn alternative to TCP that sends datagrams over an IP\nUser\nPersonnel who are authorized to use E7000; also, one of \nthe default roles provided by E7000\nVoice over IP (VoIP) \nPhone\nAlso known as an IP phone, a VoIP phone uses VoIP \ntechnologies to transmit calls over an IP network, such as \nthe Internet, rather than over a traditional public \nswitched telephone network (PSTN).\nZone\nA collection of stations that is used to control paging \nand audio activities or features",
+        "qas": [
+            {
+                "id": "00165",
+                "is_impossible": false,
+                "question": "What is the purpose of the E7000 web interface?",
+                "answers": [
+                    {
+                        "text": "The E7000 web interface serves as a management platform for authorized users to access and control the E7000 appliances and their functionalities, including audio activities and features related to paging. It facilitates seamless communication and configuration through various protocols such as TCP, TFTP, and UDP."
+                    }
+                ]
+            },
+            {
+                "id": "00166",
+                "is_impossible": false,
+                "question": "What does the Transport Control Protocol (TCP) accomplish?",
+                "answers": [
+                    {
+                        "text": "The Transport Control Protocol (TCP) is designed to enable reliable data transmission between network devices over the Internet. It ensures that data packets are delivered in order, error-checked, and retransmitted if lost, providing a stable connection for applications."
+                    }
+                ]
+            },
+            {
+                "id": "00167",
+                "is_impossible": false,
+                "question": "How does the Trivial File Transfer Protocol (TFTP) differ from standard FTP?",
+                "answers": [
+                    {
+                        "text": "Trivial File Transfer Protocol (TFTP) is a simplified version of standard File Transfer Protocol (FTP) that operates without the need for user authentication and provides fewer commands and features, making it less complex. TFTP typically uses UDP for data transfer, while FTP uses TCP, which allows for reliable, connection-oriented communication."
+                    }
+                ]
+            },
+            {
+                "id": "00168",
+                "is_impossible": false,
+                "question": "What role does TURN play in multimedia applications?",
+                "answers": [
+                    {
+                        "text": "Traversal Using Relays around Network Address Translation (TURN) assists in the traversal of NATs or firewalls, enabling reliable multimedia communication. It facilitates the transfer of multimedia data between devices in situations where direct peer-to-peer connectivity is hindered by network restrictions."
+                    }
+                ]
+            },
+            {
+                "id": "00169",
+                "is_impossible": false,
+                "question": "How does User Data Protocol (UDP) differ from TCP in data transmission?",
+                "answers": [
+                    {
+                        "text": "User Data Protocol (UDP) differs from Transmission Control Protocol (TCP) in that it is a connectionless protocol that sends datagrams without establishing a connection or ensuring delivery, making it faster but less reliable. While TCP guarantees data order and integrity through acknowledgments and retransmissions, UDP prioritizes low latency, making it suitable for applications like streaming and gaming where occasional data loss is acceptable."
+                    }
+                ]
+            },
+            {
+                "id": "00170",
+                "is_impossible": false,
+                "question": "Who qualifies as a user in the context of the E7000?",
+                "answers": [
+                    {
+                        "text": "A user in the context of the E7000 qualifies as personnel who are authorized to use the system. Additionally, it refers to one of the default roles provided by E7000 for accessing its features and functions."
+                    }
+                ]
+            },
+            {
+                "id": "00171",
+                "is_impossible": false,
+                "question": "What function does a VoIP phone serve in communication networks?",
+                "answers": [
+                    {
+                        "text": "A VoIP phone transmits calls over an IP network, such as the Internet, using Voice over IP technologies rather than relying on traditional public switched telephone networks (PSTN). This allows for flexible, cost-effective communication by converting voice signals into data packets for transmission."
+                    }
+                ]
+            },
+            {
+                "id": "00172",
+                "is_impossible": false,
+                "question": "What is a zone in relation to paging and audio activities within the E7000 system?",
+                "answers": [
+                    {
+                        "text": "A zone in the E7000 system refers to a collection of stations grouped together to manage paging and audio activities. It enables coordinated control of audio features for multiple devices within that designated area."
+                    }
+                ]
+            }
+        ]
+    }
+]

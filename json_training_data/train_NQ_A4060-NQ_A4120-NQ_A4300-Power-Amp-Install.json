@@ -1,0 +1,467 @@
+[
+    {
+        "context": "Publication Number 740-00055A  \n1807\nThis equipment is not suitable for use in locations \nwhere children are likely to be present.\nEquipment is intended for use \nonly in a restricted access area.\nNQ-A4060, \nNQ-A4120, \nNQ-A4300 \nAudio Power \nAmplifiers\nInstallation \nand Use\nThe Nyquist Power \nAmplifiers decode audio content distributed by the Nyquist \napplication and levels for loudspeaker drive. The amplifiers act \nas paging and public address endpoints for any source on the \nnetwork.\nEach networked audio power amplifier is a 2RU high enclosure \ncontaining four Class D audio power amplifier channels, \na universal switched-mode power supply, a USB port, one \nRJ45 network jack, and pluggable Phoenix style terminals \nfor both low and high impedance loudspeakers and Line-Out \nconnections.  Optionally, the Line-Out can be connected using \nthe available XLR connector.\nWARNING: To reduce the risk of fire or electric shock, do not \nexpose this apparatus to rain or moisture.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the purpose of the Nyquist Power Amplifiers?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Power Amplifiers decode audio content from the Nyquist application and drive loudspeakers, serving as endpoints for paging and public address systems within a network. Each amplifier features multiple channels and connectivity options, enabling flexibility for various audio installations."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "How many amplifier channels are included in each Nyquist amplifier enclosure?",
+                "answers": [
+                    {
+                        "text": "Each Nyquist amplifier enclosure contains four Class D audio power amplifier channels."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What type of power supply is used in the Nyquist amplifiers?",
+                "answers": [
+                    {
+                        "text": "The Nyquist amplifiers use a universal switched-mode power supply. This type of power supply helps ensure efficient operation and adaptability for different input voltage standards."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What connectivity options are available on the Nyquist Power Amplifiers?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Power Amplifiers offer a USB port, one RJ45 network jack for network connectivity, and pluggable Phoenix style terminals for low and high impedance loudspeakers and Line-Out connections. Additionally, the Line-Out can also be connected using an available XLR connector."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "Where should the Nyquist equipment not be used, according to safety guidelines?",
+                "answers": [
+                    {
+                        "text": "The Nyquist equipment should not be used in locations where children are likely to be present, as it is intended for use only in a restricted access area. Additionally, it should be kept away from rain or moisture to reduce the risk of fire or electric shock."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is a potential risk associated with exposing the equipment to moisture?",
+                "answers": [
+                    {
+                        "text": "Exposing the equipment to moisture can lead to a risk of fire or electric shock, as moisture can cause short circuits or damage the internal components. This can compromise the safety and functionality of the audio power amplifiers."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "Can the Line-Out connection be made using an alternative connector format?",
+                "answers": [
+                    {
+                        "text": "Yes, the Line-Out connection can be made using an alternative connector format, specifically through the available XLR connector in addition to the pluggable Phoenix style terminals."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the specified height of the Nyquist Power Amplifiers' enclosure?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Power Amplifiers' enclosure has a specified height of 2RU (Rack Units). Each Rack Unit is typically 1.75 inches, making the total height approximately 3.5 inches."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Installation\nTo install the Power Amplifier:\n1.\t Ensure the  POWER switch is in the off position.\n2.\t Connect the universal mains power line cord into the amplifier.\n3.\t Connect a Cat5 type cable into the amplifier\u2019s Ethernet port \nand ensure the other end of the  cable is correctly connected \nto your network.\n4.\t Set the Amplifier Mode switch to either 70/25V 8\u03a9 (Bridged), \nor 25V, 8\u03a9 or 4\u03a9 (2 Channel mode). The default is 2 Channel \nmode.\n\nBridged mode is typically used when higher power, single \nchannel operation with a high impedance loudspeaker \nload is desired. A typical use-case would be for 70V or 25V \nloudspeaker runs, where the total load is no less than 8\u03a9.\n\n2 Channel mode is typically used for 8\u03a9 or 4\u03a9 loudspeakers \nor 25V loudspeaker runs. This mode allows the two amplifier \nchannels to run independently.\n5.\t Connect the loudspeaker wires to the Amplifier Output \nTerminals, which are labeled A +/-, B +/-, C+/-, and D+/-, as \nappropriate for the desire mode of operation (see Figures 1 \n& 2.). \n\nBridged mode operation requires the speaker wires to \nbe connected across a single, different terminal on each \nchannel (A+ and B- and/or C+ and D-). (See Figure 1.) If two \nchannel mode is used, then Channel A is connected to A+ and \nA- terminals, Channel B is connected to B+ and B- terminals, \nChannel C is connected to C+ and C- terminals, and Channel D \nis connected to D+ and D- terminals. (See Figure 2.)\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n5",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What should be the position of the POWER switch before installation?",
+                "answers": [
+                    {
+                        "text": "The POWER switch should be in the off position before installation. This ensures safety while connecting the universal mains power line cord and other equipment."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "Which type of cable must be connected to the amplifier\u2019s Ethernet port?",
+                "answers": [
+                    {
+                        "text": "A Cat5 type cable must be connected to the amplifier\u2019s Ethernet port to ensure network connectivity. Ensure the other end of the cable is correctly connected to your network."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What are the two modes available for setting the Amplifier Mode switch?",
+                "answers": [
+                    {
+                        "text": "The two modes available for setting the Amplifier Mode switch are Bridged mode and 2 Channel mode. Bridged mode is used for higher power, single-channel operation with a high impedance loudspeaker load, while 2 Channel mode allows for independent operation of two channels with 8\u03a9 or 4\u03a9 loudspeakers."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "In what scenario is Bridged mode typically used?",
+                "answers": [
+                    {
+                        "text": "Bridged mode is typically used for higher power, single-channel operation with a high impedance loudspeaker load, such as 70V or 25V loudspeaker runs. It requires a total load of no less than 8\u03a9."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "How should loudspeaker wires be connected for Bridged mode operation?",
+                "answers": [
+                    {
+                        "text": "For Bridged mode operation, the loudspeaker wires should be connected across a single terminal on each channel, specifically A+ and B- and/or C+ and D-. This configuration allows for higher power, single channel operation with a high impedance loudspeaker load."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "Which terminals are used for connecting speakers in 2 Channel mode?",
+                "answers": [
+                    {
+                        "text": "In 2 Channel mode, speakers are connected to the amplifier output terminals as follows: Channel A to A+ and A-, Channel B to B+ and B-, Channel C to C+ and C-, and Channel D to D+ and D-. Each channel operates independently in this configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the default mode of operation for the amplifier?",
+                "answers": [
+                    {
+                        "text": "The default mode of operation for the amplifier is 2 Channel mode. In this mode, the two amplifier channels operate independently, suitable for 8\u03a9 or 4\u03a9 loudspeakers or 25V loudspeaker runs."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What impedance is required for loudspeaker runs in Bridged mode?",
+                "answers": [
+                    {
+                        "text": "In Bridged mode, the total loudspeaker load must be no less than 8\u03a9. This mode is intended for higher power, single-channel operation with high impedance loudspeakers."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications, Inc. is 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What should be verified regarding the mains power line cord before connecting it to the amplifier?",
+                "answers": [
+                    {
+                        "text": "Before connecting the mains power line cord to the amplifier, ensure that the POWER switch is in the off position. Additionally, verify that the power line cord is compatible with the amplifier and meets the required electrical specifications."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Notice\nFailure to observe minimum speaker impedance will cause \nthe amplifier to self protect until the speaker configuration \nis corrected.\n6.\t If using the Line Input, you can route the signal to any paging \nzone or station.\n\nThis balanced line level input can accept analog inputs up to \n2V RMS. You can use either XLR or Phoenix (but not both) \nas the input.\n7.\t Plug the power line cord into the power source. \n8.\t Toggle the Power switch to the On position.\nFor information about configuring the amplifier for the Nyquist \nsystem, refer to the Nyquist Power Amplifiers Configuration \nManual.\nPower Ratings\nThe NQ-A4300 can provide 300 Watts by four channels (A, B, \nC, and D) into 25V, 8\u03a9, or 4\u03a9 loads, or 600 Watts Bridged (two \nchannels \u2013 A+B Bridged and/or C+D Bridged) into 70V, 25V, or \n8\u03a9 load configurations.\nThe NQ-A4120 can provide 120 Watts by four channels (A, B, \nC, and D) into 25V, 8\u03a9, or 4\u03a9 loads, or 120 Watts Bridged (two \nchannels \u2013 A+B Bridged and/or C+D Bridged) into 70V, 25V, or \n8\u03a9 load configurations.\nThe NQ-A4060 can provide 60 Watts by four channels (A, B, \nC, and D) into 25V, 8\u03a9, or 4\u03a9 loads, or 120 Watts Bridged (two \nchannels \u2013 A+B Bridged and/or C+D Bridged) into 70V, 25V, or \n8\u03a9 load configurations.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n8",
+        "qas": [
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What happens if the minimum speaker impedance is not observed with the amplifier?",
+                "answers": [
+                    {
+                        "text": "If the minimum speaker impedance is not observed, the amplifier will self-protect, which means it will temporarily disable itself until the speaker configuration is corrected. This protection mechanism prevents potential damage to the amplifier."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "How can you route the signal if using the Line Input?",
+                "answers": [
+                    {
+                        "text": "If using the Line Input, you can route the signal to any paging zone or station. The input accepts balanced line level signals up to 2V RMS and can utilize either XLR or Phoenix connectors, but not both simultaneously."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What is the maximum analog input level accepted by the balanced line level input?",
+                "answers": [
+                    {
+                        "text": "The maximum analog input level accepted by the balanced line level input is up to 2V RMS. You can connect this input using either XLR or Phoenix connectors, but not both simultaneously."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "Which types of inputs can be used for the balanced line level input?",
+                "answers": [
+                    {
+                        "text": "The balanced line level input can accept analog inputs via either XLR or Phoenix connectors, but not both simultaneously. It can handle signals up to 2V RMS."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What should you do after plugging the power line cord into the power source?",
+                "answers": [
+                    {
+                        "text": "After plugging the power line cord into the power source, toggle the Power switch to the On position to turn on the amplifier."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "Where can you find information on configuring the amplifier for the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "Information on configuring the amplifier for the Nyquist system can be found in the Nyquist Power Amplifiers Configuration Manual. This manual contains the necessary details for proper setup and configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What are the power ratings for the NQ-A4300 amplifier in different load configurations?",
+                "answers": [
+                    {
+                        "text": "The NQ-A4300 amplifier provides 300 Watts across four channels (A, B, C, and D) into 25V, 8\u03a9, or 4\u03a9 loads. It can also deliver 600 Watts when bridged (A+B Bridged and/or C+D Bridged) into 70V, 25V, or 8\u03a9 load configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "How much power can the NQ-A4120 provide by four channels and in bridged configuration?",
+                "answers": [
+                    {
+                        "text": "The NQ-A4120 can provide 120 Watts per channel by four channels (A, B, C, and D) into 25V, 8\u03a9, or 4\u03a9 loads. In bridged configuration (A+B Bridged or C+D Bridged), it can deliver 120 Watts into 70V, 25V, or 8\u03a9 load configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What is the output power of the NQ-A4060 amplifier when bridged?",
+                "answers": [
+                    {
+                        "text": "The NQ-A4060 amplifier can provide 120 Watts when bridged (utilizing two channels \u2013 A+B Bridged and/or C+D Bridged) into 70V, 25V, or 8\u03a9 load configurations."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and \nUnderstanding LEDs\nTwo LEDs appear on the front of the \namplifier. One is labeled POWER \nand appears as solid red during initial \npower up, flashes green during a boot \nsequence, and appears solid green \nwhen fully booted.\nThe STATUS LED uses the following \nindicators to provide information \nabout the appliance:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The amplifier is in an uninitialized \nstate and is not associated \nto a server. (The server may be \nin a discovery mode.)\n\u2022\t\nSolid green \u2013 The amplifier is registered to a Nyquist server \nand is in normal operation.\n\u2022\t\nFlashing green \u2013 The amplifier has an IP address but is not \nregistered with the Nyquist server.\n\u2022\t\nSolid red \u2013 The amplifier needs to be rebooted or reset so \nthat the Nyquist application can resume.\n\u2022\t\nFlashing blue \u2013 The amplifier is updating.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n9",
+        "qas": [
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What color does the POWER LED display during the initial power-up?",
+                "answers": [
+                    {
+                        "text": "During the initial power-up, the POWER LED displays a solid red color. This indicates that the amplifier is in the process of starting up."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What does a flashing red STATUS LED indicate?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that no network connection is found. This suggests that the amplifier is not able to connect to the server or network."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What condition does a solid blue STATUS LED signify?",
+                "answers": [
+                    {
+                        "text": "A solid blue STATUS LED signifies that the amplifier is in an uninitialized state and is not associated with a server. This may indicate that the server is in a discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "When is the STATUS LED solid green?",
+                "answers": [
+                    {
+                        "text": "The STATUS LED is solid green when the amplifier is registered to a Nyquist server and is in normal operation. This indicates that the device is functioning properly and connected to the server."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What does a flashing green STATUS LED mean regarding the amplifier's connection?",
+                "answers": [
+                    {
+                        "text": "A flashing green STATUS LED indicates that the amplifier has an IP address but is not registered with the Nyquist server. This suggests that while the amplifier is connected to a network, it has not yet established a connection with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What action is required when the STATUS LED shows solid red?",
+                "answers": [
+                    {
+                        "text": "When the STATUS LED shows solid red, the amplifier needs to be rebooted or reset to allow the Nyquist application to resume its operation."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "What does a flashing blue STATUS LED indicate about the amplifier's status?",
+                "answers": [
+                    {
+                        "text": "A flashing blue STATUS LED indicates that the amplifier is updating. This means the device is currently undergoing a software update process."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What sequence does the POWER LED go through during the boot process?",
+                "answers": [
+                    {
+                        "text": "During the boot process, the POWER LED initially appears as solid red, then flashes green during the boot sequence, and finally turns solid green when the amplifier is fully booted."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What does it mean if the amplifier has an IP address but is not registered with the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "If the amplifier has an IP address but is not registered with the Nyquist server, the STATUS LED will flash green, indicating that the amplifier is connected to the network but has not completed the registration process with the server. This means it may not be fully operational until the registration is successful."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Clipping, Protection, and Temperature Indicators\nIn addition to the LEDs that appear on the actual appliance, \nseparate amplifier module signal clipping, protection mode, \nand temperature status indicators appear in the Nyquist \namplifier\u2019s web-based user interface. For more information \nabout these status indicators, refer to the Nyquist Audio Power \nAmplifiers Configuration Manual.\nUsing the Reset Button\n\nThe Reset button allows you to \nrestart the appliance or to reset \nthe appliance\u2019s configuration \nsettings to the factory default \nsettings. For more information \nabout resetting configuration \nsettings, refer to the Nyquist \nAudio Power Amplifiers \nConfiguration Manual.\nNotice\nEvery effort was made to ensure that the information in this \nmanual was complete and accurate at the time of printing; how\u00ad\never, all information is subject to change.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \n1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\n10",
+        "qas": [
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "What indicators are available on the Nyquist amplifier\u2019s web-based user interface?",
+                "answers": [
+                    {
+                        "text": "The Nyquist amplifier\u2019s web-based user interface features separate indicators for amplifier module signal clipping, protection mode, and temperature status. For detailed information about these status indicators, users should refer to the Nyquist Audio Power Amplifiers Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What is the purpose of the Reset button on the appliance?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the appliance allows users to restart the device or to reset its configuration settings to the factory default settings. For additional details on resetting configuration settings, users can refer to the Nyquist Audio Power Amplifiers Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "How can users find detailed information about the amplifier's status indicators?",
+                "answers": [
+                    {
+                        "text": "Users can find detailed information about the amplifier's status indicators in the Nyquist Audio Power Amplifiers Configuration Manual. This manual contains specific sections regarding amplifier module signal clipping, protection mode, and temperature status indicators."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "What happens when the Reset button is pressed?",
+                "answers": [
+                    {
+                        "text": "Pressing the Reset button restarts the appliance or resets its configuration settings to the factory default settings. For further details on resetting configuration settings, refer to the Nyquist Audio Power Amplifiers Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "Where can the Nyquist Audio Power Amplifiers Configuration Manual be referenced for more information?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Audio Power Amplifiers Configuration Manual can be referenced for more information about the amplifier module signal clipping, protection mode, and temperature status indicators, as well as for details on resetting configuration settings to factory defaults."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "Is the information provided in the manual subject to change?",
+                "answers": [
+                    {
+                        "text": "Yes, the information provided in the manual is subject to change. The manual states that every effort was made to ensure completeness and accuracy at the time of printing, but updates may occur."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "How can users contact Bogen Communications for inquiries?",
+                "answers": [
+                    {
+                        "text": "Users can contact Bogen Communications for inquiries by calling 1-800-999-2809. Additional information may be accessed through their web-based resources or manuals."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "What is the address of Bogen Communications?",
+                "answers": [
+                    {
+                        "text": "The address of Bogen Communications is 1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            }
+        ]
+    }
+]

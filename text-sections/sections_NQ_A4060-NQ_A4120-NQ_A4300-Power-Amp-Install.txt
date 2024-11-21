@@ -1,0 +1,158 @@
+Publication Number 740-00055A  
+1807
+This equipment is not suitable for use in locations 
+where children are likely to be present.
+Equipment is intended for use 
+only in a restricted access area.
+NQ-A4060, 
+NQ-A4120, 
+NQ-A4300 
+Audio Power 
+Amplifiers
+Installation 
+and Use
+The Nyquist Power 
+Amplifiers decode audio content distributed by the Nyquist 
+application and levels for loudspeaker drive. The amplifiers act 
+as paging and public address endpoints for any source on the 
+network.
+Each networked audio power amplifier is a 2RU high enclosure 
+containing four Class D audio power amplifier channels, 
+a universal switched-mode power supply, a USB port, one 
+RJ45 network jack, and pluggable Phoenix style terminals 
+for both low and high impedance loudspeakers and Line-Out 
+connections.  Optionally, the Line-Out can be connected using 
+the available XLR connector.
+WARNING: To reduce the risk of fire or electric shock, do not 
+expose this apparatus to rain or moisture.
+=====
+Installation
+To install the Power Amplifier:
+1.	 Ensure the  POWER switch is in the off position.
+2.	 Connect the universal mains power line cord into the amplifier.
+3.	 Connect a Cat5 type cable into the amplifier’s Ethernet port 
+and ensure the other end of the  cable is correctly connected 
+to your network.
+4.	 Set the Amplifier Mode switch to either 70/25V 8Ω (Bridged), 
+or 25V, 8Ω or 4Ω (2 Channel mode). The default is 2 Channel 
+mode.
+
+Bridged mode is typically used when higher power, single 
+channel operation with a high impedance loudspeaker 
+load is desired. A typical use-case would be for 70V or 25V 
+loudspeaker runs, where the total load is no less than 8Ω.
+
+2 Channel mode is typically used for 8Ω or 4Ω loudspeakers 
+or 25V loudspeaker runs. This mode allows the two amplifier 
+channels to run independently.
+5.	 Connect the loudspeaker wires to the Amplifier Output 
+Terminals, which are labeled A +/-, B +/-, C+/-, and D+/-, as 
+appropriate for the desire mode of operation (see Figures 1 
+& 2.). 
+
+Bridged mode operation requires the speaker wires to 
+be connected across a single, different terminal on each 
+channel (A+ and B- and/or C+ and D-). (See Figure 1.) If two 
+channel mode is used, then Channel A is connected to A+ and 
+A- terminals, Channel B is connected to B+ and B- terminals, 
+Channel C is connected to C+ and C- terminals, and Channel D 
+is connected to D+ and D- terminals. (See Figure 2.)
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+5
+
+=====
+Notice
+Failure to observe minimum speaker impedance will cause 
+the amplifier to self protect until the speaker configuration 
+is corrected.
+6.	 If using the Line Input, you can route the signal to any paging 
+zone or station.
+
+This balanced line level input can accept analog inputs up to 
+2V RMS. You can use either XLR or Phoenix (but not both) 
+as the input.
+7.	 Plug the power line cord into the power source. 
+8.	 Toggle the Power switch to the On position.
+For information about configuring the amplifier for the Nyquist 
+system, refer to the Nyquist Power Amplifiers Configuration 
+Manual.
+Power Ratings
+The NQ-A4300 can provide 300 Watts by four channels (A, B, 
+C, and D) into 25V, 8Ω, or 4Ω loads, or 600 Watts Bridged (two 
+channels – A+B Bridged and/or C+D Bridged) into 70V, 25V, or 
+8Ω load configurations.
+The NQ-A4120 can provide 120 Watts by four channels (A, B, 
+C, and D) into 25V, 8Ω, or 4Ω loads, or 120 Watts Bridged (two 
+channels – A+B Bridged and/or C+D Bridged) into 70V, 25V, or 
+8Ω load configurations.
+The NQ-A4060 can provide 60 Watts by four channels (A, B, 
+C, and D) into 25V, 8Ω, or 4Ω loads, or 120 Watts Bridged (two 
+channels – A+B Bridged and/or C+D Bridged) into 70V, 25V, or 
+8Ω load configurations.
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+8
+=====
+Viewing and 
+Understanding LEDs
+Two LEDs appear on the front of the 
+amplifier. One is labeled POWER 
+and appears as solid red during initial 
+power up, flashes green during a boot 
+sequence, and appears solid green 
+when fully booted.
+The STATUS LED uses the following 
+indicators to provide information 
+about the appliance:
+•	
+Flashing red – No network connection found.
+•	
+Solid blue – The amplifier is in an uninitialized 
+state and is not associated 
+to a server. (The server may be 
+in a discovery mode.)
+•	
+Solid green – The amplifier is registered to a Nyquist server 
+and is in normal operation.
+•	
+Flashing green – The amplifier has an IP address but is not 
+registered with the Nyquist server.
+•	
+Solid red – The amplifier needs to be rebooted or reset so 
+that the Nyquist application can resume.
+•	
+Flashing blue – The amplifier is updating.
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+9
+=====
+Clipping, Protection, and Temperature Indicators
+In addition to the LEDs that appear on the actual appliance, 
+separate amplifier module signal clipping, protection mode, 
+and temperature status indicators appear in the Nyquist 
+amplifier’s web-based user interface. For more information 
+about these status indicators, refer to the Nyquist Audio Power 
+Amplifiers Configuration Manual.
+Using the Reset Button
+
+The Reset button allows you to 
+restart the appliance or to reset 
+the appliance’s configuration 
+settings to the factory default 
+settings. For more information 
+about resetting configuration 
+settings, refer to the Nyquist 
+Audio Power Amplifiers 
+Configuration Manual.
+Notice
+Every effort was made to ensure that the information in this 
+manual was complete and accurate at the time of printing; how­
+ever, all information is subject to change.
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+10

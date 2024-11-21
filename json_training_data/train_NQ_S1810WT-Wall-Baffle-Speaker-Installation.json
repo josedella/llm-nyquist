@@ -1,0 +1,382 @@
+[
+    {
+        "context": "NYQUIST VoIP Wall Baffle Speaker\nNQ-S1810WT Installation\nSpeaker Layout\nThe layout of the speakers should be planned \nprior to installation. Because wall baffle \nspeakers are designed to project for\u00ad\nward, it is best to aim them in the \nsame direction as this provides for \nboth greater coverage and clarity. You can use the building\u2019s \nroof pillars or other available supports for mounting the wall \nbaffles.\nIn some cases, it may be necessary to mount the wall baffles \non opposing walls. In these cases, the speakers will project \nsound in opposing directions.\nHALLWAY - Wall baffle speakers work well with rooms and hall\u00ad\nways that are 20\u2019 to 60\u2019 wide. Layout starts at one end of the \nhallway or room. The first speaker should be installed 10\u2019 from \nthe end of the hallway or room.  The next speaker on that wall \nshould be installed 20\u2019 from the first speaker. Each additional \nspeaker should be installed 20\u2019 apart from the previous one.\nThe first speaker on the opposing wall should be installed 20\u2019 \nfrom the end of the hallway or room, thereby staggering the \nspeakers. Each additional speaker should be installed 20\u2019 apart \nfrom the previous one (see Figure 1).\nROOMS - In most cases, an environment, such as a classroom, \nrequires only a single wall baffle speak\u00ad\ner to service the entire room. The final \nplacement of the speaker within the  \nroom can vary, but common area loca\u00ad\ntions such as at the head of the room \nor near the room entrance are typically \nchosen (see Figure 2).\nBased on the speaker position that \nhas been selected, you can choose between several mounting \noptions (see Figures 3-6).\nPublication Number 740-00011C 1811\nFigure 1\nFigure 2",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the optimal distance for installing the first wall baffle speaker in a hallway?",
+                "answers": [
+                    {
+                        "text": "The optimal distance for installing the first wall baffle speaker in a hallway is 10 feet from one end of the hallway or room. Subsequent speakers should be installed 20 feet apart from each other along the same wall."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "How far apart should subsequent wall baffle speakers be installed in a hallway setup?",
+                "answers": [
+                    {
+                        "text": "In a hallway setup, subsequent wall baffle speakers should be installed 20 feet apart from the previous speaker. The first speaker should be placed 10 feet from one end of the hallway, and the first speaker on the opposing wall should be installed 20 feet from the opposite end."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Why is it recommended to aim wall baffle speakers in the same direction during installation?",
+                "answers": [
+                    {
+                        "text": "Wall baffle speakers are recommended to be aimed in the same direction to enhance both coverage and clarity of sound projection. This alignment ensures that the audio is effectively distributed throughout the space, improving the listening experience."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "In which type of environment might you typically require only one wall baffle speaker?",
+                "answers": [
+                    {
+                        "text": "In environments such as classrooms, typically only one wall baffle speaker is required to service the entire room. Common placement options include positioning the speaker at the head of the room or near the entrance."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "Where are common placements for wall baffle speakers within a room?",
+                "answers": [
+                    {
+                        "text": "Common placements for wall baffle speakers within a room include at the head of the room or near the room entrance. These locations are typically chosen to ensure optimal sound coverage and clarity."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What measures can be taken if wall baffles need to be mounted on opposing walls?",
+                "answers": [
+                    {
+                        "text": "If wall baffle speakers need to be mounted on opposing walls, they should be positioned to project sound in opposing directions. The first speaker on each wall should be staggered with the installation starting at 20\u2019 from the ends of the hallway or room, ensuring each subsequent speaker is installed 20\u2019 apart from the previous one."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What document refers to the installation and layout of NYQUIST VoIP Wall Baffle Speakers?",
+                "answers": [
+                    {
+                        "text": "The document detailing the installation and layout of NYQUIST VoIP Wall Baffle Speakers is referred to as \"NQ-S1810WT Installation.\" It provides guidance on speaker placement for optimal coverage and clarity in various environments, such as hallways and rooms."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the width range of rooms and hallways that are suitable for wall baffle speakers?",
+                "answers": [
+                    {
+                        "text": "Wall baffle speakers are suitable for rooms and hallways that are 20\u2019 to 60\u2019 wide. For optimal sound coverage and clarity, they should be arranged to project forward."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Speaker Installation\nStep 1 - Select the mounting option from Figures 3\u20136 and use the appropriate hardware for gang box mount \nor wall mount. Bogen provides the screws and the washers for mounting on a standard electrical gang box, \nbut when mounting directly to a wall or other surface, you must supply the appropriate hardware for the spe\u00ad\ncific wall/surface construction type (for example, concrete cinder block, metal beams etc.). \nNOTE: Wall baffle speakers should be installed at a height of between 8 and 16 feet from the floor depending \nupon need.\nFigure 3\n2X2 Wall Mount\nSide \nView\nBox Mount\nFigure 4\nSide \nView\nCorner Mount\nTilted Mount\nFigure 5\nFigure 6\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What are the mounting options available for the speakers as illustrated in Figures 3-6?",
+                "answers": [
+                    {
+                        "text": "The mounting options for the speakers as illustrated in Figures 3-6 include a 2X2 wall mount, corner mount, and tilted mount. Appropriate hardware must be used for gang box or wall mounting, depending on the surface construction type."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What type of hardware does Bogen provide for mounting on a standard electrical gang box?",
+                "answers": [
+                    {
+                        "text": "Bogen provides screws and washers for mounting on a standard electrical gang box. For installation on other surfaces, appropriate hardware must be supplied based on the specific construction type."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What type of hardware must be supplied when mounting speakers directly to a wall or surface?",
+                "answers": [
+                    {
+                        "text": "When mounting speakers directly to a wall or other surface, you must supply the appropriate hardware for the specific construction type of the wall or surface, such as screws and anchors suitable for concrete, cinder block, or metal beams. Bogen only provides screws and washers for mounting on a standard electrical gang box."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the recommended height for installing wall baffle speakers?",
+                "answers": [
+                    {
+                        "text": "The recommended height for installing wall baffle speakers is between 8 and 16 feet from the floor, depending on the specific needs of the installation."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "Where is Bogen Communications, Inc. located?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. is located at 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What types of wall or surface construction might require different mounting hardware?",
+                "answers": [
+                    {
+                        "text": "Different wall or surface constructions that may require specific mounting hardware include concrete cinder block, metal beams, and other unique materials. It's essential to supply the appropriate hardware that aligns with the specific type of wall or surface being used for installation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Speaker Connection\nStep 2 - Use Category 5 or higher Ethernet cable to \nconnect the speaker (Figure 7).\nThe power is supplied by PoE using an 802.3af com\u00ad\npliant network switch or PoE injector.\nSpeaker Assembly\nStep 3 - To assemble the Wall Baffle Speaker (Figure \n8), first align the two notches (A) located at the top \nof the speaker baffle with the notches (B) at the top \nof the rear housing. Then, rotate the speaker baffle \ndownward (Figure 9) until the two bottom sections \n(C & D) snap together.\nNOTE: Refer to the Nyquist \u201cVoIP Speakers Configu\u00ad\nration Manual\u201d or the \u201cNyquist System Administrator \nManual\u201d for detailed instructions on how to configure \nthese speakers.\nAdditional Accessories\nThe Nyquist VoIP Wall Baffle Speaker can be used \nwith the Nyquist Digital Call Switch NQ-E7020. Refer \nto the Nyquist Digital Call Switch NQ-E7020 Quick \nStart Guide.\n.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\nFigure 7\nFigure 8\nFigure 9\nRJ45",
+        "qas": [
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What type of Ethernet cable is required to connect the speaker?",
+                "answers": [
+                    {
+                        "text": "A Category 5 or higher Ethernet cable is required to connect the speaker. Power is supplied via PoE using an 802.3af compliant network switch or PoE injector."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "Which standard must the network switch or injector comply with to supply power?",
+                "answers": [
+                    {
+                        "text": "The network switch or injector must comply with the 802.3af standard to supply power via Power over Ethernet (PoE) to the speaker."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "How do you align the speaker baffle with the rear housing during assembly?",
+                "answers": [
+                    {
+                        "text": "To assemble the Wall Baffle Speaker, align the two notches (A) at the top of the speaker baffle with the notches (B) on the rear housing. Then, rotate the speaker baffle downward until the bottom sections (C & D) snap together."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What should be referred to for detailed instructions on speaker configuration?",
+                "answers": [
+                    {
+                        "text": "For detailed instructions on how to configure the Nyquist VoIP Wall Baffle Speaker, refer to the Nyquist \u201cVoIP Speakers Configuration Manual\u201d or the \u201cNyquist System Administrator Manual.\u201d"
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "Is the Nyquist VoIP Wall Baffle Speaker compatible with any additional accessories?",
+                "answers": [
+                    {
+                        "text": "Yes, the Nyquist VoIP Wall Baffle Speaker is compatible with the Nyquist Digital Call Switch NQ-E7020. For more information, refer to the Nyquist Digital Call Switch NQ-E7020 Quick Start Guide."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What is the model number of the Nyquist Digital Call Switch mentioned?",
+                "answers": [
+                    {
+                        "text": "The model number of the Nyquist Digital Call Switch mentioned is NQ-E7020."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "Where is Bogen Communications, Inc. located?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. is located at 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\nCompliance\nNOTE: This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to Part 15 of \nthe FCC rules. These limits are designed to provide reasonable protection against harmful interference when the equipment \nis operated in a commercial environment. This equipment generates, uses, and can radiate radio frequency energy and, if \nnot installed and used in accordance with the instruction manual, may cause harmful interference to radio communications.  \nOperation of this equipment in a residential area is likely to cause harmful interference; in which case, the user will be required \nto correct the interference at his own expense.\nLimited Warranty, Exlusion of Certain Damages\nThe NQ-S1810WT is warranted to be free from defects in materials and workmanship for five (5) years from the date of sale \nto the original purchaser. Any part of the product covered by this warranty that, with normal installation and use, becomes \ndefective (as confirmed by Bogen upon inspection) during the warranty period will be repaired or replaced by Bogen, at Bo\u00ad\ngen\u2019s option, with new or refurbished product, provided the product is shipped insured and prepaid to: Bogen Factory Service \nDepartment: 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. Repaired or replacement product(s) will be returned to \nyou freight prepaid. This warranty does not extend to any of our products that have been subjected to abuse, misuse, improp\u00ad\ner storage, neglect, accident, improper installation or have been modified or repaired or altered in any manner whatsoever, or \nwhere the serial number or date code has been removed or defaced.\nTHE FOREGOING LIMITED WARRANTY IS BOGEN\u2019S SOLE AND EXCLUSIVE WARRANTY AND THE PURCHASER\u2019S SOLE AND \nEXCLUSIVE REMEDY. BOGEN MAKES NO OTHER WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND ALL \nIMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ARE HEREBY DISCLAIMED AND \nEXCLUDED TO THE MAXIMUM EXTENT ALLOWABLE BY LAW. Bogen\u2019s liability arising out of the manufacture, sale or supply\u00ad\ning of products or their use or disposition, whether based upon warranty, contract, tort or otherwise, shall be limited to the \nprice of the product. IN NO EVENT SHALL BOGEN BE LIABLE FOR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES \n(INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS, LOSS OF DATA OR LOSS OF USE DAMAGES) ARISING OUT OF THE \nMANUFACTURE, SALE OR SUPPLYING OF PRODUCTS, EVEN IF BOGEN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH \nDAMAGES OR LOSSES. Some States do not allow the exclusion or limitation of incidental or consequential damages, so the \nabove limitation or exclusion may not apply to you. This warranty gives you specific legal rights, and you may also have other \nrights which vary from State to State.\nProducts that are out of warranty will also be repaired by Bogen Factory Service Department -- same address as above or call \n201-934-8500, at owner\u2019s expense.  Returned products which do not qualify for warranty service, may be repaired or replaced \nat Bogen\u2019s option with a previously repaired or refurbished items.   The parts and labor involved in these repairs are warranted \nfor 90 days when repaired by the Bogen Factory Service Department.  All parts and labor charges as well as shipping charges \nwill be at the owner\u2019s expense.\nAll returns require a Return Authorization number.  For most efficient warranty or repair service, please include a description \nof the failure.\n11/2018",
+        "qas": [
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What is the warranty period for the NQ-S1810WT product?",
+                "answers": [
+                    {
+                        "text": "The warranty period for the NQ-S1810WT product is five (5) years from the date of sale to the original purchaser. This warranty covers defects in materials and workmanship under normal installation and use."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What conditions must be met for the warranty to be valid?",
+                "answers": [
+                    {
+                        "text": "The warranty for the NQ-S1810WT is valid if the product is free from defects in materials and workmanship and is used under normal installation and conditions. It does not cover products that have been subjected to abuse, misuse, improper storage, neglect, accidents, improper installation, modifications, or if the serial number or date code has been removed or defaced."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "Where should defective products be sent for warranty service?",
+                "answers": [
+                    {
+                        "text": "Defective products should be sent for warranty service to the Bogen Factory Service Department at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. They must be shipped insured and prepaid by the owner."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What does the limited warranty exclude?",
+                "answers": [
+                    {
+                        "text": "The limited warranty excludes products that have been subjected to abuse, misuse, improper storage, neglect, accidents, improper installation, or modifications. It also excludes any products with removed or defaced serial numbers or date codes. Additionally, Bogen disclaims any implied warranties of merchantability or fitness for a particular purpose and limits liability for damages."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "How does Bogen define harmful interference for their equipment?",
+                "answers": [
+                    {
+                        "text": "Bogen defines harmful interference as a situation where the operation of their equipment may cause disruption to radio communications, particularly when used in residential areas. The equipment is designed to comply with FCC limits to provide reasonable protection against such interference when operated in commercial environments. Users are responsible for correcting any interference caused at their own expense."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What is required for service on products that are out of warranty?",
+                "answers": [
+                    {
+                        "text": "For service on products that are out of warranty, the owner must send the product to the Bogen Factory Service Department at their own expense. Repairs will be performed at the owner's cost, and returned products may be replaced with previously repaired or refurbished items."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What happens to returned products that do not qualify for warranty service?",
+                "answers": [
+                    {
+                        "text": "Returned products that do not qualify for warranty service may be repaired or replaced at Bogen's option with previously repaired or refurbished items. The owner will be responsible for all costs associated with these repairs and shipping."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What is the possible liability of Bogen in terms of damages?",
+                "answers": [
+                    {
+                        "text": "Bogen's liability is limited to the price of the product, and they are not liable for special, incidental, or consequential damages, including loss of profits or data. This limitation may not apply in some states where the exclusion of incidental or consequential damages is not allowed."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "Which factors can affect the applicability of the warranty limitations?",
+                "answers": [
+                    {
+                        "text": "The applicability of the warranty limitations can be affected by factors such as the product being subjected to abuse, misuse, improper storage, neglect, or alterations. Additionally, the exclusion or limitation of incidental or consequential damages may not apply in certain states where the law allows for broader rights."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "How long is the warranty for parts and labor for products repaired at the Factory Service Department?",
+                "answers": [
+                    {
+                        "text": "The warranty for parts and labor for products repaired at the Bogen Factory Service Department is 90 days. This warranty applies to repairs made on products that are out of warranty."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What should a customer include when seeking warranty or repair service to ensure efficiency?",
+                "answers": [
+                    {
+                        "text": "When seeking warranty or repair service, a customer should include a description of the failure along with a Return Authorization number. This information will help ensure the most efficient processing of their request."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What phone number can be called for service inquiries for out-of-warranty products?",
+                "answers": [
+                    {
+                        "text": "For service inquiries regarding out-of-warranty products, you can call 201-934-8500. Repairs will be conducted at the owner's expense."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "How are repaired or replacement products shipped back to the customer?",
+                "answers": [
+                    {
+                        "text": "Repaired or replacement products will be returned to the customer freight prepaid by Bogen Communications, Inc. The customer is responsible for shipping the defective product to Bogen's Factory Service Department, insured and prepaid."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What is the significance of the Return Authorization number for returns?",
+                "answers": [
+                    {
+                        "text": "The Return Authorization number is required for all returns to ensure efficient processing of warranty or repair services. It helps Bogen identify and track the returned products, facilitating a smoother repair or replacement process."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What implications does the removal or defacement of the serial number have on the warranty?",
+                "answers": [
+                    {
+                        "text": "The removal or defacement of the serial number voids the warranty for the product. Products with a tampered serial number are not eligible for warranty service, as it indicates potential alteration or improper use."
+                    }
+                ]
+            }
+        ]
+    }
+]

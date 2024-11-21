@@ -1,0 +1,392 @@
+[
+    {
+        "context": "NYQUIST VoIP Ceiling Speaker\nNQ-S1810CT Installation\nThe layout of the speakers should be planned before installation \nbegins. Layout starts in one corner of the room.  The first speak\u00ad\ner should be positioned from each wall a distance approximate\u00ad\nly equal to the ceiling height of the room.\nThe next speaker in row 1 should be spaced a dis\u00ad\ntance approximately equal to twice the height of the \nceiling. Each additional speaker in the row should \nuse this same spacing.\nRow 2 starts at twice the ceiling height distance from \nrow 1 and twice the ceiling height from the wall.  The \nother speakers in this row are also spaced at twice \nthe ceiling height.\nRow 3 is again spaced at twice the ceiling height from \nthe previous row. The first speaker starting this row is \npositioned at one ceiling height distance from the wall \n(similar to row 1). \nContinue this pattern of alternating rows until the room \nis covered.  The spacing of the speakers can be adjusted so that the speakers are evenly spaced in a row and \nare aesthetically pleasing.\nThe RE84 is an optional back box \nfor ceiling speakers. UL Listed for \nuse where ceiling plenum is part of \nan air handling system, the RE84 \nalso includes attachment tabs al\u00ad\nlowing the enclosure to be sup\u00ad\nported from structures other than \nthe actual ceiling grid.\nRE84\nRecessed\nEnclosure\nTB8\nTile \nBridge\nMR8\nMounting \nRing\nThe TB8 supports the weight of \nthe speaker and recessed enclo\u00ad\nsure. This is also the item to which \nthe speaker mounting screws at\u00ad\ntach. The TB8 is required for each \nspeaker assembly installed.\nThe MR8 Mounting Ring is a cold-\nrolled steel unit, which will mount \nany of the Bogen ceiling grilles, for \ninstallations where the RE84 is not \nused.\nPublication Number 740-00009B  1811",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the recommended starting position for the first speaker in a room installation?",
+                "answers": [
+                    {
+                        "text": "The first speaker should be positioned in one corner of the room at a distance from each wall that is approximately equal to the ceiling height of the room."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "How should the spacing between speakers be determined in row 1?",
+                "answers": [
+                    {
+                        "text": "In row 1, the spacing between speakers should be determined as approximately twice the height of the ceiling. The first speaker should be positioned a distance equal to the ceiling height from each wall, and subsequent speakers in the row should maintain the same spacing."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "At what distance from row 1 does row 2 of speakers begin?",
+                "answers": [
+                    {
+                        "text": "Row 2 of speakers begins at a distance equal to twice the ceiling height from row 1 and twice the ceiling height from the wall. This spacing pattern continues for additional speakers in that row."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "How is the first speaker positioned in row 3 compared to the wall?",
+                "answers": [
+                    {
+                        "text": "The first speaker in row 3 is positioned at a distance equal to one ceiling height from the wall, similar to the positioning of the first speaker in row 1. This maintains consistency in the layout pattern."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What purpose does the RE84 back box serve in the installation?",
+                "answers": [
+                    {
+                        "text": "The RE84 back box is an optional enclosure for ceiling speakers, designed to be UL Listed for use in ceiling plenums part of an air handling system. It provides structural support and can be attached to structures other than the actual ceiling grid, ensuring proper installation and safety."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "How does the RE84 back box ensure compliance with safety standards?",
+                "answers": [
+                    {
+                        "text": "The RE84 back box is UL Listed, ensuring its compliance with safety standards for installations where the ceiling plenum is part of an air handling system. This listing confirms that the enclosure meets safety criteria for fire resistance and safe operation in such environments."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the function of the TB8 in the speaker installation process?",
+                "answers": [
+                    {
+                        "text": "The TB8 supports the weight of the speaker and recessed enclosure, serving as the mounting point for the speaker installation. It is required for each speaker assembly installed to ensure proper support and secure attachment."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Why is the MR8 Mounting Ring important for ceiling grilles?",
+                "answers": [
+                    {
+                        "text": "The MR8 Mounting Ring is important for ceiling grilles because it is a cold-rolled steel unit that securely mounts any of the Bogen ceiling grilles in installations where the RE84 recessed enclosure is not used. It ensures proper support and stability for the speaker assembly."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "Can the spacing of the speakers be adjusted? If so, why?",
+                "answers": [
+                    {
+                        "text": "Yes, the spacing of the speakers can be adjusted to ensure that they are evenly spaced in a row and are aesthetically pleasing. This allows for flexibility in the layout while still adhering to the general spacing guidelines based on the ceiling height."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the significance of alternating rows in the speaker layout?",
+                "answers": [
+                    {
+                        "text": "Alternating rows in the speaker layout ensures optimal sound coverage and distribution throughout the room, preventing gaps in audio delivery. This pattern helps maintain balanced acoustics and enhances the overall effectiveness of the VoIP ceiling speakers in providing clear sound in various areas."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Speaker Installation\nFigure 2 \nNQ-S1810CT Speaker/Baffle Assembly\nFigure 1\n1.\t Remove the tile from ceiling and center the TB8 tile \nbridge on the back.  Use the tile bridge to trace out, \nand then cut an 8-1/2\u201d square hole. \t\n\t\nNOTE: It can be more efficient to stack multiple ceiling \ntiles and then cut the speaker opening in a number of \nthem at one time.\n2.\t If using the optional RE84 Recessed Enclosure, bend \nup the 4 horseshoe tabs (Figure 1) on the TB8.  \n3.\t Position the TB8 over the hole in the tile and push down the locator \ntabs (Figure 2).  \n4.\t Using the 4 supplied screws, attach the NQ-S1801CT to the TB8 using the 4 clips in the corners of the \nopening on the TB8 as nuts. To complete the Speaker Connection, see STEP 6: Figure 3.\nNOTE: Only tighten the screws until the grille is snug against the tile. Over tightening will cause the screws to \ndimple the grille.\n5.\t Place the entire assembled ceiling tile back into the ceiling grid.\nNOTE: Refer to the Nyquist VoIP Speakers Configuration Manual or the System Administrator Manual for de\u00ad\ntailed instructions on how to configure these speakers.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.",
+        "qas": [
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the size of the hole that needs to be cut for the speaker installation?",
+                "answers": [
+                    {
+                        "text": "The hole that needs to be cut for the speaker installation is 8-1/2 inches square. This can be achieved by using the TB8 tile bridge to trace out the hole before cutting."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "How can multiple ceiling tiles be cut efficiently for speaker installation?",
+                "answers": [
+                    {
+                        "text": "To cut multiple ceiling tiles efficiently for speaker installation, stack the tiles together and then cut the speaker opening in all of them at once, using the tile bridge as a guide for tracing the square hole. This method saves time and ensures uniformity across the tiles."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the purpose of the horseshoe tabs on the TB8 when using the RE84 Recessed Enclosure?",
+                "answers": [
+                    {
+                        "text": "The horseshoe tabs on the TB8 are designed to be bent up when using the optional RE84 Recessed Enclosure. This feature helps secure the TB8 within the enclosure, ensuring a proper installation of the speaker."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What components are used to attach the NQ-S1801CT to the TB8?",
+                "answers": [
+                    {
+                        "text": "The NQ-S1801CT is attached to the TB8 using four supplied screws, which connect to the clips located in the corners of the TB8 opening. It is important to only tighten the screws until the grille is snug against the tile to avoid damaging it."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What should be taken care of to avoid damaging the grille during installation?",
+                "answers": [
+                    {
+                        "text": "To avoid damaging the grille during installation, only tighten the screws until the grille is snug against the tile. Over-tightening can cause the screws to dimple the grille."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "Where should the assembled ceiling tile be placed after installation?",
+                "answers": [
+                    {
+                        "text": "The assembled ceiling tile should be placed back into the ceiling grid after installation. Ensure that it fits securely within the grid system."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "Which manuals are referenced for further configuration instructions for the speakers?",
+                "answers": [
+                    {
+                        "text": "The manuals referenced for further configuration instructions for the speakers are the Nyquist VoIP Speakers Configuration Manual and the System Administrator Manual."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Speaker Connection\n6. Make the electrical connections using \n    Category 5 or higher Ethernet cable with an   \n    RJ-45 connector. It is recommended to use \n    shielded Category 5 or higher Ethernet \n    cable (Figure 3).\nThe power is supplied by PoE using an \n802.3af compliant network switch or PoE \ninjector.\nFigure 3\nRJ45\nVoIP \nModule\nWire Tie\nAdditional Accessories\nThe Nyquist VoIP Ceiling Speaker can be used with the Nyquist Digital Call Switch \nNQ-E7020. Refer to the NQ-E7020 Digital Call Switch Quick Start Guide.\n1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.",
+        "qas": [
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What type of Ethernet cable is recommended for making electrical connections?",
+                "answers": [
+                    {
+                        "text": "It is recommended to use shielded Category 5 or higher Ethernet cable with an RJ-45 connector for making electrical connections."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What is the minimum standard for the network switch or PoE injector used to power the speaker?",
+                "answers": [
+                    {
+                        "text": "The minimum standard for the network switch or PoE injector used to power the Nyquist VoIP Ceiling Speaker is 802.3af compliant. Additionally, it's recommended to use shielded Category 5 or higher Ethernet cable with an RJ-45 connector for connections."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "Which VoIP module can be paired with the Nyquist VoIP Ceiling Speaker?",
+                "answers": [
+                    {
+                        "text": "The Nyquist VoIP Ceiling Speaker can be paired with the Nyquist Digital Call Switch model NQ-E7020. Refer to the NQ-E7020 Digital Call Switch Quick Start Guide for more information."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "Where is Bogen Communications, Inc. located?",
+                "answers": [
+                    {
+                        "text": "Bogen Communications, Inc. is located at 1200 MacArthur Blvd., Suite 304, Mahwah, NJ 07430."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What does the acronym PoE stand for in this context?",
+                "answers": [
+                    {
+                        "text": "In this context, PoE stands for Power over Ethernet, which allows electrical power to be transmitted along with data over the same Ethernet cable. This is facilitated by devices that comply with the IEEE 802.3af standard, such as network switches or PoE injectors."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What is the purpose of using shielded Ethernet cable as mentioned?",
+                "answers": [
+                    {
+                        "text": "Shielded Ethernet cable is recommended to reduce electromagnetic interference, which can improve the overall signal quality and performance of the VoIP connection. This is particularly important in environments with potential electrical noise or multiple electronic devices operating nearby."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What figure illustrates the RJ-45 connections?",
+                "answers": [
+                    {
+                        "text": "Figure 3 illustrates the RJ-45 connections used for the Nyquist VoIP Ceiling Speaker. It shows the setup involving the Category 5 or higher Ethernet cable and the recommended use of shielded cable."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What is the phone number for Bogen Communications, Inc.?",
+                "answers": [
+                    {
+                        "text": "The phone number for Bogen Communications, Inc. is 1-800-999-2809."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "What additional accessory is mentioned for use with the Nyquist VoIP Ceiling Speaker?",
+                "answers": [
+                    {
+                        "text": "The additional accessory mentioned for use with the Nyquist VoIP Ceiling Speaker is the Nyquist Digital Call Switch NQ-E7020. Users are directed to refer to the NQ-E7020 Digital Call Switch Quick Start Guide for more information."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "In what year was the copyright noted in the document?",
+                "answers": [
+                    {
+                        "text": "The copyright noted in the document is from the year 2018."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 \u2022 1-800-999-2809\n\u00a9 Copyright 2018, Bogen Communications, Inc.\nCompliance\nNOTE: This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to Part 15 of \nthe FCC rules. These limits are designed to provide reasonable protection against harmful interference when the equipment \nis operated in a commercial environment. This equipment generates, uses, and can radiate radio frequency energy and, if \nnot installed and used in accordance with the instruction manual, may cause harmful interference to radio communications.  \nOperation of this equipment in a residential area is likely to cause harmful interference; in which case, the user will be required \nto correct the interference at his own expense.\nLimited Warranty, Exlusion of Certain Damages\nThe NQ-S1810CT is warranted to be free from defects in materials and workmanship for five (5) years from the date of sale \nto the original purchaser. Any part of the product covered by this warranty that, with normal installation and use, becomes \ndefective (as confirmed by Bogen upon inspection) during the warranty period will be repaired or replaced by Bogen, at Bo\u00ad\ngen\u2019s option, with new or refurbished product, provided the product is shipped insured and prepaid to: Bogen Factory Service \nDepartment: 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. Repaired or replacement product(s) will be returned to \nyou freight prepaid. This warranty does not extend to any of our products that have been subjected to abuse, misuse, improp\u00ad\ner storage, neglect, accident, improper installation or have been modified or repaired or altered in any manner whatsoever, or \nwhere the serial number or date code has been removed or defaced.\nTHE FOREGOING LIMITED WARRANTY IS BOGEN\u2019S SOLE AND EXCLUSIVE WARRANTY AND THE PURCHASER\u2019S SOLE AND \nEXCLUSIVE REMEDY. BOGEN MAKES NO OTHER WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND ALL \nIMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ARE HEREBY DISCLAIMED AND \nEXCLUDED TO THE MAXIMUM EXTENT ALLOWABLE BY LAW. Bogen\u2019s liability arising out of the manufacture, sale or supply\u00ad\ning of products or their use or disposition, whether based upon warranty, contract, tort or otherwise, shall be limited to the \nprice of the product. IN NO EVENT SHALL BOGEN BE LIABLE FOR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES \n(INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS, LOSS OF DATA OR LOSS OF USE DAMAGES) ARISING OUT OF THE \nMANUFACTURE, SALE OR SUPPLYING OF PRODUCTS, EVEN IF BOGEN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH \nDAMAGES OR LOSSES. Some States do not allow the exclusion or limitation of incidental or consequential damages, so the \nabove limitation or exclusion may not apply to you. This warranty gives you specific legal rights, and you may also have other \nrights which vary from State to State.\nProducts that are out of warranty will also be repaired by Bogen Factory Service Department -- same address as above or call \n201-934-8500, at owner\u2019s expense.  Returned products which do not qualify for warranty service, may be repaired or replaced \nat Bogen\u2019s option with a previously repaired or refurbished items.   The parts and labor involved in these repairs are warranted \nfor 90 days when repaired by the Bogen Factory Service Department.  All parts and labor charges as well as shipping charges \nwill be at the owner\u2019s expense.\nAll returns require a Return Authorization number.  For most efficient warranty or repair service, please include a description \nof the failure.\n11/2018",
+        "qas": [
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What is the warranty period for the NQ-S1810CT product?",
+                "answers": [
+                    {
+                        "text": "The NQ-S1810CT product has a warranty period of five (5) years from the date of sale to the original purchaser. This warranty covers defects in materials and workmanship under normal use and installation."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "Where should defective products be sent for warranty service?",
+                "answers": [
+                    {
+                        "text": "Defective products should be sent to Bogen Factory Service Department at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. Make sure the product is shipped insured and prepaid, and include a description of the failure along with a Return Authorization number."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What conditions would void the warranty for the NQ-S1810CT?",
+                "answers": [
+                    {
+                        "text": "The warranty for the NQ-S1810CT is void if the product has been subjected to abuse, misuse, improper storage, neglect, accident, improper installation, modification, repair, alteration, or if the serial number or date code has been removed or defaced."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What is Bogen's liability limit concerning warranty claims?",
+                "answers": [
+                    {
+                        "text": "Bogen\u2019s liability arising from warranty claims is limited to the price of the product. They are not liable for special, incidental, or consequential damages, even if notified of the possibility of such damages."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "Are users responsible for correcting harmful interference caused by the equipment in residential areas?",
+                "answers": [
+                    {
+                        "text": "Yes, users are responsible for correcting harmful interference caused by the equipment in residential areas at their own expense, as indicated in the compliance notice. The equipment is designed to operate in a commercial environment, and its operation in residential areas is likely to cause such interference."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What information must be included when returning a product for warranty service?",
+                "answers": [
+                    {
+                        "text": "When returning a product for warranty service, you must include a Return Authorization number and a description of the failure. The product should also be shipped insured and prepaid to Bogen Factory Service Department."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "How long are repairs done by Bogen's Factory Service Department warranted?",
+                "answers": [
+                    {
+                        "text": "Repairs done by Bogen's Factory Service Department are warranted for 90 days. This warranty applies to parts and labor involved in the repairs."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What kind of damages are excluded from Bogen's warranty?",
+                "answers": [
+                    {
+                        "text": "Bogen's warranty excludes damages resulting from abuse, misuse, improper storage, neglect, accidents, improper installation, modifications, or repairs. Additionally, it disclaims any liability for special, incidental, or consequential damages, including loss of profits, data, or use."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What should a customer do if their product is out of warranty?",
+                "answers": [
+                    {
+                        "text": "If the product is out of warranty, the customer should send it to the Bogen Factory Service Department at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA, or call 201-934-8500 for repair at their own expense. Repairs may involve previously refurbished items, and all parts and labor will be the owner's responsibility. All returns require a Return Authorization number."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "How can one contact Bogen\u2019s Factory Service Department for repairs?",
+                "answers": [
+                    {
+                        "text": "To contact Bogen\u2019s Factory Service Department for repairs, you can call 201-934-8500 or send the product to their address at 4570 Shelby Air Drive, Suite 11, Memphis, TN 38118, USA. Ensure to include a description of the failure and obtain a Return Authorization number for all returns."
+                    }
+                ]
+            }
+        ]
+    }
+]

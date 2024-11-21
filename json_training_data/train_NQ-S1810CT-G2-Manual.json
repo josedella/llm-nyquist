@@ -1,0 +1,307 @@
+[
+    {
+        "context": "With the Nyquist Series Gen-2 VoIP Ceiling Speaker, there is no need \nfor external amplifiers, traditional intercom wiring, or transformer\ntaps to manually set or adjust. Connect the speaker via Cat5 to a \nPower-Over-Ethernet (PoE) Switch or PoE Injector, and it is ready\nto use. \nThe speaker features an integrated 10 watt power amplifier, a CAN \nBus interface, a MEMS digital microphone for superior talkback\naudio, and a Form C SPDT type 2-amp dry contact relay for\ncontrolling/overriding third-party devices like AV sources. \nThe speaker also allows DHCP deployment for easy installation.\nYou can let your Nyquist server automatically discover and\nconfigure your speaker, or you can manually configure it through \nthe speaker\u2019s web-based user interface (web UI). The web UI also \nallows easy updating of firmware and setting of parameters for\nDigital Signal Processing (DSP). For more information about the web\nUI, refer to the Nyquist Gen-2 VoIP Speakers Configuration Manual.\nNQ-S1810WT-G2\nNyquist Gen-2 VoIP\n\nCeiling Speaker\nInstallation Manual",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What type of wiring is required for the Nyquist Gen-2 VoIP Ceiling Speaker installation?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Ceiling Speaker requires Cat5 wiring for installation, connecting directly to a Power-Over-Ethernet (PoE) Switch or PoE Injector. There is no need for external amplifiers or traditional intercom wiring."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "How does the Nyquist Gen-2 VoIP Ceiling Speaker receive power?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Ceiling Speaker receives power via Power-Over-Ethernet (PoE) through a Cat5 connection to a PoE Switch or PoE Injector. This eliminates the need for external amplifiers and traditional wiring."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What is the power rating of the integrated amplifier in the speaker?",
+                "answers": [
+                    {
+                        "text": "The integrated amplifier in the Nyquist Gen-2 VoIP Ceiling Speaker has a power rating of 10 watts."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "Which type of interface does the Nyquist Gen-2 VoIP Ceiling Speaker use for control and communication?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Ceiling Speaker uses a CAN Bus interface for control and communication. It also features a web-based user interface (web UI) for manual configuration and firmware updates."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What functionality does the Form C SPDT relay provide in the speaker?",
+                "answers": [
+                    {
+                        "text": "The Form C SPDT relay in the Nyquist Gen-2 VoIP Ceiling Speaker allows for controlling or overriding third-party devices, such as audio-visual sources, by enabling flexible integration with existing systems. This relay can handle up to 2 amps, facilitating various control applications in a networking environment."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What methods are available for configuring the Nyquist Gen-2 VoIP Ceiling Speaker?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen-2 VoIP Ceiling Speaker can be configured through automatic discovery and configuration by the Nyquist server or manually via its web-based user interface (web UI). The web UI also facilitates firmware updates and setting configurations for Digital Signal Processing (DSP)."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "How can users update the firmware of the Nyquist Gen-2 VoIP Ceiling Speaker?",
+                "answers": [
+                    {
+                        "text": "Users can update the firmware of the Nyquist Gen-2 VoIP Ceiling Speaker through the speaker\u2019s web-based user interface (web UI). For detailed instructions, users should refer to the Nyquist Gen-2 VoIP Speakers Configuration Manual."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the primary use of the MEMS digital microphone within the speaker?",
+                "answers": [
+                    {
+                        "text": "The primary use of the MEMS digital microphone within the Nyquist Gen-2 VoIP Ceiling Speaker is to provide superior talkback audio. This enables effective two-way communication during VoIP calls and enhances audio quality for user interactions."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "Where can one find more information about the web-based user interface for the speaker?",
+                "answers": [
+                    {
+                        "text": "More information about the web-based user interface for the Nyquist Gen-2 VoIP Ceiling Speaker can be found in the Nyquist Gen-2 VoIP Speakers Configuration Manual. This manual details the UI's features, firmware updates, and Digital Signal Processing settings."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-S1810CT-G2\nNyquist Gen-2 VoIP \nSpeaker Layout\nThe layout of the speakers should be planned before installation begins. \nLayout starts in one corner of the room. The first speaker should be\npositioned from each wall spaced a distance approximately equal to the\nceiling height of the room.\nThe next speaker in Row 1 should be spaced a distance approximately \nequal to twice the height of the ceiling. Each additional speaker in the row \nshould use this same spacing. \nRow 2 starts at twice the ceiling height distance from row 1 and twice \nthe ceiling height from the wall.  The other speakers in this row are also \nspaced at twice the ceiling height. \nRow 3 is again spaced at twice the ceiling height from the previous row. \nThe first speaker starting this row is positioned at one ceiling height\ndistance from the wall (similar to row 1). \nContinue this pattern of alternating rows until the room is covered. The \nspacing of the speakers can be adjusted so that the speakers are evenly \nspaced in a row and are aesthetically pleasing.",
+        "qas": [
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the starting position for the first speaker in the room layout?",
+                "answers": [
+                    {
+                        "text": "The starting position for the first speaker in the room layout should be placed a distance from each wall approximately equal to the ceiling height of the room. This means it should be positioned in one corner of the room at that specified distance from the walls."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "How far should the first speaker be from each wall?",
+                "answers": [
+                    {
+                        "text": "The first speaker should be positioned from each wall at a distance approximately equal to the ceiling height of the room. This ensures optimal placement before continuing with the subsequent speakers in the layout."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the spacing between speakers in Row 1 based on the room's ceiling height?",
+                "answers": [
+                    {
+                        "text": "In Row 1, the spacing between speakers should be approximately equal to twice the ceiling height of the room. The first speaker is positioned from each wall at a distance equal to the ceiling height."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "How is the first speaker in Row 2 positioned relative to Row 1 and the walls?",
+                "answers": [
+                    {
+                        "text": "The first speaker in Row 2 is positioned at twice the ceiling height distance from Row 1 and twice the ceiling height from the wall. This ensures proper spacing while adhering to the layout guidelines."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the spacing for the speakers in Row 2?",
+                "answers": [
+                    {
+                        "text": "In Row 2, the first speaker is positioned twice the ceiling height from Row 1 and twice the ceiling height from the wall. Additional speakers in this row are also spaced at twice the ceiling height apart."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "How is Row 3's positioning different from Row 1's?",
+                "answers": [
+                    {
+                        "text": "Row 3's first speaker is positioned one ceiling height distance from the wall, similar to Row 1, but it is spaced at twice the ceiling height from Row 2. In contrast, Row 1's first speaker is positioned one ceiling height from the wall, and subsequent speakers are spaced at twice the ceiling height from each other."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the recommended starting distance for the first speaker in Row 3 from the wall?",
+                "answers": [
+                    {
+                        "text": "The recommended starting distance for the first speaker in Row 3 from the wall is one ceiling height distance. This follows the same placement guideline as Row 1."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "How should the spacing pattern continue throughout the room installation?",
+                "answers": [
+                    {
+                        "text": "Continue the speaker layout by alternating the positioning of rows: in odd-numbered rows, start each speaker at one ceiling height from the wall and space them at twice the ceiling height apart; for even-numbered rows, position the first speaker at twice the ceiling height from the previous row and then space the remaining speakers at twice the ceiling height apart. This pattern should be repeated until the entire room is covered, with adjustments made for even spacing and aesthetic appeal as needed."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "Can the spacing of the speakers be adjusted for aesthetic purposes?",
+                "answers": [
+                    {
+                        "text": "Yes, the spacing of the speakers can be adjusted for aesthetic purposes, allowing for even spacing in a row to enhance visual appeal while still following the defined layout guidelines."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What is the general principle for the speaker layout in relation to ceiling height?",
+                "answers": [
+                    {
+                        "text": "The general principle for the speaker layout is to position the first speaker at a distance approximately equal to the ceiling height from each wall. Subsequent speakers in Row 1 are spaced at approximately twice the ceiling height apart, while each new row is set at twice the height from the previous row and maintains similar spacing between speakers for aesthetic consistency."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-S1810CT-G2\nNyquist Gen-2 VoIP \n\nMounting Equipment/Accessories\nRE84 Recessed Enclosure\nThe RE84 is an optional back box for ceiling speakers. UL Listed for use \nwhere ceiling plenum is part of an air handling system, the RE84 also \nincludes attachment tabs allowing the enclosure to be supported from \nstructures other than the actual ceiling grid.\nTB8 Tile Bridge\nThe TB8 supports the weight of the speaker and recessed enclosure. \nThis is also the item to which the speaker mounting screws attach. The \nTB8 is required for each speaker assembly installed.\nMR8 Mounting Ring\nThe MR8 Mounting Ring is a cold-rolled steel unit, which will mount any \nof the Bogen ceiling grilles, for installations where the RE84 is not used.\nRE84\nRecessed\nEnclosure\nTB8 Tile Bridge\nMR8\nMounting\nRing\nSpeaker Installation\n1. Remove the tile from ceiling and center the TB8 tile bridge on the \nback.  Use the tile bridge to trace out, and then cut an 8-1/2\u201d square hole.\n\n2. If using the optional RE84 Recessed Enclosure, bend up the four  \n     (4) horseshoe tabs (Figure 1) on the TB8.\n\n3. Position the TB8 over the hole\n    in the tile and push down the\n     locator tabs (Figure 2).\n4. Using the 4 supplied screws,\n    attach the speaker to the TB8\n    Tile Bridge using the 4 clips in\n    the corners of the opening on\n    the TB8 as nuts.\nNOTE: Only tighten the screws until\nthe grille is snug against the tile.\nOver tightening will cause screws\nto dimple the grille.\n5. When applicable, use the plug-\n    gable CAN bus connector to\n    attach one or more NQ-E7020\n    Digital Call Switches to the\n    Nyquist VoIP Form C Module\n    820-00071-00 as shown in\n    Figure 3.\nSpeaker Installation (cont\u2019d)\n6. If the CAN Bus is to be used, ensure CAN_H and CAN_L use (Cat5 \n    10/100) twisted pair cable.\n7. To connect a third-party device to the dry contact relay output, do \n    one of the following:\na. If the device is looking for a Normally Open contact, connect    \n    the device using the NO and COM terminals.\nb. If the device is looking for a Normally Closed contact, connect \n    the device using the NC and COM terminals.\nNQ-E7020 Digital\nCall Switch\n\nSpeaker Installation (cont\u2019d)\n8. Make the electrical connections\n    using Category 5 or higher\n    Ethernet cable with an RJ-45\n    connector (Figure 4). The power\n    is supplied by PoE using an\n    802.3af compliant network\n    switch or PoE injector.\n9. Place the entire assembled\n    ceiling tile back into the ceiling\n    grid.\n\nAdditional Accessories\nThe Nyquist Gen 2 VoIP Ceiling Speaker can be used with the Nyquist \nDigital Call Switch NQ-E7020. Refer to the Nyquist Digital Call Switch\nNQ-E7020 Quick Start Guide.",
+        "qas": [
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What is the purpose of the RE84 Recessed Enclosure?",
+                "answers": [
+                    {
+                        "text": "The RE84 Recessed Enclosure is an optional back box for ceiling speakers that is UL Listed for use in air-handling ceiling plenums. It includes attachment tabs for support from structures other than the ceiling grid, providing a secure mounting solution for speaker installations."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "How does the TB8 Tile Bridge support the speaker installation?",
+                "answers": [
+                    {
+                        "text": "The TB8 Tile Bridge supports the speaker installation by providing a stable platform that bears the weight of the speaker and the recessed enclosure, allowing for secure attachment of the speaker mounting screws. It also features locator tabs to ensure proper positioning over the cut hole in the ceiling tile."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What material is the MR8 Mounting Ring made from?",
+                "answers": [
+                    {
+                        "text": "The MR8 Mounting Ring is made from cold-rolled steel. It is designed to mount Bogen ceiling grilles when the RE84 Recessed Enclosure is not used."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What should be done after cutting the hole in the ceiling tile?",
+                "answers": [
+                    {
+                        "text": "After cutting the hole in the ceiling tile, position the TB8 Tile Bridge over the hole and press down the locator tabs to secure it in place. If using the optional RE84 Recessed Enclosure, bend up the four horseshoe tabs on the TB8."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "How should the speaker be attached to the TB8 Tile Bridge?",
+                "answers": [
+                    {
+                        "text": "To attach the speaker to the TB8 Tile Bridge, position the TB8 over the cut hole in the ceiling tile and use the four supplied screws to secure the speaker to the TB8 by fastening into the clips at the corners of the opening. Ensure the screws are tightened only until the grille is snug against the tile to avoid dimpling."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What is the correct way to connect the CAN bus for the Nyquist VoIP system?",
+                "answers": [
+                    {
+                        "text": "To connect the CAN bus for the Nyquist VoIP system, ensure that CAN_H and CAN_L use a Cat5 10/100 twisted pair cable. If you are using additional devices, connect to the dry contact relay output either via the Normally Open (NO) and COM terminals or the Normally Closed (NC) and COM terminals as required."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "How can a third-party device be connected to the dry contact relay output?",
+                "answers": [
+                    {
+                        "text": "A third-party device can be connected to the dry contact relay output by using either the Normally Open (NO) and COM terminals for devices that require a Normally Open contact, or the Normally Closed (NC) and COM terminals for those requiring a Normally Closed contact."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What type of cable is recommended for the electrical connections in this installation?",
+                "answers": [
+                    {
+                        "text": "For the electrical connections in this installation, Category 5 or higher Ethernet cable with an RJ-45 connector is recommended. The power is supplied via Power over Ethernet (PoE) using an 802.3af compliant network switch or PoE injector."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What power supply method is used for the Nyquist Gen 2 VoIP Ceiling Speaker?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Gen 2 VoIP Ceiling Speaker is powered using Power over Ethernet (PoE) provided by an 802.3af compliant network switch or PoE injector. Electrical connections are made using Category 5 or higher Ethernet cable with an RJ-45 connector."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "Where can the NQ-E7020 Digital Call Switch be referenced for further information?",
+                "answers": [
+                    {
+                        "text": "For further information on the NQ-E7020 Digital Call Switch, refer to the Nyquist Digital Call Switch NQ-E7020 Quick Start Guide. This guide will provide detailed instructions and additional context for its use with the Nyquist Gen-2 VoIP Ceiling Speaker."
+                    }
+                ]
+            }
+        ]
+    }
+]

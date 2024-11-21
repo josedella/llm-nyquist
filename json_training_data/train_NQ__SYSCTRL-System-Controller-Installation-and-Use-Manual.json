@@ -1,0 +1,192 @@
+[
+    {
+        "context": "Publication Number 740-00067B\n1900402\nNQ-SYSCTRL \nSystem Controller \nInstallation and Use\nThe System Controller provides a cost-effective way \nto deploy Nyquist based solutions using a state-of-\nthe-art processing platform pre-installed with the \nNyquist application server software. The System \nController offers high-performance operation for \neven the largest Nyquist system configurations and \ncan simultaneously distribute an unlimited number \nof audio streams anywhere across the network, \nmaking it perfect for background music applications.\nThe System Controller can manage applications \nthat require any mix of multi-zone paging, intercom\ncalling, or background music distribution at \nbusinesses, restaurants, retail stores, industrial \nfacilities, and many other venues.  It has a web-\nbased graphical user interface (GUI) that is \naccessible from almost any personal computer (PC), \ntablet, or mobile device. \n\nThe System Controller is designed to run on a \n10/100 Ethernet network.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What type of applications can the System Controller manage?",
+                "answers": [
+                    {
+                        "text": "The System Controller can manage applications that require any mix of multi-zone paging, intercom calling, or background music distribution. It is suitable for various venues such as businesses, restaurants, retail stores, and industrial facilities."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "How does the System Controller distribute audio streams?",
+                "answers": [
+                    {
+                        "text": "The System Controller distributes audio streams over a 10/100 Ethernet network, allowing for high-performance operation and simultaneous distribution of an unlimited number of audio streams across the network. It can manage multi-zone paging, intercom calling, and background music applications in various venues through a web-based graphical user interface accessible on PCs, tablets, or mobile devices."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What kind of network does the System Controller require for operation?",
+                "answers": [
+                    {
+                        "text": "The System Controller requires a 10/100 Ethernet network for operation. It is designed to handle high-performance audio streaming and management across various applications and venues."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the primary software pre-installed on the System Controller?",
+                "answers": [
+                    {
+                        "text": "The primary software pre-installed on the System Controller is the Nyquist application server software. This enables high-performance operation and facilitates the management of audio streaming applications across various venues."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "On what types of devices can the System Controller's GUI be accessed?",
+                "answers": [
+                    {
+                        "text": "The System Controller's GUI can be accessed from almost any personal computer (PC), tablet, or mobile device."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "In what types of environments is the System Controller typically used?",
+                "answers": [
+                    {
+                        "text": "The System Controller is typically used in environments such as businesses, restaurants, retail stores, industrial facilities, and other venues that require multi-zone paging, intercom calling, or background music distribution. Its flexibility and high-performance capabilities make it suitable for various audio streaming applications."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "Does the System Controller support multi-zone paging and intercom calling?",
+                "answers": [
+                    {
+                        "text": "Yes, the System Controller manages applications that require multi-zone paging and intercom calling, making it suitable for various settings such as businesses and restaurants. It offers high-performance operation for large Nyquist system configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the benefit of using the System Controller for background music applications?",
+                "answers": [
+                    {
+                        "text": "The System Controller enables seamless distribution of an unlimited number of audio streams across the network, making it ideal for background music applications in various venues. Its high-performance capability ensures effective management of multi-zone paging and intercom calling alongside music distribution, all accessible through a user-friendly web-based GUI."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-SYSCTRL System Controller Installation \nThe System Controller can be shelf, wall, or rack \nmounted.\n1.\t Either place the System Controller appliance on \na shelf, or use the supplied mounting ears to \nmount it on a wall. For rack mounting, use one \nof the available optional rack mount kits (NQ-\nRMK02, NQ-RMK03 or NQ-RMK04) as applicable.\n2.\t Connect the device to the 10/100 network using \na CAT5 type cable. \n\n3.\t Connect the power cord to the back of the unit. \n\n4.\t If connecting auxiliary devices, such as a keyboard, mouse, or video monitor, connect the \ndevices\u2019 cables to the appropriate connectors on \nthe back of the device.\n\nIf connecting a video monitor, make sure to use \nthe HDMI video output as the Digital Video Interface (DVI) output is not supported.  Use of the \nRS232 ports is  also not supported.\n5.\t Toggle the Power switch to the On position.\nOnce the System Controller is powered on and connected to the network, it can be accessed and \nconfigured via the device\u2019s web-based GUI.  There \nare two IP addresses available to access the web-\nbased GUI: 1) a default static IP (192.168.1.10) on \nEthernet Port A and 2) Dynamic Host Configuration \nProtocol (DHCP) on Ethernet Port B. \n\nNOTE:  You must have a valid software \nlicense activation key to set up and configure \n\nViewing and \nUnderstanding the POWER LED of the NQ-SYSCTRL System Controller\nAn LED labeled POWER appears on the front of the \nSystem Controller. This LED appears solid green \nwhen the device is powered on.\nUsing the Reset Button\nThe Reset button reboots the System \nController and launches the logon \nscreen.",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What mounting options are available for the System Controller appliance?",
+                "answers": [
+                    {
+                        "text": "The System Controller appliance can be mounted on a shelf, wall-mounted using supplied mounting ears, or rack-mounted using optional rack mount kits (NQ-RMK02, NQ-RMK03, or NQ-RMK04)."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "Which type of cable should be used to connect the System Controller to the network?",
+                "answers": [
+                    {
+                        "text": "To connect the System Controller to the network, a CAT5 type cable should be used."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What should be done if auxiliary devices like a keyboard or mouse need to be connected?",
+                "answers": [
+                    {
+                        "text": "If auxiliary devices like a keyboard or mouse need to be connected, plug the devices\u2019 cables into the appropriate connectors on the back of the System Controller. However, note that RS232 ports are not supported for any auxiliary connections."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "Which output should be used for connecting a video monitor to the System Controller?",
+                "answers": [
+                    {
+                        "text": "The HDMI video output should be used for connecting a video monitor to the System Controller, as the Digital Video Interface (DVI) output is not supported. The RS232 ports are also not supported for video connection."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What two methods of IP address configuration are available for accessing the web-based GUI?",
+                "answers": [
+                    {
+                        "text": "Two methods of IP address configuration available for accessing the web-based GUI are: 1) a default static IP address of 192.168.1.10 on Ethernet Port A, and 2) Dynamic Host Configuration Protocol (DHCP) on Ethernet Port B."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is indicated by a solid green POWER LED on the System Controller?",
+                "answers": [
+                    {
+                        "text": "A solid green POWER LED on the System Controller indicates that the device is powered on and functioning properly."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What function does the Reset button perform on the System Controller?",
+                "answers": [
+                    {
+                        "text": "The Reset button on the System Controller reboots the device and launches the logon screen. This function allows for a quick restart without needing to power off the unit completely."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "Is a software license activation key required for setting up the System Controller?",
+                "answers": [
+                    {
+                        "text": "Yes, a valid software license activation key is required to set up and configure the NQ-SYSCTRL System Controller. Without it, the device cannot be properly configured through the web-based GUI."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What should be used for rack mounting the System Controller?",
+                "answers": [
+                    {
+                        "text": "For rack mounting the System Controller, one of the available optional rack mount kits (NQ-RMK02, NQ-RMK03, or NQ-RMK04) should be used as applicable."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "Where on the device can the power cord be connected?",
+                "answers": [
+                    {
+                        "text": "The power cord can be connected to the back of the NQ-SYSCTRL System Controller unit."
+                    }
+                ]
+            }
+        ]
+    }
+]

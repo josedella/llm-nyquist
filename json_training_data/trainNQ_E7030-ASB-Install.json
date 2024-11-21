@@ -1,0 +1,377 @@
+[
+    {
+        "context": "Publication Number 740-00016D\n1907\nNQ-E7030 \nAnalog \nStation \nBridge\nInstallation and Use\nThe Nyquist Analog Station Bridge (ASB) allows the \nE7000 solution to use the existing call switch and \nspeaker infrastructure when upgrading from Multicom 2000, Quantum IP, and third-party intercom \nsystems. When used as a networked component \nof the Nyquist E7000 series paging and intercom \nsolution, the NQ-E7030 permits a \u201chybrid\u201d system \nconfiguration through use of 25V/70V speakers and \nassociated call switches (for example, Bogen CA15C \ntype). The ASB has 24 station connections that attach to speakers and their associated call switches. \nWhile each connection has its own Session Initiation \nProtocol (SIP) addressable Station ID, the ASB itself \nuses a single network IP address.\nWARNING: To reduce the risk of fire or electric shock, \ndo not expose this apparatus to rain or moisture.\nAvertissement: pour r\u00e9duire le risque d\u2019incendie ou de \nchoc \u00e9lectrique, ne pas exposer cet appareil sous la \npluie et l\u2019humidit\u00e9.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What is the model number of the Nyquist Analog Station Bridge mentioned in the publication?",
+                "answers": [
+                    {
+                        "text": "The model number of the Nyquist Analog Station Bridge mentioned in the publication is NQ-E7030. It is designed to work with existing call switch and speaker infrastructures when upgrading from previous intercom systems."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Which existing intercom systems can be upgraded using the NQ-E7030?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7030 allows upgrades from Multicom 2000, Quantum IP, and third-party intercom systems. It facilitates the use of existing call switch and speaker infrastructure in a hybrid configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "How many station connections does the ASB provide for speakers and call switches?",
+                "answers": [
+                    {
+                        "text": "The Nyquist Analog Station Bridge (ASB) provides 24 station connections for speakers and their associated call switches. Each connection has its own Session Initiation Protocol (SIP) addressable Station ID."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What type of speaker configurations can the NQ-E7030 accommodate?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7030 can accommodate 25V and 70V speaker configurations when used as part of the Nyquist E7000 series paging and intercom solution. It allows integration with existing call switches and speaker infrastructure from various systems."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "How does the ASB identify each connection, despite using a single IP address?",
+                "answers": [
+                    {
+                        "text": "The ASB identifies each of its 24 station connections using individual Session Initiation Protocol (SIP) addressable Station IDs, which allows distinct identification for each connection while the ASB itself operates under a single network IP address."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What warning is issued regarding the exposure of the apparatus?",
+                "answers": [
+                    {
+                        "text": "The warning issued regarding the exposure of the Nyquist Analog Station Bridge (ASB) states that to reduce the risk of fire or electric shock, the apparatus should not be exposed to rain or moisture."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What does the NQ-E7030 enable in terms of system configuration?",
+                "answers": [
+                    {
+                        "text": "The NQ-E7030 enables a \u201chybrid\u201d system configuration by allowing the integration of existing 25V/70V speakers and associated call switches with the Nyquist E7000 series paging and intercom solution. It supports 24 station connections, each with its own SIP addressable Station ID, while operating under a single network IP address."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "NQ-E7030 \nAnalog \nStation \nBridge\nField Wiring\nUse generally accepted engineering best practices \nas established by the EIA and the NEC for system \nwiring and equipment installation. Test all wiring \nto ensure it is free from grounds and shorts. Label \nsystem wiring at both ends using room numbers as \nindicated in the architectural graphics package. For \nsystem wiring, follow manufacturer\u2019s recommendations for device type. All terminal connections must \nbe on barrier strips.\nWhile the system is entirely CAT5 or better cable \ncompatible, it is not advisable to use category wiring \nfor two-way intercom stations in installations where \nElectromagnetic Field (EMF) interference is a possible concern. In such environments, it is recommended to use West Penn #357, Belden #8724, or equivalent cabling to protect against cross talk and noise \ninduced by EMF interference.\nUse CAT5 or better network cabling for all IP-based \nsystem devices such as network equipment, system appliances, and VoIP phones. Cable lengths for \nEthernet connections should not exceed industry \nguidelines based on the on the specific category \ntype.",
+        "qas": [
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What wiring practices should be followed for system wiring and equipment installation according to the context?",
+                "answers": [
+                    {
+                        "text": "Follow generally accepted engineering best practices established by the EIA and NEC for system wiring and equipment installation, ensuring all wiring is tested for grounds and shorts. Label wiring at both ends using room numbers, use barrier strips for terminal connections, and for environments with potential EMF interference, utilize specific cabling like West Penn #357 or Belden #8724 instead of standard CAT5."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "How should system wiring be tested before installation?",
+                "answers": [
+                    {
+                        "text": "Before installation, system wiring should be tested to ensure it is free from grounds and shorts. This involves using appropriate testing equipment to verify the integrity of the wiring and confirming adherence to manufacturer recommendations and industry standards."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What labeling method is recommended for system wiring connections?",
+                "answers": [
+                    {
+                        "text": "The recommended labeling method for system wiring connections is to label the wiring at both ends using room numbers as indicated in the architectural graphics package. Ensure all connections are made on barrier strips and follow manufacturer\u2019s recommendations for device type."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What type of terminal connections must be used according to the guidelines?",
+                "answers": [
+                    {
+                        "text": "All terminal connections must be made on barrier strips according to the guidelines. Additionally, it is important to follow manufacturer\u2019s recommendations for device type when making these connections."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "Why is it inadvisable to use category wiring for two-way intercom stations in certain environments?",
+                "answers": [
+                    {
+                        "text": "It is inadvisable to use category wiring for two-way intercom stations in environments with potential Electromagnetic Field (EMF) interference because such wiring is more susceptible to crosstalk and noise. Instead, it is recommended to use specialized cabling, such as West Penn #357 or Belden #8724, to minimize these interference issues."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "Which specific cables are recommended for installations with potential EMF interference?",
+                "answers": [
+                    {
+                        "text": "For installations with potential Electromagnetic Field (EMF) interference, it is recommended to use West Penn #357, Belden #8724, or equivalent cabling to protect against cross talk and noise."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What type of cabling is required for IP-based system devices?",
+                "answers": [
+                    {
+                        "text": "For IP-based system devices, use CAT5 or better network cabling. Ensure that cable lengths for Ethernet connections do not exceed industry guidelines specific to the category type."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the maximum cable length recommendation for Ethernet connections based on category type?",
+                "answers": [
+                    {
+                        "text": "The maximum cable length for Ethernet connections typically is 100 meters (328 feet) for CAT5 and CAT5e cabling, while CAT6 can also support this length. It is important to adhere to these industry guidelines to ensure optimal performance and avoid signal degradation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Installation\nTo install the Nyquist ASB:\n1.\t Ensure the  POWER switch is in the off position.\n2.\t Connect the universal mains power line cord into \nthe ASB.\n3.\t Plug the power line cord into the power source.\n4.\t Connect a Cat5 type cable into the Analog Station Bridge\u2019s Ethernet port and ensure the other \nend of the  cable is \ncorrectly connected \nto your network.\n5.\t Attach the desired \nspeakers and their \nassociated call \nswitches to the ASB \nusing West Penn \n357 cabling (or \nequivalent) and the \npluggable connectors provided, where \nS terminals connect \nto the +/- speaker \nwires and the \u201cG\u201d \nand \u201cA\u201d terminals \nconnect to the associated wires from \nthe call switch.",
+        "qas": [
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What position should the POWER switch be in before installation?",
+                "answers": [
+                    {
+                        "text": "The POWER switch should be in the off position before installation."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What type of cable is used to connect the ASB to the network?",
+                "answers": [
+                    {
+                        "text": "A Cat5 type cable is used to connect the Analog Station Bridge (ASB) to the network. Ensure one end is connected to the ASB's Ethernet port and the other end is connected to your network."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "Which type of cabling is recommended for connecting speakers and call switches?",
+                "answers": [
+                    {
+                        "text": "The recommended cabling for connecting speakers and call switches to the Nyquist ASB is West Penn 357 cabling or an equivalent type. Use the provided pluggable connectors, where S terminals connect to the +/- speaker wires and the \"G\" and \"A\" terminals connect to the call switch wires."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What should be ensured about the power line cord during installation?",
+                "answers": [
+                    {
+                        "text": "During installation, ensure that the POWER switch is in the off position before connecting the universal mains power line cord to the ASB and the power source. This is crucial to prevent any electrical issues or damage during the setup process."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "Which terminals should the +/- speaker wires connect to on the ASB?",
+                "answers": [
+                    {
+                        "text": "The +/- speaker wires should connect to the S terminals on the Analog Station Bridge (ASB). The \"G\" and \"A\" terminals are for connecting the associated wires from the call switch."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "How should the other end of the Cat5 type cable be configured during installation?",
+                "answers": [
+                    {
+                        "text": "The other end of the Cat5 type cable should be correctly connected to your network to ensure proper communication for the Analog Station Bridge (ASB) during installation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Notice\nThe combined impedance of the ASB\u2019s 24 ports \nmeasured with an LCR bridge set to 500 Hz cannot \nbe less than 4\u03a9 . \nZx represents the total number of speaker \ntransformers connected to a given ASB. Measure \nthe impedance of each transformer connected to \nthe S/S terminals and plug it into the formula \nas 1/Z1, 1/Z2, etc. \nThe 1/x key on a scientific calculator can be used \nto find the value of 1/Z Total.\nA single port cannot exceed 40W. If all 24 ports are \nbeing used, each port cannot have more than 4W. \nThe total power of all taps on all ports should not \nexceed 96W. \n6. If the Nyquist Digital Call Switch is being installed \nusing the CAN Bus, refer to the Nyquist NQ-E7020 \nDigital Call Switch Application Manual.\n7. Press the POWER switch to power up the system.",
+        "qas": [
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "What is the minimum combined impedance that the ASB's 24 ports must measure?",
+                "answers": [
+                    {
+                        "text": "The minimum combined impedance that the ASB's 24 ports must measure is 4\u03a9. This measurement is taken using an LCR bridge set to 500 Hz."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "How is the total impedance of the connected transformers calculated?",
+                "answers": [
+                    {
+                        "text": "The total impedance of the connected transformers is calculated using the formula \\( \\frac{1}{Z_{\\text{Total}}} = \\frac{1}{Z_1} + \\frac{1}{Z_2} + \\ldots + \\frac{1}{Z_n} \\), where \\( Z_1, Z_2, \\) etc., are the impedances of each transformer. This calculation can be facilitated using the 1/x key on a scientific calculator to find the value of \\( Z_{\\text{Total}} \\)."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What should be the maximum power for a single port when all 24 ports are in use?",
+                "answers": [
+                    {
+                        "text": "If all 24 ports are in use, the maximum power for a single port should not exceed 4W."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What is the maximum allowable power for all taps on all ports combined?",
+                "answers": [
+                    {
+                        "text": "The maximum allowable power for all taps on all ports combined is 96W. Each of the 24 ports cannot exceed 4W when all ports are in use."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "Which component manual should be referenced when installing the Nyquist Digital Call Switch using the CAN Bus?",
+                "answers": [
+                    {
+                        "text": "When installing the Nyquist Digital Call Switch using the CAN Bus, refer to the Nyquist NQ-E7020 Digital Call Switch Application Manual. This manual will provide the necessary installation guidelines specific to the NQ-E7020 model."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "What action should be taken to power up the system?",
+                "answers": [
+                    {
+                        "text": "To power up the system, press the POWER switch. Ensure that the combined impedance of the ASB's 24 ports is no less than 4\u03a9 and that the total power does not exceed 96W before powering on."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Viewing and \nUnderstanding LEDs\nTwo LEDs appear on the \nfront of the ASB. One \nis labeled POWER and \nappears as solid red during initial power up, flashes \ngreen during a boot sequence, and appears solid \ngreen when fully booted.\nThe STATUS LED uses the following indicators to \nprovide information about the appliance:\n\u2022\t\nFlashing red \u2013 No network connection found.\n\u2022\t\nSolid blue \u2013 The ASB is in an uninitialized state \nand is not associated to a server. (The server \nmay be in a discovery mode.)\n\u2022\t\nSolid green \u2013 The ASB is registered to a Nyquist \nserver and is in normal operation.\n\u2022\t\nFlashing green \u2013 The ASB has an IP address but \nis not registered with the Nyquist server.\n\u2022\t\nSolid red \u2013 The ASB needs to be rebooted or reset so that the Nyquist application can resume.\n\u2022\t\nFlashing Blue \u2013 The ASB is updating.",
+        "qas": [
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What does a solid red POWER LED indicate during initial power up?",
+                "answers": [
+                    {
+                        "text": "A solid red POWER LED during initial power up indicates that the device is powering on and initializing. It is part of the normal boot sequence before transitioning to other states."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What does a flashing green STATUS LED signify about the ASB's connection to the Nyquist server?",
+                "answers": [
+                    {
+                        "text": "A flashing green STATUS LED indicates that the ASB has an IP address but is not registered with the Nyquist server. This means the device is connected to the network but has not yet established a connection with the server."
+                    }
+                ]
+            },
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "When does the STATUS LED show a solid green light?",
+                "answers": [
+                    {
+                        "text": "The STATUS LED shows a solid green light when the ASB is registered to a Nyquist server and is in normal operation."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What state is indicated by a solid blue STATUS LED?",
+                "answers": [
+                    {
+                        "text": "A solid blue STATUS LED indicates that the ASB is in an uninitialized state and is not associated with a server. This may occur when the server is in discovery mode."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "What does a flashing red STATUS LED mean for the ASB's network connection?",
+                "answers": [
+                    {
+                        "text": "A flashing red STATUS LED indicates that the ASB has no network connection found. This means the device is not able to connect to any network."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What action is required if the STATUS LED shows a solid red light?",
+                "answers": [
+                    {
+                        "text": "If the STATUS LED shows a solid red light, the ASB needs to be rebooted or reset in order for the Nyquist application to resume its operations."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "What does a flashing blue STATUS LED indicate about the ASB?",
+                "answers": [
+                    {
+                        "text": "A flashing blue STATUS LED indicates that the ASB is updating. In this state, the appliance is actively undergoing a software or firmware update process."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "What does the POWER LED show when the ASB is fully booted?",
+                "answers": [
+                    {
+                        "text": "When the ASB is fully booted, the POWER LED appears solid green. This indicates that the device has completed the boot sequence successfully."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1992 @@
+[
+    {
+        "context": "1 Nyquist Server \nInstallation \n1\nNyquist Server Installation Options\nTwo options are available for installing and deploying Nyquist E7000:\n1 Using a Nyquist System Controller (NQ-SYSCTRL), which already \nhas the operating system and E7000 application software installed \non it.\n2 Using your own server platform and installing the Debian OS and \nE7000 application software. While Option 1 is the quickest and \neasiest approach, Option 2 may be better suited for situations \nwhere high-availability server features like Redundant Array of \nIndependent Disks (RAID) or hot-swappable power supplies are \ndesired.\nThis manual describes the installation steps for Option 2.\nBefore installing Nyquist, ensure that:\n\u2022 Required services are enabled on your network. An example of a \nrequired service includes TFTP.\n\u2022 Required multicast IP addresses and ports are known and avail-\nable.\n\u2022 Required IP addresses are known and available.\n\u2022 Required port numbers are open.\nEnsure your server meets system requirements before beginning the \nDebian OS installation.\nNote: This manual provides the Nyquist E7000 installation process \nwhen using your own server. If you are using the Nyquist System \nController (NQ-SYSCTRL), refer to the Nyquist E7000 System Con-\ntroller Setup Guide.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What are the two installation options for Nyquist E7000?",
+                "answers": [
+                    {
+                        "text": "The two installation options for Nyquist E7000 are: 1) using a Nyquist System Controller (NQ-SYSCTRL), which comes with the operating system and E7000 application software pre-installed, and 2) using your own server platform where you install the Debian OS and E7000 application software manually. The first option is quicker and easier, while the second offers more flexibility for high-availability features."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Which option is considered the quickest and easiest for installing Nyquist E7000?",
+                "answers": [
+                    {
+                        "text": "The quickest and easiest option for installing Nyquist E7000 is using a Nyquist System Controller (NQ-SYSCTRL), which already has the operating system and E7000 application software pre-installed. This option simplifies the installation process compared to using your own server platform."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What is a key advantage of using your own server platform for Nyquist E7000 installation?",
+                "answers": [
+                    {
+                        "text": "A key advantage of using your own server platform for Nyquist E7000 installation is the ability to implement high-availability server features, such as Redundant Array of Independent Disks (RAID) and hot-swappable power supplies. This setup can enhance system reliability and minimize downtime compared to using the pre-configured Nyquist System Controller."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What essential services must be enabled on the network before installing Nyquist?",
+                "answers": [
+                    {
+                        "text": "Before installing Nyquist, essential services that must be enabled on the network include TFTP, as well as ensuring that required multicast IP addresses, ports, and IP addresses are known and available. Additionally, required port numbers must be open."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "Why is it important to know the required multicast IP addresses and ports prior to installation?",
+                "answers": [
+                    {
+                        "text": "Knowing the required multicast IP addresses and ports prior to installation is crucial because they are necessary for proper network configuration and communication between devices. This setup ensures that the Nyquist E7000 can effectively interact with other systems and services in the network."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What should be verified regarding IP addresses before beginning the installation of Nyquist?",
+                "answers": [
+                    {
+                        "text": "Before installing Nyquist, ensure that the required IP addresses are known and available. Additionally, verify that the multicast IP addresses and ports are known and available, along with ensuring that the required port numbers are open."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "Which specific system requirement should be checked before starting the Debian OS installation?",
+                "answers": [
+                    {
+                        "text": "Before starting the Debian OS installation for Nyquist E7000, ensure that your server meets the specified system requirements. These requirements should encompass hardware compatibility, available resources, and network configurations necessary for proper installation."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "Where can one find the installation instructions if using a Nyquist System Controller?",
+                "answers": [
+                    {
+                        "text": "If using a Nyquist System Controller (NQ-SYSCTRL), the installation instructions can be found in the Nyquist E7000 System Controller Setup Guide. This guide contains the specific setup process for the controller."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What feature might be desired that is only available when using your own server platform?",
+                "answers": [
+                    {
+                        "text": "When using your own server platform, features like high-availability configurations, such as Redundant Array of Independent Disks (RAID) and hot-swappable power supplies, become available. These features enhance system reliability and uptime, making them desirable for critical applications."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2\nIf you are updating an existing Nyquist system, read \"Best Practices\u201d \non page 49 and then refer to the update procedure in the Nyquist \nE7000 System Administrator Manual.\n1.1\nUnderstanding System Requirements\nThe E7000 web-based UI requires a secure Hypertext Transfer Proto-\ncol Secure (https) type network connection to the E7000 system \nserver. Users can log in to the E7000 system using the Google \nChrome web browser from a computer or tablet running either a \nWindows 8.1 (or later) or a Mac OS X 10.12.x (or later) operating \nsystem (OS). The UI can also be accessed via a Chrome browser \nenabled Android-based tablet or mobile device. To access the server, \ntype your server\u2019s IP address (for example, 10.10.20.12).\n1.1.1\nWhitelisted Web Addresses\nE7000 requires access to specific Uniform Resource Locators (URLs), \ncommonly referred to as web addresses. Access to many of these \nweb addresses is required during installation; access to other web \naddresses, such as the address for the Network Time Server (NTS) are \nrequired during runtime. The Information Technology (IT) depart-\nment for the site must whitelist the web addresses so that they can \nbe easily accessed as needed.\nThe following table lists the URLs that must be whitelisted.\nTable 1-1, Whitelisted Web Sites\nURL\nDescription\nhttp://hostedactivation.com (specifically, \nhttp://hostedactivation.com/bogen)\nRequired for E7000 License support\nhttp://downloads.digium.com\nRequired for downloads from Digium \nPhone Module for Asterisk (DPMA)\nhttp://downloads.asterisk.org/ (specifically, \nhttp://downloads.asterisk.org/pub/\ntelephony/sounds/releases)\nRequired for sounds download\nhttp://www.pjsip.org/\nRequired for PJSIP download\nhttp://ftp.us.debian.org (specifically: http://\nftp.us.debian.org/debian/)\nRequired during Linux package installation\nhttp://security.debian.org (specifically: \nhttp://security.debian.org/)\nRequired during Linux package installation",
+        "qas": [
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What type of network connection is required for the E7000 web-based UI?",
+                "answers": [
+                    {
+                        "text": "The E7000 web-based UI requires a secure Hypertext Transfer Protocol Secure (HTTPS) network connection to the E7000 system server. Users can access the UI using the Google Chrome web browser on compatible operating systems such as Windows 8.1 (or later) or Mac OS X 10.12.x (or later)."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "Which web browsers and operating systems are compatible for logging into the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Users can log into the E7000 system using the Google Chrome web browser on a computer or tablet running Windows 8.1 (or later) or Mac OS X 10.12.x (or later). Additionally, the UI is accessible via a Chrome-enabled Android-based tablet or mobile device."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the purpose of whitelisting specific URLs for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The purpose of whitelisting specific URLs for the E7000 system is to ensure that necessary web addresses for licensing support, software downloads, and system updates are accessible during installation and runtime. This access is crucial for the proper functioning and setup of the system, as required by the Information Technology department."
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "Can you name one URL that is required for E7000 License support?",
+                "answers": [
+                    {
+                        "text": "One URL required for E7000 License support is http://hostedactivation.com, specifically the subaddress http://hostedactivation.com/bogen. Access to this URL must be whitelisted by the IT department during installation."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "Which URL is necessary for downloading sounds from Asterisk?",
+                "answers": [
+                    {
+                        "text": "The URL necessary for downloading sounds from Asterisk is http://downloads.asterisk.org/ (specifically, http://downloads.asterisk.org/pub/telephony/sounds/releases). This address must be whitelisted for the E7000 system to function correctly during sound downloads."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What server address format should be used to access the E7000 server?",
+                "answers": [
+                    {
+                        "text": "To access the E7000 server, type the server's IP address in the format \"https://[server IP]\" (for example, https://10.10.20.12) using a secure Hypertext Transfer Protocol Secure (https) connection. Ensure you are using the Google Chrome web browser on a compatible operating system."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "Which web address is needed during Linux package installation?",
+                "answers": [
+                    {
+                        "text": "The web addresses needed during Linux package installation are http://ftp.us.debian.org (specifically, http://ftp.us.debian.org/debian/) and http://security.debian.org (specifically, http://security.debian.org/). Access to these URLs must be whitelisted by the IT department."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "Why might the IT department need to whitelist URLs for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The IT department needs to whitelist URLs for the E7000 system to ensure that necessary resources, such as license support, software downloads, and sound files, are accessible during installation and runtime. This access is crucial for the proper functioning and maintenance of the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What type of device, aside from computers, can access the E7000 UI?",
+                "answers": [
+                    {
+                        "text": "Aside from computers, the E7000 UI can be accessed via a Chrome browser-enabled Android-based tablet or mobile device. Users need to ensure they are connected to a secure network and can log in using the appropriate web browser."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What kind of support is provided through the URL http://downloads.digium.com?",
+                "answers": [
+                    {
+                        "text": "The URL http://downloads.digium.com provides essential downloads for the Digium Phone Module for Asterisk (DPMA), which is necessary for integrating Digium phones with the Asterisk telephony system. Accessing this URL is required during the installation process of the E7000 system."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3\nURLs that are entered on the E7000 System Parameters page are \nused during runtime and include the URLs for the NTS, the Session \nTraversal Utilities for (Network Address Translation (NAT) (STUN) \nserver, and the Traversal Using Relays around NAT (TURN) server.\nThe default URLs for the STUN and TURN servers are not set. The \ndefault URL for NTS is pool.ntp.org.\n1.1.2\nE7000 System Server Requirements\nThe following are the minimum requirements for the E7000 system \nserver if you elect to not use the Nyquist System Controller (NQ-\nSYSCTRL):\nstun01.sipphone.com\nRequired for STUN based IP address \nresolution (This is used by the E7000 Web \nUI and should be enabled on the computer \nthat runs the web UI.)\nhttps://raw.githubusercontent.com/\nServes unprocessed versions of files stored \nin the GitHub repositories.\nhttp://2431612419.airable.io\nhttps://2431612419.airable.io\nairable URL\nhttp://api.sound-machine.com\nhttps://api.sound-machine.com\nSoundMachine URL\nhttp://api.bogenedu.com/api/customers\nRequired for E7000 Warranty Support\nTable 1-1, Whitelisted Web Sites (Continued)\nURL\nDescription\nTable 1-2,  E7000 System Server Minimum Requirements\nOS\nDebian Linux OS (AMD 64-bit version) release 8.9.0\nNote: Refer to the most up to date release notes on the \nwww.bogenedu.com web site for details about which Linux \nOS versions have been tested for use with the E7000 sys-\ntem. \nCPU\nQuad-core Intel-based processor running at 3.0 GHz or \nhigher\nHardware\nSound card with microphone port\nMemory\n8 GB RAM (Error Correcting Code (ECC)) RAM is recom-\nmended for increase performance and reliability.)",
+        "qas": [
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What URLs are used during runtime on the E7000 System Parameters page?",
+                "answers": [
+                    {
+                        "text": "The URLs used during runtime on the E7000 System Parameters page include the NTS URL (default: pool.ntp.org), the STUN server URL (default: stun01.sipphone.com), and a TURN server URL (not specified). Additionally, other URLs related to warranty support and services are also referenced."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What is the default URL for the NTS in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The default URL for the NTS (Network Time Server) in the E7000 system is pool.ntp.org."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "Which STUN server is recommended for use with the E7000 Web UI?",
+                "answers": [
+                    {
+                        "text": "The recommended STUN server for use with the E7000 Web UI is stun01.sipphone.com. This server is required for STUN-based IP address resolution and should be enabled on the computer running the Web UI."
+                    }
+                ]
+            },
+            {
+                "id": "00023",
+                "is_impossible": false,
+                "question": "What is the minimum OS requirement for the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The minimum OS requirement for the E7000 system server is Debian Linux OS (AMD 64-bit version) release 8.9.0. It is recommended to consult the most up-to-date release notes on the Bogen website for details on tested Linux OS versions."
+                    }
+                ]
+            },
+            {
+                "id": "00024",
+                "is_impossible": false,
+                "question": "What CPU specifications are required for the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The E7000 system server requires a quad-core Intel-based processor running at 3.0 GHz or higher. This specification ensures adequate performance for the system's operations."
+                    }
+                ]
+            },
+            {
+                "id": "00025",
+                "is_impossible": false,
+                "question": "What type of RAM is recommended for improved performance and reliability in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "Error Correcting Code (ECC) RAM is recommended for improved performance and reliability in the E7000 system. The system requires a minimum of 8 GB of RAM."
+                    }
+                ]
+            },
+            {
+                "id": "00026",
+                "is_impossible": false,
+                "question": "Which URL is necessary for E7000 warranty support?",
+                "answers": [
+                    {
+                        "text": "The URL necessary for E7000 warranty support is http://api.bogenedu.com/api/customers. This URL is listed in the documentation as required for obtaining warranty services for the E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00027",
+                "is_impossible": false,
+                "question": "Are the default URLs for STUN and TURN servers set in the E7000 system?",
+                "answers": [
+                    {
+                        "text": "No, the default URLs for the STUN and TURN servers are not set in the E7000 system. The default URL for the NTS is pool.ntp.org, while STUN requires a specified URL, such as stun01.sipphone.com."
+                    }
+                ]
+            },
+            {
+                "id": "00028",
+                "is_impossible": false,
+                "question": "What is the release version of the Debian Linux OS for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The release version of the Debian Linux OS for the E7000 system is 8.9.0 (AMD 64-bit version). It's recommended to refer to the Bogen Education website for the most up-to-date release notes regarding tested Linux OS versions."
+                    }
+                ]
+            },
+            {
+                "id": "00029",
+                "is_impossible": false,
+                "question": "What hardware component is specified for the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The hardware component specified for the E7000 system server is a sound card with a microphone port. Additionally, it requires a quad-core Intel-based processor running at 3.0 GHz or higher and 8 GB of Error Correcting Code (ECC) RAM for optimal performance and reliability."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "4\n1.1.3\nNetwork Application Services\nRequired  application services will be installed automatically on the \nE7000 system server as part of the E7000 installation. All other net-\nwork services must be already present or installed manually on the \nDisk Storage\nOne 250 GB disk drive\nSome form of hardware-based Redundant Array of Inde-\npendent Disks (RAID) is recommended for redundancy and \nhigh availability.\nConsider using a larger drive if large amounts of audio (for \nexample, voice mail, announcements, recordings, and \nmusic) are being stored on the system. Note that music, \ntones, and announcements created or stored as .wav files \nwill be larger than if created or stored as MP3 files. Other \nfactors that should be considered are:\n\u2022 How often will backups be performed?\n\u2022 Will the system be backed up locally or remotely on a \ndetachable drive, Storage Area Network (SAN)/Network \nAttached Storage (NAS), or Network File System (NFS)?\n\u2022 How many users will have voicemail ability?\n\u2022 How long will voicemail messages be stored?\n\u2022 Will voicemail messages be part of the local system \nbackups?\nNIC\n10/100/1000 MB Ethernet port (NIC is an acronym for \nNetwork Interface Card)\nPCI Expansion Slots\nOne or more Peripheral Component Interconnect (PCI)/PCI \nExpress (PCIe) slot if telephony network connectivity other \nthan, or in addition to, SIP trunking is required; contact \nyour Bogen Dealer for assistance in determining these tele-\nphony hardware needs.\nTelephony Interfaces\nOne or more PCI/PCIe type third-party telephony interface \ncards (for example, Foreign Exchange Office (FXO), Foreigh \nExchange Subscriber (FXS), etc.) if telephony network con-\nnectivity other than, or in addition to, SIP trunking is \nrequired; contact your Bogen Dealer for assistance in deter-\nmining these telephony hardware needs.\nTable 1-2,  E7000 System Server Minimum Requirements (Continued)",
+        "qas": [
+            {
+                "id": "00030",
+                "is_impossible": false,
+                "question": "What automatic services are included with the E7000 installation?",
+                "answers": [
+                    {
+                        "text": "The E7000 installation automatically includes required application services necessary for the server's operation. However, all other network services must either be already present or installed manually."
+                    }
+                ]
+            },
+            {
+                "id": "00031",
+                "is_impossible": false,
+                "question": "What is recommended for achieving redundancy and high availability for disk storage?",
+                "answers": [
+                    {
+                        "text": "It is recommended to use some form of hardware-based Redundant Array of Independent Disks (RAID) for achieving redundancy and high availability in disk storage. Additionally, consider using a larger drive if storing large amounts of audio data."
+                    }
+                ]
+            },
+            {
+                "id": "00032",
+                "is_impossible": false,
+                "question": "How does the file format (WAV vs. MP3) impact storage requirements for audio files?",
+                "answers": [
+                    {
+                        "text": "WAV files are typically larger than MP3 files because WAV is a lossless format that preserves the full audio quality, while MP3 is a lossy format that compresses audio data, resulting in smaller file sizes. Therefore, if large amounts of audio such as voicemail, announcements, and recordings are stored, opting for MP3 format can significantly reduce storage requirements."
+                    }
+                ]
+            },
+            {
+                "id": "00033",
+                "is_impossible": false,
+                "question": "What considerations should be taken into account regarding backup frequency?",
+                "answers": [
+                    {
+                        "text": "When considering backup frequency for the E7000 system server, it's important to evaluate how often backups will be performed and whether they will be stored locally or remotely (e.g., on a detachable drive, SAN/NAS, or NFS). Additionally, factors such as the number of voicemail users and the retention period for voicemail messages should be assessed, as these influence the volume of data to be backed up."
+                    }
+                ]
+            },
+            {
+                "id": "00034",
+                "is_impossible": false,
+                "question": "Where can backups be stored: locally or remotely?",
+                "answers": [
+                    {
+                        "text": "Backups can be stored locally on a detachable drive or remotely on a Storage Area Network (SAN), Network Attached Storage (NAS), or a Network File System (NFS). The choice depends on the organization's backup strategy and infrastructure."
+                    }
+                ]
+            },
+            {
+                "id": "00035",
+                "is_impossible": false,
+                "question": "How many users are anticipated to use the voicemail feature?",
+                "answers": [
+                    {
+                        "text": "The document does not specify an exact number of users anticipated to use the voicemail feature. It encourages consideration of the number of users when planning for disk storage and backup needs related to voicemail services."
+                    }
+                ]
+            },
+            {
+                "id": "00036",
+                "is_impossible": false,
+                "question": "What is the duration for which voicemail messages will be retained?",
+                "answers": [
+                    {
+                        "text": "The duration for which voicemail messages will be retained is not explicitly stated in the provided context. Factors that influence this duration include how long the organization decides to keep messages based on their backup and storage policies."
+                    }
+                ]
+            },
+            {
+                "id": "00037",
+                "is_impossible": false,
+                "question": "Will voicemail messages be included in local system backups?",
+                "answers": [
+                    {
+                        "text": "The inclusion of voicemail messages in local system backups is dependent on the specific backup strategy implemented. Consideration should be given to whether voicemail messages will be part of the local system backups during your planning process."
+                    }
+                ]
+            },
+            {
+                "id": "00038",
+                "is_impossible": false,
+                "question": "What type of Ethernet connectivity is offered by the NIC?",
+                "answers": [
+                    {
+                        "text": "The Network Interface Card (NIC) offers 10/100/1000 MB Ethernet connectivity, allowing for data transfer rates of up to 1 Gbps. This supports various network applications and ensures efficient communication within the system."
+                    }
+                ]
+            },
+            {
+                "id": "00039",
+                "is_impossible": false,
+                "question": "What types of telephony interfaces might be necessary beyond SIP trunking?",
+                "answers": [
+                    {
+                        "text": "Beyond SIP trunking, necessary telephony interfaces may include Foreign Exchange Office (FXO) and Foreign Exchange Subscriber (FXS) interface cards. These interfaces facilitate connectivity to traditional analog phone lines and devices, enabling a broader range of telephony options."
+                    }
+                ]
+            },
+            {
+                "id": "00040",
+                "is_impossible": false,
+                "question": "How many PCI/PCIe expansion slots are required for additional telephony network connectivity?",
+                "answers": [
+                    {
+                        "text": "One or more PCI/PCIe expansion slots are required for additional telephony network connectivity beyond SIP trunking. The specific number of slots needed depends on the telephony hardware requirements, which can be determined by consulting a Bogen Dealer."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "5\nassociated network. The following table lists the services and their \nlocations:\nTable 1-3,  Network Application Services\nService\nDescription\nRequired\nLocation\nApache\nUsed as the web server to drive the \nE7000 web interface.\nMandatory\nE7000\nDHCP\nSupplies dynamic IP addresses to the \nE7000 system server and associated \ndevices. (DHCP is the acronym for \nDynamic Host Configuration \nProtocol.) It also supplies the Trivial \nFile Transfer Protocol (TFTP) server IP \naddress or host name to devices on \nthe network via option_66.\nOptional\nNetwork\nDNS\nResolves host names to IP addresses. \nDNS is an acronym for Domain \nName System, a hierarchical naming \nsystem for computers, servers, or \nother resources connected to either \nthe Internet or to a private network. \nOptional\nNetwork\nICE\nSTUN\nTURN\nResolves IP addresses behind \nNetwork Address Translation (NAT)/\nfirewall.\n- Interactive Connectivity \nEstablishment\n- Session Traversal Utilities for NAT\n- Traversal Using Relays around NAT\nOptional\nE7000\nNetwork\nNTP\nProvides date/time synchronization \nfor the E7000 system server and the \nassociated devices (IP Phones, \nappliances). (NTP is an acronym for \nNetwork Time Protocol.)\nMandatory\nNetwork",
+        "qas": [
+            {
+                "id": "00041",
+                "is_impossible": false,
+                "question": "What is the purpose of the Apache service in the network application services?",
+                "answers": [
+                    {
+                        "text": "The Apache service serves as the web server for the E7000 web interface, enabling access and interaction with the system through web-based applications. It is classified as a mandatory service for the E7000 location."
+                    }
+                ]
+            },
+            {
+                "id": "00042",
+                "is_impossible": false,
+                "question": "Which service is mandatory for the E7000 web interface?",
+                "answers": [
+                    {
+                        "text": "The mandatory service for the E7000 web interface is Apache, which serves as the web server. Additionally, NTP is also mandatory for the E7000 system server, providing date/time synchronization."
+                    }
+                ]
+            },
+            {
+                "id": "00043",
+                "is_impossible": false,
+                "question": "What does DHCP stand for and what is its role in the network?",
+                "answers": [
+                    {
+                        "text": "DHCP stands for Dynamic Host Configuration Protocol. Its role in the network is to supply dynamic IP addresses to the E7000 system server and associated devices, enabling them to connect effectively while also providing the TFTP server IP address or hostname via option_66."
+                    }
+                ]
+            },
+            {
+                "id": "00044",
+                "is_impossible": false,
+                "question": "Is the DNS service mandatory or optional in the network configuration?",
+                "answers": [
+                    {
+                        "text": "The DNS service is optional in the network configuration. It resolves host names to IP addresses but is not required for the E7000 system to function."
+                    }
+                ]
+            },
+            {
+                "id": "00045",
+                "is_impossible": false,
+                "question": "What services are associated with ICE, STUN, and TURN in the network?",
+                "answers": [
+                    {
+                        "text": "ICE, STUN, and TURN are services used to resolve IP addresses behind Network Address Translation (NAT) or firewalls, facilitating connectivity in real-time communication applications. These services are optional and can be deployed on either the E7000 or the network."
+                    }
+                ]
+            },
+            {
+                "id": "00046",
+                "is_impossible": false,
+                "question": "What type of synchronization does NTP provide for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "NTP (Network Time Protocol) provides date and time synchronization for the E7000 system server and associated devices, such as IP phones and appliances. This ensures that all devices on the network maintain consistent and accurate time."
+                    }
+                ]
+            },
+            {
+                "id": "00047",
+                "is_impossible": false,
+                "question": "Where is the DHCP service required according to the table?",
+                "answers": [
+                    {
+                        "text": "The DHCP service is required at the Network location, as indicated in the table. It supplies dynamic IP addresses to the E7000 system server and associated devices."
+                    }
+                ]
+            },
+            {
+                "id": "00048",
+                "is_impossible": false,
+                "question": "What does DNS resolve in the context of network services?",
+                "answers": [
+                    {
+                        "text": "In the context of network services, DNS (Domain Name System) resolves host names to IP addresses. It serves as a hierarchical naming system that allows for the identification and location of computers, servers, or other resources on either the Internet or a private network."
+                    }
+                ]
+            },
+            {
+                "id": "00049",
+                "is_impossible": false,
+                "question": "How does the configuration of the E7000 respond to the availability of NTP?",
+                "answers": [
+                    {
+                        "text": "The configuration of the E7000 mandates the use of NTP for date and time synchronization, ensuring that the system server and associated devices maintain accurate time. This is crucial for the proper functioning of time-sensitive applications and communications. If NTP is not available, the system may experience issues with time-dependent operations."
+                    }
+                ]
+            },
+            {
+                "id": "00050",
+                "is_impossible": false,
+                "question": "What is the significance of option_66 in the DHCP service configuration?",
+                "answers": [
+                    {
+                        "text": "Option_66 in the DHCP service configuration is used to supply the Trivial File Transfer Protocol (TFTP) server's IP address or host name to devices on the network. This allows network devices to locate and connect to the TFTP server for necessary file transfers, enhancing their functionality and configuration."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "6\nSNMP\nProvides the E7000 Linux server \nstatistics via Simple Network \nManagement Protocol (SNMP) v1 \nthrough Port 161.\nOptional\nE7000\nTFTP\nTFTP is used by IP phone and E7000 \ndevice provisioning. A TFTP server \nruns on the E7000 system server on \nport 69 (the standard TFTP port #).\nDevice provisioning files are stored \non the E7000 system server in \ndirectory: /srv/tftp.\nThis is the only directory exposed by \nthe TFTP server.\nMandatory\nE7000\nTable 1-3,  Network Application Services (Continued)\nService\nDescription\nRequired\nLocation",
+        "qas": [
+            {
+                "id": "00051",
+                "is_impossible": false,
+                "question": "What protocol does the E7000 Linux server use to provide statistics?",
+                "answers": [
+                    {
+                        "text": "The E7000 Linux server uses Simple Network Management Protocol (SNMP) v1 to provide statistics. This service operates through Port 161."
+                    }
+                ]
+            },
+            {
+                "id": "00052",
+                "is_impossible": false,
+                "question": "Through which port does SNMP v1 operate on the E7000 server?",
+                "answers": [
+                    {
+                        "text": "SNMP v1 operates on the E7000 server through Port 161. This port is used for providing statistics via the Simple Network Management Protocol."
+                    }
+                ]
+            },
+            {
+                "id": "00053",
+                "is_impossible": false,
+                "question": "What port is used by the TFTP server on the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The TFTP server on the E7000 system uses port 69, which is the standard TFTP port. Device provisioning files are stored in the directory /srv/tftp on the server."
+                    }
+                ]
+            },
+            {
+                "id": "00054",
+                "is_impossible": false,
+                "question": "Where are device provisioning files stored on the E7000 system server?",
+                "answers": [
+                    {
+                        "text": "Device provisioning files on the E7000 system server are stored in the directory: /srv/tftp. This is the only directory exposed by the TFTP server running on port 69."
+                    }
+                ]
+            },
+            {
+                "id": "00055",
+                "is_impossible": false,
+                "question": "Is the TFTP service mandatory or optional for the E7000 system?",
+                "answers": [
+                    {
+                        "text": "The TFTP service is mandatory for the E7000 system as it is used for IP phone and device provisioning. The TFTP server operates on port 69, and provisioning files are stored in the /srv/tftp directory."
+                    }
+                ]
+            },
+            {
+                "id": "00056",
+                "is_impossible": false,
+                "question": "What is the only directory exposed by the TFTP server on the E7000?",
+                "answers": [
+                    {
+                        "text": "The only directory exposed by the TFTP server on the E7000 is /srv/tftp. This directory is used for storing device provisioning files."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2 Installing Debian 8.xx.x \nAMD 64\n7\nInstalling Debian 8.xx.x AMD 64\nBefore beginning the install process, make sure that your Nyquist \nE7000 system server can access the URLs, or web sites (see \n\"Whitelisted Web Addresses\u201d on page 2, from a Chrome browser).\nYou must install the Debian OS on the Nyquist E7000 system server \nbefore you can install the Nyquist E7000 application software. The \nDebian OS can be installed by either using a graphical user interface \n(GUI) or a command line interface (CLI).\n2.1\nInstallation Using the CLI\nTo install Debian 8.xx.x AMD 64 bit using the CLI:\nStep 1\nInsert a bootable media into the computer. The boot-\nable media can be a DVD, a CD, or a flash drive.\n\n8\nThe inital Debian install screen appears.\nStep 2\nFrom the Debian GNU/Linux Installer Boot Menu, select \nInstall and then press Enter.\nYou will be prompted to select localization options that \nwill be used for both the installation and for the \ninstalled system. These localization options include lan-\nguage and location.The default language is English.\nStep 3\nSelect a language and then press Enter.\n\n9\nStep 4\nSelect your location and then press Enter.\nThis selection is used to set your time zone.\nYou are next prompted to select a keyboard configura-\ntion. Keyboards are often tailored to the characters \nused in a language.\n\n10\nStep 5\nSelect the keyboard that you want to use and then \npress Enter.\nStep 6\nWhen prompted for the hostname, type debian, select \nContinue, and press Enter.\n\n11\nStep 7\nType the domain name or leave this field blank if you \nare using an IP address. Then, select Continue and \npress Enter.\nStep 8\nEnter the password for the root, or system administra-\ntive account. Note that this password should contain a \nmixture of letters, numbers, and special characters and \nthat you should record this password as you will need \nit when installing Nyquist.\nStep 9\nWhen prompted, re-enter the password and press \nContinue.\nStep 10\nType the full name of a user who will perform nonad-\nministrative activities on the server. Then, select Con-\ntinue.\n\n12\nStep 11\nType a user name for the new account and select Con-\ntinue.\nStep 12\nWhen prompted, enter a password for this user and \nselect Continue.\nStep 13\nWhen prompted, re-enter the password and select \nContinue.\nStep 14\nSelect your time zone and then press Enter.\nStep 15\nSelect Guided - use entire disk and press Enter to \nbegin partitioning the disk.\nNote: While you can select a different partitioning scheme or select \nto manually partition the disk, the next few steps use the Guide - \nuse entire disk option. You can later review and customize the \nresults.\n\n13\n \nStep 16\nSelect the disk that you want to partition and press \nEnter.\nStep 17\nSelect the partitioning scheme that you want to use. If \nyou are uncertain as to which scheme would be best, \nselect All files in one partition (recommended for \nnew users).\nStep 18\nPress Enter.\nNote: All data on the selected disk will be erased.\n\n14\nStep 19\nWhen prompted, select Finish partition and write \nchanges to disk and then press Enter.\nStep 20\nSelect Yes to write changes to the disks and then press \nEnter.\n\n15\nStep 21\nWhen prompted, select an archive mirror country and \nthen press Enter.\nStep 22\nSelect a Debian archive mirror and then press Enter.\nStep 23\nWhen prompted to configure the package manager, \nleave the proxy field blank and press Enter.\n\n16\nStep 24\nWhen prompted to participate in the survey, select \neither Yes or No and press Enter.\nStep 25\nSelect the software that you want to install. As a mini-\nmum, select GNOME, Web Server, SSH Server, and \nStandard System Utilities.\nStep 26\nSelect Continue and press Enter.\nStep 27\nWhen prompted to install the GRUB boot loader on a \nhard disk, select Yes and then press Enter.\nThe boot loader allows your server to launch the \nDebian OS when powered on.\n\n17\nStep 28\nWhen prompted to select the hard disk where the \nbootable software is to reside, Enter device manually \nand then press Enter.\nStep 29\nWhen prompted that the installation is complete, make \nsure to remove the installation media, select Continue, \nand press Enter.\nThe server boots into the new system and displays the \nGUI. You can now install the Nyquist software applica-\ntion.",
+        "qas": [
+            {
+                "id": "00057",
+                "is_impossible": false,
+                "question": "What type of media can be used to boot the Debian installation?",
+                "answers": [
+                    {
+                        "text": "The Debian installation can be booted using a DVD, a CD, or a flash drive as the bootable media."
+                    }
+                ]
+            },
+            {
+                "id": "00058",
+                "is_impossible": false,
+                "question": "What is the default language set during the installation process?",
+                "answers": [
+                    {
+                        "text": "The default language set during the installation process of Debian 8.xx.x is English. Users can select a different language if desired, but English is the pre-selected option."
+                    }
+                ]
+            },
+            {
+                "id": "00059",
+                "is_impossible": false,
+                "question": "How do you specify the hostname during the Debian installation?",
+                "answers": [
+                    {
+                        "text": "During the Debian installation, you specify the hostname when prompted by typing \"debian\" and then selecting Continue. This occurs after selecting your keyboard configuration and before entering network details."
+                    }
+                ]
+            },
+            {
+                "id": "00060",
+                "is_impossible": false,
+                "question": "What type of password is required for the root user account?",
+                "answers": [
+                    {
+                        "text": "The password for the root user account must contain a mixture of letters, numbers, and special characters. It is important to record this password, as it will be needed for installing the Nyquist software."
+                    }
+                ]
+            },
+            {
+                "id": "00061",
+                "is_impossible": false,
+                "question": "How should you choose the partitioning scheme if you are uncertain?",
+                "answers": [
+                    {
+                        "text": "If you are uncertain about the partitioning scheme during the Debian installation, it is recommended to select \"All files in one partition,\" as this option is ideal for new users. This choice simplifies the installation process by placing all system files in a single partition."
+                    }
+                ]
+            },
+            {
+                "id": "00062",
+                "is_impossible": false,
+                "question": "What happens when you select \"Finish partition and write changes to disk\"?",
+                "answers": [
+                    {
+                        "text": "When you select \"Finish partition and write changes to disk,\" the installer will proceed to apply the partitioning scheme you selected, erasing all data on the chosen disk. This step finalizes the disk layout and prepares it for the installation of the Debian OS."
+                    }
+                ]
+            },
+            {
+                "id": "00063",
+                "is_impossible": false,
+                "question": "Which software packages are recommended for installation at a minimum?",
+                "answers": [
+                    {
+                        "text": "At a minimum, it is recommended to install the following software packages: GNOME, Web Server, SSH Server, and Standard System Utilities."
+                    }
+                ]
+            },
+            {
+                "id": "00064",
+                "is_impossible": false,
+                "question": "What is the function of the GRUB boot loader in the Debian installation?",
+                "answers": [
+                    {
+                        "text": "The GRUB boot loader is responsible for launching the Debian operating system when the server is powered on. It ensures that the system can initiate the boot process and load the operating system from the designated hard disk."
+                    }
+                ]
+            },
+            {
+                "id": "00065",
+                "is_impossible": false,
+                "question": "What must be done after the installation is complete before booting into the new system?",
+                "answers": [
+                    {
+                        "text": "After the installation is complete, you must remove the installation media before selecting Continue to boot into the new system. This ensures that the server starts up using the newly installed Debian OS."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "18\n2.2\nInstallation Using the GUI\nTo install Debian 8.xx.x AMD 64 bit using the GUI:\nStep 1\nInsert a bootable media into the computer. The boot-\nable media can be a DVD, a CD, or a flash drive.\nThe inital Debian install screen appears.\nStep 2\nFrom the Debian GNU/Linux Installer Boot Menu, select \nGraphical Install and then press Enter.\nYou will be prompted to select localization options that \nwill be used for both the installation and for the \ninstalled system. These localization options include lan-\nguage and location. The default language is English.\n\n19\nStep 3\nSelect a language and then select Continue.\nStep 4\nSelect your location and then select Continue.\nThis selection is used to set your time zone.\nYou are next prompted to select a keyboard configura-\n\n20\ntion. Keyboards are often tailored to the characters \nused in a language.\nStep 5\nSelect the keyboard that you want to use and then \nselect Continue.\nStep 6\nWhen prompted for the hostname, type debian and \nthen select Continue.\n\n21\nStep 7\nType the domain name or leave this field blank if you \nare using an IP address. Then, select Continue.\n\n22\nStep 8\nType the password for the root system administrator \naccount. Then, retype the password to verify that it was \ntyped correctly and select Continue.\nStep 9\nType the full name of a user who will perform non-\nadministrative activities on the server. Then, select Con-\ntinue.\nStep 10\nType a password for this user. Then, retype the pass-\nword to verify that it was entered correctly and select \nContinue.\n\n23\nStep 11\nSelect your time zone and then select Continue.\nStep 12\nSelect Guided - use entire disk and select Continue to \nbegin partitioning the disk.\nNote: While you can select a different partitioning scheme or select \nto manually partition the disk, the next few steps use the Guide - \nuse entire disk option. You can later review and customize the \nresults.\n\n24\nStep 13\nSelect the disk that you want to partition and select \nContinue.\nStep 14\nSelect the partitioning scheme that you want to use. If \nyou are uncertain as to which scheme would be best, \nselect All files in one partition (recommended for \nnew users).\n\n25\nStep 15\nSelect Continue.\nStep 16\nWhen prompted, select Finish partition and write \nchanges to disk and then select Continue.\nStep 17\nSelect Yes to write changes to the disks and then select \nContinue.\n\n26\nStep 18\nWhen prompted, select an archive mirror country and \nthen select Continue.\nStep 19\nSelect a Debian archive mirror and then select Con-\ntinue.\n\n27\nStep 20\nWhen prompted to configure the package manager, \nleave the proxy field blank and select Continue.\nStep 21\nWhen prompted to participate in the survey, select \neither Yes or No and select Continue.\n\n28\nStep 22\nSelect the software that you want to install. As a mini-\nmum, select GNOME, Web Server, SSH Server, and \nStandard System Utilities.\nStep 23\nSelect Continue.\nStep 24\nWhen prompted to install the GRUB boot loader on a \nhard disk, select Yes and then select Continue.\nThe boot loader allows your server to launch the \nDebian OS when powered on.\n\n29\nStep 25\nWhen prompted, select the hard disk where the boot-\nable software is to reside and then select Continue.\nStep 26\nWhen prompted that the installation is complete, make \nsure to remove the installation media, select Continue, \nand press Enter.\nThe server boots into the new system and displays the \nGUI. You can now install the Nyquist software applica-\ntion.",
+        "qas": [
+            {
+                "id": "00066",
+                "is_impossible": false,
+                "question": "What is the first step to install Debian 8.xx.x AMD 64 bit using the GUI?",
+                "answers": [
+                    {
+                        "text": "The first step to install Debian 8.xx.x AMD 64 bit using the GUI is to insert a bootable media (DVD, CD, or flash drive) into the computer, which will display the initial Debian install screen. Then, select \"Graphical Install\" from the Debian GNU/Linux Installer Boot Menu and press Enter."
+                    }
+                ]
+            },
+            {
+                "id": "00067",
+                "is_impossible": false,
+                "question": "Which option should be selected from the Debian GNU/Linux Installer Boot Menu?",
+                "answers": [
+                    {
+                        "text": "From the Debian GNU/Linux Installer Boot Menu, select \"Graphical Install\" and then press Enter to begin the installation process using the GUI."
+                    }
+                ]
+            },
+            {
+                "id": "00068",
+                "is_impossible": false,
+                "question": "What are the localization options that need to be selected during installation?",
+                "answers": [
+                    {
+                        "text": "During the installation of Debian, the localization options that need to be selected include the language and location, which will be used for both the installation process and the installed system. These selections also help set the time zone."
+                    }
+                ]
+            },
+            {
+                "id": "00069",
+                "is_impossible": false,
+                "question": "How do you configure the keyboard during the installation process?",
+                "answers": [
+                    {
+                        "text": "During the installation process, you configure the keyboard by selecting the desired keyboard layout when prompted in Step 5. After choosing the keyboard, you then select \"Continue\" to proceed with the installation."
+                    }
+                ]
+            },
+            {
+                "id": "00070",
+                "is_impossible": false,
+                "question": "What should the hostname be when prompted?",
+                "answers": [
+                    {
+                        "text": "The hostname should be typed as \"debian\" when prompted during the installation process. After entering the hostname, select Continue to proceed."
+                    }
+                ]
+            },
+            {
+                "id": "00071",
+                "is_impossible": false,
+                "question": "What should you do if you are using an IP address instead of a domain name?",
+                "answers": [
+                    {
+                        "text": "If you are using an IP address instead of a domain name, leave the domain name field blank when prompted during the installation process. Then, select Continue to proceed with the installation."
+                    }
+                ]
+            },
+            {
+                "id": "00072",
+                "is_impossible": false,
+                "question": "What type of password needs to be created for the root system administrator account?",
+                "answers": [
+                    {
+                        "text": "A password for the root system administrator account needs to be created, ensuring it is typed correctly by retyping it for verification. This password will grant administrative access to the Debian system."
+                    }
+                ]
+            },
+            {
+                "id": "00073",
+                "is_impossible": false,
+                "question": "What information should be provided for the non-administrative user?",
+                "answers": [
+                    {
+                        "text": "For the non-administrative user, you need to provide the full name of the user and a password for that user. After entering the full name, you must confirm the password by retyping it to ensure it was entered correctly."
+                    }
+                ]
+            },
+            {
+                "id": "00074",
+                "is_impossible": false,
+                "question": "How is the time zone selected during the installation process?",
+                "answers": [
+                    {
+                        "text": "The time zone is selected during the installation process in Step 11, where the user is prompted to select their time zone and then select Continue. This selection is based on the location previously chosen in Step 4."
+                    }
+                ]
+            },
+            {
+                "id": "00075",
+                "is_impossible": false,
+                "question": "What partitioning option is recommended for new users?",
+                "answers": [
+                    {
+                        "text": "The recommended partitioning option for new users is \"All files in one partition.\" This option simplifies the installation process by creating a single partition for all files, making it easier for those who are less experienced with disk partitioning."
+                    }
+                ]
+            },
+            {
+                "id": "00076",
+                "is_impossible": false,
+                "question": "What action should be taken when prompted to finish partitioning and write changes to the disk?",
+                "answers": [
+                    {
+                        "text": "When prompted to finish partitioning and write changes to the disk, select \"Finish partitioning and write changes to disk\" and then choose \"Continue.\" Confirm the action by selecting \"Yes\" to write changes to the disks."
+                    }
+                ]
+            },
+            {
+                "id": "00077",
+                "is_impossible": false,
+                "question": "What information is required for configuring the package manager during installation?",
+                "answers": [
+                    {
+                        "text": "During the configuration of the package manager, you need to leave the proxy field blank if you do not have a proxy server to use. After that, you can select to participate in a survey by choosing either Yes or No."
+                    }
+                ]
+            },
+            {
+                "id": "00078",
+                "is_impossible": false,
+                "question": "What minimum software should be selected for installation?",
+                "answers": [
+                    {
+                        "text": "The minimum software that should be selected for installation includes GNOME, Web Server, SSH Server, and Standard System Utilities. These options ensure a functional graphical environment and essential server capabilities."
+                    }
+                ]
+            },
+            {
+                "id": "00079",
+                "is_impossible": false,
+                "question": "What is the purpose of the GRUB boot loader in the installation process?",
+                "answers": [
+                    {
+                        "text": "The GRUB boot loader is essential in the installation process as it enables the server to launch the Debian operating system when powered on. It manages the booting of the OS and facilitates the selection of different operating systems if multiple are installed."
+                    }
+                ]
+            },
+            {
+                "id": "00080",
+                "is_impossible": false,
+                "question": "What should you do at the end of the installation when instructed to remove the installation media?",
+                "answers": [
+                    {
+                        "text": "At the end of the installation, when instructed to remove the installation media, ensure you physically take out the DVD, CD, or flash drive from the computer. Then, select Continue and press Enter to allow the server to boot into the new system."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3 Installing the Nyquist \nE7000 System \n31\nInstalling the Nyquist E7000 \nSystem Server\nThe Nyquist system server install involves the following tasks:\n\u2022 Setting up a static IP address for the Nyquist E7000 server\n\u2022 Copying and extracting the nyquist-e7000-xx.xx.xx.xxxx.tar.gz file\n\u2022 Installing the Nyquist E7000 application software\nBefore installing Nyquist E7000, you must install the Debian OS (see \n\"Installing Debian 8.xx.x AMD 64\u201d on page 7). \n3.1\nSetting Up Static IP Address\nBefore setting up a static IP address, determine the vacant IP address \nthat you want to implement in your environment. Then, back up the \ninterface file and edit the original interface file to include this IP \naddress.\n\n32\nTo set up a static IP address:\nStep 1\nLog into the Linux desktop.\nStep 2\nFrom the menu on the top right of the screen, select \nthe Settings/Tool icon.\n\n33\nStep 3\nSelect Users.\nStep 4\nSelect Unlock.\n\n34\nStep 5\nType the root password and then select Authenticate.\nStep 6\nSelect Account Type and select Administrator. Then, \nselect Lock and select the Back icon.\n\n35\nStep 7\nFrom the All Settings screen, select Network.\nStep 8\nSelect the Settings icon, which is shaped like a gear, on \nthe lower right of the screen.\n\n36\nStep 9\nEnter the IPv4 address settings and then click Apply. \nNext toggle the ON/OFF button to OFF and then to ON \nto apply the network settings.\nStep 10\nGo to Activities, launch the Firefox browser, and verify \nInternet access.",
+        "qas": [
+            {
+                "id": "00081",
+                "is_impossible": false,
+                "question": "What are the primary tasks involved in installing the Nyquist E7000 system server?",
+                "answers": [
+                    {
+                        "text": "The primary tasks involved in installing the Nyquist E7000 system server include setting up a static IP address for the server, copying and extracting the nyquist-e7000-xx.xx.xx.xxxx.tar.gz file, and installing the Nyquist E7000 application software. Prior to these steps, the Debian OS must be installed."
+                    }
+                ]
+            },
+            {
+                "id": "00082",
+                "is_impossible": false,
+                "question": "Which operating system needs to be installed prior to setting up the Nyquist E7000?",
+                "answers": [
+                    {
+                        "text": "Before setting up the Nyquist E7000, you must install the Debian OS, specifically version 8.xx.x for AMD 64 architecture. This OS installation is a prerequisite for the Nyquist system server installation process."
+                    }
+                ]
+            },
+            {
+                "id": "00083",
+                "is_impossible": false,
+                "question": "What is the first step in setting up a static IP address for the Nyquist E7000 server?",
+                "answers": [
+                    {
+                        "text": "The first step in setting up a static IP address for the Nyquist E7000 server is to log into the Linux desktop. After logging in, you need to determine the vacant IP address you want to implement in your environment and back up the interface file before editing it."
+                    }
+                ]
+            },
+            {
+                "id": "00084",
+                "is_impossible": false,
+                "question": "How do you unlock user settings on the Linux desktop?",
+                "answers": [
+                    {
+                        "text": "To unlock user settings on the Linux desktop, select the 'Users' option from the Settings menu. Then, click 'Unlock,' enter the root password, and select 'Authenticate.'"
+                    }
+                ]
+            },
+            {
+                "id": "00085",
+                "is_impossible": false,
+                "question": "What type of account must be selected to configure network settings?",
+                "answers": [
+                    {
+                        "text": "To configure network settings, the account type must be set to Administrator. This allows the user to unlock the necessary permissions to modify the network configuration."
+                    }
+                ]
+            },
+            {
+                "id": "00086",
+                "is_impossible": false,
+                "question": "What action must be taken after entering the IPv4 address settings to apply the new network configuration?",
+                "answers": [
+                    {
+                        "text": "After entering the IPv4 address settings, you must click Apply and then toggle the ON/OFF button to OFF and then back to ON to apply the new network configuration. Finally, verify Internet access using the Firefox browser."
+                    }
+                ]
+            },
+            {
+                "id": "00087",
+                "is_impossible": false,
+                "question": "How can you verify that the Internet access is working after configuring the network settings?",
+                "answers": [
+                    {
+                        "text": "To verify Internet access after configuring the network settings, open the Firefox browser from the Activities menu and attempt to navigate to a website. Successful access to any website confirms that the Internet connection is working."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "3.2\nCopying and Extracting the .tar File\nThe <nyquist-e7000-xx.xx.xx.xxxx.tar.gz> file is a compressed archive \nfile that must be copied to the server and then extracted. For this file, \nxx.xx.xx must be replaced by the Nyquist version number. This version \nnumber can be obtained by typing the following at the shell prompt: \nls nyquist-*\nTo copy and extract the <nyquist-e7000-xx.xx.xx.xxxx.tar.gz> file:\nStep 1\nCopy the Nyquist installer tar file to a USB drive and \nplug the drive into a USB port on the Linux server.\nNote: The Nyquist server must have access to the Internet in order \nto complete this procedure.\n\n37\nThe server displays a dialog box when the USB drive is \nplugged in.\nStep 2\nSelect Open with Files..\nStep 3\nRight-click File and select Copy To.\n.\nStep 4\nSelect Computer in the left column, click the tmp \nfolder, and then click the Select button in the upper \nright hand corner.\n\n38\nStep 5\nClick the Terminal icon to start a Command Line Inter-\nface, or CLI, session.\nStep 6\nType su at the command prompt, press Enter, and then \ntype the root password.\nStep 7\nTo extract the tar file, type cd /tmp to change the \ndirectory to the tmp file and then type the tar \nextraction command:\ntar xPvf nyquist-<nyquist version>.tar.gz\nYou can also type part of the file name and then press \nthe Tab key. The rest of the file name will fill in.\nThe file will begin extracting.",
+        "qas": [
+            {
+                "id": "00088",
+                "is_impossible": false,
+                "question": "What is the purpose of the <nyquist-e7000-xx.xx.xx.xxxx.tar.gz> file?",
+                "answers": [
+                    {
+                        "text": "The <nyquist-e7000-xx.xx.xx.xxxx.tar.gz> file is a compressed archive containing the Nyquist installer for the e7000 version. It must be copied to a Linux server and extracted to install the Nyquist software."
+                    }
+                ]
+            },
+            {
+                "id": "00089",
+                "is_impossible": false,
+                "question": "How can you determine the Nyquist version number?",
+                "answers": [
+                    {
+                        "text": "You can determine the Nyquist version number by typing the command `ls nyquist-*` at the shell prompt. This will list the available Nyquist files, allowing you to identify the version number from the filename."
+                    }
+                ]
+            },
+            {
+                "id": "00090",
+                "is_impossible": false,
+                "question": "What step must be completed before copying the Nyquist installer tar file to the Linux server?",
+                "answers": [
+                    {
+                        "text": "Before copying the Nyquist installer tar file to the Linux server, the file must be copied to a USB drive, which should then be plugged into a USB port on the server. Additionally, the Nyquist server must have Internet access to complete the installation procedure."
+                    }
+                ]
+            },
+            {
+                "id": "00091",
+                "is_impossible": false,
+                "question": "What action should be taken after plugging the USB drive into the server?",
+                "answers": [
+                    {
+                        "text": "After plugging the USB drive into the server, select \"Open with Files..\" when prompted. Then, right-click the Nyquist installer file and choose \"Copy To,\" selecting the tmp folder on the server to paste the file."
+                    }
+                ]
+            },
+            {
+                "id": "00092",
+                "is_impossible": false,
+                "question": "Which menu option should you select to access the contents of the USB drive?",
+                "answers": [
+                    {
+                        "text": "To access the contents of the USB drive, select \"Open with Files..\" from the dialog box that appears when the USB drive is plugged in. This will allow you to view and manage the files on the drive."
+                    }
+                ]
+            },
+            {
+                "id": "00093",
+                "is_impossible": false,
+                "question": "What is the purpose of selecting the 'tmp' folder in the copy process?",
+                "answers": [
+                    {
+                        "text": "The purpose of selecting the 'tmp' folder in the copy process is to provide a temporary storage location for the Nyquist installer tar file on the Linux server. This allows for easy access and management of the file during the extraction process."
+                    }
+                ]
+            },
+            {
+                "id": "00094",
+                "is_impossible": false,
+                "question": "How do you initiate a Command Line Interface (CLI) session on the server?",
+                "answers": [
+                    {
+                        "text": "To initiate a Command Line Interface (CLI) session on the server, click the Terminal icon. Once the terminal opens, type `su`, press Enter, and then enter the root password to gain access."
+                    }
+                ]
+            },
+            {
+                "id": "00095",
+                "is_impossible": false,
+                "question": "What command is used to switch to the root user in the terminal?",
+                "answers": [
+                    {
+                        "text": "The command used to switch to the root user in the terminal is `su`. After typing `su`, you need to press Enter and then enter the root password to gain root access."
+                    }
+                ]
+            },
+            {
+                "id": "00096",
+                "is_impossible": false,
+                "question": "Which directory should you change to in order to extract the tar file?",
+                "answers": [
+                    {
+                        "text": "You should change to the `/tmp` directory to extract the tar file. Use the command `cd /tmp` before executing the extraction command."
+                    }
+                ]
+            },
+            {
+                "id": "00097",
+                "is_impossible": false,
+                "question": "What command is used to extract the contents of the tar file, and what is the additional functionality of the Tab key in this context?",
+                "answers": [
+                    {
+                        "text": "The command used to extract the contents of the tar file is `tar xPvf nyquist-<nyquist version>.tar.gz`. In this context, the Tab key can be used to autocomplete the file name, allowing the user to type part of it and then fill in the rest by pressing Tab, which simplifies the input process."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "39\n3.3\nInstalling the Nyquist Software\nAfter copying and extracting the nyquist-e7000-xx.xx.xx.xxxx.tar.gz \nfile, you can install the Nyquist application software. This installation \nprocess takes about 1 hour and 45 minutes.\nTo install Nyquist:\nStep 1\nType the following command at the root@debian com-\nmand prompt:\n/# /opt/bogen/install_nyquist\nStep 2\nPress Enter.\n\n40\nStep 3\nEnter your License Activation Key and press Enter to \nstart the package installation.\nStep 4\nWhen prompted, enter your country code. For the \nUnited States, type 01 and press Enter.\nStep 5\nPress Enter to read the End User License Agreement \n(EULA).\nStep 6\nPress the Space bar to continue reading the EULA.\n\n41\nStep 7\nType yes to accept the EULA.\nStep 8\nWhen prompted to select option (C)reate (E)nter, \n(I)mport or (S)kip, type c, and then press Enter.\nStep 9\nWhen prompted to select option (I)P Address or \n(D)omain name, type i.\nStep 10\nType the server\u2019s IP address, and then press Enter.",
+        "qas": [
+            {
+                "id": "00098",
+                "is_impossible": false,
+                "question": "What command should be typed to start the installation of the Nyquist software?",
+                "answers": [
+                    {
+                        "text": "To start the installation of the Nyquist software, type the following command at the root@debian command prompt: `/opt/bogen/install_nyquist`, and then press Enter."
+                    }
+                ]
+            },
+            {
+                "id": "00099",
+                "is_impossible": false,
+                "question": "How long does the installation process of the Nyquist software take?",
+                "answers": [
+                    {
+                        "text": "The installation process of the Nyquist software takes approximately 1 hour and 45 minutes."
+                    }
+                ]
+            },
+            {
+                "id": "00100",
+                "is_impossible": false,
+                "question": "What is required to begin the package installation after executing the initial command?",
+                "answers": [
+                    {
+                        "text": "To begin the package installation after executing the initial command, you need to enter your License Activation Key and then press Enter. Following this, you will be prompted to enter your country code."
+                    }
+                ]
+            },
+            {
+                "id": "00101",
+                "is_impossible": false,
+                "question": "What country code should be entered for the United States during installation?",
+                "answers": [
+                    {
+                        "text": "For the United States, the country code to be entered during the Nyquist software installation is 01."
+                    }
+                ]
+            },
+            {
+                "id": "00102",
+                "is_impossible": false,
+                "question": "How can the user view the End User License Agreement (EULA)?",
+                "answers": [
+                    {
+                        "text": "The user can view the End User License Agreement (EULA) by pressing Enter when prompted during the installation process. To continue reading the EULA, the user should press the Space bar."
+                    }
+                ]
+            },
+            {
+                "id": "00103",
+                "is_impossible": false,
+                "question": "What should the user type to accept the EULA?",
+                "answers": [
+                    {
+                        "text": "The user should type \"yes\" to accept the End User License Agreement (EULA)."
+                    }
+                ]
+            },
+            {
+                "id": "00104",
+                "is_impossible": false,
+                "question": "Which option should be selected to create a new installation during the setup process?",
+                "answers": [
+                    {
+                        "text": "To create a new installation during the setup process, type \"c\" when prompted to select option (C)reate (E)nter, (I)mport or (S)kip."
+                    }
+                ]
+            },
+            {
+                "id": "00105",
+                "is_impossible": false,
+                "question": "What does the user need to type to specify the IP address during installation?",
+                "answers": [
+                    {
+                        "text": "The user needs to type the server\u2019s IP address when prompted to select option (I)P Address during the Nyquist installation. This occurs after selecting option (C)reate."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "42\nNote that if the Nyquist application software has been previously \ninstalled, the following prompt appears:\nIt looks like you already have a Nyquist system installed: 2.0.0.528\nPlease choose from one of the following options to proceed:\n-------\nInstall - Use this option to fresh-install release: 2.0.0:528\n-------\n * Nyquist software will be fresh-installed, user data deleted.\n * All Configuration data will be deleted.\n * Uploaded tones/alarms/announcements will be deleted.\n * Uploaded songs and playlists will be deleted.\n * Recordings will be deleted.\n * Voicemail recordings will be deleted.\n * Call Detail Records (CDRs) will be deleted.\n * System Backups will be preserved and available after installation.\n------\nUpdate  - Use this option to re-install the software to release: 2.0.0:528\n------\n * Nyquist software will be re-installed, while preserving user data.\n * All Configuration data will be preserved.\n * Uploaded tones/alarms/announcements will be preserved.\n * Uploaded songs and playlists will be preserved.\n * Recordings will be preserved.\n * Voicemail recordings will be preserved.\n * Call Detail Records (CDRs) will be preserved.\n * System Backups will be preserved and available after installation.\nPlease enter your choice (Enter: Install or Update)?\nIf you enter Update, the new Nyquist version updates your existing \nsystem and keeps all of your already configured data (for example, \nschedules or station). If you enter Install, the new Nyquist version \noverwrites your existing version and all of your current configuration \ndata is deleted.",
+        "qas": [
+            {
+                "id": "00106",
+                "is_impossible": false,
+                "question": "What happens to the user data if the \"Install\" option is selected?",
+                "answers": [
+                    {
+                        "text": "If the \"Install\" option is selected, the Nyquist software will be fresh-installed, resulting in the deletion of all user data, including configuration data, uploaded tones, songs, playlists, recordings, voicemail recordings, and Call Detail Records (CDRs). However, system backups will be preserved and available after installation."
+                    }
+                ]
+            },
+            {
+                "id": "00107",
+                "is_impossible": false,
+                "question": "Will system backups be preserved during an \"Update\"?",
+                "answers": [
+                    {
+                        "text": "Yes, system backups will be preserved during an \"Update.\" The update process retains all user data, including configuration data, uploaded content, and recordings."
+                    }
+                ]
+            },
+            {
+                "id": "00108",
+                "is_impossible": false,
+                "question": "What is the difference between the \"Install\" and \"Update\" options for the Nyquist software?",
+                "answers": [
+                    {
+                        "text": "The \"Install\" option performs a fresh installation of the Nyquist software, resulting in the deletion of all user data, configuration data, and uploaded content. In contrast, the \"Update\" option reinstalls the software while preserving all user data, configurations, and uploaded items."
+                    }
+                ]
+            },
+            {
+                "id": "00109",
+                "is_impossible": false,
+                "question": "Which types of data are deleted when choosing the \"Install\" option?",
+                "answers": [
+                    {
+                        "text": "When choosing the \"Install\" option, the following types of data are deleted: user data, all configuration data, uploaded tones/alarms/announcements, uploaded songs and playlists, recordings, voicemail recordings, and Call Detail Records (CDRs). However, system backups will be preserved and available after installation."
+                    }
+                ]
+            },
+            {
+                "id": "00110",
+                "is_impossible": false,
+                "question": "Is it possible to keep recorded files when updating the Nyquist software?",
+                "answers": [
+                    {
+                        "text": "Yes, it is possible to keep recorded files when updating the Nyquist software. Choosing the \"Update\" option preserves all user data, including recordings, while re-installing the software. In contrast, selecting \"Install\" will delete all recorded files and configuration data."
+                    }
+                ]
+            },
+            {
+                "id": "00111",
+                "is_impossible": false,
+                "question": "How many options are available for proceeding with the installation of Nyquist software?",
+                "answers": [
+                    {
+                        "text": "There are two options available for proceeding with the installation of Nyquist software: \"Install\" and \"Update.\" Choosing \"Install\" will fresh-install the software and delete all user data, while \"Update\" will re-install the software, preserving all existing user data and configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00112",
+                "is_impossible": false,
+                "question": "What version of the Nyquist system is currently installed according to the prompt?",
+                "answers": [
+                    {
+                        "text": "The currently installed version of the Nyquist system is 2.0.0.528. If you choose to update, this version will be re-installed while preserving all user data and configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00113",
+                "is_impossible": false,
+                "question": "What happens to Call Detail Records (CDRs) when the \"Install\" option is chosen?",
+                "answers": [
+                    {
+                        "text": "When the \"Install\" option is chosen, all Call Detail Records (CDRs) will be deleted. This option performs a fresh installation of the Nyquist software, which results in the loss of all user configuration data and uploaded content."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "4 Launching Wizards \nFollowing a Server \n43\nLaunching Wizards Following a \nServer Install\nThe first time you try to log on to your Nyquist E7000 system, you will \nget the notice that your connection is not private. Click Advanced.\nWhen you first access Nyquist on a server (other than the \nNQ-SYSCTRL, the Customer Information Wizard appears. Enter your \ncontact information and then select Continue.\nNote: Selecting Advanced will prompt you to select the hyperlink \nto proceed to the URL.",
+        "qas": [
+            {
+                "id": "00114",
+                "is_impossible": false,
+                "question": "What message appears when you first attempt to log on to the Nyquist E7000 system?",
+                "answers": [
+                    {
+                        "text": "When you first attempt to log on to the Nyquist E7000 system, you will see a notice indicating that your connection is not private. You should click on \"Advanced\" to proceed."
+                    }
+                ]
+            },
+            {
+                "id": "00115",
+                "is_impossible": false,
+                "question": "What steps should you take when you encounter the \"connection is not private\" notice?",
+                "answers": [
+                    {
+                        "text": "When you encounter the \"connection is not private\" notice, click on \"Advanced,\" then select the hyperlink to proceed to the URL. This will allow you to continue accessing the Nyquist E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00116",
+                "is_impossible": false,
+                "question": "What is the purpose of the Customer Information Wizard that appears after accessing Nyquist on a server?",
+                "answers": [
+                    {
+                        "text": "The purpose of the Customer Information Wizard is to collect your contact information the first time you access Nyquist on a server. This information is necessary for user identification and possibly for support purposes as you begin using the Nyquist E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00117",
+                "is_impossible": false,
+                "question": "What information is required in the Customer Information Wizard?",
+                "answers": [
+                    {
+                        "text": "In the Customer Information Wizard, you need to enter your contact information, which may include your name, email address, and phone number. After providing this information, select Continue to proceed."
+                    }
+                ]
+            },
+            {
+                "id": "00118",
+                "is_impossible": false,
+                "question": "What action is necessary after entering contact information in the Customer Information Wizard?",
+                "answers": [
+                    {
+                        "text": "After entering your contact information in the Customer Information Wizard, you should select the \"Continue\" button to proceed with the setup. This action will move you to the next steps in the installation process."
+                    }
+                ]
+            },
+            {
+                "id": "00119",
+                "is_impossible": false,
+                "question": "Which server is specified as an exception where the Customer Information Wizard does not appear?",
+                "answers": [
+                    {
+                        "text": "The NQ-SYSCTRL server is specified as an exception where the Customer Information Wizard does not appear when accessing the Nyquist E7000 system."
+                    }
+                ]
+            },
+            {
+                "id": "00120",
+                "is_impossible": false,
+                "question": "What are the implications of selecting \"Advanced\" in the connection warning?",
+                "answers": [
+                    {
+                        "text": "Selecting \"Advanced\" in the connection warning indicates that you acknowledge the potential risks associated with proceeding to an unsecured connection. This action allows you to bypass the warning and continue to the Nyquist E7000 system interface, despite the connection being labeled as not private."
+                    }
+                ]
+            },
+            {
+                "id": "00121",
+                "is_impossible": false,
+                "question": "What is the URL that you are prompted to proceed to after selecting the hyperlink?",
+                "answers": [
+                    {
+                        "text": "The specific URL that you are prompted to proceed to after selecting the hyperlink is not provided in the given context. Typically, it would be the URL of the Nyquist E7000 system you are trying to access."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "44\n  \nEnter your contact information and then select Continue.\nThe Dialing Length Wizard appears next. If you already know how to \nconfigure an E7000 system, you can select Expert Setup, which takes \nyou to the E7000 system\u2019s Login page. The Station, User, Time Zone, \nand Network Time Server Wizard views also have an Expert Setup \nbutton. The Expert Setup button marks all the wizard-based setup \ndatabase entries as \u201cvisited\u201d so you are not redirected back to any of \nthe wizards.\nIf you log in after having selected to use the Expert Setup, you must \nmanually complete system configuration using the Admin Web UI \n(see the Nyquist E7000 System Administrator Manual).\nIf you don\u2019t opt to use the Expert Setup, you can continue using the \nsetup wizards.\nFigure 4-1, Customer Information Wizard\nNote: If you select Expert Setup and have not set a new password, \nyou will need to enter the default username admin and the default \npassword bogen to log into the system. Login credentials are case \nsensitive.",
+        "qas": [
+            {
+                "id": "00122",
+                "is_impossible": false,
+                "question": "What is the initial step required before the Dialing Length Wizard appears?",
+                "answers": [
+                    {
+                        "text": "The initial step required before the Dialing Length Wizard appears is to enter your contact information and then select Continue. After this step, you have the option to choose between Expert Setup or continue with the setup wizards."
+                    }
+                ]
+            },
+            {
+                "id": "00123",
+                "is_impossible": false,
+                "question": "What does the Expert Setup option do during the configuration process?",
+                "answers": [
+                    {
+                        "text": "The Expert Setup option allows users familiar with configuring the E7000 system to bypass the setup wizards and proceed directly to the Login page. Upon selection, all wizard-based setup entries are marked as \"visited,\" and users must manually complete the system configuration using the Admin Web UI."
+                    }
+                ]
+            },
+            {
+                "id": "00124",
+                "is_impossible": false,
+                "question": "What happens if you log in after selecting Expert Setup?",
+                "answers": [
+                    {
+                        "text": "If you log in after selecting Expert Setup, you must manually complete the system configuration using the Admin Web UI, as the wizard-based setup entries will be marked as \u201cvisited.\u201d Additionally, if you haven't set a new password, you'll need to use the default username \"admin\" and the default password \"bogen\" to log in."
+                    }
+                ]
+            },
+            {
+                "id": "00125",
+                "is_impossible": false,
+                "question": "What must you do if you did not set a new password before using Expert Setup?",
+                "answers": [
+                    {
+                        "text": "If you did not set a new password before using Expert Setup, you need to enter the default username \"admin\" and the default password \"bogen\" to log into the system. Remember that login credentials are case sensitive."
+                    }
+                ]
+            },
+            {
+                "id": "00126",
+                "is_impossible": false,
+                "question": "Are login credentials for the E7000 system case sensitive?",
+                "answers": [
+                    {
+                        "text": "Yes, login credentials for the E7000 system are case sensitive. This means that the username and password must be entered with the correct capitalization."
+                    }
+                ]
+            },
+            {
+                "id": "00127",
+                "is_impossible": false,
+                "question": "What is the default username and password to log into the system if no new password is set?",
+                "answers": [
+                    {
+                        "text": "The default username to log into the system is \"admin\" and the default password is \"bogen.\" Login credentials are case sensitive."
+                    }
+                ]
+            },
+            {
+                "id": "00128",
+                "is_impossible": false,
+                "question": "What material should be referenced for manual system configuration after using Expert Setup?",
+                "answers": [
+                    {
+                        "text": "For manual system configuration after using Expert Setup, you should reference the Nyquist E7000 System Administrator Manual. This document provides the necessary information to complete the system configuration via the Admin Web UI."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "45\nSet the dialing length (number of digits) used by stations in your \nsystem and the select Continue.\nCreate the Admin Web UI station by entering the Extension and \nName for this station. Then, select Continue\nUpdate the password for the Admin Web user.\nSelect Continue.",
+        "qas": [
+            {
+                "id": "00129",
+                "is_impossible": false,
+                "question": "What is the dialing length set for stations in the system?",
+                "answers": [
+                    {
+                        "text": "The dialing length set for stations in the system is 45 digits. Users must enter this length before proceeding with the creation of the Admin Web UI station."
+                    }
+                ]
+            },
+            {
+                "id": "00130",
+                "is_impossible": false,
+                "question": "How do you create an Admin Web UI station?",
+                "answers": [
+                    {
+                        "text": "To create an Admin Web UI station, set the dialing length by specifying the number of digits, then enter the Extension and Name for the station before selecting Continue. After that, update the password for the Admin Web user and select Continue again."
+                    }
+                ]
+            },
+            {
+                "id": "00131",
+                "is_impossible": false,
+                "question": "What details are required to create the Admin Web UI station?",
+                "answers": [
+                    {
+                        "text": "To create the Admin Web UI station, you need to enter the Extension and Name for the station. Additionally, it\u2019s necessary to update the password for the Admin Web user."
+                    }
+                ]
+            },
+            {
+                "id": "00132",
+                "is_impossible": false,
+                "question": "How do you update the password for the Admin Web user?",
+                "answers": [
+                    {
+                        "text": "To update the password for the Admin Web user, navigate to the appropriate section after creating the Admin Web UI station. Enter the new password in the designated field and then select Continue to save the changes."
+                    }
+                ]
+            },
+            {
+                "id": "00133",
+                "is_impossible": false,
+                "question": "What action should be taken after entering the Extension and Name for the station?",
+                "answers": [
+                    {
+                        "text": "After entering the Extension and Name for the station, select the \"Continue\" option to proceed. This will allow you to update the password for the Admin Web user."
+                    }
+                ]
+            },
+            {
+                "id": "00134",
+                "is_impossible": false,
+                "question": "Is there a specific sequence to follow after updating the password for the Admin Web user?",
+                "answers": [
+                    {
+                        "text": "Yes, after updating the password for the Admin Web user, ensure to save the changes and log out if necessary. It's also important to verify that the new password works by logging back in with the updated credentials."
+                    }
+                ]
+            },
+            {
+                "id": "00135",
+                "is_impossible": false,
+                "question": "What does the term \"Continue\" signify in this context?",
+                "answers": [
+                    {
+                        "text": "In this context, \"Continue\" signifies the action taken to proceed to the next step in the setup process for the Admin Web UI station. It indicates the user\u2019s confirmation to save the current settings and move forward with subsequent tasks, such as creating a station and updating the password."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "46\nSet the time zone to be used by your system and then select Con-\ntinue.\nSpecify the Network Time Server and then select Continue.\nThe Zone Wizard appears next. The number of zones that you can \ncreate depends upon your product license. However, regardless of \nwhat size system license purchased, the Zone Wizard will only assist \nin creating a maximum of 20 zones. (Additional zones, if desired and \nlicensed, can be added via the Admin Web UI after the initial setup is",
+        "qas": [
+            {
+                "id": "00136",
+                "is_impossible": false,
+                "question": "What is the first step in the system setup process mentioned in the context?",
+                "answers": [
+                    {
+                        "text": "The first step in the system setup process is to set the time zone for your system and then select \"Continue.\" After that, you need to specify the Network Time Server before proceeding."
+                    }
+                ]
+            },
+            {
+                "id": "00137",
+                "is_impossible": false,
+                "question": "How many zones can the Zone Wizard assist in creating?",
+                "answers": [
+                    {
+                        "text": "The Zone Wizard can assist in creating a maximum of 20 zones, regardless of the product license purchased. Additional zones can be added via the Admin Web UI after the initial setup if desired and licensed."
+                    }
+                ]
+            },
+            {
+                "id": "00138",
+                "is_impossible": false,
+                "question": "What can be done if additional zones are desired beyond what the Zone Wizard allows?",
+                "answers": [
+                    {
+                        "text": "If additional zones are desired beyond the maximum of 20 allowed by the Zone Wizard, they can be added via the Admin Web UI after the initial setup is complete, provided that the product license permits it."
+                    }
+                ]
+            },
+            {
+                "id": "00139",
+                "is_impossible": false,
+                "question": "Does the maximum number of zones that can be created depend on the product license?",
+                "answers": [
+                    {
+                        "text": "Yes, the maximum number of zones that can be created depends on the product license. However, the Zone Wizard can only assist in creating a maximum of 20 zones, regardless of the license purchased. Additional zones can be added via the Admin Web UI after the initial setup if licensed."
+                    }
+                ]
+            },
+            {
+                "id": "00140",
+                "is_impossible": false,
+                "question": "What must be specified after setting the time zone before continuing the setup?",
+                "answers": [
+                    {
+                        "text": "After setting the time zone, you must specify the Network Time Server before continuing with the setup. The next step involves using the Zone Wizard to create zones, which is limited to a maximum of 20 zones regardless of the product license."
+                    }
+                ]
+            },
+            {
+                "id": "00141",
+                "is_impossible": false,
+                "question": "Which interface can be used to add more zones after the initial setup?",
+                "answers": [
+                    {
+                        "text": "After the initial setup, additional zones can be added via the Admin Web UI. This interface allows users to create more zones beyond the maximum of 20 zones that the Zone Wizard assists with."
+                    }
+                ]
+            },
+            {
+                "id": "00142",
+                "is_impossible": false,
+                "question": "Is there a limitation on the total number of zones based on the size of the system license?",
+                "answers": [
+                    {
+                        "text": "Yes, the total number of zones you can create depends on your product license. However, the Zone Wizard can assist in creating a maximum of 20 zones, irrespective of the system license size; additional zones can be added via the Admin Web UI later if licensed."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "47\ncomplete.) If you have purchased up to 20 zones, the system will \nautomatically generate the zones. \nYou can delete an automatically generated zone by selecting the red \nX next to the zone you want to delete.\nYou can also make edits to a zone by selecting a hyperlink in any of a \nzone\u2019s parameters except for the number: \nFor some parameters (Type and Pre-Announce Tone), you can select \nfrom the drop-down menu that appears; for others, type the change \nand select the check box when done.\nAfter all zones have been created, select Save. Or, you can select Skip \nWizard and create your zones later through the Admin Web UI.\nOnce you complete all of the setup wizards, you can select Continue \nand the Nyquist C4000 logon screen appears.\nName\nIdentifies the zone by the user-created name. The name can \nbe alphanumeric (such as Bldg 1) and contain up to 255 \ncharacters.\nType\nIdentifies the zone as being able to receive paging, time, \naudio, or a combination of paging, time, or audio. \nVolume\nSets the volume level for announcements. The volume level \ncan range from 0 to 10.\nAudio Distribution \nVolume\nSets the volume level for audio distribution playing to sta-\ntions in the zone. (See \"Using Audio Distribution\u201d on \npage 270.)\nPre-Announce Tone\nIdentifies what, if any, tone should play before an \nannouncement.\nMulticast IP Address\nIdentifies the IP address for multicast calls to the zone.\nMulticast Port Number\nIdentifies the port number for multicast calls to the zone.",
+        "qas": [
+            {
+                "id": "00143",
+                "is_impossible": false,
+                "question": "How can you delete an automatically generated zone in the system?",
+                "answers": [
+                    {
+                        "text": "To delete an automatically generated zone in the system, select the red X next to the zone you want to delete. This option will be available in the zone management interface after the zones have been generated."
+                    }
+                ]
+            },
+            {
+                "id": "00144",
+                "is_impossible": false,
+                "question": "What characters are allowed in the user-created zone name?",
+                "answers": [
+                    {
+                        "text": "The user-created zone name can be alphanumeric, which includes letters and numbers, and can contain up to 255 characters. Special characters may not be permitted based on standard alphanumeric constraints."
+                    }
+                ]
+            },
+            {
+                "id": "00145",
+                "is_impossible": false,
+                "question": "What range of volume levels can be set for announcements in a zone?",
+                "answers": [
+                    {
+                        "text": "The volume level for announcements in a zone can be set within a range of 0 to 10."
+                    }
+                ]
+            },
+            {
+                "id": "00146",
+                "is_impossible": false,
+                "question": "How can you adjust the Pre-Announce Tone for a zone?",
+                "answers": [
+                    {
+                        "text": "To adjust the Pre-Announce Tone for a zone, select a hyperlink in the zone's parameters labeled \"Pre-Announce Tone.\" A drop-down menu will appear, allowing you to choose the desired tone from the available options."
+                    }
+                ]
+            },
+            {
+                "id": "00147",
+                "is_impossible": false,
+                "question": "What is the purpose of the Multicast IP Address in the zone configuration?",
+                "answers": [
+                    {
+                        "text": "The Multicast IP Address in the zone configuration identifies the specific IP address used for multicast calls directed to that zone. This allows for efficient distribution of audio or announcements to multiple devices within the zone simultaneously."
+                    }
+                ]
+            },
+            {
+                "id": "00148",
+                "is_impossible": false,
+                "question": "Can the volume for audio distribution be configured separately from the volume for announcements?",
+                "answers": [
+                    {
+                        "text": "Yes, the volume for audio distribution can be configured separately from the volume for announcements. The volume level for announcements ranges from 0 to 10, while there is a distinct setting for audio distribution volume."
+                    }
+                ]
+            },
+            {
+                "id": "00149",
+                "is_impossible": false,
+                "question": "What happens after completing all setup wizards for the zones?",
+                "answers": [
+                    {
+                        "text": "After completing all setup wizards for the zones, you can select Continue, which will take you to the Nyquist C4000 logon screen. This indicates that the setup process for the zones is finalized and you can proceed to log in."
+                    }
+                ]
+            },
+            {
+                "id": "00150",
+                "is_impossible": false,
+                "question": "How many zones can the system automatically generate upon purchase?",
+                "answers": [
+                    {
+                        "text": "The system can automatically generate up to 20 zones upon purchase. Users can delete any automatically generated zones and make edits to zone parameters as needed."
+                    }
+                ]
+            },
+            {
+                "id": "00151",
+                "is_impossible": false,
+                "question": "What types of content can a zone be designated to receive?",
+                "answers": [
+                    {
+                        "text": "A zone can be designated to receive paging, time, audio, or a combination of these types. The specific type can be selected from a drop-down menu during the configuration process."
+                    }
+                ]
+            },
+            {
+                "id": "00152",
+                "is_impossible": false,
+                "question": "How can a user edit a zone\u2019s parameters?",
+                "answers": [
+                    {
+                        "text": "A user can edit a zone's parameters by selecting a hyperlink next to the parameter they wish to change, except for the zone number. For certain parameters like Type and Pre-Announce Tone, they can use the drop-down menu, while for others, they can type the change and select the check box when done."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "48\nThe first time you try to log on to your Nyquist E7000 system, you will \nget the notice that your connection is not private. Click Advanced.\nNote: Selecting Advanced will prompt you to select the hyperlink \nto proceed to the URL.",
+        "qas": [
+            {
+                "id": "00153",
+                "is_impossible": false,
+                "question": "What happens when you first try to log on to the Nyquist E7000 system?",
+                "answers": [
+                    {
+                        "text": "When you first try to log on to the Nyquist E7000 system, you receive a notice indicating that your connection is not private. You need to click \"Advanced,\" which allows you to select a hyperlink to proceed to the URL."
+                    }
+                ]
+            },
+            {
+                "id": "00154",
+                "is_impossible": false,
+                "question": "What message do you receive regarding your connection security?",
+                "answers": [
+                    {
+                        "text": "When you first log on to your Nyquist E7000 system, you receive a notice that your connection is not private. To proceed, you need to click \"Advanced\" and then select the hyperlink to continue to the URL."
+                    }
+                ]
+            },
+            {
+                "id": "00155",
+                "is_impossible": false,
+                "question": "What should you click after receiving the connection notice?",
+                "answers": [
+                    {
+                        "text": "After receiving the connection notice, click on \"Advanced.\" This will then prompt you to select the hyperlink to proceed to the URL."
+                    }
+                ]
+            },
+            {
+                "id": "00156",
+                "is_impossible": false,
+                "question": "What does selecting \"Advanced\" prompt you to do?",
+                "answers": [
+                    {
+                        "text": "Selecting \"Advanced\" prompts you to select a hyperlink to proceed to the URL of the Nyquist E7000 system, despite the initial warning that the connection is not private."
+                    }
+                ]
+            },
+            {
+                "id": "00157",
+                "is_impossible": false,
+                "question": "What is the next step after clicking on the hyperlink?",
+                "answers": [
+                    {
+                        "text": "After clicking on the hyperlink, you will be directed to the Nyquist E7000 login page. From there, you can enter your login credentials to access the system."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "5 Best Practices\n49\nBest Practices\nThis section details recommendations and best practices to use when:\n\u2022 Updating the Nyquist E7000 system server software to a new soft-\nware release\n\u2022 Re-installing a previous Nyquist software release\n\u2022 Re-installing the same Nyquist software release\n\u2022 Updating Nyquist appliance firmware (computer software stored \non the appliance)\n\u2022 Using System Backups\n5.1\nUpdating Nyquist Software\nNew Nyquist server software may include patches to address known \nissues or new releases that provide additional features. The latest \nE7000 server software can be accessed from the secured ES Dealers \nwebsite: \nNote: Before configuring or using any Nyquist appliances, you \nmust ensure that the appliance firmware is updated to the latest \nrelease. The latest firmware release can be obtained from the \nsecured ES Dealers website: http://www.bogenedu.com/nyquist-\nsecure-dealer-resources/\nNote: Before beginning the install process, make sure that your \nNyquist system server can access the required URLs or web sites \n(see \"Whitelisted Web Addresses\u201d on page 2 from a Chrome \nbrowser.",
+        "qas": [
+            {
+                "id": "00158",
+                "is_impossible": false,
+                "question": "What is the primary purpose of updating the Nyquist E7000 system server software?",
+                "answers": [
+                    {
+                        "text": "The primary purpose of updating the Nyquist E7000 system server software is to incorporate patches that address known issues and to introduce additional features. Ensuring that the appliance firmware is also up to date is crucial for optimal configuration and usage."
+                    }
+                ]
+            },
+            {
+                "id": "00159",
+                "is_impossible": false,
+                "question": "Where can the latest E7000 server software be accessed?",
+                "answers": [
+                    {
+                        "text": "The latest E7000 server software can be accessed from the secured ES Dealers website at http://www.bogenedu.com/nyquist-secure-dealer-resources/. Additionally, ensure that your Nyquist system server can access the required URLs listed in the documentation before starting the installation process."
+                    }
+                ]
+            },
+            {
+                "id": "00160",
+                "is_impossible": false,
+                "question": "What must be done before configuring or using Nyquist appliances?",
+                "answers": [
+                    {
+                        "text": "Before configuring or using Nyquist appliances, it is essential to ensure that the appliance firmware is updated to the latest release. The latest firmware can be obtained from the secured ES Dealers website."
+                    }
+                ]
+            },
+            {
+                "id": "00161",
+                "is_impossible": false,
+                "question": "How can one obtain the latest firmware release for Nyquist appliances?",
+                "answers": [
+                    {
+                        "text": "The latest firmware release for Nyquist appliances can be obtained from the secured ES Dealers website at http://www.bogenedu.com/nyquist-secure-dealer-resources/.It is important to update the appliance firmware to the latest release before configuring or using any Nyquist appliances."
+                    }
+                ]
+            },
+            {
+                "id": "00162",
+                "is_impossible": false,
+                "question": "Why is it important to ensure web access to specific URLs before installation?",
+                "answers": [
+                    {
+                        "text": "Ensuring web access to specific URLs before installation is important because the Nyquist system server needs to connect to these sites to download necessary software updates, patches, or additional features. Lack of access could prevent successful installation and functionality of the system."
+                    }
+                ]
+            },
+            {
+                "id": "00163",
+                "is_impossible": false,
+                "question": "What type of issues might new Nyquist server software patches address?",
+                "answers": [
+                    {
+                        "text": "New Nyquist server software patches may address known issues such as bugs, security vulnerabilities, and system performance problems. They can also provide enhancements to existing features and resolve compatibility issues with other software or hardware components."
+                    }
+                ]
+            },
+            {
+                "id": "00164",
+                "is_impossible": false,
+                "question": "In what scenarios would one need to re-install a previous Nyquist software release?",
+                "answers": [
+                    {
+                        "text": "One would need to re-install a previous Nyquist software release if a new update introduces issues or bugs that impact system functionality, or if specific features from the earlier version are required that are not present in the latest release. Additionally, reverting may be necessary if compatibility problems arise with existing hardware or software configurations."
+                    }
+                ]
+            },
+            {
+                "id": "00165",
+                "is_impossible": false,
+                "question": "What is the importance of using system backups in the context of Nyquist systems?",
+                "answers": [
+                    {
+                        "text": "Using system backups for Nyquist systems is crucial as they ensure that data and configurations are preserved and can be restored in the event of software updates, reinstalls, or failures. This practice helps maintain system integrity and minimize downtime, allowing for a quicker recovery process."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "50\nhttp://www.bogenedu.com/nyquist-secure-dealer-resources/\nWhen updating to a new Nyquist server software release, use the \nAdmin Web UI to perform a system update unless directed by techni-\ncal support. Performing a system update ensures that all configura-\ntion data, call detail records, recordings, voice mail, and all upload \nannouncements, alarms, tones, and songs are retained and are avail-\nable after the system software update.\nTo perform a system update:\nStep 1\nFrom the navigation bar, select System Parameters.\nStep 2\nFrom the System Parameters page, select System \nUpdate, locate the System Update file, and then select \nImport.\nPerform the server system update process before updating Nyquist \nappliance software.\n5.1.1\nAssigning Permissions for New Features\nAfter a new software release is installed, permissions for features \nintroduced by this new release must be set for the roles that will use \nthese features. \nTo assign permissions for these new features:\nStep 1\nOn the navigation bar, select Roles.\nStep 2\nOn the Roles page, select the Permissions icon next to \nthe role that you want to edit permissions for.\nStep 3\nOn the Edit Permissions page, make desired changes.\nStep 4\nSelect Save.\nFor more information, refer to the Nyquist E7000 System Administra-\ntor Manual.\nNote: System backups created by older versions of the server soft-\nware are not compatible with the newer releases and should not be \nused to restore configuration data.",
+        "qas": [
+            {
+                "id": "00166",
+                "is_impossible": false,
+                "question": "What is the recommended method for updating to a new Nyquist server software release?",
+                "answers": [
+                    {
+                        "text": "The recommended method for updating to a new Nyquist server software release is to use the Admin Web UI to perform a system update, unless directed otherwise by technical support. This process ensures that all configuration data, call detail records, recordings, and other important elements are retained after the update."
+                    }
+                ]
+            },
+            {
+                "id": "00167",
+                "is_impossible": false,
+                "question": "What types of data are retained during a system update?",
+                "answers": [
+                    {
+                        "text": "During a system update, all configuration data, call detail records, recordings, voice mail, and uploaded announcements, alarms, tones, and songs are retained. This ensures that these files remain accessible after the update."
+                    }
+                ]
+            },
+            {
+                "id": "00168",
+                "is_impossible": false,
+                "question": "What steps are involved in performing a system update using the Admin Web UI?",
+                "answers": [
+                    {
+                        "text": "To perform a system update using the Admin Web UI, first select \"System Parameters\" from the navigation bar, then choose \"System Update,\" locate the System Update file, and select \"Import.\" It is important to complete the server system update process before updating the Nyquist appliance software."
+                    }
+                ]
+            },
+            {
+                "id": "00169",
+                "is_impossible": false,
+                "question": "When should permissions for new features be assigned after a software release?",
+                "answers": [
+                    {
+                        "text": "Permissions for new features should be assigned after a new software release is installed. This ensures that the roles using the new features have the appropriate permissions set."
+                    }
+                ]
+            },
+            {
+                "id": "00170",
+                "is_impossible": false,
+                "question": "How can a user edit permissions for roles in the Nyquist system?",
+                "answers": [
+                    {
+                        "text": "To edit permissions for roles in the Nyquist system, users should select \"Roles\" from the navigation bar, then click the Permissions icon next to the desired role. On the Edit Permissions page, they can make changes and must remember to click \"Save\" to apply the updates."
+                    }
+                ]
+            },
+            {
+                "id": "00171",
+                "is_impossible": false,
+                "question": "What should be noted regarding system backups created by older versions of the server software?",
+                "answers": [
+                    {
+                        "text": "System backups created by older versions of the server software are not compatible with newer releases and should not be used to restore configuration data. This is important to ensure system stability and integrity after a software update."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "51\n5.2\nRe-installing an Earlier Software Release\nIf you want to re-install an earlier software release, you should first do \na fresh install of the Debian software. Then, install Nyquist using the \ninstall_nyquist command (see \"Installing the Nyquist Software\u201d on \npage 39).\nAfter the installation completes, you can restore user configuration \ndata from a system backup provided the system backup was created \nfrom the same release that is now installed.\nNyquist appliance software may also need to be re-installed to a pre-\nvious release to maintain compatibility with the E7000 system server.\n5.3\nRe-installing the Same Software Release\nIf you need to re-install the same software release, you should first \nperform a system backup. (Refer to the Nyquist E7000 System Admin-\nistrator Manual.)\nNext, install Nyquist using the install_nyquist command (see \"Install-\ning the Nyquist Software\u201d on page 39).\nAfter completing the software installation, restore user configuration \ndata from the system backup. \nNote: Before beginning the install process, make sure that your \nNyquist system server can access the required URLs or web sites \n(see \"Whitelisted Web Addresses\u201d on page 2 from a Chrome \nbrowser.\nNote: Before beginning the install process, make sure that your \nNyquist system server can access the required URLs or web sites \n(see \"Whitelisted Web Addresses\u201d on page 2 from a Chrome \nbrowser.\nNote: When using a system backup to restore configuration data, \nthe system backup to be used should have been created by the \nsame Nyquist server software release that is currently running.",
+        "qas": [
+            {
+                "id": "00172",
+                "is_impossible": false,
+                "question": "What steps should be taken to re-install an earlier software release of Nyquist?",
+                "answers": [
+                    {
+                        "text": "To re-install an earlier software release of Nyquist, first perform a fresh install of the Debian software. Then, use the install_nyquist command to install Nyquist, and finally restore user configuration data from a system backup created from the same release that is now installed."
+                    }
+                ]
+            },
+            {
+                "id": "00173",
+                "is_impossible": false,
+                "question": "How do you install Nyquist after performing a fresh install of Debian software?",
+                "answers": [
+                    {
+                        "text": "After performing a fresh install of Debian software, you should install Nyquist using the `install_nyquist` command. Ensure that your Nyquist system server can access the required URLs or web sites as specified in the documentation."
+                    }
+                ]
+            },
+            {
+                "id": "00174",
+                "is_impossible": false,
+                "question": "What must be done with user configuration data when re-installing an earlier software release?",
+                "answers": [
+                    {
+                        "text": "When re-installing an earlier software release, you should restore user configuration data from a system backup that was created from the same release that is now installed. It's important to perform a fresh install of the Debian software and then install Nyquist before restoring the configuration data."
+                    }
+                ]
+            },
+            {
+                "id": "00175",
+                "is_impossible": false,
+                "question": "Why might Nyquist appliance software need to be re-installed to a previous release?",
+                "answers": [
+                    {
+                        "text": "Nyquist appliance software may need to be re-installed to a previous release to maintain compatibility with the E7000 system server. This is important to ensure that the software versions work seamlessly together without causing operational issues."
+                    }
+                ]
+            },
+            {
+                "id": "00176",
+                "is_impossible": false,
+                "question": "What is the first step before re-installing the same software release of Nyquist?",
+                "answers": [
+                    {
+                        "text": "Before re-installing the same software release of Nyquist, you should first perform a system backup. This backup is crucial to restore user configuration data after the installation."
+                    }
+                ]
+            },
+            {
+                "id": "00177",
+                "is_impossible": false,
+                "question": "Which command is used to install Nyquist after performing a system backup?",
+                "answers": [
+                    {
+                        "text": "The command used to install Nyquist after performing a system backup is `install_nyquist`. This should be executed following the backup for both reinstalling an earlier or the same software release."
+                    }
+                ]
+            },
+            {
+                "id": "00178",
+                "is_impossible": false,
+                "question": "When restoring configuration data, what condition must the system backup meet?",
+                "answers": [
+                    {
+                        "text": "When restoring configuration data, the system backup must have been created from the same Nyquist server software release that is currently running. This ensures compatibility and proper functionality after the restoration."
+                    }
+                ]
+            },
+            {
+                "id": "00179",
+                "is_impossible": false,
+                "question": "What should be verified regarding web access before starting the installation process?",
+                "answers": [
+                    {
+                        "text": "Before starting the installation process, verify that your Nyquist system server can access the required URLs or websites listed in the \"Whitelisted Web Addresses\" section from a Chrome browser. This ensures the installation can proceed without connectivity issues."
+                    }
+                ]
+            },
+            {
+                "id": "00180",
+                "is_impossible": false,
+                "question": "Which browser is recommended for checking the required URLs or web addresses for Nyquist installation?",
+                "answers": [
+                    {
+                        "text": "The recommended browser for checking the required URLs or web addresses for Nyquist installation is Google Chrome. Ensure that your Nyquist system server can access these addresses before starting the installation process."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "52\nSystem backups with descriptions that contain \"OLD:\" and \"(for older \nrelease!)\" should not be used to restore configuration data to the \ncurrently running software release. System backups are automatically \nmarked as OLD when a System Update is performed to update the \nNyquist server software to a new release.\nYou can use Recordings and Voicemail backups to restore record-\nings and voicemail on any Nyquist software release. These type of \nbackups are not dependent on any specific release version (unless \notherwise stated by Bogen on specific software releases).\n5.4\nUpdating Appliance Firmware\nThe firmware for all devices used with the E7000 system must be \ncompatible with the software installed on the E7000 server, and all \nNyquist appliances in a given installation should be configured to run \nthe same version firmware.\nNyquist application firmware releases can be accessed from the \nsecured ES Dealers website: \nhttp://www.bogenedu.com/nyquist-secure-dealer-resources/\nFirmware can be updated for E7000 stations and Analog Station \nBridge (ASB) devices through the Admin Web UI or through the \nappliance\u2019s web UI. For information about the appliance\u2019s web UI, \nrefer to the device\u2019s configuration manual.\nThrough the E7000 Admin Web UI, you can upload a firmware file to \nthe E7000 system server, download firmware to a station or ASB, view \na list of stations and ASBs that are linked to a firmware name, set \ndefault firmware for any stations and bridge devices to be added, and \ndelete firmware entries. For information about using the Admin Web \nUI, refer to the Nyquist E7000 System Administrator Manual.\nNote: Before configuring or using any Nyquist appliances, you \nmust ensure that the appliance firmware is updated to the latest \nrelease. The latest firmware release can be obtained from the \nsecured ES Dealers website: http://www.bogenedu.com/nyquist-\nsecure-dealer-resources/",
+        "qas": [
+            {
+                "id": "00181",
+                "is_impossible": false,
+                "question": "What should not be used to restore configuration data to a currently running software release?",
+                "answers": [
+                    {
+                        "text": "System backups with descriptions that contain \"OLD:\" and \"(for older release!)\" should not be used to restore configuration data to the currently running software release. These backups are marked as OLD when a System Update occurs to a new software release on the Nyquist server."
+                    }
+                ]
+            },
+            {
+                "id": "00182",
+                "is_impossible": false,
+                "question": "When are system backups marked as OLD?",
+                "answers": [
+                    {
+                        "text": "System backups are marked as OLD automatically when a System Update is performed to update the Nyquist server software to a new release. These backups contain descriptions that include \"OLD:\" and \"(for older release!)\" and should not be used to restore configuration data to the currently running software release."
+                    }
+                ]
+            },
+            {
+                "id": "00183",
+                "is_impossible": false,
+                "question": "Are recordings and voicemail backups dependent on specific software release versions?",
+                "answers": [
+                    {
+                        "text": "Recordings and voicemail backups are not dependent on any specific software release versions for the Nyquist system, unless explicitly stated by Bogen for particular software releases. They can be restored on any release."
+                    }
+                ]
+            },
+            {
+                "id": "00184",
+                "is_impossible": false,
+                "question": "What must be compatible with the software installed on the E7000 server?",
+                "answers": [
+                    {
+                        "text": "The firmware for all devices used with the E7000 system must be compatible with the software installed on the E7000 server. Additionally, all Nyquist appliances within a given installation should be configured to run the same version of firmware."
+                    }
+                ]
+            },
+            {
+                "id": "00185",
+                "is_impossible": false,
+                "question": "Where can Nyquist application firmware releases be accessed?",
+                "answers": [
+                    {
+                        "text": "Nyquist application firmware releases can be accessed from the secured ES Dealers website: http://www.bogenedu.com/nyquist-secure-dealer-resources/. It is important to ensure that all Nyquist appliances are configured to run the same version of the firmware compatible with the E7000 server software."
+                    }
+                ]
+            },
+            {
+                "id": "00186",
+                "is_impossible": false,
+                "question": "How can firmware be updated for E7000 stations and ASB devices?",
+                "answers": [
+                    {
+                        "text": "Firmware for E7000 stations and Analog Station Bridge (ASB) devices can be updated through the Admin Web UI or the appliance\u2019s web UI. Users can upload firmware files, download firmware to devices, and manage firmware settings via the E7000 Admin Web UI. The latest firmware releases can be accessed from the secured ES Dealers website."
+                    }
+                ]
+            },
+            {
+                "id": "00187",
+                "is_impossible": false,
+                "question": "What functionalities can you perform through the E7000 Admin Web UI regarding firmware?",
+                "answers": [
+                    {
+                        "text": "Through the E7000 Admin Web UI, you can upload a firmware file to the E7000 system server, download firmware to a station or Analog Station Bridge (ASB), view linked stations and ASBs, set default firmware for new devices, and delete firmware entries. Ensure that the appliance firmware is updated to the latest release before configuration or use."
+                    }
+                ]
+            },
+            {
+                "id": "00188",
+                "is_impossible": false,
+                "question": "What should be ensured before configuring or using any Nyquist appliances?",
+                "answers": [
+                    {
+                        "text": "Before configuring or using any Nyquist appliances, it is essential to ensure that the appliance firmware is updated to the latest release. This ensures compatibility with the software installed on the E7000 server and that all Nyquist appliances are running the same firmware version."
+                    }
+                ]
+            }
+        ]
+    }
+]

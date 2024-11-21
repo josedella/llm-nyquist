@@ -1,0 +1,232 @@
+[
+    {
+        "context": "Quick Installation Guide\nBogen Communications LLC\nwww.bogen.com\nNQ-ZPMS\nProgrammable keys\nUse the Nyquist web interface to select and customize the keys \nthat appear on the phone.\nCreate custom key on phone (controlled by phone, not \nNyquist):\n\uf6b2. On the Nyquist station\u2019s Edit Line Keys page, select Reserved \nfor the key that you will con\ufb01gure on the phone.\n\uf6b3. Long press the key on the phone, select a Type, enter Value \nand Title, press the OK icon \u221a.\nCall forward \n\uf6b2. Press Phone Settings icon       > Line > Select the line  \n> Forward Settings. \n\uf6b3. Enter the destination number and the type of forward \nand press OK icon\u221a. \nPhonebook\nCall list\n\uf6b2. Press Call Log softkey icon         . \n\uf6b3. Scroll through the list\n\uf6b4. To dial an entry, select the entry by pressing it.\nCall Mute \n\uf6b2. Press      icon to Mute the microphone during the call. \n\uf6b3. Press     icon again to un-mute the conversation.\nRedial\n \uf6b2. Press redial DSS key, redial a call number.\nVoice message\nThe MWI (Voice Messages) key will display the number of unread \nvoicemail messages (colored in red).\n\uf6b2. To access your voicemail, press the MWI softkey             \n\uf6b3. Select the line and press phone icon to call (the phone might \nautomatically call voicemail after step \uf6b2).\n\uf6b4. Press the Dialer icon, then enter your voicemail password.\nBluetooth\n\uf6b2\uff0ePress Bluetooth icon in the status bar to open Bluetooth.\n\uf6b3\uff0ePress Settings icon       > Connected devices > Pair new device . \nAfter opening, it displays the scanned Bluetooth list, select any \ndevice, and click on the device pairing.\nCall transfer\nAttended transfer:\nBlind transfer:\n\uf6b2. Press       Xfer icon during the active conversation, \n     the call is put on hold.\n\uf6b3. Dial the second telephone number.\n\uf6b4. When the call is answered, then press       Xfer icon to \n     complete the operation.\n\uf6b2. Press       Xfer icon during the active conversation, \n     the call will be on hold.\n\uf6b3. Then enter the \uf6b3nd telephone number and press       Xfer \n     icon.\nAccess phonebook:\nAdd new entry:\n\uf6b2. Press Contacts softkey icon         .\n\uf6b3. To call a Nyquist Station, press Stations, then select a   \nstation to call.\nor\n\u00b7To start an Alarm or Tone, press Alarm or Tone, then select  \nthe alarm or tone.\n\u00b7To activate a Nyquist Feature, press Features, then select a  \nfeature to activate.\n\u00b7To call a Contact from Contacts list, press the contact icon \n(upper right corner), then select a contact to call.\nNyquist automatically populates the Alarms, Features, \nStations, and Tones lists.\nCustom contacts can also be added to the Contact list for easy \naccess to frequently used contacts.\nAdd new Contact entry:\n\uf6b2. Press Contacts softkey icon        .\nCreate custom contact entry:\n\uf6b3. Press Contact icon        on upper right corner.\n\uf6b4. Press Add icon, enter name and number, press OK icon \u221a.\nCopy Nyquist entry to Contacts:\n\uf6b3. Press Alarms, Features, Stations, or Tones.\n\uf6b4. Press info icon (i) on entry that you want to add to Contacts.\n\uf6b5. Press menu icon \ufe19, then select Add to contacts.\n\uf6b6. Select Create new contact, make any desired changes, press \nOK icon \u221a.\nWi-Fi\n\uf6b2. Enter the Settings icon       > Network & internet > Wi-Fi, \nenable Wi-Fi, and you can browse the list of available Wi-Fi; \n\uf6b3. Select the available network, click on the network to enter \nthe password to connect and click connect button.\nP/N: 740-00171A\nDate/Time\nTo set the date and time:\n\uf6b2. Press Phone Settings icon       on desktop.\n\uf6b3. Select Date & Time in the System section.\n\uf6b4. Make necessary changes to match your time source, time \nzone, and DST.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "How do you customize programmable keys on the phone using the Nyquist web interface?",
+                "answers": [
+                    {
+                        "text": "To customize programmable keys on the phone using the Nyquist web interface, go to the Nyquist station\u2019s Edit Line Keys page and select \"Reserved\" for the key you want to configure. Then, long press the key on the phone, select a Type, enter the Value and Title, and press the OK icon \u221a to finalize the customization."
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What steps are involved in setting up call forwarding on the phone?",
+                "answers": [
+                    {
+                        "text": "To set up call forwarding on the phone, press the Phone Settings icon, select the line, then choose Forward Settings. Enter the destination number and type of forward, and press the OK icon to confirm."
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "How can a user access their call log and make a call from it?",
+                "answers": [
+                    {
+                        "text": "To access the call log, press the Call Log softkey icon. Scroll through the list and select an entry by pressing it to dial the number."
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the process for muting and unmuting the microphone during a call?",
+                "answers": [
+                    {
+                        "text": "To mute the microphone during a call, press the microphone Mute icon. To unmute the conversation, press the Mute icon again."
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "How do you redial a number using the redial DSS key?",
+                "answers": [
+                    {
+                        "text": "To redial a number using the redial DSS key, simply press the redial DSS key on your phone. This will automatically redial the last number you called."
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What does the MWI key indicate, and how can you access voicemail messages?",
+                "answers": [
+                    {
+                        "text": "The MWI (Message Waiting Indicator) key indicates the number of unread voicemail messages, shown in red. To access voicemail messages, press the MWI softkey, select the line, and then press the phone icon to call your voicemail, followed by entering your voicemail password."
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "How do you pair a Bluetooth device with the phone?",
+                "answers": [
+                    {
+                        "text": "To pair a Bluetooth device with the phone, press the Bluetooth icon in the status bar, then go to Settings > Connected devices > Pair new device. Select a device from the scanned Bluetooth list and click on it to initiate pairing."
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What are the steps to perform an attended transfer during a call?",
+                "answers": [
+                    {
+                        "text": "To perform an attended transfer during a call, press the Xfer icon to put the current call on hold, then dial the second telephone number. Once the second call is answered, press the Xfer icon again to complete the transfer."
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "How can a user add a new entry to the phonebook?",
+                "answers": [
+                    {
+                        "text": "To add a new entry to the phonebook, press the Contacts softkey icon, then press the Contact icon on the upper right corner. Next, press the Add icon, enter the name and number, and press the OK icon \u221a to save the entry."
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What method is used to copy a Nyquist entry to the Contacts?",
+                "answers": [
+                    {
+                        "text": "To copy a Nyquist entry to Contacts, press Alarms, Features, Stations, or Tones, then press the info icon (i) on the desired entry. Next, select the menu icon (\ufe19), choose \"Add to contacts,\" and either create a new contact or make changes to an existing one before pressing the OK icon (\u221a)."
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "How can a user enable and connect to a Wi-Fi network on the phone?",
+                "answers": [
+                    {
+                        "text": "To enable and connect to a Wi-Fi network on the phone, press the Settings icon, navigate to Network & internet, then select Wi-Fi to enable it. After that, browse the list of available networks, select the desired one, enter the password, and click the connect button."
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What steps must be taken to set the date and time on the device?",
+                "answers": [
+                    {
+                        "text": "To set the date and time on the device, press the Phone Settings icon on the desktop, select Date & Time in the System section, and make the necessary changes to match your time source, time zone, and DST."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Screen icon\nPackaging list\nKeys features\nHandset\nHandset Cord\nStand\nEthernet Cable\nQuick Installation Guide\nInstalling the device\nBracket desktop installation\n- 2 -\n- 3 -\nIP Phone\nPower Adapter\n(Optional)\nConnecting to the Device\nPlease connect power adapter, network, PC, handset, and headset \nto the corresponding ports as described in below picture. The \ndevice can also be powered using Power over Ethernet (PoE); when \nusing PoE, the power adapter is not required.\nCon\ufb01guration\n\u2780 USB port: connect USB device (U disk).\n\u2781 Power port: connect the power adapter.\n\u2782 Network port: Connect to LAN that has access to Nyquist server.\n\u2783 PC port: connect PC (optional).\n\u2784 Headset port: connect headset.\n\u2785 Handset port: connect IP Phone handset.\nLanguage setting\nAccepting a call\nPutting a call on hold\n\uf6b4-party conference\n\uf6b2. Press the Conference soft key         during an active call. \nThe call is put on hold.\n\uf6b3. Call the second party's number.\n\uf6b4. After \uf6b3nd call is established, press the Conference soft \nkey        to let all parties joined in the conference.\n\uf6b2. Using the handset: pick up the handset.\n\uf6b3. Using the headset: press Headset DSS key. \n\uf6b4. Using the hands-free: press           .\n\uf6b2.  Press the Hold soft key during an active call.\n\uf6b3. To resume the call, press the Resume soft key.\nNote: with more than one active call, select desired call by \nsliding screen and use the corresponding soft key to hold \nor resume.\nMaking a call\n\uf6b2. Nyquist feature dialing: Press a DSS key to activate feature  \n(e.g., Announcements, Audio Distribution, Paging).\n\uf6b3. Direct dialing: lift the handset and enter the phone  \n    \nnumber.\n\uf6b4. Hands-free: press speaker key, enter the phone number,  \npress       softkey.\n\uf6b5. Dialer icon: press Dialer softkey icon       (upper right \ncorner), enter the phone number, press       softkey.\nGooseneck MIC\nGooseneck MIC installation\n\u2780 After aligning the gooseneck microphone with the port, \nload it and tighten the nut.\nIn headset mode\nIn hands-free mode\nIn handset mode\nMute activated\nCall is on hold\nNetwork is connected\nReceived call\nSilent mode\nNetwork is disconnected\nAuto-answering activated\nCall Forward activated\nDo Not Disturb activated\nMissed call(Status bar)\nNew VM Messages\nNew SMS\nDialed call\nMissed call(s)\nForward call\nEnable White List\nEnable Blacklist\nCon\ufb01guration via Phone\n\uf6b2. Press Phone Settings icon        on desktop.\n\uf6b3. Select Ethernet Settings.\n\uf6b4. Change Network mode to Static.\n\uf6b5. Enter values for IP address, Subnet mask, IP gateway, and                 \nDNS, then press Save.\n\uf6b6. Select Maintain (from Phone Settings)\n\uf6b7. Select Auto Provision\n\uf6b8. Select Server address, change address to match Nyquist                     \nserver\u2019s IP address\n\uf6b9. Select Protocol type, set to TFTP\n\uf6ba. Press back button twice, then select Reboot from Phone  \nSettings\nReturn key,Return to the previous menu/page\nHands-free key, Activate/deactivate hands free\nIn idle mode or during ringing: decrease or increase ring volume\nIn communication: decrease or increase handset, headset or hands-free volume\nHome Key, Return to standby home page\nPower Led\nBy default, the phone is con\ufb01gured to use DHCP with Option \n\uf6b7\uf6b7. When using DHCP, the phone will automatically con\ufb01gure.\nThe following instructions are for con\ufb01guring with Static IP \naddress.\nThe Phone prompts for language setup during initial startup,\nto change afterward:\n\uf6b2. Press Phone Settings icon       on desktop\n\uf6b3. In System section, press Language & Input.\n\uf6b4. Select the desired language",
+        "qas": [
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What components are included in the packaging list for the IP Phone?",
+                "answers": [
+                    {
+                        "text": "The packaging list for the IP Phone includes a handset, handset cord, stand, Ethernet cable, a power adapter (optional), and a quick installation guide. Additionally, it features a gooseneck microphone for audio input."
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "How can the device be powered besides using the power adapter?",
+                "answers": [
+                    {
+                        "text": "The device can be powered using Power over Ethernet (PoE), which eliminates the need for a power adapter. When connected to a compatible network switch that supports PoE, the device receives power through the Ethernet cable."
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the process for making a conference call using the IP Phone?",
+                "answers": [
+                    {
+                        "text": "To make a conference call using the IP Phone, press the Conference soft key during an active call to put the first call on hold. Then, dial the second party's number; once the second call is established, press the Conference soft key again to connect all parties into the conference."
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "Which ports are used for connecting various devices to the IP Phone?",
+                "answers": [
+                    {
+                        "text": "The IP Phone has several ports for connecting devices: a USB port for USB devices, a power port for the power adapter, a network port for LAN connection, a PC port for optional PC connection, a headset port for headsets, and a handset port for the IP Phone handset. Power over Ethernet (PoE) can also be used, negating the need for a power adapter."
+                    }
+                ]
+            },
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What steps should be taken to change the language setting on the IP Phone after initial setup?",
+                "answers": [
+                    {
+                        "text": "To change the language setting on the IP Phone after initial setup, press the Phone Settings icon on the desktop. Then, navigate to the System section, select Language & Input, and choose your desired language."
+                    }
+                ]
+            },
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "How do you connect a USB device to the IP Phone?",
+                "answers": [
+                    {
+                        "text": "To connect a USB device to the IP Phone, locate the USB port on the device and plug in the USB device (e.g., U disk) into that port. This allows for data transfer or additional functionalities as specified by the device's features."
+                    }
+                ]
+            },
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What does the silent mode indicator signify on the IP Phone?",
+                "answers": [
+                    {
+                        "text": "The silent mode indicator on the IP Phone signifies that the phone is currently in silent mode, meaning it will not ring or produce sound alerts for incoming calls or notifications. This feature is useful for minimizing distractions in environments where sound is not appropriate."
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "How do you configure the IP Phone to use a static IP address?",
+                "answers": [
+                    {
+                        "text": "To configure the IP Phone to use a static IP address, press the Phone Settings icon on the desktop, select Ethernet Settings, change Network mode to Static, and enter the values for IP address, Subnet mask, IP gateway, and DNS. Finally, save the settings and reboot the phone."
+                    }
+                ]
+            },
+            {
+                "id": "00021",
+                "is_impossible": false,
+                "question": "What is the procedure for initializing the gooseneck microphone?",
+                "answers": [
+                    {
+                        "text": "To initialize the gooseneck microphone, align it with the port and then load it in. Finally, tighten the nut to secure it in place."
+                    }
+                ]
+            },
+            {
+                "id": "00022",
+                "is_impossible": false,
+                "question": "How can users return to the previous menu on the IP Phone?",
+                "answers": [
+                    {
+                        "text": "Users can return to the previous menu on the IP Phone by pressing the Return key. This action will allow them to navigate back through the menu options."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,92 @@
+CREATIVITY
+DESIGN
+NYQUIST
+E700MCR
+QUICK START
+GUIDE
+BOGEN.COM  | 1.800.999.2809
+© Bogen Communications LLC   740-00181 220603
+=====
+E7000MCR-xx Preassembled Rack-Mounted Paging and Intercom System
+The MCR Preassembled Rack Includes:
+NYQUIST E700MC |  INTRODUCTION
+01
+The full-featured Nyquist E7000MCR (or MCR for short) is a preassembled Nyquist E7000 system that offers ES Dealers a 
+simplified installation and configuration process. Able to leverage existing facility wiring, 25-Volt speakers and call switches, 
+this feature-rich, pre-rack-mounted solution provides a quick and easy migration path for legacy paging and intercom 
+systems, while delivering the same powerful feature set found in the core E7000 system. The MCR is also easy to configure 
+utilizing the browser-based setup wizard on the laptop PC included with the system. The Nyquist MCR is designed to 
+operate as a primarily self-contained system, as it does not impose upon the customer’s network or IT department.
+1 NQ-SYSCTRL Nyquist System Controller with 
+DHCP Server enabled
+1 - 4 NQ-E7030 ASB’s to support
+24 / 48 / 72 / 96 port configurations as required
+1 NQ-T1100 Admin Phone
+1 NQ-E7010 I/O Controller
+1 NQ-P0100 Matrix Mixer Pre-Amp
+1 Cisco 16-Port Partial PoE Network Switch
+(model will vary over time)
+1 Dell Windows Laptop PC for system setup and 
+administration (model will vary over time)
+1 Locking Keyboard/Laptop Drawer
+All preassembled in one 42” tall standard 19” rack 
+with locking rear door, all required filler panels, 
+intra-cabinet network patch cables, wire management, 
+and lacing strips for field wiring.
+Available Optional Add-Ons:
+Automatic Failover (AF S/W License and 2nd 
+NQ-SYSCTRL Nyquist System Controller)
+Caster Kit
+Product Features:
+System ships from factory with the latest software and patches, eliminating the need to upgrade the system 
+at the time of installation.
+Preconfigured rack system: Roll it in, connect the speaker wiring, and finish configuring the system using 
+the intuitive setup wizard on the included laptop PC and the system is up and running!
+Can run as a complete free-standing system: The self-contained nature of this solution does not impose 
+upon the customer’s network or IT department.
+A future-proofed solution that protects your investment: Upgradeable and expandable to adapt to the school’s 
+changing needs. Also, networkable to inter-connect with other Nyquist systems across the entire district.
+To help deliver on our goal of providing a self-contained system, the License Activation Key (LAK) gets 
+applied during factory assembly to avoid the need for an Internet connection during installation.
+=====
+NYQUIST E700MC |  NETWORK WIRING DIAGRAM
+02
+NQ-T110
+NQ-E7010
+NQ-P0100
+NQ-E7030
+(1-4 per system, as needed)
+Laptop on
+Nyquist DHCP
+Network
+(172.31.11.X)
+NQ-SYSCTRL
+Running DHCP (172.31.1.1)
+Optional Connection To
+Customer Network For Internet Access
+16 Port (8 PoE Ports) Network Switch
+Logging into the Laptop PC
+NOTE: Do not connect the MCR network directly to another network because you will most likely have a DHCP conflict. 
+The included Laptop PC is for configuring the MCR system and you must make sure that it is connected to the MCR 
+network and that everything in the rack has been powered up to finish configuring the system. Refer to the network wiring 
+diagram on page 3. The MCR network is comprised of the Nyquist System Controller and the Network Switch in the rack, 
+and has been preconfigured to use the DHCP server in the Nyquist System Controller.  
+16 Port (8 PoE Ports) Network Switch
+=====
+NYQUIST E700MC |  LOGGING INTO THE LAPTOP PC
+03
+If you want to connect the MCR system to the customer’s network (for say Internet access or remote administration), that is 
+done by connecting the customer’s network to port “B” of the System Controller.
+To log into the laptop PC, use Username “bogen” with the Password “bogen001” (using zeros not the letter “o”). When the 
+MCR system was being assembled at the factory, we installed the SSL certificate onto the laptop PC so that you don’t have 
+to. You can launch the Edge browser and go to System Controller’s IP address of 172.31.1.1 and you will be presented with 
+the Dialing Length Wizard, and you will then need to complete the setup wizards and then log into the system and continue 
+with the system configuration (e.g., adding stations, zones, etc.).
+For more information on how to properly configure a system refer to the Nyquist E7000 eLearning course.
+Things you don’t need to worry about with the MCR is that the License Activation Key (LAK) and Customer Information has 
+already been populated in the system to save you time. We recommend that you go to the Product License page in System 
+Parameters and take note your LAK for future reference/use.
+Network Port “A” for
+MCR Network Only
+Network Port “B” for Connection
+to Customer’s Network

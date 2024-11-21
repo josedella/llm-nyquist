@@ -1,0 +1,245 @@
+Publication Number 740-00054A  
+1807
+This equipment is not suitable for use in locations 
+where children are likely to be present.
+Equipment is intended for use only 
+in a restricted access area.
+NQ-A2060, NQ-A2120 
+Audio Power Amplifiers
+Installation and Use
+These networked 
+Audio Power Amplifiers 
+support a full range 
+of commercial paging 
+and public address 
+applications, regardless 
+of the venue size.  Both 
+the NQ-A2060 and the 
+NQ-A2120 can operate 
+in 2-channel mono or single channel bridged mode, depending 
+on the application need.
+Each networked audio power amplifier is a half-rack 1RU 
+high enclosure containing a Class D audio power amplifier, 
+a universal switched-mode power supply, an RJ45 network 
+jack, a USB port, and pluggable Phoenix style terminals for 
+loudspeaker and Line-Out connections.  Optionally, Line-Out 
+can be connected using the available XLR connector.
+
+=====
+NQ-A2060
+WARNING: To 
+reduce the risk 
+of fire or electric 
+shock, do not 
+expose this 
+apparatus to rain 
+or moisture.
+Always comply 
+with the following 
+basic safety precautions when installing and using the unit:
+1.	 Read these instructions.
+2.	 Keep these instructions.
+3.	 Heed all warnings.
+4.	 Follow all instructions.
+5.	 Clean only with dry cloth.
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+
+6.	 DO NOT install near any heat sources such as 
+radiators, heat registers, stoves, or other apparatus    
+(including amplifiers) that produce heat.
+7.	 DO NOT defeat the safety purpose of the polarized or 
+grounding-type plug.  A polarized plug has two blades with 
+one wider than the other.  A grounding-type plug has two 
+blades and a third grounding prong. The wide blade, or the 
+third prong, are provided for your safety. If the provided 
+plug does not fit into your outlet, consult an electrician for 
+replacement of the obsolete outlet.
+8.	 Protect the power cord from being walked on and/or 
+pinched, particularly at plugs, convenience receptacles, 
+and the point where they exit from the apparatus.
+ 9.  Only use attachments/accessories that are specified by  
+       the manufacturer.
+10. Unplug this apparatus during lightning storms or when
+       unused for long periods of time.
+11. Refer all servicing to qualified service personnel. Servicing
+      is required when the apparatus has been damaged in any
+      way, such as power-supply cord or plug is damaged, liquid
+      has been spilled or objects have fallen into the apparatus, 
+      the apparatus has been exposed to rain or moisture, does 
+      not operate normally, or has been dropped.
+
+=====
+
+Installation
+To install the NQ-A2060 Audio Power Amplifier:
+1.	 Ensure the  POWER switch is in the off position.
+2.	 Connect the universal mains power line cord into the 
+amplifier.
+3.	 Connect a Cat5 type cable into the amplifier’s Ethernet port 
+and ensure the other end of the  cable is correctly connected 
+to your network.
+4.	 Set the Amplifier Mode switch to the desired setting.
+
+This amplifier can be configured for single-channel bridged 
+mode (aka bridged-tied load) operation for 70V/25V/8Ω 
+applications, or 2-channel (mono) operation for 25V/8Ω/4Ω 
+applications.  The Amplifier Mode switch is used in 
+conjunction with the Bridged Signal routing setting in the 
+system console.
+
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+5
+WARNING:
+The apparatus shall be connected to a mains socket 
+outlet with
+a protective earthing connection.
+To reduce the risk of fire or electric shock, do not ex­
+pose this apparatus to rain or moisture.
+The apparatus shall not be exposed to dripping or 
+splashing and no objects filled with liquids, such as 
+vases, shall be placed on the apparatus.
+Where the mains plug or an appliance coupler is used 
+as the disconnect device, the disconnect device shall 
+remain readily operable.
+=====
+Bridged mode is typically used when higher power,  
+single channel operation  with a high impedance 
+loudspeaker load is desired. A typical use-case would 
+be for 70V or 25V loudspeaker runs, where the total 
+load is no less than 8Ω.
+
+2 Channel mode is typically used for 8Ω or 4Ω 
+loudspeakers runs. This mode allows the two amplifier 
+channels to operate independently.
+5.	 Connect the loudspeaker wires to the Amplifier 
+Output Terminals, which are labeled A +/- and B +/-, 
+as appropriate for the desired mode of operation (see 
+Figures 1 and 2). 
+Figure 1. Bridged Wiring Diagram
+Bridged mode operation requires the speaker wires to 
+be connected across a single, different terminal on each 
+channel (A+ and B-). (See Figure 1.) 
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+6
+=====
+If two channel mode is used, then Channel A is connected to the 
+A+ and A- terminals and B channel is connected to the B+ and 
+B- terminals. (See Figure 2.)
+Figure 2. Two-Channel Wiring
+Notice
+The minimum impedance of a Bridged 70V/25V/8Ω High 
+Impedance system should not be less than 8Ω. 
+The minimum impedance of a 2CH 25V/8/4Ω system 
+should not be less than 4Ω per channel.
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+7
+=====
+The combined total power of each speaker tap must not 
+exceed 80% of the rated amplifier power in either Bridged 
+70V/25V/8Ω mode or 2CH 25V/8/4Ω mode.
+Failure to observe minimum speaker impedance will cause 
+the amplifier to self protect until the speaker configuration 
+is corrected.
+6.	 If using Line Input, route the input. 
+
+The amplifier uses a balanced line level (up to 2V RMS) ana­
+log audio input. You can use either XLR or Phoenix (but not 
+both) as the input.
+
+This input can be routed to either or both amplifier channels, 
+depending on the setting of the Amplifier Mode switch.
+7.	 Plug the power line cord into the power source. 
+8.	 Toggle the Power switch to the On position.
+9.	 For information about configuring the amplifier for the 
+Nyquist system, refer to the Nyquist Audio Power Amplifiers 
+Configuration Manual.
+
+Power Ratings
+The NQ-A2060  can provide 60 Watts into two separate chan­
+nels into 25V, 8Ω, or 4Ω, or 120 Watts Bridged (one channel) into 
+70V, 25V, or 8Ω load configurations.
+The NQ-A2120 can provide 120 Watts into two separate chan­
+nels into 25V, 8Ω, or 4Ω, or 240 Watts Bridged (one channel) into 
+70V, 25V, or 8Ω load configurations.
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+8
+=====
+Viewing and Understanding LEDs
+Two LEDs appear on the front of the amplifier. One is labeled 
+POWER and appears as solid red during initial power up, 
+flashes green during a boot sequence, and appears solid green 
+when fully booted.
+The STATUS LED uses the following indicators to provide 
+information about the appliance:
+•	
+Flashing red – No network connection found.
+•	
+Solid blue – The amplifier is in an uninitialized state and is 
+not associated to a server. (The server may be in a discovery 
+mode.)
+•	
+Solid green – The 
+amplifier is registered to 
+a Nyquist server and is in 
+normal operation.
+•	
+Flashing green – The 
+amplifier has an IP 
+address but is not 
+registered with the 
+Nyquist server.
+•	
+Solid red – The amplifier needs to be rebooted or reset so 
+that the Nyquist application can resume.
+•	
+Flashing blue – The amplifier is updating.
+Clipping, Protection, and Temperature Indicators
+In addition to the LEDs that appear on the actual appliance, 
+separate amplifier module signal clipping, protection mode, 
+and temperature status indicators appear in the Nyquist 
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.
+9
+=====
+amplifier’s web-based user interface. For more information 
+about these status indicators, refer to the Nyquist NQ-A2060, 
+NQ-A2120 Audio Power Amplifiers Configuration Manual.
+Using the Reset Button
+The Reset button allows you to restart the appliance or to reset 
+the appliance’s configuration settings to the factory default 
+settings. For more information about resetting configuration 
+settings, refer to the Nyquist Audio Power Amplifiers 
+Configuration Manual.
+Notice
+Every effort was made to ensure that the information in this 
+manual was complete and accurate at the time of printing; how­
+ever, all information is subject to change.
+Compliance
+NOTE: This equipment has been 
+tested and found to comply with 
+the limits for a Class A digital 
+device, pursuant to Part 15 of 
+the FCC rules. These limits are 
+designed to provide reason­
+able protection against harmful 
+interference when the equipment 
+is operated in a commercial 
+environment. This equipment generates, uses and can radiate radio 
+frequency energy and, if not installed and used in accordance with 
+the instruction manual, may cause harmful interference to radio 
+communications.  Operation of this equipment in a residential area 
+is likely to cause harmful interference in which case the user will be 
+1200 MacArthur Blvd. Suite 304, Mahwah, NJ 07430 
+1-800-999-2809
+© Copyright 2018, Bogen Communications, Inc.

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "query": "The emergency buttons turn red and stop functioning once a month, this condition is only able to be corrected by power cycling the network switch.",
+        "response": "The issue described could be caused by a software bug in the Bogen E7000 system. The emergency buttons may be malfunctioning due to a software glitch that occurs once a month, causing the system to malfunction. This could be due to a scheduled software update that is not properly executed, or a software bug that is triggered by a specific date or time.\n\nTo fix this issue, I would recommend the following steps:\n\n1. Check the system logs to see if there are any error messages or warnings related to the emergency buttons malfunctioning.\n2. Check the system software version to see if there are any updates available. If"
+    },
+    {
+        "id": 2,
+        "query": "We are moving to ring central for our phone system as part of our move from analog to voip. We have their ALGO device which is supposed to allow for zone paging with the BogenPCM2000. Currently the zone paging is not working with the device but it does see the PCM2000 zones. We want to see if we can get assistance in verifying we are configuring the PCM2000 dip switches correctly as well as the general connection for the devices.",
+        "response": "Based on the information provided, it seems that the issue lies in the configuration of the Bogen PCM2000 and the ALGO device. The ALGO device is supposed to allow for zone paging with the PCM2000, but it's not working as expected.\n\nFirstly, it's essential to ensure that the PCM2000 is properly configured for zone paging. The dip switches on the PCM2000 need to be set correctly to allow the ALGO device to communicate with the PCM2000 zones. It's possible that the dip switches are not set correctly, which is causing the issue.\n\nTo troubleshoot this issue"
+    },
+    {
+        "id": 3,
+        "query": "Intercom calls from the Admin Phone to certain ASB stations end before SIP 200 OK w/ SIP CANCEL message.",
+        "response": "The issue described by the customer is likely caused by the SIP CANCEL message being sent prematurely by the Bogen E7000 system. This could be due to various reasons such as:\n\n1. The system is configured to send the SIP CANCEL message too early, before the SIP 200 OK response is received.\n2. There is a network or connectivity issue causing the SIP 200 OK response to be lost or delayed, resulting in the SIP CANCEL message being sent prematurely.\n\nTo resolve this issue, you would recommend the following:\n\n1. Check the system configuration to ensure that the SIP CANCEL message is not being"
+    }
+]

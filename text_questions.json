@@ -1,0 +1,246 @@
+[
+  {
+    "question_number": 1,
+    "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "False"
+  },
+  {
+    "question_number": 2,
+    "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+    "answer_options": null,
+    "type": "completion",
+    "answer": "admin"
+  },
+  {
+    "question_number": 3,
+    "question": "What is the TFTP Server IP address?",
+    "answer_options": [
+      "a. Where the appliance gets user information",
+      "b. I don’t need a TFTP Server",
+      "c. The IP address of the Nyquist System Controller or Server"
+    ],
+    "type": "multiple choice",
+    "answer": "c. The IP address of the Nyquist System Controller or Server"
+  },
+  {
+    "question_number": 4,
+    "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "False"
+  },
+  {
+    "question_number": 5,
+    "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+    "answer_options": null,
+    "type": "completion",
+    "answer": "bogen"
+  },
+  {
+    "question_number": 6,
+    "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+    "answer_options": [
+      "a. NQ-P9100 - Matrix Mixer Pre-Amp",
+      "b. NQ-E7010 - I/O Controller",
+      "c. NQ-SYSCTRL - System Controller",
+      "d. Custom Built System Server"
+    ],
+    "type": "multiple choice (select one or more)",
+    "answer": ["c. NQ-SYSCTRL - System Controller", "d. Custom Built System Server"]
+  },
+  {
+    "question_number": 7,
+    "question": "How many stations or ports does an Analog Station Bridge have?",
+    "answer_options": ["a. 12", "b. 48", "c. 36", "d. 24"],
+    "type": "multiple choice",
+    "answer": "d. 24"
+  },
+  {
+    "question_number": 8,
+    "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+    "answer_options": null,
+    "type": "completion",
+    "answer": "ok"
+  },
+  {
+    "question_number": 9,
+    "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+    "answer_options": [
+      "a. NQ-E7020 - Digital Call Switch",
+      "b. NQ-E7010 - I/O Controller",
+      "c. NQ-P9100 - Matrix Mixer Pre-Amp"
+    ],
+    "type": "multiple choice",
+    "answer": "b. NQ-E7010 - I/O Controller"
+  },
+  {
+    "question_number": 10,
+    "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+    "answer_options": ["a. No", "b. Yes"],
+    "type": "multiple choice",
+    "answer": "b. Yes"
+  },
+  {
+    "question_number": 11,
+    "question": "How many display configurations does the NQ-GA10PV have?",
+    "answer_options": ["a. 8", "b. 10", "c. 6", "d. 3"],
+    "type": "multiple choice",
+    "answer": "c. 6"
+  },
+  {
+    "question_number": 12,
+    "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+    "answer_options": [
+      "a. Where the appliance gets user information",
+      "b. The IP address of the Nyquist System Controller or Server",
+      "c. I don’t need this field"
+    ],
+    "type": "multiple choice",
+    "answer": "b. The IP address of the Nyquist System Controller or Server"
+  },
+  {
+    "question_number": 13,
+    "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+    "answer_options": [
+      "a. NQ-E7010 - I/O Controller",
+      "b. NQ-SYSCTRL - System Controller",
+      "c. Custom Built System Server",
+      "d. NQ-P9100 - Matrix Mixer Pre-Amp"
+    ],
+    "type": "multiple choice (select one or more)",
+    "answer": ["b. NQ-SYSCTRL - System Controller", "c. Custom Built System Server"]
+  },
+  {
+    "question_number": 14,
+    "question": "Do different Nyquist appliances require different firmware?",
+    "answer_options": ["a. No", "b. Yes"],
+    "type": "multiple choice",
+    "answer": "a. No"
+  },
+  {
+    "question_number": 15,
+    "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 16,
+    "question": "What are the best ways to contact Bogen Technical Support?",
+    "answer_options": [
+      "a. (800) 999-2809",
+      "b. support@bogen.com",
+      "c. mail a letter to Dear Abby"
+    ],
+    "type": "multiple choice (select one or more)",
+    "answer": ["a. (800) 999-2809", "b. support@bogen.com"]
+  },
+  {
+    "question_number": 17,
+    "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+    "answer_options": null,
+    "type": "completion",
+    "answer": "ok"
+  },
+  {
+    "question_number": 18,
+    "question": "What audio file formats does Nyquist support?",
+    "answer_options": [
+      "a. MP3",
+      "b. ZP2",
+      "c. MP4",
+      "d. A-Law",
+      "e. WAV"
+    ],
+    "type": "multiple choice (select one or more)",
+    "answer": ["a. MP3", "e. WAV"]
+  },
+  {
+    "question_number": 19,
+    "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+    "answer_options": [
+      "1. www.bogenedu.com knowledge base",
+      "2. (800) 999-2809 Bogen customer phone number",
+      "3. support@bogen.com Bogen support email address",
+      "4. all of the above"
+    ],
+    "type": "multiple choice",
+    "answer": "4. all of the above"
+  },
+  {
+    "question_number": 20,
+    "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+    "answer_options": [
+      "a. 10 Watt integrated power amplifier",
+      "b. PoE Class-3",
+      "c. DSP Optimization",
+      "d. Reset Button",
+      "e. Relay Output"
+    ],
+    "type": "multiple choice (select one or more)",
+    "answer": ["c. DSP Optimization", "d. Reset Button", "e. Relay Output"]
+  },
+  {
+    "question_number": 21,
+    "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+    "answer_options": ["a. 4", "b. 16", "c. 8"],
+    "type": "multiple choice",
+    "answer": "c. 8"
+  },
+  {
+    "question_number": 22,
+    "question": "Can you upload custom tones to Nyquist?",
+    "answer_options": ["a. Yes", "b. No"],
+    "type": "multiple choice",
+    "answer": "a. Yes"
+  },
+  {
+    "question_number": 23,
+    "question": "How many stations or ports does an Analog Station Bridge have?",
+    "answer_options": ["a. 48", "b. 24", "c. 12", "d. 36"],
+    "type": "multiple choice",
+    "answer": "b. 24"
+  },
+  {
+    "question_number": 24,
+    "question": "What are the two types of audio output on the NQ-GA20P2?",
+    "answer_options": [
+      "a. 20 Watts at 8 ohms",
+      "b. 70V",
+      "c. Balanced Line",
+      "d. HDMI"
+    ],
+    "type": "multiple choice (select one or more)",
+    "answer": ["a. 20 Watts at 8 ohms", "c. Balanced Line"]
+  },
+  {
+    "question_number": 25,
+    "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+    "answer_options": ["a. Bridged", "b. 2 Channel"],
+    "type": "multiple choice",
+    "answer": "a. Bridged"
+  },
+  {
+    "question_number": 26,
+    "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+    "answer_options": ["a. Victory", "b. plenum-rated", "c. HDMI Video Output"],
+    "type": "multiple choice",
+    "answer": "c. HDMI Video Output"
+  },
+  {
+    "question_number": 27,
+    "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+    "answer_options": ["a. 5", "b. 4", "c. 3"],
+    "type": "multiple choice",
+    "answer": "b. 4"
+  },
+  {
+    "question_number": 28,
+    "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+    "answer_options": ["a. OK", "b. Ok", "c. ok"],
+    "type": "multiple choice",
+    "answer": ["c. ok", "a. OK"]
+  }
+]
