@@ -1,0 +1,1649 @@
+{
+    "Experiment_1": {
+        "FTresults": [
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The button to press on the VoIP Admin Phone to find",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the default port used by the Bogen E7000 system for SIP communication?",
+                "generated_answer": "Answer: 506\n####\n\n### 3.3.4",
+                "expected_answer": "5060"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "Which component of the Bogen E7000 system is responsible for distributing power to connected devices?",
+                "generated_answer": "a. The Power Supply",
+                "expected_answer": "a. The Power Supply Unit (PSU)"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 48",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+                "generated_answer": "a. Zone Paging",
+                "expected_answer": "a. Zone Paging"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n###",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________.\n### 3.2.3\nInstalling the Nyquist",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-E",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "b, c, d",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "False\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "c. 8",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n####",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "c. Balanced Line,",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            }
+        ],
+        "FT3epresults": [
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\nFinal Answer",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The IP address of the VoIP Admin Phone can be found",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the default port used by the Bogen E7000 system for SIP communication?",
+                "generated_answer": "Answer: 5060\nPublished date: May 27,",
+                "expected_answer": "5060"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "Which component of the Bogen E7000 system is responsible for distributing power to connected devices?",
+                "generated_answer": "a. The Power Supply",
+                "expected_answer": "a. The Power Supply Unit (PSU)"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+                "generated_answer": "True\nFinal Answer:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\nExplanation",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+                "generated_answer": "True\nFinal Answer:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+                "generated_answer": "a. Zone Paging",
+                "expected_answer": "a. Zone Paging"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\nExplanation",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "Answer: The default password for all Nyquist Appliances is \"password\".",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a. NQ",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "#### 2.",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n#### 3",
+                "expected_answer": "True"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "c. 8",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\nPage",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a. 20",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\nExplanation",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________ | | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the default port used by the Bogen E7000 system for SIP communication?",
+                "generated_answer": "_______________________\n```\nSIP port: 5060\n```",
+                "expected_answer": "5060"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "Which component of the Bogen E7000 system is responsible for distributing power to connected devices?",
+                "generated_answer": "a. The Power Supply",
+                "expected_answer": "a. The Power Supply Unit (PSU)"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+                "generated_answer": "c. Selective Announcement",
+                "expected_answer": "a. Zone Paging"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n```\nE7000\n```\n\n### 5.",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, c",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            }
+        ]
+    },
+    "Experiment_2": {
+        "FTresults": [
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+                "generated_answer": "a. Priority Override",
+                "expected_answer": "a. Priority Override"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The button to press is the \"Menu\" button. It",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "False\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "b. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+                "generated_answer": "True\nNote:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\nExplanation",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "```\nAnswer: The button to press on the VoIP Admin Phone",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            }
+        ],
+        "FT3epresults": [
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+                "generated_answer": "a. Priority Override",
+                "expected_answer": "a. Priority Override"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: Press the Menu button on the phone to find out its IP",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n#### 3",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\nPage",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n#### 0",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+                "generated_answer": "True\nFinal Answer:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a. NQ",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The IP address can be found by pressing the Menu button on",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+                "generated_answer": "a. Priority Override",
+                "expected_answer": "a. Priority Override"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n```\nA. Settings\nB. Status\nC.",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\nThe",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+                "generated_answer": "True\n```\n\n###",
+                "expected_answer": "True"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "_______________________</p>",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+                "generated_answer": "True\n```\n\nAnswer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________. | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            }
+        ]
+    },
+    "Experiment_3": {
+        "FTresults": [
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n### 2.3.2\nInstalling the Nyquist",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Which type of call is commonly used in the Bogen E7000 system for internal communication between appliances?",
+                "generated_answer": "c. Zone Call",
+                "expected_answer": "a. SIP Call"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "b. 2 Channel",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800)",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the recommended method for updating the firmware on a Bogen E7000 appliance?",
+                "generated_answer": "b. Through the web",
+                "expected_answer": "b. Through the web interface"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "False\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+                "generated_answer": "c. Selective Announcement",
+                "expected_answer": "a. Zone Paging"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "a, e\nExplanation",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            }
+        ],
+        "FT3epresults": [
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "Answer: The default password for all Nyquist Appliances is \"password\".",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+                "generated_answer": "True\nPublished:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Which type of call is commonly used in the Bogen E7000 system for internal communication between appliances?",
+                "generated_answer": "c. Zone Call",
+                "expected_answer": "a. SIP Call"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\nExplanation:\nAll",
+                "expected_answer": "False"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "b. 2 Channel",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+                "generated_answer": "True\nFinal Answer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "c. 8",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 48",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the recommended method for updating the firmware on a Bogen E7000 appliance?",
+                "generated_answer": "b. Through the web",
+                "expected_answer": "b. Through the web interface"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+                "generated_answer": "a. Zone Paging",
+                "expected_answer": "a. Zone Paging"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\nPage",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\nPublished by Ny",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "a, e\nExplanation",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n```\nE7000\n```\n```\nE700",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Which type of call is commonly used in the Bogen E7000 system for internal communication between appliances?",
+                "generated_answer": "c. Zone Call",
+                "expected_answer": "a. SIP Call"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "a. Bridged",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+                "generated_answer": "True\n```\n\n###",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+                "generated_answer": "a. Remote configuration and",
+                "expected_answer": "a. Remote configuration and monitoring"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n``",
+                "expected_answer": "False"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the recommended method for updating the firmware on a Bogen E7000 appliance?",
+                "generated_answer": "_______________________  |\n|",
+                "expected_answer": "b. Through the web interface"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n```\n\nAnswer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+                "generated_answer": "c. Selective Announcement",
+                "expected_answer": "a. Zone Paging"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\nThe",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV\n``",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            }
+        ]
+    },
+    "Experiment_4": {
+        "FTresults": [
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "b. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: The E7000 system supports live announcements through a paging console or SIP phone.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800)",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "False\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-E",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "A) Menu\nB) Settings\nC) Status\nD)",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "Answer: admin\n#### 3.2.2\nUsing the",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system can be used to group multiple zones for a single announcement?",
+                "generated_answer": "c. Zone Aggregation",
+                "expected_answer": "a. Group Paging"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+                "generated_answer": "a. Priority Override",
+                "expected_answer": "a. Priority Override"
+            },
+            {
+                "question": "What feature ensures that a routine message plays at a specific time every day?",
+                "generated_answer": "a. Time Scheduling",
+                "expected_answer": "b. Daily Routine Scheduler"
+            }
+        ],
+        "FT3epresults": [
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+                "generated_answer": "True\nFinal Answer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: The E7000 system supports live announcements through a paging console or SIP phone.",
+                "generated_answer": "True\nFinal Answer:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n#### 0",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n#### 2",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\nFinal",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a. NQ",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The IP address can be found on the phone's display screen",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "Answer: admin\nPublished date: 2021-03-11",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system can be used to group multiple zones for a single announcement?",
+                "generated_answer": "b. Multi-Zone",
+                "expected_answer": "a. Group Paging"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "True\nFalse",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+                "generated_answer": "a. Priority Override",
+                "expected_answer": "a. Priority Override"
+            },
+            {
+                "question": "What feature ensures that a routine message plays at a specific time every day?",
+                "generated_answer": "a. Time Scheduling",
+                "expected_answer": "b. Daily Routine Scheduler"
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: The E7000 system supports live announcements through a paging console or SIP phone.",
+                "generated_answer": "True\n```\n\n###",
+                "expected_answer": "True"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\n\nAnswer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________.\n```\nA) Settings\nB) Status\nC)",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________.\n```\nAnswer: nyquist\n```\n### 5",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system can be used to group multiple zones for a single announcement?",
+                "generated_answer": "b. Multi-Zone",
+                "expected_answer": "a. Group Paging"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+                "generated_answer": "a. Priority Override",
+                "expected_answer": "a. Priority Override"
+            },
+            {
+                "question": "What feature ensures that a routine message plays at a specific time every day?",
+                "generated_answer": "a. Time Scheduling",
+                "expected_answer": "b. Daily Routine Scheduler"
+            }
+        ]
+    },
+    "Experiment_5": {
+        "FTresults": [
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "c. Balanced Line,",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "```\nAnswer:  password\n``` |\n|  |\n|",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n####",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "```\nAnswer: \nThe button to find out the IP address of",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n###",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The button to press on the VoIP Admin Phone to find",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports multicast paging to minimize network traffic.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 24",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "a, e\nExplanation",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-S",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            }
+        ],
+        "FT3epresults": [
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a. 20",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "Answer: The default password for all Nyquist Appliances is \"password\".",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\nFinal",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The IP address can be found by pressing the Menu button on",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\nExplanation",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\nExplanation",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "Answer: The IP address can be found by pressing the Menu button on",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "b. To act as",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+                "generated_answer": "True\n### 2",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports multicast paging to minimize network traffic.",
+                "generated_answer": "True\nFinal Answer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 24",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "a, e\nExplanation",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "#### 2.",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\nExplanation:\nAll",
+                "expected_answer": "False"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n```\nE7000\n```\n### Nyquist E",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+                "generated_answer": "a. Tone Composer",
+                "expected_answer": "b. Custom Tone Generator"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________. | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n```\nA. Settings\nB. Status\nC.",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "_________________________.",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n``",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the purpose of the Bogen E7000 System Controller?",
+                "generated_answer": "_______________________</p>",
+                "expected_answer": "b. To act as the central hub for network communication and control"
+            },
+            {
+                "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: The Bogen E7000 system supports multicast paging to minimize network traffic.",
+                "generated_answer": "True\n```\n\n###",
+                "expected_answer": "True"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV, d",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+                "generated_answer": "True\n```\n\n###",
+                "expected_answer": "True"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+                "generated_answer": "b. Cat5e",
+                "expected_answer": "b. Cat5e or higher Ethernet cable"
+            }
+        ]
+    },
+    "Final_Averages": {
+        "Fine_Tuned_Model": 0.6100000000000001,
+        "Fine_Tuned_3Epochs_Model": 0.6399999999999999,
+        "Base_Model": 0.55
+    }
+}

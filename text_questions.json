@@ -242,5 +242,201 @@
     "answer_options": ["a. OK", "b. Ok", "c. ok"],
     "type": "multiple choice",
     "answer": ["c. ok", "a. OK"]
+  },
+  {
+    "question_number": 29,
+    "question": "True or False: The Bogen E7000 system supports multicast paging to minimize network traffic.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 30,
+    "question": "What is the purpose of the Bogen E7000 System Controller?",
+    "answer_options": [
+      "a. To manage audio amplification",
+      "b. To act as the central hub for network communication and control",
+      "c. To provide power to connected devices",
+      "d. To store audio files for paging"
+    ],
+    "type": "multiple choice",
+    "answer": "b. To act as the central hub for network communication and control"
+  },
+  {
+    "question_number": 31,
+    "question": "Which type of cabling is typically used to connect E7000 speakers in a networked environment?",
+    "answer_options": [
+      "a. Coaxial cable",
+      "b. Cat5e or higher Ethernet cable",
+      "c. Fiber optic cable",
+      "d. Serial cable"
+    ],
+    "type": "multiple choice",
+    "answer": "b. Cat5e or higher Ethernet cable"
+  },
+  {
+    "question_number": 32,
+    "question": "True or False: The E7000 system can prioritize emergency messages over regular paging announcements.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 33,
+    "question": "What is the default port used by the Bogen E7000 system for SIP communication?",
+    "answer_options": null,
+    "type": "completion",
+    "answer": "5060"
+  },
+  {
+    "question_number": 34,
+    "question": "What is the primary advantage of using the Bogen E7000 system's web interface?",
+    "answer_options": [
+      "a. Remote configuration and monitoring",
+      "b. Enhanced audio quality",
+      "c. Lower network latency",
+      "d. Built-in troubleshooting tools"
+    ],
+    "type": "multiple choice",
+    "answer": "a. Remote configuration and monitoring"
+  },
+  {
+    "question_number": 35,
+    "question": "True or False: Bogen E7000 supports integration with third-party VoIP systems.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 36,
+    "question": "Which component of the Bogen E7000 system is responsible for distributing power to connected devices?",
+    "answer_options": [
+      "a. The Power Supply Unit (PSU)",
+      "b. The System Controller",
+      "c. The Network Switch",
+      "d. The Paging Console"
+    ],
+    "type": "multiple choice",
+    "answer": "a. The Power Supply Unit (PSU)"
+  },
+  {
+    "question_number": 37,
+    "question": "True or False: The Bogen E7000 system supports zoning for targeted paging.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 38,
+    "question": "What is the recommended method for updating the firmware on a Bogen E7000 appliance?",
+    "answer_options": [
+      "a. Via a USB drive connected directly to the appliance",
+      "b. Through the web interface",
+      "c. By sending a special command over the network",
+      "d. Using a proprietary desktop application"
+    ],
+    "type": "multiple choice",
+    "answer": "b. Through the web interface"
+  },
+  {
+    "question_number": 39,
+    "question": "True or False: The Bogen E7000 system allows for scheduled paging routines.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 40,
+    "question": "What feature in the Bogen E7000 system ensures that critical announcements are played regardless of current activity?",
+    "answer_options": [
+      "a. Priority Override",
+      "b. Announcement Queue",
+      "c. Routine Bypass",
+      "d. Call Priority"
+    ],
+    "type": "multiple choice",
+    "answer": "a. Priority Override"
+  },
+  {
+    "question_number": 41,
+    "question": "True or False: The E7000 system supports live announcements through a paging console or SIP phone.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 42,
+    "question": "Which type of call is commonly used in the Bogen E7000 system for internal communication between appliances?",
+    "answer_options": [
+      "a. SIP Call",
+      "b. Multicast Call",
+      "c. Zone Call",
+      "d. Routine Call"
+    ],
+    "type": "multiple choice",
+    "answer": "a. SIP Call"
+  },
+  {
+    "question_number": 43,
+    "question": "What feature allows the Bogen E7000 system to target specific areas for announcements?",
+    "answer_options": [
+      "a. Zone Paging",
+      "b. Group Calls",
+      "c. Selective Announcement",
+      "d. Location Paging"
+    ],
+    "type": "multiple choice",
+    "answer": "a. Zone Paging"
+  },
+  {
+    "question_number": 44,
+    "question": "True or False: Routine messages in the Bogen E7000 system can include pre-recorded audio.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 45,
+    "question": "What feature ensures that a routine message plays at a specific time every day?",
+    "answer_options": [
+      "a. Time Scheduling",
+      "b. Daily Routine Scheduler",
+      "c. Announcement Timer",
+      "d. Clock-Based Paging"
+    ],
+    "type": "multiple choice",
+    "answer": "b. Daily Routine Scheduler"
+  },
+  {
+    "question_number": 46,
+    "question": "What feature in the Bogen E7000 system can be used to group multiple zones for a single announcement?",
+    "answer_options": [
+      "a. Group Paging",
+      "b. Multi-Zone Targeting",
+      "c. Zone Aggregation",
+      "d. Paging Alliance"
+    ],
+    "type": "multiple choice",
+    "answer": "a. Group Paging"
+  },
+  {
+    "question_number": 47,
+    "question": "True or False: The Bogen E7000 system allows users to schedule routine calls for specific zones only.",
+    "answer_options": ["True", "False"],
+    "type": "multiple choice",
+    "answer": "True"
+  },
+  {
+    "question_number": 48,
+    "question": "Which feature in the Bogen E7000 system allows users to create customized paging tones?",
+    "answer_options": [
+      "a. Tone Composer",
+      "b. Custom Tone Generator",
+      "c. Pre-Set Tones",
+      "d. User-Defined Tones"
+    ],
+    "type": "multiple choice",
+    "answer": "b. Custom Tone Generator"
   }
 ]
+

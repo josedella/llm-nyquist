@@ -1,0 +1,1196 @@
+{
+    "Experiment_1": {
+        "FTresults": [
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n### 2.2.2\nInstalling the Nyquist",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800)",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n###",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "c. Balanced Line,",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n### 3.4.2\nUsing the Admin Phone",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n### 4.3.2\nUsing the Admin Phone",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "A) \nB) \nC) \nD) \n\nAnswer:",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "b, c, e",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "a, e\nExplanation",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n####",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n```\nE7000\n```\n```\ne700",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n``",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________. | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n```\nA) Settings\nB) Status\nC)",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________.\n```\nAnswer: admin\n```\n### 5.",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, e",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV, d",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "_______________________ (4)",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\n\n###",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n``",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            }
+        ]
+    },
+    "Experiment_2": {
+        "FTresults": [
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-E",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "b. 2 Channel",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n####",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800)",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "```\nAnswer: The button to press on the VoIP Admin Phone",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\nNote:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 24",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "c. Balanced Line,",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n### 3.3.3\nInstalling a Self-S",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "b, c, e",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-S",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\nExplanation:",
+                "expected_answer": "False"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "a. Bridged",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "Do different Nyquist appliances require different firmware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "a. No"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________. | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\nAnswer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________.\n```\nA) Settings\nB) Status\nC)",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, c",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            }
+        ]
+    },
+    "Experiment_3": {
+        "FTresults": [
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV, a",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n\n\nAnswer: 1234567890\n#### 3.",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n###",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n####",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "b. 10",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "b. 2 Channel",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\nExplanation:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, c",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\nExplanation",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "A) Menu\nB) Settings\nC) Status\nD)",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV, d",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\".\"\n```\nAnswer: \"Nyquist\" (case sensitive",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n``",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            },
+            {
+                "question": "How many display configurations does the NQ-GA10PV have?",
+                "generated_answer": "a. 8",
+                "expected_answer": "c. 6"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\nExplanation: Ny",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "a. Bridged",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\nAnswer: True",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, c",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\".  |\n|  |\n|  |\n|  |\n\nAnswer",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n\n**",
+                "expected_answer": "False"
+            }
+        ]
+    },
+    "Experiment_4": {
+        "FTresults": [
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n####",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n###",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "A) Menu\nB) Settings\nC) Status\nD)",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n####",
+                "expected_answer": "True"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, c",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "```\nAnswer: \nThe button to find out the IP address of",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n####",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "A) \nB) \nC) \nD) \nAnswer:",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800)",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "c. 8",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 48",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "b. 2 Channel",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n### 3.2.2\nConfigure Appliance for",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-E",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n``",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________. | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\nThe",
+                "expected_answer": "True"
+            },
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "_______________________ 4.",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, e",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________. | | | | | | | | | | | |",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "True or False: All Nyquist appliances need to have static IP addresses.",
+                "generated_answer": "True\n```\n\n**",
+                "expected_answer": "False"
+            },
+            {
+                "question": "True or False: Nyquist appliances come from the factory with a static IP address.",
+                "generated_answer": "False\n```\n\n###",
+                "expected_answer": "False"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n```\nE7000\n```\n### 3.",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "What is the TFTP Server IP address in the Appliance Network Setup?",
+                "generated_answer": "b. The IP address",
+                "expected_answer": "b. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "a. Bridged",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What is the default password for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________.\n```\nAnswer: nyquist\n```\n\n### 3",
+                "expected_answer": "bogen"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "c. NQ-SYSCTRL - System Controller",
+                    "d. Custom Built System Server"
+                ]
+            }
+        ]
+    },
+    "Experiment_5": {
+        "FTresults": [
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "4. all of",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "c. Balanced Line,",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "```\nAnswer: \nThe button to find the IP address on the",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n###",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "b. 4",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "b. 2 Channel",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "b. 24",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "b. NQ-S",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "b, c, e",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\nNote:",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "Answer: admin\n#### 2.2.2\nUsing the",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "c. 8",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV, a",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a. (800)",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n###",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            }
+        ],
+        "BASEresults": [
+            {
+                "question": "In what ways can you get assistance from Bogen when installing the Nyquist System?",
+                "generated_answer": "_______________________ 4.",
+                "expected_answer": "4. all of the above"
+            },
+            {
+                "question": "What are the two types of audio output on the NQ-GA20P2?",
+                "generated_answer": "a, c\nExplanation",
+                "expected_answer": [
+                    "a. 20 Watts at 8 ohms",
+                    "c. Balanced Line"
+                ]
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "_______________________\n```\nA. Menu\nB. Settings\nC.",
+                "expected_answer": "ok"
+            },
+            {
+                "question": "Do Nyquist appliances include wall and shelf mounting hardware?",
+                "generated_answer": "b. Yes\n``",
+                "expected_answer": "b. Yes"
+            },
+            {
+                "question": "How many MIC/Line inputs does an NQ-P0100 Matrix Mixer Pre-Amp have?",
+                "generated_answer": "a. 5",
+                "expected_answer": "b. 4"
+            },
+            {
+                "question": "To get 70V output on a 2- or 4-Channel amplifier what position does the selector switch need to be in?",
+                "generated_answer": "a. Bridged",
+                "expected_answer": "a. Bridged"
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "a. 48",
+                "expected_answer": "b. 24"
+            },
+            {
+                "question": "Can you upload custom tones to Nyquist?",
+                "generated_answer": "a. Yes\n``",
+                "expected_answer": "a. Yes"
+            },
+            {
+                "question": "What is the first Nyquist device you need to set up when installing Nyquist (Hint: two possible answers)?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "b. NQ-SYSCTRL - System Controller",
+                    "c. Custom Built System Server"
+                ]
+            },
+            {
+                "question": "What Nyquist appliance is required when you want to play a Pre-Recorded Emergency Announcement when a button is pushed?",
+                "generated_answer": "a. NQ-E",
+                "expected_answer": "b. NQ-E7010 - I/O Controller"
+            },
+            {
+                "question": "What are the NEW capabilities of the Gen 2 VoIP speakers?",
+                "generated_answer": "a, b, e",
+                "expected_answer": [
+                    "c. DSP Optimization",
+                    "d. Reset Button",
+                    "e. Relay Output"
+                ]
+            },
+            {
+                "question": "The 2- and 4-Channel Audio Amplifiers have line-level inputs!",
+                "generated_answer": "True\n```\n\nAnswer",
+                "expected_answer": "True"
+            },
+            {
+                "question": "What is the default username for all Nyquist Appliances (the answer is case sensitive)?",
+                "generated_answer": "_______________________\n```\nE7000\n```\n```\nadmin",
+                "expected_answer": "admin"
+            },
+            {
+                "question": "How many outputs does an NQ-E7010 I/O Controller have?",
+                "generated_answer": "b. 16",
+                "expected_answer": "c. 8"
+            },
+            {
+                "question": "What does the 'V' in the part number NQ-GA10PV stand for?",
+                "generated_answer": "b. plenum-rated",
+                "expected_answer": "c. HDMI Video Output"
+            },
+            {
+                "question": "What is the TFTP Server IP address?",
+                "generated_answer": "c. The IP address",
+                "expected_answer": "c. The IP address of the Nyquist System Controller or Server"
+            },
+            {
+                "question": "What audio file formats does Nyquist support?",
+                "generated_answer": "e. WAV, d",
+                "expected_answer": [
+                    "a. MP3",
+                    "e. WAV"
+                ]
+            },
+            {
+                "question": "What are the best ways to contact Bogen Technical Support?",
+                "generated_answer": "a, b\n``",
+                "expected_answer": [
+                    "a. (800) 999-2809",
+                    "b. support@bogen.com"
+                ]
+            },
+            {
+                "question": "How many stations or ports does an Analog Station Bridge have?",
+                "generated_answer": "d. 24",
+                "expected_answer": "d. 24"
+            },
+            {
+                "question": "What button do you push on the VoIP Admin Phone to find out what its IP address is?",
+                "generated_answer": "a. OK\n``",
+                "expected_answer": [
+                    "c. ok",
+                    "a. OK"
+                ]
+            }
+        ]
+    },
+    "Final_Averages": {
+        "Fine_Tuned_Model": 0.55,
+        "Base_Model": 0.47000000000000003
+    }
+}
