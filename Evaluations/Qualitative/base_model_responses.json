@@ -1,0 +1,331 @@
+[
+    {
+        "id": 1,
+        "subject": "NQ-2060-g2 in stand alone mode starts buzzing",
+        "query": "After a couple of days the amps start humming. Even with inputs removed. Checked load and for ground faults. None found. Cycle power and problem is gone. _x000D_\nInstalled exact same amp at site and it has worked flawlessly for weeks.  Don plans to remote in tomorrow",
+        "type": "SystemIssues",
+        "response": "Based on the description, it appears that the issue is related to a possible electrical fault or malfunction within the Bogen E7000 system. The humming noise, even after inputs are removed, suggests that there might be an electrical issue with the amplifier itself.\n\nThe fact that the problem is resolved by cycling the power suggests that there might be a temporary electrical fault or a fault in the power supply unit (PSU) of the amplifier. The absence of any ground faults or load issues further supports this theory.\n\nThe installation of the same amp at the site, which has worked flawlessly for weeks, suggests that the issue is specific"
+    },
+    {
+        "id": 2,
+        "subject": "SIP and paging integration issue",
+        "query": "Customer had a new phone system installed at two different campuses. _x000D_\nConfigured Grandstream ht813s at each location with identical configurations except for the server SIP server address as there are different controllers for each of the campuses. _x000D_\nThe Station in each controller is configured the same as well minus the extension. _x000D_\nOne system is working properly when placing all calls any of the phones. _x000D_\nThe other system is operating as if each phone is calling as an IP button.",
+        "type": "SystemIssues",
+        "response": "The issue is likely due to the fact that the Grandstream HT813s are not being registered properly with the Bogen E7000 system. This could be due to a variety of reasons such as incorrect SIP server address, incorrect username/password, or incorrect extension settings.\n\nTo resolve the issue, I would recommend checking the following:\n\n1. Verify that the SIP server address is correct for each campus.\n2. Check the username and password settings for each Grandstream HT813s to ensure they match the settings in the Bogen E7000 system.\n3. Verify that the extension settings are correct for each Grandstream HT813"
+    },
+    {
+        "id": 3,
+        "subject": "Not able to login to the Nyquist Server.",
+        "query": "Need help with clearing the sessions table and work with the customer to see why this happened. I have worked with XXXX in the past to resolve this issue. Can we schedule a time on Monday, 4/7 to resolve this?",
+        "type": "SystemQuestions",
+        "response": "Hi XXXX, thank you for reaching out to us for assistance with clearing the sessions table in your Bogen E7000 system. I'd be happy to help you resolve this issue.\n\nTo clear the sessions table, you can follow these steps:\n\n1. Log in to your Bogen E7000 system as the administrator.\n2. Navigate to the \"Sessions\" tab in the main menu.\n3. Click on the \"Clear Sessions\" button located at the top-right corner of the screen.\n4. Confirm that you want to clear the sessions table by clicking \"OK\" in the pop-up window.\n\nPlease note that"
+    },
+    {
+        "id": 4,
+        "subject": "Cannot login to controller",
+        "query": "Controller gives 2 pages of SQLState when you try to login.",
+        "type": "SystemIssues",
+        "response": "The error message \"2 pages of SQLState\" is usually caused by the controller's SQL database connection being unavailable. This could be due to a variety of reasons such as network issues, SQL server being down, or incorrect SQL credentials.\n\nTo fix this issue, I would suggest the following steps:\n\n1. Check the network connectivity between the controller and the SQL server. Ensure that the network is stable and the controller can communicate with the SQL server.\n2. Verify the SQL server is up and running. Check the SQL server logs for any errors or issues that might be causing the connection failure.\n3. Check the SQL credentials used"
+    },
+    {
+        "id": 5,
+        "subject": "Questions On MC200 Upgrade",
+        "query": "I am quoting upgrading an MC200 to Nyquist. Will call in phones be from the MC200 work on the Nyquist or will they need to be replaced with call in switches?",
+        "type": "SystemQuestions",
+        "response": "Hi there! I'd be happy to help you with your query regarding the upgrade from the MC200 to Nyquist.\n\nWhen upgrading from the MC200 to Nyquist, you will need to replace the call-in phones with call-in switches. The MC200 uses analog phones, which are not compatible with the digital Nyquist system. To ensure seamless integration and optimal performance, it's recommended to replace the analog phones with digital call-in switches.\n\nHere's a step-by-step guide to help you with the process:\n\n1. Disconnect the analog phones from the MC200.\n2. Connect the digital call-in switches to the Nyquist"
+    },
+    {
+        "id": 6,
+        "subject": "Engineering question...",
+        "query": "Putting together a Sound/Clock System for a school. Can I wire multiple speakers, each with a separate AT35A volume control, in parallel...basically from the same 25V line feed?",
+        "type": "SystemQuestions",
+        "response": "Yes, you can wire multiple speakers, each with a separate AT35A volume control, in parallel from the same 25V line feed. This is a common setup in schools and other educational institutions where multiple classrooms require audio distribution.\n\nHere's a step-by-step guide to help you achieve this:\n\n1. Connect the 25V line feed to a 25V distribution block (usually included with the Bogen E7000 system). This block will allow you to distribute the 25V signal to multiple speakers.\n2. Connect each speaker to the distribution block using 25V-rated speaker cables. Make sure to connect"
+    },
+    {
+        "id": 7,
+        "subject": "ASB",
+        "query": "All extensions dialed on this ASB produces an all call system wide.",
+        "type": "SystemIssues",
+        "response": "The customer's issue is likely due to a misconfigured All-Call system setting. In the Bogen E7000 system, the All-Call system setting is used to control the behavior of the system when an All-Call is initiated. By default, the system is set to initiate a system-wide All-Call, which means that all extensions will be alerted when an All-Call is initiated.\n\nTo fix this issue, I would recommend checking the All-Call system setting in the system configuration menu. Specifically, I would check the \"All-Call System\" setting under the \"System\" menu. If the setting"
+    },
+    {
+        "id": 8,
+        "subject": "ASB",
+        "query": "ASB channel 1&2 status goes red while a load in on ASB. Serial# ",
+        "type": "SystemIssues",
+        "response": "The ASB channel 1&2 status going red while a load is on ASB is likely due to a faulty or misconfigured ASB channel. This could be caused by a variety of factors, such as a malfunctioning ASB card, incorrect channel configuration, or a faulty ASB channel cable.\n\nTo resolve this issue, I would recommend the following steps:\n\n1. Check the ASB channel configuration: Verify that the ASB channel 1&2 is properly configured and set to the correct mode (e.g., analog or digital). Ensure that the channel is not set to a mode that is not compatible"
+    },
+    {
+        "id": 9,
+        "subject": "Mutlicast Setup Questions",
+        "query": "I am trying to set up multicast for sending and receiving with our E7000. I have set the groups and see the E7000 receiving mcast packets in \"Check Server Settings\" but I don't show it receiving any. Can I get some help setting this up or is there a guide on how to set the system to send and receive multicast? I have other devices on the same VLAN participating in multicast so I know my switches and routers are configured correctly.",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out to us! I'd be happy to help you set up multicast for your E7000 system. To clarify, multicast is a feature that allows multiple devices to receive the same data stream simultaneously, reducing network bandwidth usage and increasing efficiency.\n\nTo troubleshoot the issue you're experiencing, let's go through a step-by-step process:\n\n1. **Check the multicast group configuration**: Ensure that the multicast group you've created is correctly configured. In the E7000's \"Check Server Settings\" page, verify that the multicast group is active and the correct IP address is specified.\n\n2. **Verify multicast"
+    },
+    {
+        "id": 10,
+        "subject": "System down",
+        "query": "When navigating to the IP of the Nyquist System Controller I get this in the browser window.---ErrorException_x000D_\nfwrite(): write of 1965 bytes failed with errno=28 No space left on device",
+        "type": "SystemIssues",
+        "response": "The error message indicates that the system is running low on disk space. This could be caused by the system controller storing too many logs, or the system not being configured to rotate logs properly.\n\nTo fix this issue, we would recommend checking the system controller's disk space usage and freeing up some space if possible. If the system is running low on disk space, it may be necessary to configure the system to rotate logs more frequently or to reduce the amount of data being stored.\n\nIn addition, we would recommend checking the system controller's configuration to ensure that it is set up to rotate logs properly. This can be done by accessing"
+    },
+    {
+        "id": 11,
+        "subject": "During lockdown routine, call to 911 was dropped atter 11 seconds",
+        "query": "I have a version 8 patch 2 firmware 3.7.2 system controller at Cass High School.  today they did a lockdown drill.  The call to 911 was dialed out successfully and started playing the pre-recorded message.  After 11 seconds it was reported by the 911 operator that the call was dropped.  after 5 seconds the routine also starts calling multiple other numbers with the same message. There are 4 outgoing lines, and the 4th is designated for the 911 call. I haven't had any problems until now.  This school has also added more numbers to be dialed out than we have lines for.  I think it may be related to that.",
+        "type": "SystemQuestions",
+        "response": "I understand your concern about the Bogen E7000 system's performance during the lockdown drill. It's essential to investigate the issue and provide a solution to ensure seamless communication in case of emergencies.\n\nFrom your description, it appears that the system controller successfully dialed the 911 number and started playing the pre-recorded message. However, the call was dropped after 11 seconds, and the system continued calling other numbers with the same message. This behavior is unusual, and I'd like to help you troubleshoot the issue.\n\nGiven that the school has added more numbers to be dialed out than they have lines for, I"
+    },
+    {
+        "id": 12,
+        "subject": "System Controller nics dead",
+        "query": "Changed the IP address of nic B. Waited for the timer to complete. Got the message stating changes have been made. Unable to navigate to either nic ip address now. Unable to ping either nic. Nic lights up for 5 seconds on reboot but then link light cuts off. Unable to factory reset or access System Controller. Neither nic is working at all now.",
+        "type": "SystemIssues",
+        "response": "The issue described above is likely caused by a configuration mismatch between the IP address change and the system controller's settings. Since the customer changed the IP address of NIC B, it's possible that the system controller's settings were not updated accordingly. This might have caused the system to become unresponsive and unable to communicate with either NIC.\n\nTo resolve this issue, I would suggest the following steps:\n\n1. Reboot the system controller to ensure it's in a known state.\n2. Access the system controller's settings and verify that the IP address change is reflected in its configuration.\n3. Check the NIC settings to ensure that the"
+    },
+    {
+        "id": 13,
+        "subject": "port cross talk on ASB",
+        "query": "Nyquist ASB port (22) when paged, calls port 18. When port 18 is called, it does NOT call port 22. Checked all wiring, ran new wires for speakers, and still continues. moved wiring from port 22 and issue stopped. When wiring was replaced on port 22, issue resumed. Did a reset (Emergency all call and power cylce) of whole system.",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out with your concern. It seems that you're experiencing an issue with the Nyquist ASB port (22) not functioning correctly. Specifically, when port 22 is paged, it calls port 18 instead of itself.\n\nFirstly, I'd like to commend you on taking the necessary steps to troubleshoot the issue by checking the wiring and replacing the speaker wires. It's great that you've also tried moving the wiring from port 22 and observed that the issue stopped when you did so.\n\nThe fact that the issue resumed when you replaced the wiring on port 22 suggests that there might"
+    },
+    {
+        "id": 14,
+        "subject": "NQ-GA40P3 amp",
+        "query": "Is this supposed to be a networked amp? I can't get any audio to pass thru the network to this device. However, I can get audio using the line input and can see signal in the DSP.",
+        "type": "SystemQuestions",
+        "response": "Yes, the Bogen E7000 is a networked amplifier. It's designed to integrate with other devices on your network, allowing you to stream audio content wirelessly. If you're not getting any audio through the network, let's troubleshoot this issue together.\n\nFirst, ensure that your network settings are correct. Make sure you've entered the correct IP address, subnet mask, and gateway information in the E7000's network settings. You can access these settings by pressing the \"Menu\" button, then navigating to \"System\" > \"Network\" > \"Settings\".\n\nNext, check that your network connection is stable"
+    },
+    {
+        "id": 15,
+        "subject": "Admin Phone and WEB UI User",
+        "query": "The admin phone is only displaying the station ID. It's an older model._x000D_\nWEB UI User can't start audio distribution, show error \"There was an error connecting media devices\".",
+        "type": "SystemIssues",
+        "response": "The issue is likely due to the admin phone being connected to the wrong port on the Bogen E7000 system. The admin phone requires a specific port to be configured for the correct operation. It's possible that the port has been changed or the configuration has been altered, causing the issue.\n\nFix: Check the port configuration on the Bogen E7000 system and ensure that the admin phone is connected to the correct port. If necessary, reset the port configuration to its default settings. Additionally, check the media device settings in the WEB UI to ensure that they are properly configured and connected. If the issue persists, it"
+    },
+    {
+        "id": 16,
+        "subject": "New System Controller Wont Stay Powered On",
+        "query": "System controller keeps flashing on and off every 10 sec",
+        "type": "SystemIssues",
+        "response": "The system controller flashing on and off every 10 seconds could be due to a communication issue between the controller and the radio units. It is possible that the controller is trying to re-sync with the radio units, which can cause the flashing. To resolve this issue, I would suggest the following:\n\n1. Check the system configuration: Ensure that the system is configured correctly, including the IP addresses, subnet masks, and gateways. Verify that the controller is set to the correct IP address and that the radio units are set to the correct subnet mask and gateway.\n2. Check the network connectivity: Verify that the network connectivity between"
+    },
+    {
+        "id": 17,
+        "subject": "Need support with Bogen HTA-250A and multiple 15W speakers.",
+        "query": "I am trying to wire up 22 15W speakers into an existing HTA-250A amp. The problem being that there are already 2 15W speakers in that system and I'm not sure how to connect the 22 new 15W speakers. I believe I need to add another amp but is there a way to wire in another amp into this existing system to integrate our 22 speakers as well.",
+        "type": "SystemQuestions",
+        "response": "I understand your concern and will provide guidance on how to integrate the new speakers into your existing HTA-250A amp system.\n\nFirstly, it is essential to understand that the HTA-250A amp has a maximum power handling capacity of 30W per channel. With the existing 2 15W speakers and the new 22 15W speakers, you will need to add another amp to handle the increased power requirements.\n\nTo achieve this, you can consider the Bogen E7000 system, which allows you to add additional amps to your existing system. Here's a step-by-step guide to help you"
+    },
+    {
+        "id": 18,
+        "subject": "You can hear bell but no announcements on two  exterior speakers.",
+        "query": "You can hear bell but no announcements on two  exterior speakers. New install. These speakers did work properly at the close of the job. Customer is saying he tried to adjust volume through the software saved and then this problem happened. Clocks are having intermittent issues as well.",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out. It sounds like you're experiencing an issue with two exterior speakers not producing announcements, despite being able to hear the bell. This is concerning, especially since they were working properly at the close of the job.\n\nTo troubleshoot this issue, I'd recommend checking a few things:\n\n1. Ensure the announcement volume is not set to 0% in the software. You can check this by logging into the E7000 system, navigating to the \"Announcement\" tab, and verifying the volume setting.\n2. Verify that the announcement source is set correctly. Make sure the correct announcement source (e"
+    },
+    {
+        "id": 19,
+        "subject": "NQ-A2120-G2 AMP - Intermittently cutting out audio on both channels A and B",
+        "query": "NQ-A2120-G2 AMP nAmp intermittently cutting out on both channels A and B (In 2 channel mode) - Only seems to happen when there is a small load on the amp - as we were unable to replicate the issue with a single speaker is connected. Issue has happened at with the same amp at 2 different intalls (we tried another site to troubleshoot). We replaced the amp with one we had in stock and the issue was resolved.  Can plug the amp in on my bench if you would like to take a closer look at the logs.",
+        "type": "SystemIssues",
+        "response": "The intermittent cutting out of the NQ-A2120-G2 AMP on both channels A and B in 2-channel mode could be due to a faulty or worn-out component within the amplifier. The fact that the issue only occurs when there is a small load on the amp suggests that the problem is related to the amplifier's ability to handle low-level signals.\n\nGiven that the issue was resolved by replacing the amp, it's likely that the original amp had a faulty component that was causing the problem. However, to further troubleshoot the issue, I would recommend analyzing the logs from the bench test to identify any patterns or"
+    },
+    {
+        "id": 20,
+        "subject": "PBXI",
+        "query": "Just working with a tech on case xxx.  End user has tried the extension set up from the pbx and gets dial tone from the bogen system.  When she attempts to dial an extension, the dial tone does not go away and does not complete any action.  She has attempted dialing classrooms directly, and all call paging with both #0 and we had her try 0#.  Dial tone does not go away",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out. It sounds like the end user is experiencing an issue with the Bogen E7000 system, specifically with the dial tone not disconnecting after attempting to dial an extension. I'd be happy to help troubleshoot this issue with you.\n\nTo better understand the situation, could you please confirm a few details? Firstly, is the end user using a Bogen E7000 phone or a third-party device? Additionally, are there any error messages or tones being heard during the dialing process?\n\nAssuming the end user is using a Bogen E7000 phone, I'd recommend trying the following"
+    },
+    {
+        "id": 22,
+        "subject": "Nq-S1810CT-T1 having issues getting in the Interface",
+        "query": "Hello,_x000D_\n_x000D_\nWe just received this speaker back from Bogen . The issue we\u2019re experiencing is that when I connect it to our network\u2014which has no restrictions\u2014I\u2019m unable to locate the speaker._x000D_\n_x000D_\nI\u2019ve already performed a factory reset, and my understanding is that this should set it to DHCP, allowing it to be assigned an IP address. However, that isn\u2019t happening._x000D_\n_x000D_\nHere\u2019s what I\u2019ve tried so far:_x000D_\n_x000D_\nVerified that the RJ port lights up when connected._x000D_\n_x000D_\nAttempted to locate the device via DHCP with no success._x000D_\n_x000D_\nUsed our in-house server and Station Wizard to detect the speaker, but it does not appear._x000D_\n_x000D_\nThe speaker was returned with no reported issues, but I\u2019m unable to access it to set an IP or point it to our server. Are there any alternative methods to connect to or troubleshoot this NQ-S1810CT-T1 VOIP speaker? It also has the VOIP Module Series 2 installed._x000D_\n_x000D_\nAny help would be greatly appreciated. Thanks!",
+        "type": "SystemIssues",
+        "response": "The issue the customer is experiencing is likely due to the speaker's IP address not being set or not being able to obtain an IP address from the DHCP server. Since the speaker was returned with no reported issues, it's possible that the issue is related to the network configuration or the speaker's settings.\n\nTo troubleshoot this issue, I would recommend the following steps:\n\n1. Check the network configuration: Verify that the network is properly configured and that the DHCP server is functioning correctly. Ensure that the speaker is connected to the correct network and that there are no restrictions or firewalls blocking the speaker's access to the network.\n2"
+    },
+    {
+        "id": 23,
+        "subject": "Unable to login on multiple devices, Confusion about network traffic issues.",
+        "query": "Hello _x000D_\n_x000D_\nI am finishing the installation at Warrenton HS and having issues logging into appliances. During our initial install last week my techs had the same problem. Unsure how we resolved it besides completely wiping the appliances, which is not really and option as they are in school today._x000D_\nI also have questions about this specific schools network setup and multi casting problems that could be related.",
+        "type": "SystemQuestions",
+        "response": "_x000D_\n_x000D_\nThank you for reaching out. I'm happy to help you resolve the login issue and provide guidance on your school's network setup and multicast configuration. _x000D_\n_x000D_\nRegarding the login issue, it's possible that the appliances may not have been properly configured during the initial install. I'd like to walk you through a few troubleshooting steps to help resolve this. _x000D_\n_x000D_\n1. Can you please check the appliance's IP address and ensure it's been set correctly? You can do this by logging into the appliance's web interface"
+    },
+    {
+        "id": 24,
+        "subject": "No-E7030 Failure",
+        "query": "We have two NQE7030s that are I \"Protect\" mode and will not clear even with no devices connected.  All speaker cables connected to both were checked for proper loads and no shorts or grounds.  What could cause this type of failure?  We recently had the same issue with two on another Nyquist system.",
+        "type": "SystemIssues",
+        "response": "Based on the information provided, it is possible that the issue is related to a hardware or software problem with the NQE7030 units. Here are a few possible causes and suggested fixes:\n\n1. Faulty or damaged hardware: It is possible that one or both of the NQE7030 units have a hardware fault that is causing them to enter \"Protect\" mode. In this case, it may be necessary to replace the faulty unit(s) or have them serviced by a qualified technician.\n\n2. Software issue: It is also possible that there is a software issue that is causing the NQE7030 units to enter"
+    },
+    {
+        "id": 25,
+        "subject": "Custom Server Update",
+        "query": "Hello,_x000D_\nI have updated a system running on a custom server. I am logged in as admin, but most of the options on the right side of the System Parameters page are missing so I can not reactivate the system license or update the software.",
+        "type": "SystemQuestions",
+        "response": "Hi there! I'm here to help you with your Bogen E7000 system query. It sounds like you're experiencing an issue with the System Parameters page after updating the system running on a custom server. The missing options on the right side of the page are likely due to the system not being properly configured for the new server environment.\n\nTo resolve this issue, please follow these steps:\n\n1. Log in to the system as the admin user.\n2. Click on the \"System Parameters\" tab.\n3. Click on the \"Advanced\" button at the top right corner of the page.\n4. Scroll down to the"
+    },
+    {
+        "id": 26,
+        "subject": "All speakers all call",
+        "query": "3rd attempt to rectify. _x000D_\nSometime each day (not same time) any room called from a admin phone will all call all speakers. If a room pushes call button the same thing happens._x000D_\nLast week I had two recommendations from T Support. The first was don\u2019t leave any empty spaces between speaker ports. I only had 1 port skipped on 4 ASBs. I corrected the skipped port. The next day it was doing it still. Had a 10 am call with support and was told it was cross talk and I should move all speakers to -2dB. This was done on Friday and same thing is still happening today._x000D_\nThis system has been in since August of last year. The only change was made 2 weeks ago on 2 of 4 schools that were installed in district on 8/24. The 2 schools with the all call are the only 2 it is happening on. It was not happening previously._x000D_\nI am not at site today but will be at site in the morning 3/25. If possible can a call be scheduled. I am available now by phone if additional information is needed",
+        "type": "SystemIssues",
+        "response": "_x000D_\n\nThe issue described is a classic case of a \"cross-talk\" problem in the Bogen E7000 system. The symptoms are consistent with a situation where the system is attempting to broadcast the same audio signal to all speakers, including the admin phones, when a room is called. The fact that this issue started occurring after the recent changes made to the system at the two schools suggests that the problem is related to the changes.\n\nThe two recommendations from T-Support were not entirely incorrect, but they did not address the root cause of the problem. The suggestion to remove empty spaces between speaker ports was a"
+    },
+    {
+        "id": 27,
+        "subject": "applying admin group  to stations for rollover calls",
+        "query": "I have a school that is fully configured with seven Analog Bridge devices. The school has now decided they want rollover for all the phones in the main office to occur. I have created the admin group and assigned the three admin phones to the group. The only place I have seen to deploy the admin group is under the settings of each station. I was wanting to know if there is an easier way to accomplish this task? How can I deploy the admin group on a Bridge or server level?",
+        "type": "SystemQuestions",
+        "response": "Yes, there is an easier way to deploy the admin group on a Bridge or server level. You can do this by using the \"Station Group\" feature in the Bogen E7000 system.\n\nHere's how to do it:\n\n1. Go to the Bridge or server where you have created the admin group.\n2. Click on \"Station Group\" under the \"Settings\" menu.\n3. Select the \"Admin Group\" you have created.\n4. Click on the \"Deploy\" button.\n5. The admin group will be deployed to all the stations in your network.\n\nBy using the \"Station Group\" feature,"
+    },
+    {
+        "id": 28,
+        "subject": "Reset Admin PW",
+        "query": "Need to reset the admin PW as it has been changed and we no longer have access to the admin acct",
+        "type": "SystemQuestions",
+        "response": "To reset the admin password for your Bogen E7000 system, follow these steps:\n\n1. Access the E7000 system and log in with the current admin credentials.\n2. Navigate to the 'System' tab and click on 'Admin Settings' or 'User Management' (depending on your E7000 system version).\n3. Look for the 'Reset Admin Password' or 'Reset Admin Credentials' option and click on it.\n4. Enter the new admin password and confirm it by re-entering it.\n5. Click 'Apply' or 'Save Changes' to save the new admin password.\n\nAlternatively,"
+    },
+    {
+        "id": 29,
+        "subject": "Amplifier wont provision. Amp locking me out of user account",
+        "query": "Trying to install an NQ A2060. The amplifier was not auto provisioning, and now it has locked me out of the admin user account. will not factory reset from button on the front of the device.",
+        "type": "SystemQuestions",
+        "response": "Sorry to hear you're experiencing issues with the NQ A2060 amplifier. It's unfortunate that the auto provisioning didn't work as expected, and now you're locked out of the admin account. Don't worry; I'm here to help you troubleshoot and resolve the issue.\n\nFirstly, let's try to recover the admin account. Since the factory reset button on the front of the device is not working, we'll need to use a different approach. Here's a step-by-step guide to help you regain access to the admin account:\n\n1. Power cycle the amplifier: Unplug the power cord from the back"
+    },
+    {
+        "id": 30,
+        "subject": "IO (emergency Panic Button) is either too loud, distorted, or too soft depending",
+        "query": "a complaint where teachers are fine with announcement levels, and talk-back levels, but say that an file triggered through an IO (emergency Panic Button) is either too loud, distorted, or too soft depending on the room?-XXX Says he would like to help if possible.",
+        "type": "SystemQuestions",
+        "response": "-\n\nThe issue you're experiencing with the IO (emergency Panic Button) triggering a file being too loud, distorted, or too soft in different rooms is likely due to the varying acoustics and audio settings in those rooms. Here are some possible solutions to help you troubleshoot and resolve this issue:\n\n1. **Adjust the IO file's gain levels**: Check the gain levels for the IO file in the Bogen E7000 system. You can do this by going to the \"Audio Settings\" menu, selecting the IO file, and adjusting the gain levels accordingly. This will help you fine-tune the volume and clarity"
+    },
+    {
+        "id": 31,
+        "subject": "Analog Station Board Firmware",
+        "query": "I have an Analog Station Board that was brought back from a Job and we hooked it up to our demo, the firmware refuses to update on it.  I have tried everything I know to get it to take the firmware upgrade but never updates.  Wanted to know if there is anything else we can try and if not is it Still under warranty? So Far I have tried to update it from the browser page of the ASB and also through the firmware menu in the GUI along with holding the reset button to default it and many power cycles, nothing. Stuck on firmware 3.0.583  ",
+        "type": "SystemQuestions",
+        "response": "Hi there!\n\nI'm happy to help you troubleshoot the issue with updating the Analog Station Board's firmware. It's frustrating when updates won't take, and I'm here to assist you in resolving this.\n\nFirstly, let's try a few more troubleshooting steps before we consider warranty-related options. Here are some additional steps you can try:\n\n1. Ensure the ASB is properly connected to the network and the GUI is accessible. Double-check the IP address, subnet mask, and gateway settings.\n2. Verify the ASB's firmware version is not already the latest available. You can check this by accessing the ASB"
+    },
+    {
+        "id": 32,
+        "subject": "NQ-E7030 analog station bridge not responding",
+        "query": "One of our  NQ-E7030 is no longer responding to the network. I have confirmed it has the correct network switch configuration as the other NQ-E7030s on site, I have tried power cycling the device but it no longer responds to pings and cannot be accessed from the web GUI. ",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out to our customer service team. I understand your concern about the non-responsive NQ-E7030 device. \n\nFirstly, I'd like to assure you that we're here to help and provide assistance to resolve the issue. Since you've confirmed the network switch configuration and power cycled the device, we'll explore other potential causes.\n\nNext steps:\n1. Check the device's physical connection: Ensure the network cable is securely connected to the device and the network switch. Verify that the cable is not damaged or pinched, which might cause communication issues.\n2. Verify the device's IP address"
+    },
+    {
+        "id": 33,
+        "subject": "After 2 pm any call made to a room does a all call to every room",
+        "query": "We have 4 schools that we installed recently. On Friday the  March 14th  I upgraded the firmware to 4.4.2 and software to 9.0.0.765 _x000D_\nThe 2 schools that I upgraded at 2 pm everyday every room that is called does an all call._x000D_\nNo programming was changing and night ring isn\u2019t activated. Is there something that changed in the new versions that I should check. Again no changes made on the programs at these 2 schools that are doing it",
+        "type": "SystemQuestions",
+        "response": "Hi there! Thank you for reaching out with your query. I'm happy to help you troubleshoot the issue with your Bogen E7000 system. It sounds like you've recently upgraded the firmware and software, and now the rooms are making all calls every day at 2 pm. I understand that no changes were made to the programming, and night ring isn't activated. There are a few things we can check to resolve this issue. Firstly, let's review the system settings. Can you please check the following:\n\n1. System Time: Ensure that the system time is set correctly. It's possible that the upgrade"
+    },
+    {
+        "id": 34,
+        "subject": "License",
+        "query": "We are setting up a new system and we are doing a fail over server. I have the failover license but cant locate the Main license. Can you help?",
+        "type": "SystemIssues",
+        "response": "Hi there! I understand your concern. The Main license is required to set up the failover server in the Bogen E7000 system. It seems that you have purchased the failover license but not the main license.\n\nTo resolve this issue, you can try the following:\n\n1. Check your purchase receipt or invoice to confirm that you have indeed purchased the main license. If you have, you can contact our sales team to request a copy of the main license.\n2. If you have not purchased the main license, you can purchase it from our website or contact our sales team to place an order.\n3. Once"
+    },
+    {
+        "id": 35,
+        "subject": "Intercom Call Issues",
+        "query": "Unable to make intercom calls to station 1107 which is on ASB 4 port 24.. All stations on the ASB is able to receive intercom calls. I looked at the call details and it just shows no answer. All calls and zones calling works for that room. We are using a Bogen NQ-ZPMS phone for pa calls. Also when I dial 1107 the status light on the ASB turns red. It takes about 1 minute after I hang up for it to go back to green. The firmware on the ASB is 4.4.2.",
+        "type": "SystemIssues",
+        "response": "The issue described is that the customer is unable to make intercom calls to station 1107, which is connected to ASB 4 port 24. The issue seems to be specific to this station as all other stations on the ASB are able to receive intercom calls. The customer has checked the call details and found that the calls are not being answered.\n\nThe possible cause of the issue is a problem with the station 1107 itself, such as a faulty or malfunctioning intercom unit. Another possible cause could be a problem with the ASB 4 port 24, such as a faulty or"
+    },
+    {
+        "id": 36,
+        "subject": "2ASBs failing to function",
+        "query": "We've had intermittent issues throughout campus for a while but we recently upgraded to 9 and the latest patches and firmware upgrade to 4.4.2. At the South and Middle campus everything came up and worked perfectly after the upgrade. The North campus had non-functional ASBs. Tried power cycling both and they worked for an all call and a room then stopped working again upon future attempts to all call and rooms stopped functioning again as well.",
+        "type": "SystemIssues",
+        "response": "The issue on the North campus is likely due to a problem with the ASB (Audio Server Bridge) units. The upgrade to firmware 4.4.2 may have caused a compatibility issue with the ASBs, which are not functioning properly.\n\nTo resolve the issue, I would recommend the following steps:\n\n1. Check the ASB units for any error messages or logs that may indicate the cause of the problem. This can be done by accessing the ASB units remotely or by checking the system logs.\n2. Try to reset the ASB units to their default settings. This may resolve any compatibility issues caused by the"
+    },
+    {
+        "id": 37,
+        "subject": "Using a Nyquist Ver 7 Backup (with Patches 1 and 2) on Ver 9 Question",
+        "query": "Hi Guys - _x000D_\n_x000D_\nI have a early Bogen Nyquist adopter customer that currently has Nyquist Version 7 (w/ Patches 1 and 2) that is currently using their own server running Debian. They pay their software maintenance and are looking at keeping their system up to date - However, as you know performing updates with customer' provided hardware is significantly more difficult than if they used a Bogen Nyquist branded System Controller. I am hoping to sell them a hardware system controller to make this process easier - and have some questions about utilizing a backup from their existing system on Ver 9 (which is what you are shipping the Controller with now). Additionally I have questions on the possibility of moving their current Audio Songs and Playlists over (if possible). ",
+        "type": "SystemQuestions",
+        "response": "Hi there! I understand your concerns about updating the Bogen Nyquist system. I'm happy to help you explore the possibility of using a hardware system controller to simplify the process. _x000D_\n_x000D_\nTo begin with, the hardware system controller we're shipping with version 9 of Nyquist is designed to make updates and maintenance much easier. It's a great investment for your customer, especially considering the challenges they've faced with their current setup. _x000D_\n_x000D_\nRegarding the backup, yes, it is possible to utilize a backup from their existing system (version 7)"
+    },
+    {
+        "id": 38,
+        "subject": "Sound Levels/ Talback and Bogen DDU250 push to talk mic troubleshoot",
+        "query": "I recently did an upgrade of all firmware and controller software over spring break to resolve an issue i had with the call switches periodically going red and my teachers not being able to call out.  The secretary, oddly enough, could still make \"all-calls\" and I could get to web interface.  However, the teacher could not page the office.  Also, the conversations were not clear whenever either party made calls, especially if there is any type of chatter in the office, which is everyday at the beginning and end of the day during dropoff and pickup by parents.  Basicly have to tell anyone talking to be quiet, in order to have a 2 way conversation.  The teachers are back this morning so I've been testing of the effectiveness of the updates made.  The sound quality louder.  So far I've found one red button, but I was able to still call the office and it turned blue during the call.  I paged the office from a room, and the moment the principal began talking in the backroom of the office, t",
+        "type": "SystemIssues",
+        "response": "The issue described by the customer is likely due to a firmware or software configuration problem, rather than a hardware issue. The fact that the secretary can still make \"all-calls\" and the customer can access the web interface suggests that the system's core functionality is intact.\n\nThe issue with the teacher's inability to page the office and the poor sound quality during calls is likely due to a misconfiguration of the system's audio settings or a problem with the teacher's extension. It's possible that the upgrade process may have reset some default settings or affected the way the system handles audio signals.\n\nTo fix the issue, I would recommend"
+    },
+    {
+        "id": 39,
+        "subject": "need help adding a morning announcement wav file",
+        "query": "I can not add a wav file to the start of day programming.",
+        "type": "SystemQuestions",
+        "response": "\"Hello there! I'm happy to help you with your query. Adding a WAV file to the start of day programming in the Bogen E7000 system is a straightforward process. Here's how you can do it:\n\n1. First, ensure that you have the correct WAV file saved in the correct location. Typically, this would be in the 'Programs' folder on your computer.\n\n2. Next, navigate to the 'Start of Day' programming section in the E7000 system. You can do this by selecting 'Programming' > 'Start of Day' from the main menu.\n\n3. Click on"
+    },
+    {
+        "id": 40,
+        "subject": "BOGEN NQ-PA120 Paging",
+        "query": "When you make a page from the NQ-T1100 phone to a PA120 zone a recorded message plays saying that intercom is not available and the zone is page only. Is there any way to stop this message?",
+        "type": "SystemQuestions",
+        "response": "Yes, it's possible to stop the recorded message from playing when making a page from the NQ-T1100 phone to a PA120 zone. This message is triggered by the PA120 zone's \"Page Only\" setting, which is enabled by default. To disable this message, you can follow these steps:\n\n1. Access the PA120 zone's configuration menu using the NQ-T1100 phone.\n2. Navigate to the \"Zone Settings\" section and select the \"Page Only\" option.\n3. Set the \"Page Only\" option to \"Off\" or \"Disabled\".\n4. Save the changes and exit"
+    },
+    {
+        "id": 41,
+        "subject": "I can't connect my yealink t48U phone to my system controller",
+        "query": "I just don't know how to get the phone activated into the system and get it fully registered.",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out! To activate and register your phone within the Bogen E7000 system, follow these steps:\n\n1. Ensure your phone is properly connected to the system via the provided cable or wireless connection.\n2. On your phone, navigate to the settings menu and look for the \"System\" or \"Registration\" option. This may vary depending on your phone model.\n3. Select the option and follow the prompts to enter the required information, such as your phone's MAC address or IP address.\n4. Enter the correct registration code provided by your system administrator or the Bogen E7000 system itself."
+    },
+    {
+        "id": 42,
+        "subject": "ntpd stopped trusting county provided time servers",
+        "query": "I had a school that the time had drifted a while back.  Working with the county IT person, we discovered that the county time server was only using one IP to provide time.  This was corrected and now the system controller will get multiple addresses from the time server.  But my time was still not correcting.  After further research I have noticed that the \"*\" is set for the local machine. it was probably already preferring local host before they fixed the single time server issue on their end.  Restarting the system controller or changing to a public time server then back, and the * is still preferring local host for time.  I have changed to a public time server for now, but I'd like to get this ironed out. Seems to be across all our 7, 8, and 9 systems for this county. Thanks!",
+        "type": "SystemIssues",
+        "response": "The issue described is related to the time synchronization setting in the Bogen E7000 system. The \"*\" symbol in the time synchronization setting is used to specify the time source, and in this case, it is set to \"Local Machine\" which means the system is using the local clock as the time source.\n\nThe problem is that the local clock is not being updated correctly, and the system is not getting the correct time from the time server. This is because the county IT person had previously set the time server to only use one IP address, which caused the system to not receive the correct time.\n\nTo fix this issue"
+    },
+    {
+        "id": 43,
+        "subject": "Adding a PBX integration",
+        "query": "I am adding a pbx integration for a customer.  I have added the DISA extension and the admin group. The sip trunk has been added and I want to make sure what I have entered is correct",
+        "type": "SystemQuestions",
+        "response": "To confirm the PBX integration for the Bogen E7000 system, let's review the configuration. \n\n1. DISA (Direct Inward Station Access) Extension: \n   - Verify that you have correctly entered the DISA extension number. This number should be unique and not already in use by another extension.\n   - Ensure that the DISA extension is set to \"Enabled\" and not \"Disabled\". If it's set to \"Disabled\", the PBX integration will not function as expected.\n\n2. Admin Group:\n   - Verify that the admin group is correctly set up and has the necessary permissions to manage"
+    },
+    {
+        "id": 44,
+        "subject": "Phone's not updating time zone/DST correctly every spring.",
+        "query": "I have systems on 7, 8, and 9.  They all seem to have a problem when we \"spring forward\".  I go into the phones and set the DST and time zone settings, and i don't hear anything when time changes in the fall.  But every spring I end up going through the phones and changing the DST and time zone settings again.  Is there a recommended setting that will not get overridden by auto provision?  Or maybe I'm doing something wrong here.  Thank you for any help or suggestions for settings.",
+        "type": "SystemQuestions",
+        "response": "Thank you for reaching out! I understand your concern about the DST and time zone settings on your Bogen E7000 system. It's frustrating when you have to manually adjust these settings every spring.\n\nTo resolve this issue, you can try the following:\n\n1. Check if auto-provisioning is enabled on your system. If it is, it might be overriding the DST settings. You can disable auto-provisioning temporarily to see if it resolves the issue.\n2. Verify that the DST settings are enabled on each phone. You can do this by accessing the phone's settings menu, then selecting \"Time Zone\""
+    },
+    {
+        "id": 45,
+        "subject": "SUS agreements not updating",
+        "query": "SUS agreement is not allowing customer to download software to the system to get to version 9 for IPS schools.",
+        "type": "SystemQuestions",
+        "response": "I understand your concern regarding the Software Update and Support (SUS) agreement not allowing you to download software to update your Bogen E7000 system to version 9 for IPS schools. \n\nFirstly, it's essential to note that the SUS agreement is a mandatory requirement for updating the system to the latest version. The agreement ensures that Bogen can continue to provide software updates, support, and maintenance for the system.\n\nTo resolve this issue, I recommend the following steps:\n\n1. Check if the SUS agreement is expired or not properly configured. You can do this by logging in to the Bogen E7000"
+    },
+    {
+        "id": 46,
+        "subject": "Port A of System Controller Refuses to connect",
+        "query": "Hello Nyquist Team,_x000D_\n_x000D_\nI am currently trying to program a nyquist E7000 system for a school and am unable to connect to the controller over port A._x000D_\nI have it on an unmanaged switch with nothing plugged in besides my laptop and the controller and still no luck._x000D_\nIs it possible port A is damaged or malfunctioning?",
+        "type": "SystemIssues",
+        "response": "Thank you for reaching out to Nyquist Team. I'd be happy to help you troubleshoot the issue with your Bogen E7000 system.\n\nFirstly, I'd like to confirm that you have tried restarting the controller and your laptop to ensure that there are no temporary issues causing the connectivity problem.\n\nAssuming you have already done so, I'd like to investigate further. Since you have an unmanaged switch with nothing plugged in besides your laptop and the controller, it's unlikely that there's an issue with the switch.\n\nGiven that you are unable to connect to the controller over Port A, it's possible that there"
+    },
+    {
+        "id": 47,
+        "subject": "Battery Backups",
+        "query": "Hello Team Bogen,_x000D_\nPlease advise as to what type ,size and model UPS battery backup we should be selling to all of our customers who currently have a Nyquist E-7000 series pa system, we are having alot of service calls due to system going out due to power outages.",
+        "type": "SystemQuestions",
+        "response": "_x000D_\nThe Bogen E7000 series PA system is a high-quality, professional-grade audio system, and it's essential to ensure it remains operational during power outages. I recommend recommending the Bogen E7000 UPS battery backup system specifically designed for the E7000 series. This UPS system is designed to provide reliable backup power during outages, ensuring your customers' PA systems remain operational.\n\nHere are the details of the recommended UPS battery backup system:\n\n* Model: E7000 UPS\n* Type: Lead-Acid (Sealed) Battery\n* Size: 12V, 12Ah"
+    },
+    {
+        "id": 48,
+        "subject": "HTTPS Sessions full",
+        "query": "School network management or security server is opening sessions with the Nyquist controller too frequently and filling the HTTPS Sessions table, preventing further logins. Table was cleared w/ root access in the CLI. If the offending server does not reduce the frequency of these attempted logins, this will reoccur.",
+        "type": "SystemIssues",
+        "response": "The issue described is related to the HTTPS Sessions table filling up due to the school network management or security server trying to establish too many sessions with the Nyquist controller. This could be due to a misconfiguration or a bug in the server's software.\n\nTo resolve this issue, you can try the following:\n\n1. Check the server's configuration files to see if there are any settings that could be causing the excessive session attempts. Look for any settings that might be related to the number of sessions allowed or the frequency of session attempts.\n2. If the issue persists, you can try to limit the number of sessions allowed by the"
+    }
+]
