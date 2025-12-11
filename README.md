@@ -5,8 +5,6 @@
 
 **Project Name:** llm-nyquist
 **Author:** Jose Della Sala
-**Conference:** [FLAIRS 38 (The 38th International FLAIRS Conference)](https://www.flairs-38.info/)
-
 ---
 
 ## 📢 Publication
